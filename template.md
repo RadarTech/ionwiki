@@ -26,43 +26,14 @@ latest-revision: 1999-01-29
 -->
 
 
-## Technical Overview
-
-### Abstract
+## Article Body Text
 
 <!-- 
+Use this space to explain the protocol, concept, or project. This might include sections such as: Functionality, Features, or Requirements.
 
-A short description of the technical protocol, feature, or project. 
+Use bullet points, diagrams, etc.
 
-(~200 words)
--->
-
-### Functionality
-
-<!-- 
-
-A brief (400-800 word) overview of core technology functionality, concept, or initiative.
-
--->
-
-### Features
-
-<!-- 
-
-For products and protocols. Add information about core features and planned features. Use bullet points, diagrams, etc.
-
-(~400 words)
-
--->
-### Requirements
-
-<!-- 
-
-Use this section to add specific content pertaining to the entry.
-
-e.x. Ethereum Smart Contracts
-
-Each section should be >300 words and there is a limitation of 5 sections. For extended discussion, link to resources or create another page.
+Each section should be >300 words -- and try to keep the article under 5 sections. For extended discussion, link to resources or create another page.
 
 -->
 
