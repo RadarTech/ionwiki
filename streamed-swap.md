@@ -25,9 +25,9 @@ latest-revision: 1999-01-29
 
 -->
 
-A streamed swap is an agreement between two parties to swap assets using a series of alternating micropayments.  This "streamed swap" is performed by having each party alternate turns in sending a small fraction of the total amount to be swapped to the other party.  The only amount risked by each party is the value of their most recent in-flight microtransfer; as the value of the microtransfer shrinks toward zero, this streamed swap approaches the zero theft risk of the conditional swap. Streamed swaps are possible if both assets support fast and inexpensive micropayments.
+A streamed swap is an agreement between two parties to swap assets using a series of alternating micropayments.  This "streamed swap" is performed by having each party alternate turns in sending to the other party a small fraction of the total amount to be swapped.  The only amount risked by each party is the value of their most recent in-flight microtransfer; as the value of the microtransfer shrinks toward zero, this streamed swap approaches the zero theft risk of the conditional swap. Streamed swaps require both assets support fast and inexpensive micropayments.
 
-Second para
+The streamed swap is powerful because it enables cross-chain (nearly) atomic swaps between any two assets that can be transferred instantly using payment channels, even if these payment channels are unconditional or if they use incompatible hashlocks and can't be made mutually conditional.  This model is simple and elegant, and doesn't rely on payment channel implementers for different assets to coordinate.
 
 ## Details
 
@@ -55,9 +55,6 @@ Each section should be >300 words -- and try to keep the article under 5 section
 e.x. Satashi Nakomoto or Vitalik Buterin
 
 -->
-
-* [Person 1]()
-* [Person 2]()
 
 ### See also
 <!--
