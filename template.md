@@ -26,16 +26,22 @@ latest-revision: 1999-01-29
 -->
 
 
-## Article Body Text
+## Details
 
 <!-- 
 Use this space to explain the protocol, concept, or project. This might include sections such as: Functionality, Features, or Requirements.
 
-Use bullet points, diagrams, etc.
+Use bullet points, diagrams, code snippets (you can use markdown), etc.
 
 Each section should be >300 words -- and try to keep the article under 5 sections. For extended discussion, link to resources or create another page.
 
 -->
+
+### Section 1
+
+### Section 2
+
+### Section 3
 
 ## Resources
 
