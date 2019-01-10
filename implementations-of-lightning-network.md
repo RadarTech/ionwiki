@@ -49,13 +49,13 @@ https://github.com/ElementsProject/lightning
 Eclair, a BOLT-compliant Lightning node by ACINQ written in Scala
 https://github.com/ACINQ/eclair
 
-Ptarmigan, a BOLT-compliant Lightning node by written in C++
+Ptarmigan, a BOLT-compliant Lightning node by Nayuta.co written in C++
 https://github.com/nayutaco/ptarmigan
 
 LIT, a non-BOLT-compliant Lightning node by MIT-DCI written in Go
 https://github.com/mit-dci/lit
 Native multichain support and some other novel features
-Developed by Tadge Dryja and the Vertcoin Lead Guy
+Developed by Tadge Dryja
 
 
 ### Section 2
