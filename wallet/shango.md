@@ -23,15 +23,25 @@ Shango is a Lightning Wallet for both iOS and Android. Currently in beta, Shango
 
 ### Stats
 
-Platforms: Android and iOS Networks: BTC, tBTC LN Connection: Bitcoin Connection: Channel Backup:
+* Platforms: Android and iOS
+* Networks: BTC, tBTC
+* LN Connection: Bitcoin
+* Connection: 
+* Channel Backup:
 
 ### Features
 
-_Node Operation Flexibility_ Shango enables you to have choices with how you run your LN node. In the app, it allows you to have full control of your node, run LND from a device, or launch a node using Amazon Web Services for runtime purposes.
+_Node Operation Flexibility_ 
 
-_QR Code Recognition_ Shango has QR Code functionality built into the native app.
+Shango enables you to have choices with how you run your LN node. In the app, it allows you to have full control of your node, run LND from a device, or launch a node using Amazon Web Services for runtime purposes.
 
-_Open Source_ Alongside other wallets, Shango is entirely open source and auditable.
+_QR Code Recognition_ 
+
+Shango has QR Code functionality built into the native app.
+
+_Open Source_ 
+
+Alongside other wallets, Shango is entirely open source and auditable.
 
 ## Resources
 
