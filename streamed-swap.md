@@ -1,6 +1,6 @@
 ---
 title: 'Streamed swap'
-description: 'Description guidelines'
+description: Description guidelines
 original-author: Isaac Newton (@appleman) < List of Original Authors' Real Name and Github; email address optional >
 contributors: Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of contributors -- Real Name + Github; email optional >
 discussions-to: (GitHub PR)
