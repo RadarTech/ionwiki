@@ -1,8 +1,6 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [License](license.md)
-* [Content Template](content-template.md)
 * [Auto-pilot \(channels\)](auto-pilot-channels.md)
 * [Bitcoin address formats](bitcoin-address-formats.md)
 * [c-lightning](c-lightning.md)
@@ -57,4 +55,5 @@
   * [Zap Desktop](wallet/zap-desktop.md)
 * [Watchtower](watchtower.md)
 * [Replace-by-fee \(RBF\)](replace-by-fee-rbf.md)
+* [License](license.md)
 

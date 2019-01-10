@@ -1,5 +1,5 @@
 ---
-latest-revision: 1999-01-29T00:00:00.000Z
+latest-revision: '1999-01-29T00:00:00.000Z'
 original-author: >-
   Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
   email address optional >
