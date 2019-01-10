@@ -1,18 +1,14 @@
 ---
 latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
+original-author: Ryan Shea (@ryan-shea)
+created: 2019-01-09
+status: Proofing
 title: Shango
 contributors: >-
   Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
   contributors -- Real Name + Github; email optional >
 type: null
-description: Description guidelines
+description: iOS and Android Wallet
 discussions-to: (GitHub PR)
 category: null
 ---
@@ -21,20 +17,35 @@ category: null
 
 ## Overview
 
+Shango is a Lightning Wallet for both iOS and Android. Currently in beta, Shango is developed by neogeno and the Neogeno Strategic Group. 
+
 ## Details
 
-### Section 1
+### Stats
 
-### Section 2
+Platforms: Android and iOS
+Networks: BTC, tBTC
+LN Connection:
+Bitcoin Connection:
+Channel Backup: 
 
-### Section 3
+### Features
+
+*Node Operation Flexibility*
+Shango enables you to have choices with how you run your LN node. In the app, it allows you to have full control of your node, run LND from a device, or launch a node using Amazon Web Services for runtime purposes.
+
+*QR Code Recognition*
+Shango has QR Code functionality built into the native app. 
+
+*Open Source*
+Alongside other wallets, Shango is entirely open source and auditable.
 
 ## Resources
 
 ### Key People
 
-* [Person 1](shango.md)
-* [Person 2](shango.md)
+* [neogeno](https://github.com/neogeno)
+* [harpydude](https://github.com/harpydude)
 
 ### See also
 
