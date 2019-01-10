@@ -19,14 +19,16 @@ Eclair Wallet is an Android Lightning Network wallet, developed by ACINQ. Suppor
 
 ## Details
 
-### Stats
 https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2
-Platforms: Android
-Networks: BTC, tBTC
-Capabilities: Send, Receive
-LN Connection: Eclair
-Bitcoin Connection: Electrum
-Channel Backup: Google Drive
+
+### Stats
+
+* Platforms: Android
+* Networks: BTC, tBTC
+* Capabilities: Send, Receive
+* LN Connection: Eclair
+* Bitcoin Connection: Electrum
+* Channel Backup: Google Drive
 
 ## Resources
 
