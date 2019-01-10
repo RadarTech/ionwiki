@@ -1,10 +1,10 @@
 ---
 latest-revision: '1999-01-29T00:00:00.000Z'
 original-author: Ryan Shea 'ryan-shea'
-created: 2019-01-09
+created: '2019-01-09T00:00:00.000Z'
 status: Proofing
 title: Eclair
-contributors: 
+contributors: null
 type: null
 description: Android Lightning Wallet
 discussions-to: (GitHub PR)
@@ -19,7 +19,7 @@ Eclair Wallet is an Android Lightning Network wallet, developed by ACINQ. Suppor
 
 ## Details
 
-https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2
+[https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
 
 ### Stats
 
@@ -32,7 +32,7 @@ https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2
 
 ## Resources
 
-https://github.com/ACINQ/eclair-mobile
+[https://github.com/ACINQ/eclair-mobile](https://github.com/ACINQ/eclair-mobile)
 
 ### Key People
 
@@ -42,7 +42,7 @@ https://github.com/ACINQ/eclair-mobile
 
 ### See also
 
-https://acinq.co
+[https://acinq.co](https://acinq.co)
 
 ## References
 
