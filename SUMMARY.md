@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Welcome](README.md)
+* [License](license.md)
 * [Content Template](content-template.md)
 * [Auto-pilot \(channels\)](auto-pilot-channels.md)
 * [Bitcoin address formats](bitcoin-address-formats.md)
