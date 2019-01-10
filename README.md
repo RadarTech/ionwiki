@@ -6,13 +6,13 @@
 
 A wiki for the Lightning Network and Lightning Network ecosystem
 
-### :question: Why?
+### Why?
 
-\(add\)
 
-### :information\_source:  Contributing [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Read our [contributing guide](https://github.com/RadarRelay/ionwiki/blob/master/contributing.md) and let's build a better LN wiki together.
+### Contributing [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-We welcome all contributions. Please read our [CONTRIBUTING.md](https://github.com/RadarRelay/ionwiki/blob/master/contributing.md) first. You can submit any ideas as [pull requests](https://github.com/RadarRelay/ionwiki/pulls) or as [GitHub issues](https://github.com/RadarRelay/ionwiki/issues).
+Start by reading our [contributing guide](https://github.com/RadarRelay/ionwiki/blob/master/contributing.md). Thank you for helping build a better LN wiki.
+
+We welcome all contributions. Submit any ideas, bug reports, or organizational changes as [pull requests](https://github.com/RadarRelay/ionwiki/pulls) or as [GitHub issues](https://github.com/RadarRelay/ionwiki/issues).
 

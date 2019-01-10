@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Introduction](README.md)
-* [Welcome](welcome.md)
+* [Content License](contentlicense.md)
 * [Auto-pilot \(channels\)](auto-pilot-channels.md)
 * [Bitcoin address formats](bitcoin-address-formats.md)
 * [c-lightning](c-lightning.md)
@@ -39,6 +39,7 @@
 * [Pre-image](pre-image.md)
 * [Privacy \(on lightning network\)](privacy-on-lightning-network.md)
 * [Pubkey](pubkey.md)
+* [Replace-by-fee \(RBF\)](replace-by-fee-rbf.md)
 * [Routing links](routing-links.md)
 * [Rust Lightning](rust-lightning.md)
 * [Satoshi \(unit of currency\)](satoshi-unit-of-currency.md)
@@ -55,6 +56,4 @@
   * [Shango](wallet/shango.md)
   * [Zap Desktop](wallet/zap-desktop.md)
 * [Watchtower](watchtower.md)
-* [Replace-by-fee \(RBF\)](replace-by-fee-rbf.md)
-* [Content License](contentlicense.md)
 

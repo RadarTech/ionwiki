@@ -21,6 +21,10 @@ category: null
 
 ## Overview
 
+Rust Lightning is a BOLT-compliant implementation of the Lightning Network, spearheaded by Matt Corallo. It is currently under development, described as "15%" towards usable. 
+
+
+
 ## Details
 
 ### Section 1
@@ -33,8 +37,7 @@ category: null
 
 ### Key People
 
-* [Person 1](rust-lightning.md)
-* [Person 2](rust-lightning.md)
+* [Matt Corallo](https://github.com/TheBlueMatt)
 
 ### See also
 

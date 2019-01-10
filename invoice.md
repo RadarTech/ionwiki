@@ -21,6 +21,11 @@ category: null
 
 ## Overview
 
+  
+A participant receives invoices that tell her what payments to make.
+
+A request for funds on the Lightning Network, possibly including payment type, payment amount, expiry, and other information. This is how payments are made on the Lightning Network, rather than using Bitcoin-style addresses.
+
 ## Details
 
 ### Section 1

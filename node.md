@@ -21,6 +21,12 @@ category: null
 
 ## Overview
 
+
+
+* A computer or other device that is part of the Lightning network.
+* _See related: peers_
+* _See types: final node, hop, origin node, processing node, receiving node, sending node_
+
 ## Details
 
 ### Section 1
