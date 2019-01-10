@@ -25,7 +25,7 @@ https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2
 
 * Platforms: Android
 * Networks: BTC, tBTC
-* Capabilities: Send, Receive
+* Capabilities: Send
 * LN Connection: Eclair
 * Bitcoin Connection: Electrum
 * Channel Backup: Google Drive
