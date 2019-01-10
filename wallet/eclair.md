@@ -1,18 +1,12 @@
 ---
 latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
+original-author: Ryan Shea 'ryan-shea'
+created: 2019-01-09
+status: Proofing
 title: Eclair
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
+contributors: 
 type: null
-description: Description guidelines
+description: Android Lightning Wallet
 discussions-to: (GitHub PR)
 category: null
 ---
@@ -21,22 +15,32 @@ category: null
 
 ## Overview
 
+Eclair Wallet is an Android Lightning Network wallet, developed by ACINQ. Supporting both testnet and mainnet, it offers a robust set of features, such as channel backup, debug logging and network stats. It was first released on July 20, 2017.
+
 ## Details
 
-### Section 1
-
-### Section 2
-
-### Section 3
+### Stats
+https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2
+Platforms: Android
+Networks: BTC, tBTC
+Capabilities: Send, Receive
+LN Connection: Eclair
+Bitcoin Connection: Electrum
+Channel Backup: Google Drive
 
 ## Resources
 
+https://github.com/ACINQ/eclair-mobile
+
 ### Key People
 
-* [Person 1](eclair.md)
-* [Person 2](eclair.md)
+* [Dominique Padiou](https://github.com/dpad85)
+* [Fabrice Drouin](https://github.com/sstone)
+* [Pierre-Marie Padiou](https://fr.linkedin.com/in/pmpadiou)
 
 ### See also
+
+https://acinq.co
 
 ## References
 
