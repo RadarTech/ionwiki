@@ -55,5 +55,5 @@
   * [Zap Desktop](wallet/zap-desktop.md)
 * [Watchtower](watchtower.md)
 * [Replace-by-fee \(RBF\)](replace-by-fee-rbf.md)
-* [License](license.md)
+* [Content License](license.md)
 
