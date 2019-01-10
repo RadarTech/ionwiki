@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [Welcome](welcome.md)
 * [Auto-pilot \(channels\)](auto-pilot-channels.md)
 * [Bitcoin address formats](bitcoin-address-formats.md)
 * [c-lightning](c-lightning.md)
