@@ -21,9 +21,13 @@ category: null
 
 ## Overview
 
+A faucet is a website or app 
+
 ## Details
 
-### Section 1
+### Purpose
+
+Bitcoin faucets exist to introduce people to the concept of Bitcoin or cryptocurrencies. 
 
 ### Section 2
 

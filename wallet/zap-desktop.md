@@ -21,6 +21,8 @@ category: null
 
 ## Overview
 
+Zap Desktop is a Lightning Network wallet for Windows, Linux, and macOS developed by Jack Mallers. 
+
 ## Details
 
 ### Section 1

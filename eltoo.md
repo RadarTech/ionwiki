@@ -21,6 +21,8 @@ category: null
 
 ## Overview
 
+{% embed url="https://blockstream.com/2018/04/30/eltoo-next-lightning/" %}
+
 ## Details
 
 ### Section 1

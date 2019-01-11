@@ -35,10 +35,15 @@ c-lightning is a a BOLT-compliant Lightning implementation by Blockstream writte
 
 ### Key People
 
-* [Person 1](c-lightning.md)
-* [Person 2](c-lightning.md)
+* [Rusty Russell](https://github.com/rustyrussell)
 
 ### See also
 
+
+
 ## References
+
+\[1\] [c-lightning GitHub](https://github.com/ElementsProject/lightning)
+
+\[2\] [Blockstream](https://blockstream.com/)
 
