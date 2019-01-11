@@ -35,6 +35,48 @@ The innovation of the Lightning Network is the use of time­locked transactions 
 
 Through this network of interconnected payment channels, Lightning provides a scalable, decentralized micropayments solution on top of the Bitcoin blockchain.
 
+### More Overview
+
+The Lightning Network scales blockchains and enables trustless instant payments by keeping most transactions off-chain and leveraging the security of the underlying blockchain as an arbitration layer.
+
+This is accomplished primarily through “payment-channels”, wherein two parties commit funds and pay each other by updating the balance redeemable by either party in the channel. This process is instant and saves users from having to wait for block confirmations before they can render goods or services.
+
+Payment channels are trustless, since any attempt to defraud the current agreed-upon balance in the channel results in the complete forfeiture of funds by the liable party.
+
+By moving payments off-chain, the cost of opening and closing channels \(in the form of on-chain transaction fees\) is ammortized over the volume of payments in that channel, enabling micropayments and small-value transactions for which the on-chain transaction fees would otherwise be too expensive to justify. Furthermore, the Lightning Network scales not with the transaction throughput of the underlying blockchain, but with modern data processing and latency limits - payments can be made nearly as quickly as packets can be sent.
+
+Hash Time-Locked Contracts \(HTLCs\) allow transactions to be sent between parties who do not have a direct channels by routing it through multiple hops, so anyone connected to the Lightning Network is part of a single, interconnected global financial system.
+
+In short, the Lightning Network enables scalable blockchains through a high-volume of instant transactions not requiring custodial delegation.
+
+from [https://dev.lightning.community/overview/\#lightning-network](https://dev.lightning.community/overview/#lightning-network)
+
+### Features
+
+from [https://en.bitcoin.it/wiki/Lightning\_Network](https://en.bitcoin.it/wiki/Lightning_Network) 
+
+ **Rapid payments:** payments within an established channel can be made almost as fast as data can travel over the Internet between the two peers.
+
+ **No third-party trust:** the two peers in a channel pay each other directly using regular Bitcoin transactions \(of which only one is broadcast\) so at no point does any third party control their funds.
+
+ **Reduced blockchain load:** only channel open transactions, channel close transactions, and \(hopefully infrequent\) anti-fraud respends need to be committed to the blockchain, allowing all other payments within Lightning Network channels to remain uncommitted. This allows Lightning Network users to make frequent payments secured by Bitcoin without placing excessive load on full nodes which must process every transaction on the blockchain.
+
+ **Channels can stay open indefinitely:** as long as the two parties in the channel continue to cooperate with each other, the channel can stay open indefinitely -- there is no mandatory timeout period. This can further reduce the load on the blockchain as well as allow the fees for opening and closing the channel to be amortized over a longer period of time.
+
+ **Rapid cooperative closes:** if both parties cooperate, a channel can be closed immediately \(with the parties likely wanting to wait for one or more confirmations to ensure the channel closed in the correct state\). Non-cooperative closes \(such as when one party disappears\) are also possible but they take longer.
+
+ **Outsourceable enforcement:** if one party closes a channel in an old state in an attempt to steal money, the other party has to act within a defined period of time to block the attempted theft. This function can be outsourced to a third-party without giving them control over any funds, allowing wallets to safely go offline for periods longer than the defined period.
+
+ **Onion-style routing:** payment routing information can be encrypted in a nested fashion so that intermediary nodes only know who they received a routable payment from and who to send it to next, preventing those intermediary nodes from knowing who the originator or destination is \(provided the intermediaries didn't compare records\).
+
+ **Multisignature capable:** each party can require that their payments into the channel be signed by multiple keys[\[2\]](https://en.bitcoin.it/wiki/Lightning_Network#cite_note-poon_multisig-2), giving them access to additional security techniques.
+
+ **Securely cross blockchains:** payments can be routed across more than one blockchain \(including altcoins and sidechains\) as long as all the chains support the same hash function to use for the hash lock, as well as the ability the ability to create time locks.
+
+ **Sub-satoshi payments:** payments can be made conditional upon the outcome of a random event, allowing probabilistic payments.[\[3\]](https://en.bitcoin.it/wiki/Lightning_Network#cite_note-dryja_directed_graph-3) For example, Alice can pay Bob 0.1 satoshi by creating a 1-satoshi payment with 10-to-1 odds so that 90% of the time she does this she pays him 0 satoshis and 10% of the time she pays him 1 satoshi for an average payment of 0.1 satoshis.
+
+ **Single-funded channels:** when Alice needs to send a payment to Bob and doesn't currently have a way to pay him through the Lightning Network \(whether because she can't reach him or because she doesn't have enough money in an existing channel\), she can make a regular on-chain payment that establishes a channel without Bob needing to add any of his funds to the channel. Alice only uses 12 bytes more than she would for a non-Lightning direct payment and Bob would only need about 25 more [segwit](https://en.bitcoin.it/wiki/Segwit) virtual bytes to close the channel than he would had he received a non-Lightning direct payment.
+
 ## Resources
 
 ### Key People

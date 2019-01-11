@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-{% embed url="https://blockstream.com/2018/04/30/eltoo-next-lightning/" %}
+Eltoo is a Layer 2 Protocol originally outlined by Christian Decker, Rusty Russell, and Olaoluwa Osuntokun. It proposes a new update mechanism for layer 2 protocols, enhancing off-chain negotiations. Among other concepts, it introduces state numbers, an enforceable variant of sequence numbers. 
 
 ## Details
 
@@ -35,10 +35,15 @@ category: null
 
 ### Key People
 
-* [Person 1](eltoo.md)
-* [Person 2](eltoo.md)
+* Christian Decker
+* Rusty Russell
+* Olaoluwa Osuntokun
 
 ### See also
 
 ## References
+
+\[1\] [https://blockstream.com/2018/04/30/eltoo-next-lightning/](https://blockstream.com/2018/04/30/eltoo-next-lightning/)
+
+\[2\] [https://blockstream.com/eltoo.pdf](https://blockstream.com/eltoo.pdf)
 

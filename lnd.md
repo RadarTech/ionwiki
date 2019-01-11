@@ -21,6 +21,8 @@ category: null
 
 ## Overview
 
+lnd, or the Lightning Network Daemon, is a complete implementation of a BOLT-compliant Lightning Network node developed by Lightning Labs. It is currently deployed on the Bitcoin Test Network `testnet3`. 
+
 ## Details
 
 ### Section 1
@@ -31,12 +33,15 @@ category: null
 
 ## Resources
 
-### Key People
-
-* [Person 1](lnd.md)
-* [Person 2](lnd.md)
+[lnd GitHub repository](https://github.com/lightningnetwork/lnd)
 
 ### See also
 
+Lightning Labs
+
+
+
 ## References
+
+
 

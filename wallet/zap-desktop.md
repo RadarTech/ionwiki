@@ -35,7 +35,7 @@ Zap Desktop is a Lightning Network wallet for Windows, Linux, and macOS develope
 
 ### Key People
 
-* [Person 1](zap-desktop.md)
+* Jack Mallers
 * [Person 2](zap-desktop.md)
 
 ### See also

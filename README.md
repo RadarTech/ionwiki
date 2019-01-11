@@ -1,22 +1,26 @@
+---
+description: A hub of information for the Lightning Network and Lightning Network ecosystem
+---
+
 # Welcome
 
 \(insert Radar Ion Logo\) [![](https://img.shields.io/github/issues/badges/shields.svg?style=flat-square)](https://github.com/RadarRelay/ionwiki)
 
 ## Welcome to the Ion Wiki!
 
-A wiki for the Lightning Network and Lightning Network ecosystem
+
 
 ### Why?
 
-
+The Lightning Network needed a wiki yesterday. By creating digestible, reliable, and objective knowledge covering concepts and developments in LN, we can help drive the next wave of innovation and adoption.
 
 ### Contributing [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Start by reading our [contributing guide](https://github.com/RadarRelay/ionwiki/blob/master/contributing.md). Thank you for helping build a better LN wiki.
+Want to help us build our nexus of information? Start by reading our [contributing guide](https://github.com/RadarRelay/ionwiki/blob/master/contributing.md), and taking a look at our [GitHub repo](https://github.com/RadarRelay/ionwiki/commits/master).
 
-We welcome all contributions. Submit any ideas, bug reports, or organizational changes as [pull requests](https://github.com/RadarRelay/ionwiki/pulls) or as [GitHub issues](https://github.com/RadarRelay/ionwiki/issues).
+We welcome all contributions. Submit any ideas, bug reports, or organizational changes as [GitHub issues](https://github.com/RadarRelay/ionwiki/issues) or [pull requests](https://github.com/RadarRelay/ionwiki/pulls).
 
 ### Content License
 
-We use the **Creative Commons Attribution 4.0 International** license for the Ion wiki. [View the license for the here.](contentlicense.md)
+We use the **Creative Commons Attribution 4.0 International** license for the Ion wiki. [Take a look at our rationale and view the license here.](contentlicense.md)
 

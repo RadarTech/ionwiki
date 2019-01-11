@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-
+a wallet with one or more open Lightning channels. This should not be confused with a Bitcoin full node that validates Bitcoin blocks, although a full node's wallet may also be simultaneously used as a Lightning node to the advantage of the Lightning network user.
 
 * A computer or other device that is part of the Lightning network.
 * _See related: peers_
