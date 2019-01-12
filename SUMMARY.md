@@ -35,7 +35,7 @@
   * [LND](lnd.md)
     * [Macaroon](macaroon.md)
   * [c-lightning](c-lightning.md) 
-  * [Eclair](eclair.md)
+  * [Eclair](wallet/eclair.md)
   * [Rust Lightning](rust-lightning.md)
   * [Wallet](wallet/README.md)
     * [Eclair](wallet/eclair.md)
