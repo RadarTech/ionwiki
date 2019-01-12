@@ -1,4 +1,3 @@
-# Wallet
 ---
 title: 'Wallet'
 description: 'What is a wallet?'
