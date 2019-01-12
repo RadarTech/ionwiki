@@ -1,7 +1,9 @@
 # Table of contents
 
 * [Welcome](README.md)
-* [Content License](contentlicense.md)
+* [Admin]
+  * [Content License](admin/license.md)
+  * [How To Contribute](admin/contributing.md)
 * [Auto-pilot \(channels\)](auto-pilot-channels.md)
 * [Bitcoin address formats](bitcoin-address-formats.md)
 * [c-lightning](c-lightning.md)
