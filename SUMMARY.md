@@ -1,9 +1,8 @@
 # Table of contents
 
 * [Welcome](README.md)
-  * [Content License](admin/content-license.md)
   * [How To Contribute](admin/contributing.md)
-  * [Pull Requests](admin/pull-requests.md)
+  * [How This Content is Licensed](admin/content-license.md)
 * Bitcoin Basics
   * [Satoshi \(unit of currency\)](bitcoin/psatoshi-unit-of-currency.md)
   * [Fees](bitcoin/dfees.md)
