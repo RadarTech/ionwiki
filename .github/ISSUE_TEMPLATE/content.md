@@ -18,7 +18,7 @@ Please use the template below for content requests.
 
 ### Description
 
-[comment]: # (New DApp? Fundamental Concept?)
+[comment]: # (What is the content change?)
 *Type*:
 
 ### Basic Scope of Content
