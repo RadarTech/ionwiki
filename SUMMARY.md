@@ -3,7 +3,7 @@
 * [Welcome](README.md)
 * [How To Contribute](contributing.md)
 * [How This Content is Licensed](content-license.md)
-* [Bitcoin Basics]
+* Bitcoin Basics
   * [Satoshi \(unit of currency\)](bitcoin-basics/satoshi-unit-of-currency.md)
   * [Fees](bitcoin-basics/fees.md)
   * [Coin Faucets](bitcoin-basics/faucet.md)
@@ -18,7 +18,7 @@
   * [Pubkey](bitcoin-basics/pubkey.md)
   * [Replace-By-Fee \(RBF\)](bitcoin-basics/replace-by-fee-rbf.md)
   * [State Channels](bitcoin-basics/state-channel.md)
-* [Lightning Basics]
+* Lightning Basics
   * [What is the Lightning Network?](lightning-basics/lightning-network.md)
   * [Onion Routing](lightning-basics/onion-routing.md)
   * [Network Capacity](lightning-basics/network-capacity.md)
@@ -30,7 +30,7 @@
   * [Invoice](lightning-basics/invoice.md)
   * [Routing Links](lightning-basics/routing-links.md)
   * [Sphinx Packet](lightning-basics/sphinx-packet.md)
-* [Lightning Software]
+* Lightning Software
   * [Network Implementations](lightning-software/implementations-of-lightning-network.md)
   * [LND](lightning-software/lnd/README.md)
     * [Macaroon](lightning-software/lnd/macaroon.md)
@@ -41,16 +41,16 @@
     * [Eclair](lightning-software/wallet/eclair.md)
     * [Shango](lightning-software/wallet/shango.md)
     * [Zap Desktop](lightning-software/wallet/zap-desktop.md)
-* [Lightning Channels]
+* Lightning Channels
   * [Channel Capacity](lightning-channels/channel-capacity.md)
   * [Opening A Channel](lightning-channels/channel-opening.md)
   * [Closing A Channel](lightning-channels/channel-closing.md)
   * [Channel Backup](lightning-channels/channel-backups.md)
-* [Troubleshooting]
+* Troubleshooting
   * [Payment failures](troubleshooting/payment-failures.md)
   * [Error codes](troubleshooting/error-codes.md)
   * [Theft \(on Lightning Network\)](troubleshooting/theft-on-lightning-network.md)
-* [Lightning R&D]
+* Lightning R&D
   * [Lightning Appliance](lightning-r-and-d/lightning-appliance.md)
   * [Channel Autopilot](lightning-r-and-d/auto-pilot-channels.md)
   * [Submarine Swap](lightning-r-and-d/submarine-swap.md)
