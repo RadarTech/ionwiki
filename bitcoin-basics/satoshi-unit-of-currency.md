@@ -27,7 +27,7 @@ A **satoshi** is the smallest unit of the bitcoin currency recorded on the block
 
 ### History
 
-On 15 November 2010, [in this post](https://bitcointalk.org/index.php?topic=369.msg22160#msg22160), ribuck on the Bitcoin Talk forum suggested calling 0.01 BTC a "satoshi". At the time, 0.01 BTC was the smallest unit that could be displayed by the user interface in the standard client, even though the protocol supported eight decimal places.
+On 15 November 2010, [in this post](https://bitcointalk.org/index.php?topic=369.msg22160#msg22160), ribuck on the Bitcoin Talk forum suggested calling 0.01 BTC a "satoshi". At the time, 0.01 BTC was the smallest unit that could be displayed by the user interface in the standard Bitcoin Core client, even though the protocol supported eight decimal places.
 
 On 10 February 2011, ribuck proposed [naming the smallest base unit \(0.00000001 BTC\) either an "austrian" or a "satoshi"](https://bitcointalk.org/index.php?topic=3311.msg46648#msg46648).
 

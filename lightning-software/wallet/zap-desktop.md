@@ -21,24 +21,37 @@ category: null
 
 ## Overview
 
-Zap Desktop is a Lightning Network wallet for Windows, Linux, and macOS developed by Jack Mallers. 
+Zap Desktop is an open source desktop Lightning Network [wallet](./) for Windows, Linux, and macOS developed by Jack Mallers. First released on January 26, 2018, the project has since been under development and remains in beta. As of January 14, 2018, the project has 39 contributors.
 
 ## Details
 
-### Section 1
+### Functionality
 
-### Section 2
 
-### Section 3
+
+### User Experience
+
+
+
+### Tech Stack
+
+The UI for Zap is built with Electron, React, and Redux.
 
 ## Resources
 
+* [Project Homepage](https://zap.jackmallers.com/)
+* [GitHub Repository](https://github.com/LN-Zap/zap-desktop)
+* [Slack Community](https://join.slack.com/t/zaphq/shared_invite/enQtMzgyNDA2NDI2Nzg0LTQwZWQ2ZWEzOWFhMjRiNWZkZWMwYTA4MzA5NzhjMDNhNTM5YzliNDA4MmZkZWZkZTFmODM4ODJkYzU3YmI3ZmI)
+
 ### Key People
 
-* Jack Mallers
-* [Person 2](zap-desktop.md)
+* [Jack Mallers](https://twitter.com/JackMallers)
 
 ### See also
 
+* [Getting started with Zap Desktop](https://ln-zap.github.io/zap-tutorials/zap-desktop-getting-started)
+
 ## References
+
+\[1\] 
 

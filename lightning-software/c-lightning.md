@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-c-lightning is a a BOLT-compliant Lightning implementation by Blockstream \[2\] written in C. Version 1 of c-lightning was released on August 8th, 2015, and has since been under active development. c-lightning runs on Linux. 
+c-lightning is a a BOLT-compliant Lightning implementation by Blockstream \[2\] written in C. Version 1 of c-lightning was released on August 8th, 2015, and has since been under active beta development. c-lightning runs on Linux. 
 
 ## Details
 
@@ -36,6 +36,7 @@ c-lightning is a a BOLT-compliant Lightning implementation by Blockstream \[2\] 
 ### Key People
 
 * [Rusty Russell](https://github.com/rustyrussell)
+* [Christian Decker](https://twitter.com/snyke?lang=en)
 
 ### See also
 

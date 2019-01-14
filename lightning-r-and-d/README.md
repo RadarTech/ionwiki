@@ -1,4 +1,2 @@
 # Lightning R&D
 
-
-

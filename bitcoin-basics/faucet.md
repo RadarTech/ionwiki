@@ -29,7 +29,7 @@ A faucet is a website or app that provides a small amount of tokens to users in 
 
 Crypto faucets exist to introduce people to the concept of Bitcoin or cryptocurrencies.
 
-### Section 2
+### Bitcoin Testnet Faucets
 
 ### Section 3
 

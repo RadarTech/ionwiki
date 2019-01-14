@@ -17,7 +17,7 @@ discussions-to: (GitHub PR)
 category: null
 ---
 
-# Digital Signatures\)
+# Digital Signatures
 
 ## Overview
 
