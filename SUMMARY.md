@@ -7,7 +7,7 @@
   * [Satoshi \(unit of currency\)](bitcoin-basics/satoshi-unit-of-currency.md)
   * [Fees](bitcoin-basics/fees.md)
   * [Coin Faucets](bitcoin-basics/faucet.md)
-  * [Digital Signatures\)](bitcoin-basics/signatures-on-lightning.md)
+  * [Digital Signatures](bitcoin-basics/signatures-on-lightning.md)
   * [Hash](bitcoin-basics/hash.md)
   * [Preimage](bitcoin-basics/pre-image.md)
   * [Opcodes](bitcoin-basics/op-codes.md)
