@@ -59,10 +59,4 @@
   * [Eltoo](lightning-r-and-d/eltoo.md)
   * [Scriptless Scripts \(Schnorr\)](lightning-r-and-d/scriptless-scripts-schnorr.md)
   * [Privacy \(on lightning network\)](lightning-r-and-d/privacy-on-lightning-network.md)
-* [For Deletion](for-deletion/README.md)
-  * [Layer 1](for-deletion/layer-1.md)
-  * [Layer 2](for-deletion/layer-2.md)
-  * [Layer 3](for-deletion/layer-3.md)
-  * [Chainwatcher](for-deletion/chainwatcher.md)
-  * [Streamed Swap](for-deletion/streamed-swap.md)
 
