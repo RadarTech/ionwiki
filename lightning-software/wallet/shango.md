@@ -17,7 +17,7 @@ category: null
 
 ## Overview
 
-Shango is a Lightning Wallet for both iOS and Android. Currently in beta, Shango is developed by neogeno and the Neogeno Strategic Group.
+**Shango** is a Lightning Wallet for both iOS and Android. Currently in beta, Shango is developed by neogeno and the Neogeno Strategic Group.
 
 ## Details
 

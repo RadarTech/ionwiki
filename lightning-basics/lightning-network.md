@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-The Lightning Network consists of an off-chain transfer network built on top of the Bitcoin blockchain. The system works on a peer-to-peer \(P2P\) level and its usability relies on the creation of bidirectional payment channels, through which users can make seamless cryptocurrency transactions. This system allows people to instantaneously send and receive Bitcoin payments, with minimal cost.
+The **Lightning Network** consists of an off-chain transfer network built on top of the Bitcoin blockchain. The system works on a peer-to-peer \(P2P\) level and its usability relies on the creation of bidirectional payment channels, through which users can make seamless cryptocurrency transactions. This system allows people to instantaneously send and receive Bitcoin payments, with minimal cost.
 
 ## Details
 
@@ -106,4 +106,6 @@ In short, the Lightning Network enables scalable blockchains through a high-volu
 ## References
 
 \[1\] [Lightning Network Technical Summary](https://lightning.network/lightning-network-technical-summary.pdf)
+
+\[2\] [https://dev.lightning.community/overview/](https://dev.lightning.community/overview/)
 

@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-A Bitcoin address, or simply address, is an identifier of alphanumeric characters that represents a destination for a Bitcoin payment. Addresses can be generated at no cost by any user of Bitcoin, and .
+A **Bitcoin address**, or simply **address**, is an identifier of alphanumeric characters that represents a destination for a Bitcoin payment. Addresses can be generated at no cost by any user of Bitcoin, and .
 
 ## Details
 

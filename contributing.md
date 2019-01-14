@@ -30,6 +30,7 @@ Unsure where to start? You can start by looking through these beginner and help-
 
 Check out the following resources to get you started. It's way easier than it looks.
 
+* [A Guide to Open Source](https://opensource.guide/)
 * [How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
 * [How to Make a Pull Request](http://makeapullrequest.com/)
 
@@ -43,7 +44,7 @@ Start by forking the Ion Wiki repo. From there, either:
 
 1. Create an article using the [template](https://github.com/RadarRelay/ionwiki/blob/master/template.md) in the root directory 
 
-2. Edit / revise existing articles 
+2. Edit or revise existing articles 
 
 3. Move and restructure content
 
@@ -58,13 +59,13 @@ As a rule of thumb, changes are obvious fixes if they do not introduce any new p
 
 #### Feature suggestion process
 
-If you find yourself wishing for content that doesn't exist in the Ion Wiki, you are probably not alone. There are bound to be others out there with similar needs. Much of the content that the wiki has today have been added because our users saw the need. Open an issue on our issues list on GitHub which describes the content you would like to see.
+If you find yourself wishing for content that doesn't exist in the Ion Wiki, you are probably not alone. There are bound to be others out there with similar needs. Much of the content that the wiki has today has been added because our users saw the need. Open an issue on GitHub describing the content you'd like to see, and we'll get on it.
 
-## Review process
+## Review process \(GitHub\)
 
-The core Ion team looks at Pull Requests on a regular basis, and discusses content decisions in a weekly triage meeting that we hold in a public Google Hangout. The hangout is announced in the weekly status updates that are sent in the Ion Wiki developer chat.
+The core Ion team looks at Pull Requests on a regular basis, and discusses content decisions in a weekly triage meeting that we hold in a public Google Hangout. The hangout is announced in the weekly status updates sent in the Ion Wiki developer chat.
 
-After feedback has been given, we expect responses within two weeks. After two weeks we may close the pull request if it isn't showing any activity.
+After feedback has been given, we anticipate responses within two weeks. After two weeks, we may close the pull request if it isn't showing any activity.
 
 For non-trivial contributions, pull requests should sit for at least 36 hours to ensure that contributors in other timezones have time to review. Consideration should also be given to weekends and other holiday periods to ensure active committers all have reasonable time to become involved in the discussion and review process if they wish.
 
@@ -72,11 +73,11 @@ The default for each contribution is that it is accepted once no committer has a
 
 In the case of an objection being raised in a pull request by another committer, all involved committers should seek to arrive at a consensus by way of addressing concerns being expressed by discussion, compromise on the proposed change, or withdrawal of the proposed change.
 
-If a contribution is controversial and committers cannot agree about how to get it to land or if it should land then it should be escalated to the Ion Core team. Ion members will regularly discuss pending contributions in order to find a resolution. It is expected that only a small minority of issues be brought to the Ion Core team for resolution and that discussion and compromise among committers be the default resolution mechanism.
+If a contribution is controversial and committers cannot agree about how to get it to land or if it should land then it should be escalated to the Ion Core team. Ion members will regularly discuss pending contributions in order to find a resolution. It is expected that only a small minority of issues be brought to the Ion Core team for resolution and that discussion and compromise among committers be the default resolution mechanism. 
 
 ## Community
 
-We don't just discuss in Github!
+We don't just discuss in GitHub!
 
 Chat with us on Rocket.Chat \(to be added\).
 

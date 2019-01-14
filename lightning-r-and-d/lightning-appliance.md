@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-A Lightning Appliance is a piece of hardware that runs a Lightning node and Bitcoin wallet. Enabling secure storage and total control, appliances are the primary way to interact with the Lightning Network.
+A **lightning appliance** is a piece of hardware that runs a Lightning node and Bitcoin wallet. Enabling secure storage and total control, appliances are the primary way to interact with the Lightning Network.
 
 There are two models for appliances: paid products and self-hosted nodes.
 

@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-Rust Lightning is a BOLT-compliant implementation of the Lightning Network, spearheaded by Matt Corallo. It is currently under development, described as "15%" towards usable. 
+**Rust Lightning** is a BOLT-compliant implementation of the Lightning Network, spearheaded by Matt Corallo. It is currently under development, and is described as "15%" towards usable. As of January 14th, 2018, there are 11 contributors on the GitHub project.
 
 
 
@@ -35,11 +35,15 @@ Rust Lightning is a BOLT-compliant implementation of the Lightning Network, spea
 
 ## Resources
 
+[GitHub Repo](https://github.com/rust-bitcoin/rust-lightning)
+
 ### Key People
 
 * [Matt Corallo](https://github.com/TheBlueMatt)
 
 ### See also
+
+[Rust Language](https://www.rust-lang.org/)
 
 ## References
 

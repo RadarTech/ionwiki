@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-Zap Desktop is an open source desktop Lightning Network [wallet](./) for Windows, Linux, and macOS developed by Jack Mallers. First released on January 26, 2018, the project has since been under development and remains in beta. As of January 14, 2018, the project has 39 contributors.
+**Zap Desktop** is an open source desktop Lightning Network [wallet](./) for Windows, Linux, and macOS developed by Jack Mallers. First released on January 26, 2018, the project has since been under development and remains in beta. As of January 14, 2018, the project has 39 contributors.
 
 ## Details
 

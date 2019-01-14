@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-Participation in the Lightning Network requires running an implementation of a Lightning Network daemon software. This software launchs and runs a unique node that allows communication with other peers on the network. Multiple versions, or implementations, have been created by different entities, just as multiple implementations of core Bitcoin software exist. Different implementations maintain interoperability by conforming to BOLT \(Basis of Lightning Technology\) standards.
+Participation in the Lightning Network requires running an implementation of a Lightning Network daemon software. This software launches and runs a unique node that allows communication with other peers on the network. Multiple versions, or implementations, have been created by different entities, just as multiple implementations of core Bitcoin software exist. Different implementations maintain interoperability by conforming to BOLT \(Basis of Lightning Technology\) standards.
 
 ## Details
 

@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-A faucet is a website or app that provides a small amount of tokens to users in order to provide them with the resources necessary to participate in testnet or mainnet apps.
+A **faucet** is a website or app that provides a small amount of tokens to users in order to provide them with the resources necessary to participate in testnet or mainnet apps.
 
 ## Details
 
@@ -34,11 +34,6 @@ Crypto faucets exist to introduce people to the concept of Bitcoin or cryptocurr
 ### Section 3
 
 ## Resources
-
-### Key People
-
-* [Person 1](faucet.md)
-* [Person 2](faucet.md)
 
 ### See also
 

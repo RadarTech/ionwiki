@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-`lnd`, or the Lightning Network Daemon, is a complete implementation of a BOLT-compliant Lightning Network node developed by Lightning Labs. It is currently deployed on the Bitcoin Test Network `testnet3`. `lnd` 0.1 alpha was released on January 11th, 2017, and since has been in active beta development. 
+**`lnd`**, or the Lightning Network Daemon, is a complete implementation of a BOLT-compliant Lightning Network node developed by Lightning Labs. It is currently deployed on the Bitcoin Test Network `testnet3`. `lnd` 0.1 alpha was released on January 11th, 2017, and since has been in active beta development. 
 
 ## Details
 
@@ -66,10 +66,10 @@ A set of developer resources including talks, articles, and example applications
 ### See also
 
 * [Lightning Labs](https://lightning.engineering/)
-* 
+
 
 
 ## References
 
-
+\[1\] 
 
