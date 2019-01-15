@@ -39,7 +39,11 @@ Further, the participants will often wait for a certain number of transaction co
 
 ### Section 1
 
-### Section 2
+### Autopilot
+
+Lightning Network implementations can be equipped with 'autopilot' functionality, which automates the process of finding, funding and establishing a payments channel with another node. This can be helpful for new users who want to expedite their node setup and may have no preference of which node to connect with, or who have no experience with opening a channel. 
+
+Autopilot features require criteria to select which nodes to establish channels with. These criteria vary across implementation and wallet software. Criteria could include uptime, measures of channel connectivity, fee levels, outbound channel volume, and relative position in the network. 
 
 ### Section 3
 

@@ -21,7 +21,9 @@ category: null
 
 ## Overview
 
-**Payment channels** allow two users of Bitcoin to transact commitments to pay back and forth between each other much faster and more fluidly than Bitcoin’s 10 minute block times would normally allow. These commitments are exchanged between the users outside of the Bitcoin blockchain. Once the users are done, they can close the payment channel by publishing the last commitment\(s\) to the blockchain, which will finalize the amount actually transacted.
+On the Lightning Network, a **payment channel** is a direct, bi-directional payments connection between two nodes. Payment channels are the primary building block for Lightning, as they allow for fast, low-cost transactions that leverage the security of an underlying blockchain.
+
+Payment channels allow almost instant transactions between the two parties, facilitating more fluid and frequent payments than Bitcoin’s 10 minute block times would normally allow. This is possible as commitments are exchanged between the users outside of the Bitcoin blockchain, also known as an 'off-chain' payment. As payments within are channel are off-chain and are not communicated to the broader network or in need of validation, there is no explicit cost to each payment and no limit to the number of payments able to be shared within a channel. A payment channel can be closed by publishing a final balance of each party's commitment\(s\) to the blockchain, which uses an on-chain transaction to finalize the net amount actually transacted.
 
 An ideal use case for the technology is **micropayments**: Imagine a user making numerous very small payments \(e.g. .0001 BTC\) to Big Music Company as she listens to songs over a certain period. Without payment channels, the Bitcoin transaction fees from these small payments would be as much or more than the payments themselves, and each payment would take on average 10 minutes to clear.
 
@@ -39,7 +41,7 @@ Initially they each hold a bitcoin transaction that sends all the bitcoin \(e.g.
 
 
 
-the primary building block for Lightning is the concept of payment channels, which allow for fast, low-cost transactions that leverage the security of an underlying blockchain
+
 
 
 
