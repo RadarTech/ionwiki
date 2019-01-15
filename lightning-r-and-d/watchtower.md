@@ -21,6 +21,10 @@ category: null
 
 ## Overview
 
+Carol’s Lightning App uses a security system called a “watchtower”. Watchtowers provide protection in case something goes wrong with one of Carol’s payment channels while she’s disconnected from the internet for an extended period of time \(multiple days\). If this kind of network error happens, one of Carol’s watchtowers will automatically handle the recovery process for Carol. More details about watchtowers will be included in an upcoming blog post as well.
+
+
+
 ## Details
 
 ### Section 1

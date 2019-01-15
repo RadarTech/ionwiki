@@ -36,7 +36,13 @@ Initially they each hold a bitcoin transaction that sends all the bitcoin \(e.g.
 * * A fast, off-chain method of mutual exchange between two _peers_. To transact funds, peers exchange signatures to create an updated _commitment transaction_.
   * _See closure methods: mutual close, revoked transaction close, unilateral close_
   * _See related: route_
-* 
+
+
+
+the primary building block for Lightning is the concept of payment channels, which allow for fast, low-cost transactions that leverage the security of an underlying blockchain
+
+
+
 ## Details
 
 ### Section 1

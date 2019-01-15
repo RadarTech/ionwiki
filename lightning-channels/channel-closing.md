@@ -23,6 +23,7 @@ category: null
 
 
 
+* The Closing Transaction closes the channel. When broadcast, the multisig address spends the funds back to Alice and Bob according to their agreed-upon channel amount.
 * A transaction generated as part of a _mutual close_. A closing transaction is similar to a _commitment transaction_, but with no pending payments.
 * _See related: commitment transaction, funding transaction, penalty transaction_
 

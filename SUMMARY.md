@@ -20,7 +20,7 @@
   * [State Channels](bitcoin-basics/state-channel.md)
 * [Lightning Basics](lightning-basics/README.md)
   * [What is the Lightning Network?](lightning-basics/lightning-network.md)
-  * [Basics of Lightning Technology \(BOLT\)](lightning-basics/basics-of-lightning-technology-bolt.md)
+  * [Basis of Lightning Technology \(BOLT\)](lightning-basics/basics-of-lightning-technology-bolt.md)
   * [Onion Routing](lightning-basics/onion-routing.md)
   * [Network Capacity](lightning-basics/network-capacity.md)
   * [Node](lightning-basics/node.md)

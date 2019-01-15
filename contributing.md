@@ -38,7 +38,7 @@ At this point, you're ready to make your changes! Feel free to ask for help; eve
 
 ## Getting started
 
-#### How to submit a contribution.
+#### How to submit a contribution
 
 Start by forking the Ion Wiki repo. From there, either: 
 

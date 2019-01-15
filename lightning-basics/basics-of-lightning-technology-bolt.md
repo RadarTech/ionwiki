@@ -17,9 +17,11 @@ discussions-to: (GitHub PR)
 category: null
 ---
 
-# Basics of Lightning Technology \(BOLT\)
+# Basis of Lightning Technology \(BOLT\)
 
 ## Overview
+
+The **Basics of Lightning Technology** are standardized technical specifications for the implementation of the Lightning Network. The specifications are currently a work-in-progress, and are continually being iterated upon as implementations like [**lnd**](../lightning-software/lnd/) and [**c-lightning**](../lightning-software/c-lightning.md) are built in parallel.
 
 ## Details
 
@@ -31,10 +33,7 @@ category: null
 
 ## Resources
 
-### Key People
-
-* [Person 1](basics-of-lightning-technology-bolt.md)
-* [Person 2](basics-of-lightning-technology-bolt.md)
+[https://github.com/lightningnetwork/lightning-rfc](https://github.com/lightningnetwork/lightning-rfc)
 
 ### See also
 
