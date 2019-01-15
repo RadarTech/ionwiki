@@ -21,15 +21,20 @@ category: null
 
 ## Overview
 
-a wallet with one or more open Lightning channels. This should not be confused with a Bitcoin full node that validates Bitcoin blocks, although a full node's wallet may also be simultaneously used as a Lightning node to the advantage of the Lightning network user.
+A **node** is an entity on the Lightning Network that is able to connect to other nodes utilizing a channel. Users can create a node by running an implementation of [Lightning Network software](../lightning-software/implementations-of-lightning-network.md), either directly or as part of pre-packaged [wallet](../lightning-software/wallet/) software. 
 
-* A computer or other device that is part of the Lightning network.
+This should not be confused with a Bitcoin full node that validates Bitcoin blocks, although a full node's wallet may also be simultaneously used as a Lightning node to the advantage of the Lightning network user.
+
+A computer or other device that is part of the Lightning network.
+
 * _See related: peers_
 * _See types: final node, hop, origin node, processing node, receiving node, sending node_
 
 ## Details
 
-### Section 1
+### Routing Nodes
+
+Routing node is another term for a hub. A functional routing node requires high uptime and strong connectivity to other nodes in order to facilitate high quality routing. Routing nodes have the ability to charge fees for passing traffic through them and onto the remainder of the route. 
 
 ### Section 2
 
