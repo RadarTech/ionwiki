@@ -17,9 +17,11 @@ discussions-to: (GitHub PR)
 category: null
 ---
 
-# Dust Limit
+# Dust
 
 ## Overview
+
+**Dust** refers to tiny UTXOs \(unspent transaction outputs\) on the Bitcoin blockchain. The Bitcoin Core implementation defines dust as a UTXO that would require a fee greater than 1/3rd of its value to send. 
 
 ## Details
 
@@ -30,6 +32,8 @@ category: null
 ### Section 3
 
 ## Resources
+
+Bitcoin Core Reference Implementation [https://github.com/bitcoin/bitcoin/blob/v0.10.0rc3/src/primitives/transaction.h\#L137](https://github.com/bitcoin/bitcoin/blob/v0.10.0rc3/src/primitives/transaction.h#L137)
 
 ### Key People
 
