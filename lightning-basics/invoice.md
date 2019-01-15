@@ -22,7 +22,7 @@ category: null
 ## Overview
 
   
-An invoice represents a request for funds on the Lightning Network. Invoices include numerous parameters, both required and optional, such as payment amount, chain, expiry, payee pubkey, routing hints, and other information. Invoices are used to make payments on the Lightning Network, rather than using Bitcoin-style addresses. 
+An invoice represents a request for funds on the Lightning Network. Invoices include numerous parameters, both required and optional, such as payment amount, chain, expiry, payee pubkey, [routing hints](payment-routing.md#routing-hints), and other information. Invoices are used to make payments on the Lightning Network, rather than using Bitcoin-style addresses. 
 
 Invoices are commonly presented as alphanumerical strings or QR codes. In order to parse specific information from the request string, users can pass the string into a decoding tool.
 
@@ -30,7 +30,7 @@ Invoices are commonly presented as alphanumerical strings or QR codes. In order 
 
 ### Example Invoice
 
-Below is a sample invoice decoded using an invoice decoding tool. The fields included are:
+Below is a sample invoice decoded using an invoice decoding tool. The standard fields included are:
 
 | Key | Value |  |
 | :--- | :--- | :--- |

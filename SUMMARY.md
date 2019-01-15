@@ -29,7 +29,6 @@
   * [Gossip](lightning-basics/gossip.md)
   * [Hub](lightning-basics/hub.md)
   * [Invoice](lightning-basics/invoice.md)
-  * [Routing Links](lightning-basics/routing-links.md)
   * [Sphinx Packet](lightning-basics/sphinx-packet.md)
 * [Lightning Software](lightning-software/README.md)
   * [Network Implementations](lightning-software/implementations-of-lightning-network.md)

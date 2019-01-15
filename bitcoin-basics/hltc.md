@@ -25,6 +25,10 @@ category: null
 * _See container: commitment transaction_
 * _See parts: Payment hash, Payment preimage_
 
+Hash Time-Locked Contracts \(HTLCs\) allow transactions to be sent between parties who do not have a direct channels by routing it through multiple hops, so anyone connected to the Lightning Network is part of a single, interconnected global financial system.
+
+[https://dev.lightning.community/overview/\#lightning-network](https://dev.lightning.community/overview/#lightning-network)
+
 ## Details
 
 ### Section 1
