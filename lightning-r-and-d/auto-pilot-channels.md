@@ -21,19 +21,21 @@ category: null
 
 ## Overview
 
-The Autopilot in Carol’s Lightning App has connected with a series of Lightning routing nodes \(specifically selected for uptime and payment reliability\) and has opened Lightning payment channels with those nodes. By default, five channels will be opened, so if one routing node goes offline and/or funds need to be recovered via on-chain transaction, 80% of funds will still be available. These are details Carol doesn’t need to be concerned with. As far as she knows, her money is now instantly accessible with Lightning, and she can send money to any Lightning-enabled person or business.
+## _NOTE: Gareth has already written autopilot details in the_ [_Channel Opening_](../lightning-channels/channel-opening.md) _page._
 
-The latest build of `lnd` comes equipped with a new experimental option for [any planned flavors of automatic channel management](https://github.com/lightningnetwork/lnd/commit/306c4aef8e3af44fb3f2d8f52fc887f2c48e9c04), meaning users won’t necessarily need to _manually_ establish channels. We call this new operating node `autopilot` as it will automatically manage the opening of channels within the network.
+_The Autopilot in Carol’s Lightning App has connected with a series of Lightning routing nodes \(specifically selected for uptime and payment reliability\) and has opened Lightning payment channels with those nodes. By default, five channels will be opened, so if one routing node goes offline and/or funds need to be recovered via on-chain transaction, 80% of funds will still be available. These are details Carol doesn’t need to be concerned with. As far as she knows, her money is now instantly accessible with Lightning, and she can send money to any Lightning-enabled person or business._
 
-`autopilot` is essentially a closed-loop control system: it takes inputs such as the number of channels opened, time when channels are closed, and changes to the wallet’s balance. Once those signals are received, it consults a set of heuristic to decide if it needs more channels, and if so, to _whom_ those channels should be opened. The Agent then carries out the recommendations of its heuristics.
+_The latest build of `lnd` comes equipped with a new experimental option for_ [_any planned flavors of automatic channel management_](https://github.com/lightningnetwork/lnd/commit/306c4aef8e3af44fb3f2d8f52fc887f2c48e9c04)_, meaning users won’t necessarily need to manually establish channels. We call this new operating node `autopilot` as it will automatically manage the opening of channels within the network._
 
-Once your wallet is loaded with testnet coins, you’ll start to see `autopilot` at work on the _Channels_ page. The `autopilot` agent will begin opening channels driven by its heuristics. This process also helps drive the network graph toward a scale-free topology.
+_`autopilot` is essentially a closed-loop control system: it takes inputs such as the number of channels opened, time when channels are closed, and changes to the wallet’s balance. Once those signals are received, it consults a set of heuristic to decide if it needs more channels, and if so, to whom those channels should be opened. The Agent then carries out the recommendations of its heuristics._
+
+_Once your wallet is loaded with testnet coins, you’ll start to see `autopilot` at work on the Channels page. The `autopilot` agent will begin opening channels driven by its heuristics. This process also helps drive the network graph toward a scale-free topology._
 
 ![Desktop Application](https://blog.lightning.engineering/assets/images/app-auto.png)
 
-Channels are shown in two statuses: PENDING-OPEN, and ACTIVE. The PENDING-OPEN stage indicates that the funding transaction has been broadcast, but is still awaiting confirmation on the blockchain. The ACTIVE status indicates that a channel is fully open and ready to send and receive payments.
+_Channels are shown in two statuses: PENDING-OPEN, and ACTIVE. The PENDING-OPEN stage indicates that the funding transaction has been broadcast, but is still awaiting confirmation on the blockchain. The ACTIVE status indicates that a channel is fully open and ready to send and receive payments._
 
-feature including settings optimizing for both everyday use and fee revenue.
+_feature including settings optimizing for both everyday use and fee revenue._
 
   
 

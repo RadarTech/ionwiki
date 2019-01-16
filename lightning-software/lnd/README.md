@@ -27,28 +27,28 @@ category: null
 
 ### Technical Details
 
-`lnd` has several pluggable back-end chain services including [`btcd`](https://github.com/btcsuite/btcd) \(a full-node\), [`bitcoind`](https://github.com/bitcoin/bitcoin), and [`neutrino`](https://github.com/lightninglabs/neutrino) \(a new experimental light client\). `lnd` is fully compliant with all current network specifications, outlined in the Basics of Lightning Technology standards outline.
+_`lnd` has several pluggable back-end chain services including_ [_`btcd`_](https://github.com/btcsuite/btcd) _\(a full-node\),_ [_`bitcoind`_](https://github.com/bitcoin/bitcoin)_, and_ [_`neutrino`_](https://github.com/lightninglabs/neutrino) _\(a new experimental light client\). `lnd` is fully compliant with all current network specifications, outlined in the Basics of Lightning Technology standards outline._
 
-At the time of writing, January 14th, 2018, `lnd` is capable of:
+_At the time of writing, January 14th, 2018, `lnd` is capable of:_
 
+\_\_
 
+* _Creating channels._
+* _Closing channels._
+* _Completely managing all channel states \(including the exceptional ones!\)._
+* _Maintaining a fully authenticated+validated channel graph._
+* _Performing path finding within the network, passively forwarding incoming payments._
+* _Sending outgoing_ [_onion-encrypted payments_](https://github.com/lightningnetwork/lightning-onion) _through the network._
+* _Updating advertised fee schedules._
+* _Automatic channel management \(_[_`autopilot`_](https://github.com/lightningnetwork/lnd/tree/master/autopilot)_\)._
 
-* Creating channels.
-* Closing channels.
-* Completely managing all channel states \(including the exceptional ones!\).
-* Maintaining a fully authenticated+validated channel graph.
-* Performing path finding within the network, passively forwarding incoming payments.
-* Sending outgoing [onion-encrypted payments](https://github.com/lightningnetwork/lightning-onion) through the network.
-* Updating advertised fee schedules.
-* Automatic channel management \([`autopilot`](https://github.com/lightningnetwork/lnd/tree/master/autopilot)\).
+### _Developer Resources_
 
-### Developer Resources
+_`lnd`he daemon has been designed to be as developer friendly as possible in order to facilitate application development. Two primary RPC interfaces are exported: an HTTP REST API, and a_ [_gRPC_](https://grpc.io/) _service. The exported API's are not yet stable, so be warned: they may change drastically in the near future._
 
-`lnd`he daemon has been designed to be as developer friendly as possible in order to facilitate application development. Two primary RPC interfaces are exported: an HTTP REST API, and a [gRPC](https://grpc.io/) service. The exported API's are not yet stable, so be warned: they may change drastically in the near future.
+_An automatically generated set of documentation for the RPC APIs can be found at_ [_api.lightning.community_](https://api.lightning.community/)_._ 
 
-An automatically generated set of documentation for the RPC APIs can be found at [api.lightning.community](https://api.lightning.community/). 
-
-Finally, we also have an active [Slack](https://join.slack.com/t/lightningcommunity/shared_invite/enQtMzQ0OTQyNjE5NjU1LWRiMGNmOTZiNzU0MTVmYzc1ZGFkZTUyNzUwOGJjMjYwNWRkNWQzZWE3MTkwZjdjZGE5ZGNiNGVkMzI2MDU4ZTE) where protocol developers, application developers, testers and users gather to discuss various aspects of `lnd` and also Lightning in general.
+_Finally, we also have an active_ [_Slack_](https://join.slack.com/t/lightningcommunity/shared_invite/enQtMzQ0OTQyNjE5NjU1LWRiMGNmOTZiNzU0MTVmYzc1ZGFkZTUyNzUwOGJjMjYwNWRkNWQzZWE3MTkwZjdjZGE5ZGNiNGVkMzI2MDU4ZTE) _where protocol developers, application developers, testers and users gather to discuss various aspects of `lnd` and also Lightning in general._
 
 ### Additional Features
 
