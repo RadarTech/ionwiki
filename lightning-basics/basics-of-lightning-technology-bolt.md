@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-The **Basics of Lightning Technology** are standardized technical specifications for the implementation of the Lightning Network. The specifications are currently a work-in-progress, and are continually being iterated upon as implementations like [**lnd**](../lightning-software/lnd/) and [**c-lightning**](../lightning-software/c-lightning.md) are built in parallel.
+_The **Basics of Lightning Technology** are standardized technical specifications for the implementation of the Lightning Network. The specifications are currently a work-in-progress, and are continually being iterated upon as implementations like_ [_**lnd**_](../lightning-software/lnd/) _and_ [_**c-lightning**_](../lightning-software/c-lightning.md) _are built in parallel._
 
 ## Details
 

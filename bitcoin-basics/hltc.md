@@ -21,11 +21,11 @@ category: null
 
 ## Overview
 
-* A conditional payment between two _peers_: the recipient can spend the payment by presenting its signature and a _payment preimage_, otherwise the payer can cancel the contract by spending it after a given time. These are implemented as outputs from the _commitment transaction_.
+* _A conditional payment between two peers: the recipient can spend the payment by presenting its signature and a payment preimage, otherwise the payer can cancel the contract by spending it after a given time. These are implemented as outputs from the commitment transaction._
 * _See container: commitment transaction_
 * _See parts: Payment hash, Payment preimage_
 
-Hash Time-Locked Contracts \(HTLCs\) allow transactions to be sent between parties who do not have a direct channels by routing it through multiple hops, so anyone connected to the Lightning Network is part of a single, interconnected global financial system.
+_Hash Time-Locked Contracts \(HTLCs\) allow transactions to be sent between parties who do not have a direct channels by routing it through multiple hops, so anyone connected to the Lightning Network is part of a single, interconnected global financial system._
 
 [https://dev.lightning.community/overview/\#lightning-network](https://dev.lightning.community/overview/#lightning-network)
 

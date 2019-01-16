@@ -21,9 +21,9 @@ category: null
 
 ## Overview
 
-**Source routing and onion routing** - One of the differences between Lightning payment routing and most data network routing is that in the case of Lightning, the route is constructed by the payment sender \(source routing\), rather than being determined by the routers along the path. In addition, Lightning employs [onion routing](https://en.wikipedia.org/wiki/Onion_routing) for multi-hop payments. This means that intermediate nodes in the payment path know only the identity of their immediate predecessor and successor in the route. Importantly, the combination of source routing and onion routing protects the identities of payment senders and receivers so as to enhance user privacy and censorship-resistance.
+_**Source routing and onion routing** - One of the differences between Lightning payment routing and most data network routing is that in the case of Lightning, the route is constructed by the payment sender \(source routing\), rather than being determined by the routers along the path. In addition, Lightning employs_ [_onion routing_](https://en.wikipedia.org/wiki/Onion_routing) _for multi-hop payments. This means that intermediate nodes in the payment path know only the identity of their immediate predecessor and successor in the route. Importantly, the combination of source routing and onion routing protects the identities of payment senders and receivers so as to enhance user privacy and censorship-resistance._
 
-Also note that the Lightning Network protocol supports [Tor](https://www.torproject.org/), and future releases of `lnd` will include Tor support. Communications from end user `lnd` nodes to gateway routing nodes will eventually default to Tor, providing additional privacy protection. 
+_Also note that the Lightning Network protocol supports_ [_Tor_](https://www.torproject.org/)_, and future releases of `lnd` will include Tor support. Communications from end user `lnd` nodes to gateway routing nodes will eventually default to Tor, providing additional privacy protection._ 
 
 [https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch12.asciidoc](https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch12.asciidoc)
 

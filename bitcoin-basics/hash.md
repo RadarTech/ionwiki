@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-A digital fingerprint of some binary input
+_A digital fingerprint of some binary input_
 
 ## Details
 

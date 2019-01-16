@@ -23,9 +23,9 @@ category: null
 
 [https://en.bitcoin.it/wiki/Replace\_by\_fee](https://en.bitcoin.it/wiki/Replace_by_fee)
 
-Since Bitcoin's original inception, it has supported the concept that an unconfirmed transaction may be modified and re-issued. This concept is known as "transaction replacement", because the new transaction replaces the old one. However, since transaction replacement eliminates the cost to all previous transactions being replaced, it created a DoS risk: attackers could produce as many transactions as they wanted, while only paying the fee for the one variant that was eventually mined.
+_Since Bitcoin's original inception, it has supported the concept that an unconfirmed transaction may be modified and re-issued. This concept is known as "transaction replacement", because the new transaction replaces the old one. However, since transaction replacement eliminates the cost to all previous transactions being replaced, it created a DoS risk: attackers could produce as many transactions as they wanted, while only paying the fee for the one variant that was eventually mined._
 
-To solve this problem, the concept of replace-by-fee was developed: by requiring replacements to pay for not only its own cost, but also the fee of the transactions being replaced, the DoS risk was strictly less than the risk of flooding with separate transactions.
+_To solve this problem, the concept of replace-by-fee was developed: by requiring replacements to pay for not only its own cost, but also the fee of the transactions being replaced, the DoS risk was strictly less than the risk of flooding with separate transactions._
 
 ## Details
 
