@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-_**Eltoo** is a Layer 2 Protocol originally outlined by Christian Decker, Rusty Russell, and Olaoluwa Osuntokun. It proposes a new update mechanism for layer 2 protocols, enhancing off-chain negotiations. Among other concepts, it introduces state numbers, an enforceable variant of sequence numbers._ 
+**Eltoo** is a Layer 2 Protocol originally outlined by Christian Decker, Rusty Russell, and Olaoluwa Osuntokun. It proposes a new update mechanism for layer 2 protocols, enhancing off-chain negotiations. Among other concepts, it introduces state numbers, an enforceable variant of sequence numbers. 
 
 ## Details
 

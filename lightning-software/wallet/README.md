@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-_A **wallet** is an app or program that enables you to send and recieve Bitcoin. A Lightning-enabled wallet allows you to interact with the Lightning Network via channels. Wallets keep track of your BTC balance - which is usually held in one or more bitcoin addresses - and your transaction history._
+A **wallet** is an app or program that enables you to send and recieve Bitcoin. A Lightning-enabled wallet allows you to interact with the Lightning Network via channels. Wallets keep track of your BTC balance - which is usually held in one or more bitcoin addresses - and your transaction history.
 
 _The word “wallet” is used to describe a few different things in bitcoin. At a high level, a wallet is an application that serves as the primary user interface. The wallet controls access to a user’s money, managing keys and addresses, tracking the balance, and creating and signing transactions. More narrowly, from a programmer’s perspective, the word “wallet” refers to the data structure used to store and manage a user’s keys. In this chapter we will look at the second meaning, where wallets are containers for private keys, usually implemented as structured files or simple databases._
 
