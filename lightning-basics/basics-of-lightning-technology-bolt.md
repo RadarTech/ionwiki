@@ -69,9 +69,7 @@ The **Basis of Lightning Technology** is a standardized technical specification 
 
 ### BOLT-11
 
-
-
-### Section 3
+\*
 
 ## Resources
 

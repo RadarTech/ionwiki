@@ -21,19 +21,23 @@ category: null
 
 ## Overview
 
-* _A conditional payment between two peers: the recipient can spend the payment by presenting its signature and a payment preimage, otherwise the payer can cancel the contract by spending it after a given time. These are implemented as outputs from the commitment transaction._
-* _See container: commitment transaction_
-* _See parts: Payment hash, Payment preimage_
+A **Hashed TimeLock Contract** or **HTLC** is a class of payments that allow transactions to be sent between parties who do not have a direct channel on the Lightning Network. HTLC's rely on the fact that an individual can structure a payment such that another party can only accept it if the party knows the secret whose hash has been shared with them.
 
-_Hash Time-Locked Contracts \(HTLCs\) allow transactions to be sent between parties who do not have a direct channels by routing it through multiple hops, so anyone connected to the Lightning Network is part of a single, interconnected global financial system._
+HTLC's use hashlocks and timelocks to require that the receiver of a payment either acknowledges receiving the payment prior to a deadline by generating cryptographic proof of payment or forfeits the ability to claim the payment, returning it to the payer. Because any receipt of funds triggers the creation of a new hash, this idea can be extended to allow a sequence of payments; with the right conditionality, payments can be securely routed through a series of users.
 
-[https://dev.lightning.community/overview/\#lightning-network](https://dev.lightning.community/overview/#lightning-network)
+The cryptographic proof of payment the receiver generates can then be used to trigger other actions in other payments.
 
 ## Details
 
-### Section 1
+### Timelock
 
-### Section 2
+Timelocks are restrictions on transactions or outputs that only allow spending after a point in time. Bitcoin has had a transaction-level timelock feature from the first implementation.
+
+### Issues
+
+For all payments between two parties, HTLCs require hashlocks to be resolved and routes to be found. This results in higher work and bandwidth requirements for nodes in the network.
+
+The completion of payments via a routed network using HTLCs is probabilistic, depending on \(1\) the availability \("liveness"\) of users and \(2\) the quantity of funds held by those users. To forward payments through the network, users must be live and must have locked funds in a greater quantity than the payment they are forwarding. This makes the network geared towards dedicated payment processors who will forward transactions in exchange for fees.
 
 ### Section 3
 

@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-
+Opening a channel between two parties on the Lightning network begins with sending an on-chain transaction to a multisig address controlled by the channel's participants. This initial funding transaction creates the channel that are controlled by both parties. The shared address can be funded as a single-payer channel, or by both parties involved.
 
 _Opening a channel involves sending an on-chain transaction \(with a multisig output controlled by the channel’s participants\), so when the channel is ‘pending’ it simply means this transaction is not yet confirmed. How long it takes the transaction to confirm depends on the same factors as any other transaction._
 
@@ -35,7 +35,9 @@ _Further, the participants will often wait for a certain number of transaction c
 
 ## Details
 
-### Section 1
+### Transaction Confirmation
+
+Initial 
 
 ### Autopilot
 

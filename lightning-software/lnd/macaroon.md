@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-A macaroon is like a cookie for your Lightning node. 
+A **macaroon** is an identifier tied to a Lightning node that can . A macaroon is similar to a cookie, but unlike a traditional browser cookie, a macaroon can be created to have limited capabilities and then sent to others to use.
 
 from [https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md](https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md)
 
@@ -33,9 +33,9 @@ _Just like a cookie, a macaroon should be sent over a secure channel \(such as a
 
 ## Details
 
-### Section 1
+### Structure
 
-### Section 2
+### Encryption
 
 ### Section 3
 

@@ -37,10 +37,7 @@ Channels on the Lightning Network are 'bi-directional', as both participants are
 
 ## Resources
 
-### Key People
 
-* [Person 1](channel-capacity.md)
-* [Person 2](channel-capacity.md)
 
 ### See also
 

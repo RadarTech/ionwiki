@@ -21,6 +21,8 @@ category: null
 
 ## Overview
 
+**Onion routing** is a technique for anonymous communication over a computer network. In an **onion network**, messages are encapsulated in layers of encryption, analogous to layers of an onion. The encrypted data is transmitted through a series of network nodes called **onion routers**, each of which "peels" away a single layer, uncovering the data's next destination. When the final layer is decrypted, the message arrives at its destination. The sender remains anonymous because each intermediary knows only the location of the immediately preceding and following nodes. There are methods to break the anonymity of this technique, e.g. timing analysis.
+
 _**Source routing and onion routing** - One of the differences between Lightning payment routing and most data network routing is that in the case of Lightning, the route is constructed by the payment sender \(source routing\), rather than being determined by the routers along the path. In addition, Lightning employs_ [_onion routing_](https://en.wikipedia.org/wiki/Onion_routing) _for multi-hop payments. This means that intermediate nodes in the payment path know only the identity of their immediate predecessor and successor in the route. Importantly, the combination of source routing and onion routing protects the identities of payment senders and receivers so as to enhance user privacy and censorship-resistance._
 
 _Also note that the Lightning Network protocol supports_ [_Tor_](https://www.torproject.org/)_, and future releases of `lnd` will include Tor support. Communications from end user `lnd` nodes to gateway routing nodes will eventually default to Tor, providing additional privacy protection._ 

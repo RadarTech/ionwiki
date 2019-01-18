@@ -27,7 +27,7 @@ category: null
 
 ### Plugin Support Architecture
 
-On top of complying with all BOLT standards, c-lightning is developing architecture for plugins. Plugins can be built to extend the c-lightning command line API and also build packages like node.js.
+On top of complying with all BOLT standards, c-lightning is developing an architecture for plugins. Plugins can be built to extend the c-lightning command line API.
 
 ## Resources
 
@@ -40,9 +40,11 @@ On top of complying with all BOLT standards, c-lightning is developing architect
 
 ### See also
 
-c-lightning Plugin Collection
+[c-lightning Plugin Collection](https://github.com/renepickhardt/c-lightning-plugin-collection)
 
 ## References
 
 \[1\] [Blockstream](https://blockstream.com/)
+
+\[2\] [c-lightning](https://github.com/ElementsProject/lightning)
 

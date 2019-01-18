@@ -21,11 +21,13 @@ category: null
 
 ## Overview
 
-_A digital fingerprint of some binary input_
+A hash algorithm turns an arbitrary amount of data into a fixed-length **hash**. A hash is a fingerprint of the input data, and the same hash will always result from the same data. Like all computer data, hashes are large numbers, and are usually written in hexadecimal.
 
 ## Details
 
-### Section 1
+### Bitcoin Hashes
+
+Bitcoin uses the SHA-256 algorithm to generate hashes. 
 
 ### Section 2
 

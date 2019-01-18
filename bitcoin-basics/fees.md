@@ -33,36 +33,29 @@ These include:
 
 ### Single Channel Transactions
 
+Transactions between parties in an established channel never incur fees. 
+
 ### Routed Transactions
+
+Fee calculation for payments routed through other nodes is determined by node operators.
+
+Fees are determined by the node operators. It's a free market, you can set whatever fee you want. Of course there's lots of competition, so if you want people to route payments through you, you should set a low or no fee.
+
+I'd simply like to expand on Andrew's answer and mention that the routing algorithm used to find the various hops towards your final destination payment will also impact your resulting fee.
+
+The idea is that channels sometimes become almost exhausted - where most of the money is pushed towards one direction. This is bad for people because it would mean that their channels cannot be reused; you'd have to open a new channel for new payments, hence on-chain transactions.
+
+If a channel is almost exhausted, the person of the channel with less money \(exhausted towards her\) will want payments routed towards her to allow her channel to be full again so she can make more payments on that same channel without reopening a new one.
+
+She will actually want to pay if someone chooses her channel to route their payments -- hence sometimes you'll have negative fees.
+
+This means that a routing algorithm will actually look for paths where you actually get paid \(negative fees\) because you'd be rebalancing some channels along the way.
 
 ### On-Chain Transactions
 
-The calculation for fees of closing and opening a channel is based on the current 
+Transactions for opening and closing channels are settled on the Bitcoin blockchain, and thus, incur fees that are based on the bitcoin network. Fees are included with your on-chain transaction in order to have your transaction processed by a miner and confirmed by the Bitcoin network. 
 
-_The fee calculation for both commitment transactions and HTLC transactions is based on the current `feerate_per_kw`and the expected weight of the transaction._
-
-_The actual and expected weights vary for several reasons:_
-
-* _Bitcoin uses DER-encoded signatures, which vary in size._
-* _Bitcoin also uses variable-length integers, so a large number of outputs will take 3 bytes to encode rather than 1._
-* _The `to_remote` output may be below the dust limit._
-* _The `to_local` output may be below the dust limit once fees are extracted._
-
-_Thus, a simplified formula for expected weight is used, which assumes:_
-
-* _Signatures are 73 bytes long \(the maximum length\)._
-* _There are a small number of outputs \(thus 1 byte to count them\)._
-* _There are always both a `to_local` output and a `to_remote` output._
-
-_This yields the following expected weights \(details of the computation in_ [_Appendix A_](https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#appendix-a-expected-weights)_\):_
-
-```text
-Commitment weight:   724 + 172 * num-untrimmed-htlc-outputs
-HTLC-timeout weight: 663
-HTLC-success weight: 703
-```
-
-_Note the reference to the "base fee" for a commitment transaction in the requirements below, which is what the funder pays. The actual fee may be higher than the amount calculated here, due to rounding and trimmed outputs._
+There is a limited amount of space available for transactions in a block, so in order to get a transaction processed quickly, users will have to outbid other transaction requests.
 
 _**Requirements**_
 
@@ -124,6 +117,8 @@ _A node:_
 
 
 ### See also
+
+\[1\] [Historical Bitcoin Fees](https://bitcoinfees.info/)
 
 ## References
 
