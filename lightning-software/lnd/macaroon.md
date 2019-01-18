@@ -21,6 +21,8 @@ category: null
 
 ## Overview
 
+A macaroon is like a cookie for your Lightning node. 
+
 from [https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md](https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md)
 
 _You can think of a **macaroon** as a cookie, in a way. Cookies are small bits of data that your browser stores and sends to a particular website when it makes a request to that website. If you're logged into a website, that cookie can store a session ID, which the site can look up in its own database to check who you are and give you the appropriate content._

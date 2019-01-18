@@ -22,9 +22,9 @@ category: null
 ## Overview
 
   
-An invoice represents a request for funds on the Lightning Network. Invoices include numerous parameters, both required and optional, such as payment amount, chain, expiry, payee pubkey, [routing hints](payment-routing.md#routing-hints), and other information. Invoices are used to make payments on the Lightning Network, rather than using Bitcoin-style addresses. 
+An invoice represents a request for funds on the Lightning Network. Invoices include numerous parameters, both required and optional, such as payment amount, chain, expiry date, payee [pubkey](../bitcoin-basics/pubkey.md), [routing hints](payment-routing.md#routing-hints), and other information. Invoices are used to make payments on the Lightning Network, rather than using [Bitcoin-style addresses](../bitcoin-basics/bitcoin-address-formats.md). 
 
-Invoices are commonly presented as alphanumerical strings or QR codes. In order to parse specific information from the request string, users can pass the string into a decoding tool.
+Invoices are commonly presented as alphanumerical strings or QR codes. In order to parse specific information from the request string, users can pass the string into a decoding tool \[1\].
 
 ## Details
 
@@ -107,14 +107,9 @@ Lightning Payment Request Decoder
 
 [https://lndecode.com/](https://lndecode.com/)
 
-
-
-### Key People
-
-* [Person 1](invoice.md)
-* [Person 2](invoice.md)
-
 ### See also
 
 ## References
+
+\[1\] [Lightning Decoder](https://lightningdecoder.com/)
 

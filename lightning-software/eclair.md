@@ -15,11 +15,11 @@ category: null
 
 ## Overview
 
-**Eclair Wallet** is an Android Lightning Network wallet, developed by ACINQ. Supporting both testnet and mainnet, it offers features such as channel backup, debug logging and network stats. It was first released on July 20, 2017.
+**Eclair Wallet** is an Android Lightning Network wallet, developed by ACINQ. Supporting both testnet and mainnet networks, it offers features such as channel backup, debug logging and network stats. It was first released on July 20, 2017.
 
 ## Details
 
-[https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
+[Eclair Wallet Play Store Link](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
 
 ### Stats
 

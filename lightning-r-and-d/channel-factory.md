@@ -21,6 +21,8 @@ category: null
 
 ## Overview
 
+A channel factory is a non-custodial, multi participatory system that contains channels.
+
 ## Details
 
 ### Section 1

@@ -26,24 +26,26 @@ category: null
 * Platforms: Android and iOS
 * Networks: BTC, tBTC
 * LN Connection: Bitcoin
-* Connection: 
-* Channel Backup:
 
 ### Features
 
-_Node Operation Flexibility_ 
+#### Node Operation Flexibility 
 
 Shango enables you to have choices with how you run your LN node. In the app, it allows you to have full control of your node, run LND from a device, or launch a node using Amazon Web Services for runtime purposes.
 
-_QR Code Recognition_ 
+#### **QR Code Recognition** 
 
 Shango has QR Code functionality built into the native app.
 
-_Open Source_ 
+#### Open Source 
 
 Alongside other wallets, Shango is entirely open source and auditable.
 
 ## Resources
+
+[Shango Homepage](http://www.shangoapp.com/)
+
+[Shango GitHub](https://github.com/neogeno/shango-lightning-wallet/)
 
 ### Key People
 
@@ -52,5 +54,15 @@ Alongside other wallets, Shango is entirely open source and auditable.
 
 ### See also
 
+#### Downloads
+
+| Google Play | App Store |
+| :--- | :--- |
+| [Download Link](https://play.google.com/apps/testing/com.shango) | [Download Link](https://testflight.apple.com/join/WwCjFnS8) |
+
 ## References
+
+\[1\] [http://www.shangoapp.com/](http://www.shangoapp.com/)
+
+\[2\] [https://github.com/neogeno/shango-lightning-wallet/](https://github.com/neogeno/shango-lightning-wallet/)
 

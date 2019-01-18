@@ -29,7 +29,9 @@ Channels on the Lightning Network are 'bi-directional', as both participants are
 
 ### Section 1
 
-### Section 2
+### Inbound and outbound fund flow
+
+![Example fund flow for network participants. Artwork from lightning.engineering](../.gitbook/assets/channel_balance.png)
 
 ### Section 3
 
@@ -43,4 +45,6 @@ Channels on the Lightning Network are 'bi-directional', as both participants are
 ### See also
 
 ## References
+
+\[1\] [https://blog.lightning.engineering/posts/2018/05/30/routing.html](https://blog.lightning.engineering/posts/2018/05/30/routing.html)
 

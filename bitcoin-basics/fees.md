@@ -31,6 +31,14 @@ These include:
 
 ## Details
 
+### Single Channel Transactions
+
+### Routed Transactions
+
+### On-Chain Transactions
+
+The calculation for fees of closing and opening a channel is based on the current 
+
 _The fee calculation for both commitment transactions and HTLC transactions is based on the current `feerate_per_kw`and the expected weight of the transaction._
 
 _The actual and expected weights vary for several reasons:_
@@ -113,10 +121,7 @@ _A node:_
 
 ## Resources
 
-### Key People
 
-* [Person 1](fees.md)
-* [Person 2](fees.md)
 
 ### See also
 

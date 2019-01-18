@@ -27,13 +27,13 @@ A **Bitcoin address** is an identifier that represents a destination for a Bitco
 
 ### Formats
 
-_Private Key WIF \(51 characters base58, starts with a '5'\):_ 5KLgsTKHMLmVxetAvN8Vqa9H7FWSj1DdXYeEKMy4nyHS5YKTpuq
+_Private Key WIF \(51 characters base58, starts with a '5'\):_ `5KLgsTKHMLmVxetAvN8Vqa9H7FWSj1DdXYeEKMy4nyHS5YKTpuq`
 
-_Private Key WIF Compressed \(52 characters base58, starts with a 'K' or 'L'\):_ L3wtyh9hAnFQpeCrnYG6HPHY6b2xYPxkDpfKn3YTjuRXgeG6XK68
+_Private Key WIF Compressed \(52 characters base58, starts with a 'K' or 'L'\):_ `L3wtyh9hAnFQpeCrnYG6HPHY6b2xYPxkDpfKn3YTjuRXgeG6XK68`
 
-_Private Key Hexadecimal Format \(64 characters \[0-9A-F\]\):_ C8B9FC507B27D1C194B7F2EBE4941A25FA289BF790EBEFAB874F937ADE3EE403
+_Private Key Hexadecimal Format \(64 characters \[0-9A-F\]\): `C8B9FC507B27D1C194B7F2EBE4941A25FA289BF790EBEFAB874F937ADE3EE403`_ 
 
-_Private Key Base64 \(44 characters\):_ yLn8UHsn0cGUt/Lr5JQaJfoom/eQ6++rh0+Tet4+5AM=
+_Private Key Base64 \(44 characters\):_ `yLn8UHsn0cGUt/Lr5JQaJfoom/eQ6++rh0+Tet4+5AM=`
 
 ### Section 2
 

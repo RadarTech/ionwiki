@@ -27,15 +27,27 @@ A **faucet** is a website or app that provides a small amount of tokens at the r
 
 ### Purpose
 
-_Crypto faucets exist to introduce people to the concept of Bitcoin or cryptocurrencies._
+Crypto faucets exist to introduce people to the concept of Bitcoin or cryptocurrencies. By providing tokens of no value \(or occasionally, minimal value\), users can interact with apps that require token ownership.
 
 ### Bitcoin Testnet Faucets
 
-### Section 3
+Currently, there is only one Bitcoin `testnet3` faucet, the Radar Ion Faucet. Previous faucets that were functional include: [coinfaucet.eu](https://coinfaucet.eu/en/btc-testnet/); [uo1.net](https://bitcoinfaucet.uo1.net/); [tpfaucet](http://tpfaucet.appspot.com/); and [backend.hamburg](https://testnet.manu.backend.hamburg/faucet).
 
 ## Resources
 
 ### See also
 
+
+
 ## References
+
+\[1\] [https://coinfaucet.eu/en/btc-testnet/](https://coinfaucet.eu/en/btc-testnet/)
+
+\[2\] [https://bitcoinfaucet.uo1.net/](https://bitcoinfaucet.uo1.net/)
+
+\[3\] [http://tpfaucet.appspot.com/](http://tpfaucet.appspot.com/)
+
+\[4\] [https://testnet.manu.backend.hamburg/faucet](https://testnet.manu.backend.hamburg/faucet)
+
+
 

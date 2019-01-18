@@ -27,11 +27,11 @@ Participation in the [Lightning Network](../lightning-basics/lightning-network.m
 
 ### Existing Implementations
 
-**lnd**, a BOLT-compliant Lightning node by Lightning Labs written in Golang [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd)
+\*\*\*\*[**lnd**](lnd/), a BOLT-compliant Lightning node by Lightning Labs written in Golang [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd)
 
-**c-lightning**, a BOLT-compliant Lightning node by Blockstream written in C [https://github.com/ElementsProject/lightning](https://github.com/ElementsProject/lightning)
+\*\*\*\*[**c-lightning**](c-lightning.md), a BOLT-compliant Lightning node by Blockstream written in C [https://github.com/ElementsProject/lightning](https://github.com/ElementsProject/lightning)
 
-**Eclair**, a BOLT-compliant Lightning node by ACINQ written in Scala [https://github.com/ACINQ/eclair](https://github.com/ACINQ/eclair)
+\*\*\*\*[**Eclair**](eclair.md), a BOLT-compliant Lightning node by ACINQ written in Scala [https://github.com/ACINQ/eclair](https://github.com/ACINQ/eclair)
 
 **Ptarmigan**, a BOLT-compliant Lightning node by written in C++ [https://github.com/nayutaco/ptarmigan](https://github.com/nayutaco/ptarmigan)
 
