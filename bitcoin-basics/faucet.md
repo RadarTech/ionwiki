@@ -25,6 +25,10 @@ A **faucet** is a website or app that provides a small amount of tokens at the r
 
 ## Details
 
+### History
+
+The first bitcoin faucet was called _The Bitcoin Faucet_and was developed by Gavin Andresen in 2010. It originally gave out 5 bitcoins per person.
+
 ### Purpose
 
 Crypto faucets exist to introduce people to the concept of Bitcoin or cryptocurrencies. By providing tokens of no value \(or occasionally, minimal value\), users can interact with apps that require token ownership.
@@ -48,6 +52,8 @@ Currently, there is only one Bitcoin `testnet3` faucet, the Radar Ion Faucet. Pr
 \[3\] [http://tpfaucet.appspot.com/](http://tpfaucet.appspot.com/)
 
 \[4\] [https://testnet.manu.backend.hamburg/faucet](https://testnet.manu.backend.hamburg/faucet)
+
+\[5\] [Free Bitcoins Archive](https://web.archive.org/web/20100703032414/http://freebitcoins.appspot.com/)
 
 
 

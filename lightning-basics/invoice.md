@@ -21,12 +21,22 @@ category: null
 
 ## Overview
 
-  
 An invoice represents a request for funds on the Lightning Network. Invoices include numerous parameters, both required and optional, such as payment amount, chain, expiry date, payee [pubkey](../bitcoin-basics/pubkey.md), [routing hints](payment-routing.md#routing-hints), and other information. Invoices are used to make payments on the Lightning Network, rather than using [Bitcoin-style addresses](../bitcoin-basics/bitcoin-address-formats.md). 
 
 Invoices are commonly presented as alphanumerical strings or QR codes. In order to parse specific information from the request string, users can pass the string into a decoding tool \[1\].
 
 ## Details
+
+### Components
+
+Every Lightning invoice requires the following information in order to be valid: 
+
+* `destination`: The public key of the person receiving the LN payment.
+* `payment_hash`: The hash of the preimage that is used to lock the payment. You can only redeem a locked payment with the corresponding preimage to the payment hash. This enables routing on the Lightning Network without trusted third parties.
+* `num_satoshis`: The amount of satoshis to be paid.
+* `expiry`: Time when your node marks the invoice as invalid. Default is 1 hour or 3600 seconds.
+* `timestamp`: Time when the invoice was created.  This is measured in [seconds since 1970](https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md#data-part).
+* `cltv_expiry`: Delta to use for time-lock of CLTV extended to the final hop.
 
 ### Example Invoice
 
@@ -95,8 +105,6 @@ Below is a sample invoice decoded using an invoice decoding tool. The standard f
 
 ### Section 2
 
-### Section 3
-
 ## Resources
 
 Lightning Decoder
@@ -109,7 +117,11 @@ Lightning Payment Request Decoder
 
 ### See also
 
+[Lightning Network Invoices](https://blockfuse.io/blog/lightning-network-invoices/)
+
 ## References
 
 \[1\] [Lightning Decoder](https://lightningdecoder.com/)
+
+\[2\] [BOLT \#11](https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md)
 

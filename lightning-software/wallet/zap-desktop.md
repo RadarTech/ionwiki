@@ -35,7 +35,7 @@ Zap supports autopilot configuration, remote node connection, BTCPay support, an
 
 ![Screenshot from Zap Desktop on macOS](../../.gitbook/assets/zap-screenshot2.png)
 
-Zap walks users through the creation of a wallet and Lightning-compatible node. 
+Zap walks users through the creation of a wallet and also has autopilot functionality. 
 
 ### Tech Stack
 

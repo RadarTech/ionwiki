@@ -21,26 +21,31 @@ category: null
 
 ## Overview
 
-
-
-* _The Closing Transaction closes the channel. When broadcast, the multisig address spends the funds back to Alice and Bob according to their agreed-upon channel amount._
-* _A transaction generated as part of a mutual close. A closing transaction is similar to a commitment transaction, but with no pending payments._
-* _See related: commitment transaction, funding transaction, penalty transaction_
+To close an established channel on the Lightning Network, a closing transaction must be initiated. On top of a normal, mutual close, there are other transactions that come into play.
 
 ## Details
 
-### Section 1
+### Mutual Close
 
-### Section 2
+In a mutual close, both channel participants agree a cooperative close, where final channel amounts are settled on-chain. 
 
-### Section 3
+### Unilateral Close
+
+In an uncooperative close of a channel, a peer broadcasts a commitment transaction. 
+
+### Revoked Transaction Close
+
+An invalid close of a channel, accomplished by broadcasting a revoked commitment transaction. Since the other peer knows the commitment revocation secret key, it can create a penalty transaction.
+
+### Penalty Transaction
+
+A transaction that spends all outputs of a revoked commitment transaction, using the commitment revocation private key. A peer uses this if the other peer tries to "cheat" by broadcasting a revoked commitment transaction.
+
+
 
 ## Resources
 
-### Key People
 
-* [Person 1](channel-closing.md)
-* [Person 2](channel-closing.md)
 
 ### See also
 

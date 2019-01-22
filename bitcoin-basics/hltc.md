@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-A **Hashed TimeLock Contract** or **HTLC** is a class of payments that allow transactions to be sent between parties who do not have a direct channel on the Lightning Network. HTLC's rely on the fact that an individual can structure a payment such that another party can only accept it if the party knows the secret whose hash has been shared with them.
+A **Hashed TimeLock Contract** or **HTLC** is a class of payments that allow transactions to be sent between parties who do not have a direct [channel ](../lightning-basics/payment-channel.md)on the Lightning Network. HTLC's rely on the fact that an individual can structure a payment such that another party can only accept it if the party knows the secret whose hash has been shared with them.
 
 HTLC's use hashlocks and timelocks to require that the receiver of a payment either acknowledges receiving the payment prior to a deadline by generating cryptographic proof of payment or forfeits the ability to claim the payment, returning it to the payer. Because any receipt of funds triggers the creation of a new hash, this idea can be extended to allow a sequence of payments; with the right conditionality, payments can be securely routed through a series of users.
 

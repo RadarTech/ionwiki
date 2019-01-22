@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-The **Basis of Lightning Technology** is a standardized technical specification for the implementation of the Lightning Network. The specifications are currently a work-in-progress, and are continually being iterated upon as projects like [**lnd**](../lightning-software/lnd/) and [**c-lightning**](../lightning-software/c-lightning.md) are built in parallel.
+The **Basis of Lightning Technology** is a standardized technical specification for the implementation of the Lightning Network. The standards define how various implementations would interoperate on the same network. The specifications are currently a work-in-progress, and are continually being iterated upon as projects like [**lnd**](../lightning-software/lnd/) and [**c-lightning**](../lightning-software/c-lightning.md) are built in parallel.
 
 ## Details
 
