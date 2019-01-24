@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-**`lnd`**, or the Lightning Network Daemon, is a complete implementation of a BOLT-compliant Lightning Network node developed by Lightning Labs. It is currently deployed on the Bitcoin Test Network `testnet3`. `lnd` 0.1 alpha was released on January 11th, 2017, and since has been in active beta development. 
+**`lnd`**, or the Lightning Network Daemon, is a complete implementation of a BOLT-compliant Lightning Network node developed by Lightning Labs. It is currently deployed on the Bitcoin Test Network `testnet3` and on mainnet. `lnd` 0.1 alpha was released on January 11th, 2017, and since has been in active beta development. 
 
 ## Details
 
@@ -40,15 +40,9 @@ At the time of writing, January 14th, 2018, `lnd` is capable of:
 * Updating advertised fee schedules.
 * Automatic channel management \([`autopilot`](https://github.com/lightningnetwork/lnd/tree/master/autopilot)\).
 
-### _Developer Resources_
+### Developer Resources
 
-_The `lnd` daemon has been designed to be as developer friendly as possible in order to facilitate application development. Two primary RPC interfaces are exported: an HTTP REST API, and a_ [_gRPC_](https://grpc.io/) _service. The exported API's are not yet stable, so be warned: they may change drastically in the near future._
-
-_An automatically generated set of documentation for the RPC APIs can be found at_ [_api.lightning.community_](https://api.lightning.community/)_._ 
-
-_Finally, we also have an active_ [_Slack_](https://join.slack.com/t/lightningcommunity/shared_invite/enQtMzQ0OTQyNjE5NjU1LWRiMGNmOTZiNzU0MTVmYzc1ZGFkZTUyNzUwOGJjMjYwNWRkNWQzZWE3MTkwZjdjZGE5ZGNiNGVkMzI2MDU4ZTE) _where protocol developers, application developers, testers and users gather to discuss various aspects of `lnd` and also Lightning in general._
-
-### Additional Features
+Lightning Labs has created multiple developer resources to facilitate application development. Alongside their two RPC interfaces \(a HTTP REST API and a gRPC service\), Lightning Labs has supporting documentation and a healthy ecosystem of developer tools.
 
 ## Resources
 
@@ -64,10 +58,15 @@ A set of developer resources including talks, articles, and example applications
 ### See also
 
 * [Lightning Labs](https://lightning.engineering/)
+* [Lightning Dev Slack](https://join.slack.com/t/lightningcommunity/shared_invite/enQtMzQ0OTQyNjE5NjU1LWRiMGNmOTZiNzU0MTVmYzc1ZGFkZTUyNzUwOGJjMjYwNWRkNWQzZWE3MTkwZjdjZGE5ZGNiNGVkMzI2MDU4ZTE)
 
 
 
 ## References
 
-\[1\] 
+\[1\] [https://lightning.engineering/](https://lightning.engineering/)
+
+\[2\] [https://dev.lightning.community/](https://dev.lightning.community/)
+
+\[3\] [https://api.lightning.community/](https://api.lightning.community/)
 

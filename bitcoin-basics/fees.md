@@ -33,92 +33,31 @@ These include:
 
 ### Single Channel Transactions
 
-Transactions between parties in an established channel never incur fees. 
+Transactions between parties in an established channel never incur fees. As transactions occur between the two parties, the channel balance is updated without the need for fee allocation. 
 
 ### Routed Transactions
 
-Fee calculation for payments routed through other nodes is determined by node operators.
+Fee calculation for payments routed through other nodes is determined by node operators. Node operators can set any fee. As a multi-hop payment is calculated, fees can be taken into account. 
 
-Fees are determined by the node operators. It's a free market, you can set whatever fee you want. Of course there's lots of competition, so if you want people to route payments through you, you should set a low or no fee.
-
-I'd simply like to expand on Andrew's answer and mention that the routing algorithm used to find the various hops towards your final destination payment will also impact your resulting fee.
-
-The idea is that channels sometimes become almost exhausted - where most of the money is pushed towards one direction. This is bad for people because it would mean that their channels cannot be reused; you'd have to open a new channel for new payments, hence on-chain transactions.
-
-If a channel is almost exhausted, the person of the channel with less money \(exhausted towards her\) will want payments routed towards her to allow her channel to be full again so she can make more payments on that same channel without reopening a new one.
-
-She will actually want to pay if someone chooses her channel to route their payments -- hence sometimes you'll have negative fees.
-
-This means that a routing algorithm will actually look for paths where you actually get paid \(negative fees\) because you'd be rebalancing some channels along the way.
+The routing algorithm used to find the various hops towards a final destination payment will also impact your resulting fee. Due to channel exhaustion \(an imbalance in a channel\), the routing algorithm will look for paths where transacting users get paid because the transaction would be rebalancing channels along the way. In some cases, fees on Lightning may be negative.
 
 ### On-Chain Transactions
 
-Transactions for opening and closing channels are settled on the Bitcoin blockchain, and thus, incur fees that are based on the bitcoin network. Fees are included with your on-chain transaction in order to have your transaction processed by a miner and confirmed by the Bitcoin network. 
+Transactions for opening and closing channels are settled on the Bitcoin blockchain, and thus, incur fees that are based on the Bitcoin network capacity. Fees are included with your on-chain transaction and are required in order to have your transaction processed by a miner and confirmed by the Bitcoin network. 
 
 There is a limited amount of space available for transactions in a block, so in order to get a transaction processed quickly, users will have to outbid other transaction requests.
 
-_**Requirements**_
+### Fee Payment
 
-_The fee for an HTLC-timeout transaction:_
+Base commitment transaction fees are extracted from the funder's amount. If that amount is insufficient, the whole amount of the funder's output is used.
 
-* _MUST BE calculated to match:_
-  1. _Multiply `feerate_per_kw` by 663 and divide by 1000 \(rounding down\)._
-
-_The fee for an HTLC-success transaction:_
-
-* _MUST BE calculated to match:_
-  1. _Multiply `feerate_per_kw` by 703 and divide by 1000 \(rounding down\)._
-
-_The base fee for a commitment transaction:_
-
-* _MUST be calculated to match:_
-  1. _Start with `weight` = 724._
-  2. _For each committed HTLC, if that output is not trimmed as specified in_ [_Trimmed Outputs_](https://github.com/lightningnetwork/lightning-rfc/blob/master/03-transactions.md#trimmed-outputs)_, add 172 to `weight`._
-  3. _Multiply `feerate_per_kw` by `weight`, divide by 1000 \(rounding down\)._
-
-_**Example**_
-
-_For example, suppose there is a `feerate_per_kw` of 5000, a `dust_limit_satoshis` of 546 satoshis, and a commitment transaction with:_
-
-* _two offered HTLCs of 5000000 and 1000000 millisatoshis \(5000 and 1000 satoshis\)_
-* _two received HTLCs of 7000000 and 800000 millisatoshis \(7000 and 800 satoshis\)_
-
-_The HTLC-timeout transaction `weight` is 663, and thus the fee is 3315 satoshis. The HTLC-success transaction `weight`is 703, and thus the fee is 3515 satoshis_
-
-_The commitment transaction `weight` is calculated as follows:_
-
-* _`weight` starts at 724._
-* _The offered HTLC of 5000 satoshis is above 546 + 3315 and results in:_
-  * _an output of 5000 satoshi in the commitment transaction_
-  * _an HTLC-timeout transaction of 5000 - 3315 satoshis that spends this output_
-  * _`weight` increases to 896_
-* _The offered HTLC of 1000 satoshis is below 546 + 3315 so it is trimmed._
-* _The received HTLC of 7000 satoshis is above 546 + 3515 and results in:_
-  * _an output of 7000 satoshi in the commitment transaction_
-  * _an HTLC-success transaction of 7000 - 3515 satoshis that spends this output_
-  * _`weight` increases to 1068_
-* _The received HTLC of 800 satoshis is below 546 + 3515 so it is trimmed._
-
-_The base commitment transaction fee is 5340 satoshi; the actual fee \(which adds the 1000 and 800 satoshi HTLCs that would make dust outputs\) is 7140 satoshi. The final fee may be even higher if the `to_local` or `to_remote` outputs fall below `dust_limit_satoshis`._
-
-#### _Fee Payment_
-
-_Base commitment transaction fees are extracted from the funder's amount; if that amount is insufficient, the entire amount of the funder's output is used._
-
-_Note that after the fee amount is subtracted from the to-funder output, that output may be below `dust_limit_satoshis`, and thus will also contribute to fees._
-
-_A node:_
-
-* _if the resulting fee rate is too low:_
-  * _MAY fail the channel._
+After the fee amount is subtracted from the to-funder output, that output may be below the dust limit, and thus will also contribute to fees.
 
 ## Resources
 
-
-
-### See also
-
-\[1\] [Historical Bitcoin Fees](https://bitcoinfees.info/)
+[Historical Bitcoin Fees](https://bitcoinfees.info/)
 
 ## References
+
+\[1\] [https://github.com/lightningnetwork/lightning-rfc/blob/064d6feed036de192f71cf6854e00f33361b6090/03-transactions.md](https://github.com/lightningnetwork/lightning-rfc/blob/064d6feed036de192f71cf6854e00f33361b6090/03-transactions.md)
 

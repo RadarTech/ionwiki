@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-A **Bitcoin address** is an identifier that represents a destination for a Bitcoin payment. They are represented by a series of alphanumeric characters. Addresses can be generated at no cost by any user of Bitcoin, and .
+A **Bitcoin address** is an identifier that represents a destination for a Bitcoin payment. They are represented by a series of alphanumeric characters. Addresses can be generated at no cost by any user.
 
 ## Details
 
@@ -35,13 +35,11 @@ _Private Key Hexadecimal Format \(64 characters \[0-9A-F\]\): `C8B9FC507B27D1C19
 
 _Private Key Base64 \(44 characters\):_ `yLn8UHsn0cGUt/Lr5JQaJfoom/eQ6++rh0+Tet4+5AM=`
 
-### Section 2
-
-### Section 3
-
 ## Resources
 
-### See also
+[https://en.bitcoin.it/wiki/Technical\_background\_of\_version\_1\_Bitcoin\_addresses](https://en.bitcoin.it/wiki/Technical_background_of_version_1_Bitcoin_addresses)
 
 ## References
+
+\[1\] [https://en.bitcoin.it/wiki/List\_of\_address\_prefixes](https://en.bitcoin.it/wiki/List_of_address_prefixes)
 

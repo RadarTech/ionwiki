@@ -21,13 +21,13 @@ category: null
 
 ## Overview
 
-To close an established channel on the Lightning Network, a closing transaction must be initiated. On top of a normal, mutual close, there are other transactions that come into play.
+To **close** an established channel on the Lightning Network, a closing transaction must be initiated. On top of a normal mutual close, there are other ways to close a channel.
 
 ## Details
 
 ### Mutual Close
 
-In a mutual close, both channel participants agree a cooperative close, where final channel amounts are settled on-chain. 
+In a mutual close, both channel participants agree to a cooperative close, where final channel amounts are settled on-chain. Both participants sign a digital signature that then authorizes the on chain settlement transaction.
 
 ### Unilateral Close
 
@@ -41,13 +41,13 @@ An invalid close of a channel, accomplished by broadcasting a revoked commitment
 
 A transaction that spends all outputs of a revoked commitment transaction, using the commitment revocation private key. A peer uses this if the other peer tries to "cheat" by broadcasting a revoked commitment transaction.
 
-
-
 ## Resources
 
-
-
-### See also
+[BOLT \#0, Introduction and Index](https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md)
 
 ## References
+
+\[1\] [https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md](https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md)
+
+
 

@@ -19,8 +19,6 @@ category: null
 
 ## Details
 
-[Eclair Wallet Play Store Link](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
-
 ### Stats
 
 * Platforms: Android
@@ -31,6 +29,8 @@ category: null
 * Channel Backup: Google Drive
 
 ## Resources
+
+[Eclair Wallet Play Store Link](https://play.google.com/store/apps/details?id=fr.acinq.eclair.wallet.mainnet2)
 
 [https://github.com/ACINQ/eclair-mobile](https://github.com/ACINQ/eclair-mobile)
 

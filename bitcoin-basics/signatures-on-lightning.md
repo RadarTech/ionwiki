@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-A **digital signature** is a mathematical scheme for demonstrating the authenticity of a digital message or document. A valid digital signature gives a recipient reason to believe that the message was created by a known sender \(authentication\), that the sender cennot deny having sent the message \(nonrepudiation\) and that the message was not altered in transit \(integrity\).
+A **digital signature** is a mathematical concept used to demonstrate the authenticity of a digital document. A valid digital signature gives a recipient reason to believe that the message was created by a known sender \(authentication\), that the sender cannot deny having sent the message \(nonrepudiation\) and that the message was not altered in transit \(integrity\).
 
 ## Details
 
@@ -33,23 +33,23 @@ The digital signature algorithm used in Bitcoin is the Elliptic Curve Digital Si
 
 ### Signatures on Lightning
 
-### Section 3
+Digital signatures are an integral element of the multi-sig holder address created in the establishment of a [channel](../lightning-basics/payment-channel.md). Two verified digital signatures are required to create the channel, as well as initiate the [closing transaction](../lightning-channels/channel-closing.md). All fund settling, transacted on-chain, requires a digital signature.
 
 ## Resources
 
-Digital Signatures \(Wikipedia\)
+[Digital Signatures \(Wikipedia\)](https://en.wikipedia.org/wiki/Digital_signature)
 
-Digital Signatures \(Mastering Bitcoin\)
+[Digital Signatures \(Mastering Bitcoin\)](https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch06.asciidoc)
 
 ### See also
 
-Signature Hash Types \(SIGHASH\)
+[Signature Hash Types \(SIGHASH\)](https://bitcoin.org/en/glossary/signature-hash)
 
 ## References
 
-\[1\] 
+\[1\] [https://en.wikipedia.org/wiki/Digital\_signature](https://en.wikipedia.org/wiki/Digital_signature)
 
-\[2\]
+\[2\] [https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch06.asciidoc](https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch06.asciidoc)
 
-\[3\] 
+
 

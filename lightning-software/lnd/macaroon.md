@@ -21,32 +21,27 @@ category: null
 
 ## Overview
 
-A **macaroon** is an identifier tied to a Lightning node that can . A macaroon is similar to a cookie, but unlike a traditional browser cookie, a macaroon can be created to have limited capabilities and then sent to others to use.
-
-from [https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md](https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md)
-
-_You can think of a **macaroon** as a cookie, in a way. Cookies are small bits of data that your browser stores and sends to a particular website when it makes a request to that website. If you're logged into a website, that cookie can store a session ID, which the site can look up in its own database to check who you are and give you the appropriate content._
-
-_A macaroon is similar: it's a small bit of data that a client \(like `lncli`\) can send to a service \(like `lnd`\) to assert that it's allowed to perform an action. The service looks up the macaroon ID and verifies that the macaroon was initially signed with the service's root key. However, unlike a cookie, you can delegate a macaroon, or create a version of it that has more limited capabilities, and then send it to someone else to use._
-
-_Just like a cookie, a macaroon should be sent over a secure channel \(such as a TLS-encrypted connection\), which is why we've also begun enforcing TLS for RPC requests in this release. Before SSL was enforced on websites such as Facebook and Google, listening to HTTP sessions on wireless networks was one way to hijack the session and log in as that user, gaining access to the user's account. Macaroons are similar in that intercepting a macaroon in transit allows the interceptor to use the macaroon to gain all the privileges of the legitimate user._ 
+A **macaroon** is an identifier tied to a Lightning node that can interface with services and allow actions to be performed. A macaroon is similar to a cookie, but unlike a traditional browser cookie, a macaroon can be created to have limited capabilities and then sent to others to use.
 
 ## Details
 
-### Structure
+### Delegation
+
+When a macaroon is created, delegations are created by adding restrictions \(called caveats\) and an authentication code similar to a digital signature.
+
+Sharing a macaroon allows anyone in possession of that macaroon to use it to access `lnd` to do anything permitted by the macaroon. There is a specific type of restriction, called a "third party caveat," that requires an external service to verify the request; however, `lnd` does not currently support implementation of those caveats.
+
+If a caveat is added to a macaroon and shared, the person receiving it cannot remove the caveat.
 
 ### Encryption
 
-### Section 3
+A macaroon should be sent over a secure channel. `lnd` enforces TLS for RPC requests, attempting to ensure security across the Lightning platform. Intercepting a macaroon allows the interceptor to use the macaroon to gain all privileges of the legitimate user.
 
 ## Resources
 
-### Key People
-
-* [Person 1](macaroon.md)
-* [Person 2](macaroon.md)
-
-### See also
+[Macaroon Technical Overview](https://github.com/lightningnetwork/lnd/blob/master/macaroons/README.md)
 
 ## References
+
+\[1\] [https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md](https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md)
 

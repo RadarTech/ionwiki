@@ -21,13 +21,13 @@ category: null
 
 ## Overview
 
+A **pubkey** is a public portion of a keypair which can be used to verify [signatures](signatures-on-lightning.md) made with the private portion of the keypair.
+
 ## Details
 
-### Section 1
+### Public and Private Keys
 
-### Section 2
 
-### Section 3
 
 ## Resources
 

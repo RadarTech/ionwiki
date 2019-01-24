@@ -21,6 +21,8 @@ category: null
 
 ## Overview
 
+_State channels enhance blockchain performance by taking state-modifying operations off of a blockchain and executing them directly between defined sets of participants. Payment channels were the first type of state channel to be described, using off-chain interactions to modify ownership of locked Bitcoin, thereby allowing users to make “off-chain payments” to each other.The term “state channels” generalizes this approach beyond payments, encompassing all types of blockchain state modification which operate within a security paradigm comparable to that of the payment channel._
+
 ## Details
 
 ### Section 1

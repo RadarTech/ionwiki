@@ -52,8 +52,6 @@
   * [Theft \(on Lightning Network\)](troubleshooting/theft-on-lightning-network.md)
 * [Lightning R&D](lightning-r-and-d/README.md)
   * [Lightning Appliance](lightning-r-and-d/lightning-appliance.md)
-  * [Atomic multi-path payments \(AMP\)](lightning-r-and-d/atomic-multi-path-payments-amp.md)
-  * [Channel Autopilot](lightning-r-and-d/auto-pilot-channels.md)
   * [Submarine Swap](lightning-r-and-d/submarine-swap.md)
   * [Watchtowers](lightning-r-and-d/watchtower.md)
   * [Channel Factories](lightning-r-and-d/channel-factory.md)

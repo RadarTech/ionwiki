@@ -21,7 +21,9 @@ category: null
 
 ## Overview
 
-A hash algorithm turns an arbitrary amount of data into a fixed-length **hash**. A hash is a fingerprint of the input data, and the same hash will always result from the same data. Like all computer data, hashes are large numbers, and are usually written in hexadecimal.
+A hash algorithm turns an arbitrary amount of data into a fixed-length **hash**. A hash is a fingerprint of the input data, and the same hash will always result from the same data. A hash algorithm is designed to be a one-way function.
+
+Like all computer data, hashes are large numbers, and are usually written in hexadecimal.
 
 ## Details
 
@@ -29,16 +31,9 @@ A hash algorithm turns an arbitrary amount of data into a fixed-length **hash**.
 
 Bitcoin uses the SHA-256 algorithm to generate hashes. 
 
-### Section 2
-
-### Section 3
-
 ## Resources
 
-### Key People
-
-* [Person 1](hash.md)
-* [Person 2](hash.md)
+[SHA-256 Hash Generator](https://www.movable-type.co.uk/scripts/sha256.html)
 
 ### See also
 

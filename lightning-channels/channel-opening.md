@@ -23,21 +23,11 @@ category: null
 
 **Opening a channel** between two parties on the Lightning network begins with sending an on-chain transaction to a multisig address controlled by the channel's participants. This initial funding transaction creates the channel that are controlled by both parties. The shared address can be funded as a single-payer channel, or by both parties involved.
 
-_Opening a channel involves sending an on-chain transaction \(with a multisig output controlled by the channel’s participants\), so when the channel is ‘pending’ it simply means this transaction is not yet confirmed. How long it takes the transaction to confirm depends on the same factors as any other transaction._
-
-_Further, the participants will often wait for a certain number of transaction confirmations before starting to make channel payments. The number of confirmations required is negotiated in the `minimum_depth` parameter of the `accept_channel` message. From BOLT 2:_
-
-> _The `funding_locked` message indicates that the funding transaction has reached the `minimum_depth` asked for in `accept_channel`. Once both nodes have sent this, the channel enters normal operating mode_
-
-* _The Funding Transaction creates the channel. During this stage, funds are sent into a multisig address controlled by both Alice and Bob, the counterparties to the channel. This address can be funded as a single-payer channel or by both Alice and Bob._
-
-
-
 ## Details
 
 ### Transaction Confirmation
 
-Initial 
+The initial funding transaction creates the channel that is controlled by both parties. This transaction is performed on-chain and is subject to traditional transaction fees and resolving times. The participants in the channel will often wait for a certain number of transaction confirmations before making channel payments. The number of confirmations required is negotiated in initial channel parameters.
 
 ### Autopilot
 
@@ -45,16 +35,19 @@ Lightning Network implementations can be equipped with 'autopilot' functionality
 
 Autopilot features require criteria to select which nodes to establish channels with. These criteria vary across implementation and wallet software. Criteria could include uptime, measures of channel connectivity, fee levels, outbound channel volume, and relative position in the network. 
 
-### Section 3
-
 ## Resources
 
-### Key People
-
-* [Person 1](channel-opening.md)
-* [Person 2](channel-opening.md)
+[Lightning Network Introduction](https://lightning.network/#intro)
 
 ### See also
 
+[Lightning Channel FAQ](https://medium.com/@The1Brand7/lightning-faq-67bd2b957d70)
+
 ## References
+
+\[1\] [https://bitcoinmagazine.com/articles/understanding-the-lightning-network-part-building-a-bidirectional-payment-channel-1464710791/](https://bitcoinmagazine.com/articles/understanding-the-lightning-network-part-building-a-bidirectional-payment-channel-1464710791/)
+
+\[2\] [https://counterparty.io/docs/paymentchannels-lightning-faq/](https://counterparty.io/docs/paymentchannels-lightning-faq/)
+
+\[3\] [https://medium.com/@rusty\_lightning/bitcoin-lightning-things-to-know-e5ea8d84369f](https://medium.com/@rusty_lightning/bitcoin-lightning-things-to-know-e5ea8d84369f)
 

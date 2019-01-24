@@ -21,11 +21,13 @@ category: null
 
 ## Overview
 
+**Operation codes** originate from the Bitcoin Script language which pushes data or performs functions within a [pubkey script](https://bitcoin.org/en/glossary/pubkey-script) or [signature script](https://bitcoin.org/en/glossary/signature-script).
+
 ## Details
 
-### Section 1
+### Pubkey Script
 
-### Section 2
+### Signature Script
 
 ### Section 3
 

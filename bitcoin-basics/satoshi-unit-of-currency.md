@@ -41,6 +41,8 @@ According to ribuck, Satoshi Nakamoto referred to the base unit simply as a "coi
 
 ## Resources
 
+[Satoshi, Bitcoin Wiki](https://en.bitcoin.it/wiki/Satoshi_%28unit%29)
+
 ### See also
 
 [Satoshi to Bitcoin unit converter](http://satoshitobitcoin.co/)

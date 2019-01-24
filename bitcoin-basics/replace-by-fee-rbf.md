@@ -21,30 +21,21 @@ category: null
 
 ## Overview
 
-[https://en.bitcoin.it/wiki/Replace\_by\_fee](https://en.bitcoin.it/wiki/Replace_by_fee)
-
-_Since Bitcoin's original inception, it has supported the concept that an unconfirmed transaction may be modified and re-issued. This concept is known as "transaction replacement", because the new transaction replaces the old one. However, since transaction replacement eliminates the cost to all previous transactions being replaced, it created a DoS risk: attackers could produce as many transactions as they wanted, while only paying the fee for the one variant that was eventually mined._
-
-_To solve this problem, the concept of replace-by-fee was developed: by requiring replacements to pay for not only its own cost, but also the fee of the transactions being replaced, the DoS risk was strictly less than the risk of flooding with separate transactions._
+**Replace-by-fee** replaces one version of an unconfirmed transaction with a different version that pays a higher transaction fee. Often, RBF comes into play when a particular transaction is desired to be confirmed faster.
 
 ## Details
 
-### Section 1
+Bitcoin supports the concept that an unconfirmed transaction may be modified and reissued. Transaction replacement has been a critical element of the Bitcoin protocol since inception. 
 
-### Section 2
-
-### Section 3
+When a user replaces a transaction by fee, the previous transaction outputs and inputs are kept -- the only difference is a higher fee as an incentive for miners.
 
 ## Resources
 
-### Key People
-
-* [Person 1](replace-by-fee-rbf.md)
-* [Person 2](replace-by-fee-rbf.md)
-
-### See also
+[Replace by Fee, Bitcoin Wiki](https://en.bitcoin.it/wiki/Replace_by_fee)
 
 ## References
 
-[https://github.com/bitcoin/bips/blob/master/bip-0125.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0125.mediawiki)
+\[1\] [https://bitcoin.org/en/glossary/rbf](https://bitcoin.org/en/glossary/rbf)
+
+\[2\] [https://github.com/bitcoin/bips/blob/master/bip-0125.mediawiki](https://github.com/bitcoin/bips/blob/master/bip-0125.mediawiki)
 
