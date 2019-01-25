@@ -21,22 +21,13 @@ category: null
 
 ## Overview
 
-## Details
-
-### Section 1
-
-### Section 2
-
-### Section 3
+When sending a payment, payment failures may be encountered due to a variety of reasons. See [error codes](error-codes.md) for types.
 
 ## Resources
 
-### Key People
-
-* [Person 1](payment-failures.md)
-* [Person 2](payment-failures.md)
-
-### See also
+[Lightning Network API](https://api.lightning.community/)
 
 ## References
+
+\[1\] [https://github.com/lightningnetwork/lightning-rfc](https://github.com/lightningnetwork/lightning-rfc)
 
