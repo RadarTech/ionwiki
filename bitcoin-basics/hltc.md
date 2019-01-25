@@ -39,7 +39,24 @@ Hashlocks restrict the spending of an output until a specified piece of data is 
 
 ### Timelock
 
-Timelocks are restrictions on transactions or outputs that only allow spending after a point in time. With HTLC's, timelocks ensure that routed payments cannot be claimed by intermediate nodes. Timelocks require the production of a verifiable digital signature before a certain time. 
+Timelocks are restrictions on transactions or outputs that only allow spending after a point in time. Timelocks ensure that routed payments cannot be claimed by intermediate nodes. Timelocks require the production of a verifiable digital signature before a certain time. 
+
+If the secret is not revealed, the payer of the HTLC can get a “refund” after some time. This is achieved with an absolute time lock using `CHECKLOCKTIMEVERIFY`.
+
+### HTLC Code
+
+An HTLC is an additional output in a Commitment Transaction with a unique output script:
+
+```text
+OP IF
+    OP HASH160 <Hash160 (R)> OP EQUALVERIFY
+    2 <Alice2> <Bob2> OP CHECKMULTISIG
+OP ELSE
+    2 <Alice1> <Bob1> OP CHECKMULTISIG
+OP ENDIF
+```
+
+Conceptually, this script has two possible paths spending from a single HTLC output. The first path \(defined in the `OP IF`\) sends funds to Bob if Bob can produce R. The second path is redeemed using a 3-day timelocked refund to Alice. The 3-day timelock is enforced using nLockTime from the spending transaction.
 
 ### Issues
 
@@ -47,7 +64,7 @@ For all payments between two parties, HTLCs require hashlocks to be resolved and
 
 ## Resources
 
-
+[HTLCs in the Lightning Network Whitepaper](https://lightning.network/lightning-network-paper.pdf)
 
 ## References
 

@@ -27,23 +27,23 @@ category: null
 
 ## Details
 
-The blockchain uses significantly more computing space and processing time than traditional data security protocols. In the early years of the blockchain, individuals or groups could spam the chain with enormous numbers of microtransactions for little to no cost, effectively clogging the block chain and denying the service to anyone trying to exchange tokens. An example of this was the 2015 Flood Attack which used a DDoS style attack to interrupt the functionality of the chain. Dust limits fixed this by imposing minimum amounts for transactions.  
+In the early years of the blockchain, users could spam the chain with enormous numbers of microtransactions for little to no cost, effectively clogging transaction processing and denying valid transaction processing. An example of this was the 2015 Flood Attack which used a DDoS style attack to interrupt transaction confirmation and processing. Dust limits fixed this by imposing minimum amounts for transactions.  
 
 
-The dust limit created circulation problems for token users. As token usage increases, dust also increases which takes tokens out of circulation. More dust means less tokens available for trading. Efforts to decrease the dust limit in order to eliminate excess dust have occured, notably BTC lowering its dust limit from 5460 satoshi to 546. Other proposed solutions involve ways to combine tiny wallet sums into a larger transaction, but this solution advocates reusing token addresses which creates financial privacy concerns.  
+The dust limit created circulation problems for token users. As token usage increases, dust also increases which takes tokens out of circulation. More dust means less tokens available for trading. Efforts to decrease the dust limit in order to eliminate excess dust have occurred, notably BTC lowering its dust limit from 5460 satoshis to 546. Other proposed solutions involve ways to combine tiny wallet sums into a larger transaction, but this solution advocates reusing token addresses which creates financial privacy concerns.  
 
 
-Many critics of the dust limit point to the untapped capital in the form of dust. However, there is a general consensus that removing the dust limit is not viable. Without a dust limit, transactions as small as one satoshi would be possible, but the potential for spam and denial of service has prevented removal of dust limits and different strategies are being explored to fix the micro-transaction problem while maintain efficiency.
+Many critics of the dust limit point to the untapped capital in the form of dust. However, there is a general consensus that removing the dust limit is not viable. Without a dust limit, transactions as small as one satoshi would be possible, but the potential for transaction clogging has prevented the removal of dust limits. Different strategies are being explored to fix the micro-transaction problem while maintaining efficiency.
 
 ### Application to Lightning Network
 
-Lightning is an off-chain platform and therefore is less vulnerable to the DDoS attacks that the early blockchain faced. Microtransactions significantly smaller than the current dust limits are allowed. By circumventing the dust limit in an off chain network, dust can more readily be removed and circulation can remain efficient.
+Lightning, circumventing the scaling problems faced by the Bitcoin protocol, enables microtransaction processing and effectively removes the dust limit. By circumventing the dust limit, dust can more readily be removed and circulation can remain efficient.
 
-Once a channel is opened an unlimited number of trades can occur of miniscule size before being reported to the main chain. This means that trades as small as one satoshi, if using BTC, are possible through the Lightning Network.
+Once a channel is opened, an unlimited number of transactions can occur of minuscule size before needing to be settled on-chain. Trades as small as one satoshi \(if using BTC\) are possible through the Lightning Network.
 
 ## Resources
 
-
+[What is meant by Bitcoin Dust?](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by-bitcoin-dust)
 
 ### See also
 

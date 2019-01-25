@@ -25,9 +25,11 @@ To **close** an established channel on the Lightning Network, a closing transact
 
 ## Details
 
-### Mutual Close
+### Cooperative Close
 
 In a mutual close, both channel participants agree to a cooperative close, where final channel amounts are settled on-chain. Both participants sign a digital signature that then authorizes the on chain settlement transaction.
+
+Both parties are able to send as many payments to their counterparty as they wish, as long as they have funds available in the channel, knowing that in the event of disagreements they can broadcast to the blockchain the current state at any time. In the vast majority of cases, all the outputs from the Funding Transaction will never be broadcast on the blockchain. They are just there in case the other party is non-cooperative, much like how a contract is rarely enforced in the courts. A proven ability for the contract to be enforced in a deterministic manner is sufficient incentive for both parties to act honestly. When either party wishes to close out a channel cooperatively, they will be able to do so by contacting the other party and spending from the Funding Transaction with an output of the most current Commitment Transaction directly with no script encumbering conditions. No further payments may occur in the channel.
 
 ### Unilateral Close
 

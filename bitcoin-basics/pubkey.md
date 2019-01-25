@@ -31,10 +31,7 @@ A **pubkey** is a public portion of a keypair which can be used to verify [signa
 
 ## Resources
 
-### Key People
 
-* [Person 1](pubkey.md)
-* [Person 2](pubkey.md)
 
 ### See also
 
