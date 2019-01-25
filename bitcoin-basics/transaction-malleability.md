@@ -21,17 +21,19 @@ category: null
 
 ## Overview
 
-**Transaction malleability** is process of changing the unique identifier of a transaction by changing the digital signature used to create it. It enables unconfirmed transactions to change without making them invalid, which changes the transaction’s txid, making child transactions invalid.
+**Transaction malleability** is process of changing the unique identifier of a transaction by changing the digital signature used to create it. It enables unconfirmed transactions to change without making them invalid. Changing the transaction’s `txid` makes child transactions invalid.
 
 ## Details
 
 ### Transaction Malleability on Lightning
 
-The Lightning Network works by creating a double-signed Bitcoin address. To start the channel, this double-signed address must be funded. To ensure the double-signed address isn’t held captive by an uncooperative counterparty, the first funding transaction is signed by both parties before the funding transaction is sent on-chain.
+Lightning Network channels work by creating a double-signed Bitcoin address and funding it. To initiate a channel, this double-signed address must be funded. 
+
+To ensure the double-signed address isn’t held captive by an uncooperative counterparty, the first funding transaction is signed by both parties before the funding transaction is sent on-chain. 
 
 For the Lightning Network to work, the funding transaction needs to not be broadcast until the double-signed address is created.
 
-The double-signed address refers to the funding transaction’s identifier, so if the funding transaction’s identifier is changed using malleability, the double-signed address will become invalid. This represented a risk in opening a Lightning channel before `segwit` was implemented into the protocol.
+The double-signed address refers to the funding transaction’s identifier, so if the funding transaction’s identifier is changed using [malleability](transaction-malleability.md), the double-signed address will become invalid. This represented a risk in opening a Lightning channel before `segwit` was implemented into the protocol.
 
 ### SegWit
 

@@ -6,7 +6,7 @@ Thank you for considering contributing to the Ion Wiki. It's people like you tha
 
 Following these guidelines helps to establish a standard for high quality, useful content that will last for years to come. Establishing a nexus of information for the Lightning Network is needed; we're all here to make that happen in an organized, high quality way.
 
-#### What type of contributions we're looking for
+### What type of contributions we're looking for
 
 Ion is an open source project and we love to receive contributions from our community!
 

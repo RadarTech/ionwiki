@@ -23,7 +23,7 @@ category: null
 
 The Lightning Network utilizes a number of transactions types that have different potential fees. One of the key publicized advantages of the Lightning Network is the near-zero fees to send payments within the network. 
 
-These include:
+Fee types include:
 
 * Transactions between two participants in a single channel, which never incur fees.
 * Transactions routed between participants in the network via multiple channels, which incur routing fees from intermediate nodes. These fees could be set at zero.

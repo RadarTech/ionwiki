@@ -35,7 +35,17 @@ Participation in the [Lightning Network](../lightning-basics/lightning-network.m
 
 **Ptarmigan**, a BOLT-compliant Lightning node by written in C++ [https://github.com/nayutaco/ptarmigan](https://github.com/nayutaco/ptarmigan)
 
-**LIT**, a non-BOLT-compliant Lightning node by MIT-DCI written in Go [https://github.com/mit-dci/lit](https://github.com/mit-dci/lit) Native multichain support and some other novel features Developed by Tadge Dryja and the Vertcoin Lead Guy
+**LIT**, a non-BOLT-compliant Lightning node by MIT-DCI written in Go [https://github.com/mit-dci/lit](https://github.com/mit-dci/lit) Native multichain support and some other novel features developed by Tadge Dryja
 
 ## References
+
+\[1\] [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd)
+
+\[2\] [https://github.com/ElementsProject/lightning](https://github.com/ElementsProject/lightning)
+
+\[3\] [https://github.com/ACINQ/eclair](https://github.com/ACINQ/eclair)
+
+\[4\] [https://github.com/nayutaco/ptarmigan](https://github.com/nayutaco/ptarmigan)
+
+\[5\] [https://github.com/mit-dci/lit](https://github.com/mit-dci/lit)
 

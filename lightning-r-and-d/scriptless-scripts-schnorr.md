@@ -21,9 +21,11 @@ category: null
 
 ## Overview
 
-[_Scriptless scripts_](http://diyhpl.us/wiki/transcripts/realworldcrypto/2018/mimblewimble-and-scriptless-scripts/) _are a way to encode smart contracts into digital signatures. The entire purpose is to do things without any scripts. Scriptless scripts are completely agnostic to which blockchain they are on, but they do require some sort of digital signature support. This was kind of hinted at during the panel earlier today. What we're doing here is removing these hash preimages, removing these various different script tricks that people use to get atomicity between chains and transactions, and moving those into signatures so that you get something smaller, more efficient, more scalable, more private, and also it's inherently interoperable._
+Scriptless Scripts is that \(fairly\) regular cryptographic signatures can indirectly reveal something that’s not part of the transaction that includes the signature. In other words, when someone signs to validate an ordinary Bitcoin transaction, it holds that a smart contract that is not hosted on the blockchain still executes faithfully.
 
-\_\_
+Scriptless scripts are a way to encode smart contracts into digital signatures. The entire purpose is to do things without any scripts. Scriptless scripts are completely agnostic to which blockchain they are on, but they do require some sort of digital signature support. Scriptless scripts removes these hash preimages, removing these various different script tricks that people use to get atomicity between chains and transactions, and moving those into signatures so that you get something smaller, more efficient, more scalable, more private, and also it's inherently interoperable.
+
+
 
 _In cryptography, a Schnorr signature is a digital signature produced by the Schnorr signature algorithm that was described by Claus Schnorr. It is a digital signature scheme known for its simplicity,\[1\] among the first whose security is based on the intractability of certain discrete logarithm problems.\[1\] It is efficient and generates short signatures._
 

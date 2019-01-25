@@ -21,13 +21,13 @@ category: null
 
 ## Overview
 
-A hash algorithm turns an arbitrary amount of data into a fixed-length **hash**. A hash is a fingerprint of the input data, and the same hash will always result from the same data. A hash algorithm is designed to be a one-way function.
+A hash algorithm turns an arbitrary amount of data into a fixed-length **hash**. A hash is a fingerprint of the input data, and the same fingerprint can always be produced from the same input data. Hashes are essential to cryptographic functions not only on Bitcoin but also on the Lightning Network.
 
 ## Details
 
 ### Bitcoin Hashes
 
-Cryptographic hash functions are used extensively in bitcoin: in bitcoin addresses, in script addresses, and in the mining Proof-of-Work algorithm. Bitcoin uses the SHA-256 algorithm to generate hashes. 
+Cryptographic hash functions are used extensively in Bitcoin: in bitcoin addresses, in script addresses, and in the mining Proof-of-Work algorithm. Bitcoin uses the SHA-256 algorithm to generate hashes. 
 
 ### Private and Public Keys
 
@@ -41,5 +41,7 @@ In private and public key cryptography, a one-way cryptographic hash function is
 
 ## References
 
-\[1\] 
+\[1\] [https://en.bitcoin.it/wiki/Hash](https://en.bitcoin.it/wiki/Hash)
+
+\[2\] [https://en.wikipedia.org/wiki/Cryptographic\_hash\_function](https://en.wikipedia.org/wiki/Cryptographic_hash_function)
 

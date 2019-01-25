@@ -21,7 +21,7 @@ category: null
 
 ## Overview
 
-**Dust limits** are thresholds encoded in the blockchain that denote the minimum amount of currency used for a transaction to be processed on the chain. Amounts less than the minimum are considered “dust” and are unusable until more tokens are added to the wallet.
+**Dust limits** are thresholds encoded in the Bitcoin blockchain that denote the minimum amount of currency used for a transaction to be processed on the chain. Amounts less than the minimum are considered “dust” and are unusable until more tokens are added to the wallet.
 
 **Dust** refers to tiny UTXOs \(unspent transaction outputs\) on the Bitcoin blockchain. The Bitcoin Core implementation defines dust as a UTXO that would require a fee greater than 1/3rd of its value to send. 
 
@@ -45,8 +45,6 @@ Once a channel is opened, an unlimited number of transactions can occur of minus
 
 [What is meant by Bitcoin Dust?](https://bitcoin.stackexchange.com/questions/10986/what-is-meant-by-bitcoin-dust)
 
-### See also
-
 ## References
 
 \[1\] [https://github.com/bitcoin/bitcoin/blob/v0.10.0rc3/src/primitives/transaction.h\#L137](https://github.com/bitcoin/bitcoin/blob/v0.10.0rc3/src/primitives/transaction.h#L137)
@@ -54,6 +52,4 @@ Once a channel is opened, an unlimited number of transactions can occur of minus
 \[2\] [https://www.coindesk.com/bitcoin-dust-tell-get-rid](https://www.coindesk.com/bitcoin-dust-tell-get-rid)
 
 \[3\] [https://github.com/lightningnetwork/lnd/issues/48](https://github.com/lightningnetwork/lnd/issues/48) 
-
-\[4\] 
 

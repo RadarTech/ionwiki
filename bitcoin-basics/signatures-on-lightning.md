@@ -29,11 +29,11 @@ A **digital signature** is a mathematical concept used to demonstrate the authen
 
 A digital signature consists of two parts. The first part is an algorithm for creating a signature, using a private key \(the signing key\), from a message \(the transaction\). The second part is an algorithm that allows anyone to verify the signature, given also the message and a public key.
 
-The digital signature algorithm used in Bitcoin is the Elliptic Curve Digital Signature Algorithm, or ECDSA.
+The digital signature algorithm used in Bitcoin is the secp256k1 Elliptic Curve Digital Signature Algorithm.
 
 ### Signatures on Lightning
 
-Digital signatures are an integral element of the multi-sig holder address created in the establishment of a [channel](../lightning-basics/payment-channel.md). Two verified digital signatures are required to create the channel, as well as initiate the [closing transaction](../lightning-channels/channel-closing.md). All fund settling, transacted on-chain, requires a digital signature.
+Digital signatures are an integral element of the multi signature holder address created in the establishment of a [channel](../lightning-basics/payment-channel.md). Two verified digital signatures are required to create the channel, as well as initiate the [closing transaction](../lightning-channels/channel-closing.md). Signatures are also essential to the [Hashed Timelock Transfer Contract](hltc.md), or HTLC, a smart contract that enables payments to be routed across the Lightning Network.
 
 ## Resources
 

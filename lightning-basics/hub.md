@@ -21,22 +21,13 @@ category: null
 
 ## Overview
 
-## Details
-
-### Section 1
-
-### Section 2
-
-### Section 3
+A **hub** is a well connected node on the Lightning Network. A functional hub requires high uptime and strong connectivity to other nodes in order to facilitate consistent, reliable and economically viable routing. Hubs have the ability to charge fees for passing traffic through to the remainder of the route. 
 
 ## Resources
 
-### Key People
-
-* [Person 1](hub.md)
-* [Person 2](hub.md)
-
-### See also
+[Lightning Network as a Directed Graph](https://www.youtube.com/watch?v=-lgYYz3y_hY)
 
 ## References
+
+\[1\] [https://dev.lightning.community/resources/](https://dev.lightning.community/resources/)
 

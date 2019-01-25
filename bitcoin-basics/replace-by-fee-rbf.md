@@ -25,7 +25,7 @@ category: null
 
 ## Details
 
-Bitcoin supports the concept that an unconfirmed transaction may be modified and reissued. Transaction replacement has been a critical element of the Bitcoin protocol since inception. 
+Bitcoin supports the concept that an unconfirmed transaction may be [modified](transaction-malleability.md) and reissued. Transaction replacement has been a critical element of the Bitcoin protocol since inception. 
 
 When a user replaces a transaction by fee, the previous transaction outputs and inputs are kept -- the only difference is a higher fee as an incentive for miners.
 

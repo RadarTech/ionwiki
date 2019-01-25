@@ -21,13 +21,13 @@ category: null
 
 ## Overview
 
-A **faucet** is a website or app that provides a small amount of tokens at the request of a user. Users provide the faucet with an address they wish to receive tokens at. This is typically to facilitate participation in testnet applications. 
+A **faucet** is a website or app that provides a small amount of tokens at the request of a user. Users provide the faucet with an address where they wish to receive tokens. This is typically to facilitate participation in testnet applications. 
 
 ## Details
 
 ### History
 
-The first bitcoin faucet, called _The Bitcoin Faucet,_ was developed by Gavin Andresen in 2010. It originally gave out 5 bitcoins per person. Since then, the faucet concept has been applied to testnet tokens and other blockchain use cases to ignite token use and fuel user adoption and experimentation.
+The first bitcoin faucet, called _The Bitcoin Faucet,_ was developed by Gavin Andresen in 2010. It originally gave out 5 bitcoins per person. Since then, the faucet concept has been applied to testnet tokens and other blockchains to ignite token use and fuel user adoption and experimentation.
 
 ### Purpose
 

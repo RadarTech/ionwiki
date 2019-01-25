@@ -29,20 +29,13 @@ This should not be confused with a Bitcoin full node that validates Bitcoin bloc
 
 ### Routing Nodes
 
-Routing node is another term for a hub. A functional routing node requires high uptime and strong connectivity to other nodes in order to facilitate consistent, reliable and economic routing. Routing nodes have the ability to charge fees for passing traffic through to the remainder of the route. 
-
-### Section 2
-
-### Section 3
+Routing node is another term for a [hub](hub.md). A functional routing node requires high uptime and strong connectivity to other nodes in order to facilitate consistent, reliable and economic routing. Routing nodes have the ability to charge fees for passing traffic through to the remainder of the route. 
 
 ## Resources
 
-### Key People
-
-* [Person 1](node.md)
-* [Person 2](node.md)
-
-### See also
+[BOLT \#0](https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md)
 
 ## References
+
+\[1\] [https://lightning.network/lightning-network-paper.pdf](https://lightning.network/lightning-network-paper.pdf)
 
