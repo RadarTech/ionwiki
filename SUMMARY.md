@@ -57,5 +57,5 @@
   * [Channel Factories](lightning-r-and-d/channel-factory.md)
   * [Eltoo](lightning-r-and-d/eltoo.md)
   * [Scriptless Scripts \(Schnorr\)](lightning-r-and-d/scriptless-scripts-schnorr.md)
-  * [Privacy \(on lightning network\)](lightning-r-and-d/privacy-on-lightning-network.md)
+  * [Privacy \(on Lightning Network\)](lightning-r-and-d/privacy-on-lightning-network.md)
 

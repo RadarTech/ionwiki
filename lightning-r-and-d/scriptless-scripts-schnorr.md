@@ -21,44 +21,55 @@ category: null
 
 ## Overview
 
-Scriptless Scripts is that \(fairly\) regular cryptographic signatures can indirectly reveal something that’s not part of the transaction that includes the signature. In other words, when someone signs to validate an ordinary Bitcoin transaction, it holds that a smart contract that is not hosted on the blockchain still executes faithfully.
+Scriptless Scripts are a way to execute smart contracts off-chain using Schnorr Signatures. Scriptless scripts are a way to encode smart contracts into digital signatures -- effectively accomplishing smart contract features without any scripts. 
 
-Scriptless scripts are a way to encode smart contracts into digital signatures. The entire purpose is to do things without any scripts. Scriptless scripts are completely agnostic to which blockchain they are on, but they do require some sort of digital signature support. Scriptless scripts removes these hash preimages, removing these various different script tricks that people use to get atomicity between chains and transactions, and moving those into signatures so that you get something smaller, more efficient, more scalable, more private, and also it's inherently interoperable.
+By removing hash preimages, removing Script tricks that people use to get atomicity between chains and transactions, and moving those onto signatures, contracts are accomplished in something smaller, more efficient, more scalable, more private, an inherently interoperable.
 
-
-
-_In cryptography, a Schnorr signature is a digital signature produced by the Schnorr signature algorithm that was described by Claus Schnorr. It is a digital signature scheme known for its simplicity,\[1\] among the first whose security is based on the intractability of certain discrete logarithm problems.\[1\] It is efficient and generates short signatures._
-
-\_\_
-
-_is a way to use these kernels and kernel signatures to attach conditions to them without modifying the system so that the verifiers need to understand new rules. What I mean by this is that a set of parties can decide on some sort of contract or protocol that they want to execute, and as a result of faithful execution they will produce a valid signature and the blockchain and its verifiers can validate that the signature is valid. The blockchain does not need to know any of the details of the original transaction._
-
-_Historically this came from mimblewimble. We wanted to be able to do cool stuff with mimblewimble, and we couldn't. But in fact, any system that supports or Schnorr signatures or some signature scheme that is linear in the data can do this scriptless script technique._
-
-_There are many reasons to do this. I described the motivation for mimblewimble, but even for bitcoin and friends this is exciting. The reason being that, the existing paradigm for doing this is to use a script-signature system where you lay out the rules and then you lay out an explicit witness that those rules were followed. And then everyone downloads all of this and then verifies the witnesses for every single transaction, which prevents the mimblewimble-style compression that we talked about, but it also means that anybody who wants to do cool stuff can only do it within the framework that the entire system is aware of, namely the consensus system where everyone agrees on whether rules were followed or implemented at all. It's very difficult to extend this to do things that require primitives that do not or do not yet exist in the consensus system. As a secondary feature, we care about privacy and fungibility for public cryptocurrencies which have every transaction published and downloadable by everyone, and this is very bad for privacy and for commercial confidentiality especially if your amounts are on the blockchain. This makes it difficult to do business, when you're revealing all of your financial transactions, and this compromises any sort of real commercial use of this system. Using scriptless scripts, we avoid revealing contracts because all that hits the chain are public keys and signatures._
-
-\_\_
-
-_Let me get into some algebra to explain how this works. Probably most people here are familiar with Schnorr signatures or they at least saw them in school or something. Let me briefly overview how Schnorr multi-signatures work where you have multiple parties and you want to create a signature that every participant needs to contribute to produce the signatures. They all have their separate public keys. They sum these up to get a joint public key P and they want to produce a signature which validates with the key P such that all of them together would need to produce this. So they do the standard_ [_Schnorr signature_](https://diyhpl.us/wiki/transcripts/scalingbitcoin/milan/schnorr-signatures/) _thing which is that they think of a nonce R which is actually k \* G and you produce the signature s = k + ex where k is your secret nonce and e is the hash of the data going into the signature. To do a multisignature you just sum everythin so everyone chooses their own R = k \* G. Everybody passes around their different R values they pass them around to get a joint R value. Using the joint R value everyone computes their joint hash challenge and then they do the same thing except e is now a hash of their joint public key and something else. Your nonces are the sum of everyone's contributed nonces, and the signature is the sum of everyone's contributed signature values. Very easy. In practice, I should warn people that there are things called key cancelation attacks where people can choose their keys and nonces in adversarial ways and you need to be careful about it. But it's not an impossible problem and it wont derail anything that I'm talking about here._
-
-_Kind of a philosophical point is that these multisignatures are already kind of a scriptless script in the sense that you have a bunch of people who have all of their own independent public keys and they add them together to get a joint key. They have a joint key and joint signatures. Public verifiers that weren't party to that, won't know how many people were involved, or that there were more than one person involved. They certainly don't know the original values. You can generalize this. If you look in the literature you'll find threshold signatures, a generalization of this to m-of-n signatures using linear secret sharing and this nice property that because a multisignature came from adding up everyone's nonces and signature values, then if you put a linear secret sharing scheme on there then you can basically do the same thing where you're contributing shares of signatures instead of entire signatures and it all just sort of works- magically._
+A Schnorr signature is a digital signature produced by the Schnorr signature algorithm that was described by Claus Schnorr. It is a digital signature scheme known for its simplicity, among the first whose security is based on the intractability of certain discrete logarithm problems. It is efficient and generates short signatures.
 
 ## Details
 
-### Section 1
+### Background
 
-### Section 2
+_Smart contracts:_ Currently, smart contracts are used to process Bitcoin transactions. These include standard transactions that only require a single signature as well as more complex transactions such as time-locked or multi-signature transactions.
 
-### Section 3
+_Script:_ These smart contracts are currently processed on-chain using [Bitcoin Script](https://en.bitcoin.it/wiki/Script).
+
+_On-chain vs. off-chain_: Bitcoin smart contracts are currently processed “on-chain” which has negative effects on user transaction costs, network participation resource requirements, and privacy \(all of which are discussed in more detail below\). __The potential power of Scriptless Scripts is that they address these issues by using Schnorr signatures to move smart contract processing off-chain.
+
+### Benefits
+
+The primary benefits of Scriptless scripts are functionality, privacy, and efficiency.
+
+In terms of **functionality**, Scriptless Scripts could increase the range and complexity of smart contracts that are possible with Bitcoin today. Currently, Bitcoin smart contracts are executed within Bitcoin Script which is limited in the types of contracts that can be executed. This limitation stems from the number of “opcodes” that have been enabled by the network \(remember, anything done at the network level requires network-wide consensus, which is hard to achieve\).
+
+Scriptless scripts move the specification and execution of these smart contracts from a _network-wide decision_ — as is currently the case for smart contracts that execute within Bitcoin Script — to a decision that _only involves the participants of the smart contract_. As a result, the range of smart contracts that a Bitcoin user could potentially deploy should increase drastically.
+
+Moving the specification and execution of smart contracts from on-chain to off-chain is also what drives the **privacy** benefits of Scriptless Scripts. When the smart contracts themselves are on-chain, many details are divulged to the entire network including the number and addresses of participants as well as the amount of capital involved — that’s not ideal as it’s very far afield from typical user expectations regarding contracts and money transfers.
+
+Instead, Scriptless Scripts use Schnorr signatures to move these contracts off-chain. This means that instead of the entire network verifying the actual terms of a contract, the network and its participants simply verify that there is a valid outcome — That is, that the parties to the contract agree that the terms have been satisfied and the resulting transaction is valid.
+
+Said differently, the network doesn’t actually need to know the terms of the contract between Alice and Bob, the network just needs to know that Alice and Bob agree that the terms of their contract have been satisfied and that the resulting transaction is valid — that’s what Scriptless Scripts accomplish.
+
+Scriptless Scripts also offer a significant **efficiency** advantage: By moving smart contracts off-chain, Scriptless Scripts minimize the amount of data that needs to be verified and stored on the network level. That means less overhead for network participants \(e.g. full nodes\) and lower transaction fees for users \(a win-win\).
+
+Ultimately, it’s helpful to think of these innovations in terms of puts and takes and evaluating the tradeoff that’s proposed. Typically, improvements in functionality and privacy come at the expense of efficiency. However, Scriptless Scripts \(via Schnorr signatures\) could potentially improve functionality and privacy without compromising at all on efficiency.
 
 ## Resources
 
-### Key People
-
-* [Person 1](scriptless-scripts-schnorr.md)
-* [Person 2](scriptless-scripts-schnorr.md)
+[Scriptless Scripts Slides](https://download.wpsoftware.net/bitcoin/wizardry/mw-slides/2017-05-milan-meetup/slides.pdf)
 
 ### See also
 
+[Scriptless Scripts Explained](http://diyhpl.us/wiki/transcripts/layer2-summit/2018/scriptless-scripts/)
+
 ## References
+
+\[1\] [https://medium.com/blockchain-capital-blog/crypto-innovation-spotlight-2-scriptless-scripts-306c4eb6b3a8](https://medium.com/blockchain-capital-blog/crypto-innovation-spotlight-2-scriptless-scripts-306c4eb6b3a8)
+
+\[2\] [https://medium.com/blockchain-capital-blog/crypto-innovation-spotlight-schnorr-signatures-a83748f16a4](https://medium.com/blockchain-capital-blog/crypto-innovation-spotlight-schnorr-signatures-a83748f16a4)
+
+\[3\] [https://bitcoinmagazine.com/articles/scriptless-scripts-how-bitcoin-can-support-smart-contracts-without-smart-contracts/](https://bitcoinmagazine.com/articles/scriptless-scripts-how-bitcoin-can-support-smart-contracts-without-smart-contracts/)
+
+\[4\] [https://joinmarket.me/blog/blog/flipping-the-scriptless-script-on-schnorr/](https://joinmarket.me/blog/blog/flipping-the-scriptless-script-on-schnorr/)
 

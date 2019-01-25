@@ -27,7 +27,7 @@ category: null
 
 ### Functionality
 
-Zap Desktop implements a fully functional `lnd` node in the desktop client. Zap supports Bitcoin `testnet3` in the default operating mode, but can also connect to `lnd` configured for any network. 
+Zap Desktop implements a fully functional `lnd` node in the desktop client. Zap supports Bitcoin `testnet3` in the default operating mode, but can also connect to `lnd` configured for any network \(tBTC, BTC, tLTC, LTC\). 
 
 Zap supports autopilot configuration, remote node connection, BTCPay support, and Bitcoin unit conversions.
 
