@@ -1,4 +1,2 @@
 # Lightning Software
 
-
-

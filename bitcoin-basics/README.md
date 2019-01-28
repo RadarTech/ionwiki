@@ -1,4 +1,2 @@
 # Bitcoin Basics
 
-
-
