@@ -1,29 +1,23 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Payment channel
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-basics
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Payment Channel"
+type: article
 ---
 
 # Payment Channel
 
 ## Overview
 
-On the [Lightning Network](lightning-network.md), a **payment channel** is a direct, bi-directional payment connection between two [nodes](node.md). 
+On the [Lightning Network](lightning-network.md), a **payment channel** is a direct, bi-directional payment connection between two [nodes](node.md).
 
-Payment channels are the primary building block for the Lightning Network as they allow for fast, low-cost transactions. Through on-chain [opening](../lightning-channels/channel-opening.md) and [closing ](../lightning-channels/channel-closing.md)transactions, payment channels leverage the security of the underlying blockchain to provide trustless payments between two parties. Based on the balance and [capacity](../lightning-channels/channel-capacity.md) of the channel, users exchange 'off-chain' commitments to each other outside of the Bitcoin blockchain. Payments within a channel are off-chain and do not require validation by or communication to the broader network. This means there is no explicit cost to each payment and no limit to the number of payments able to be shared within a channel. 
+Payment channels are the primary building block for the Lightning Network as they allow for fast, low-cost transactions. Through on-chain [opening](../lightning-channels/channel-opening.md) and [closing ](../lightning-channels/channel-closing.md)transactions, payment channels leverage the security of the underlying blockchain to provide trustless payments between two parties. Based on the balance and [capacity](../lightning-channels/channel-capacity.md) of the channel, users exchange 'off-chain' commitments to each other outside of the Bitcoin blockchain. Payments within a channel are off-chain and do not require validation by or communication to the broader network. This means there is no explicit cost to each payment and no limit to the number of payments able to be shared within a channel.
 
 A payment channel can be [closed ](../lightning-channels/channel-closing.md)by broadcasting an on-chain transaction agreed upon by both parties that finalizes the net balance transferred over the life of the channel.
 
@@ -37,7 +31,7 @@ Initially they each hold a bitcoin transaction that sends all the bitcoin \(e.g.
 
 An ideal use case for the technology is **micropayments**: Imagine a user making numerous very small payments \(e.g. .0001 BTC\) to a streaming service as they listen to songs over a certain period. Without payment channels, the Bitcoin transaction fees from these small payments would be as much or more than the payments themselves, and each payment would take on average 10 minutes to clear.
 
-Other potential use cases: 
+Other potential use cases:
 
 * Rewarding users for specific actions they take, such as contributing content to a blog, or writing a review
 * Incrementally purchasing a service offering[j](https://storj.io/)
@@ -59,4 +53,3 @@ Other potential use cases:
 \[1\] [https://counterparty.io/docs/paymentchannels-lightning-faq/](https://counterparty.io/docs/paymentchannels-lightning-faq/)
 
 \[2\] [https://lightning.network/lightning-network-paper.pdf](https://lightning.network/lightning-network-paper.pdf)
-

@@ -1,33 +1,27 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: State channel
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: bitcoin-basics
+contributors: "Ryan Shea (ryan-shea)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "State Channel"
+type: article
 ---
 
 # State Channels
 
 ## Overview
 
-State channels are a technique for allowing fast and cheap off-chain payments that retain the security of the underyling blockchain. They allow transacting users instant finality and minimal blockchain transaction fees. 
+State channels are a technique for allowing fast and cheap off-chain payments that retain the security of the underyling blockchain. They allow transacting users instant finality and minimal blockchain transaction fees.
 
 ## Details
 
 ### Overview
 
-State channels enhance blockchain performance by taking state-modifying operations off of a blockchain and instead executing them directly between defined sets of participants. 
+State channels enhance blockchain performance by taking state-modifying operations off of a blockchain and instead executing them directly between defined sets of participants.
 
 [Payment channels ](../lightning-basics/payment-channel.md)were the first type of state channel to be described, using off-chain interactions to modify ownership of locked Bitcoin, thereby allowing users to make “off-chain payments” to each other. The term “state channels” generalizes this approach beyond payments, encompassing all types of blockchain state modification which operate within a security paradigm comparable to that of the payment channel.
 
@@ -50,4 +44,3 @@ Payment channels are a subset of state channels. Requiring radically simpler dis
 ## References
 
 \[1\] [https://l4.ventures/papers/statechannels.pdf](https://l4.ventures/papers/statechannels.pdf)
-

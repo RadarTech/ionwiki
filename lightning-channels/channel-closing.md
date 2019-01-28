@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Channel closing
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-channels
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Channel Closing"
+type: article
 ---
 
 # Closing A Channel
@@ -33,7 +27,7 @@ Both parties are able to send as many payments to their counterparty as they wis
 
 ### Unilateral Close
 
-In an uncooperative close of a channel, a peer broadcasts a commitment transaction. 
+In an uncooperative close of a channel, a peer broadcasts a commitment transaction.
 
 ### Revoked Transaction Close
 
@@ -50,6 +44,3 @@ A transaction that spends all outputs of a revoked commitment transaction, using
 ## References
 
 \[1\] [https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md](https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md)
-
-
-

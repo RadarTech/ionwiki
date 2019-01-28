@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Error codes
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-troubleshooting
+contributors: "Ryan Shea (ryan-shea); Brandon Curtis (brandoncurtis)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Brandon Curtis (brandoncurtis)"
+status: "Accepted"
+title: "Error Codes"
+type: article
 ---
 
 # Error codes
@@ -29,7 +23,7 @@ category: null
 
 #### `ErrNoPathFound`
 
-ErrNoPathFound is returned when a path to the target destination does not exist in the graph. 
+ErrNoPathFound is returned when a path to the target destination does not exist in the graph.
 
 #### `ErrNoRouteFound`
 
@@ -62,6 +56,3 @@ ErrChanTooLarge is returned by a remote peer that receives a FundingOpen request
 \[1\] [https://api.lightning.community/](https://api.lightning.community/)
 
 \[2\] [https://github.com/lightningnetwork/lnd/blob/2103ebba959633c9c113df71f92610b3dfebe8ce/lnwire/error.go\#L9](https://github.com/lightningnetwork/lnd/blob/2103ebba959633c9c113df71f92610b3dfebe8ce/lnwire/error.go#L9)
-
-
-

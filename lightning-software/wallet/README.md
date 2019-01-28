@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Wallet
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: What is a wallet?
-discussions-to: (GitHub PR)
-category: null
+category: lightning-software
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Wallet"
+type: article
 ---
 
 # Wallet
@@ -29,9 +23,9 @@ The wallet controls access to a user's money, manages keys and addresses, tracks
 
 ### Wallet Function
 
-A wallet is the most common user interface to the Bitcoin and Lightning system, just like a web browser is the most common interface for the HTTP protocol. 
+A wallet is the most common user interface to the Bitcoin and Lightning system, just like a web browser is the most common interface for the HTTP protocol.
 
-Wallets manage public and private keys, track balances, and create and sign transactions. 
+Wallets manage public and private keys, track balances, and create and sign transactions.
 
 Keys are often stored in a digital wallet on each user’s computer or smartphone. Possession of the key that can sign a transaction is the only prerequisite to spending bitcoin, putting the control entirely in the hands of each user.
 
@@ -41,7 +35,7 @@ On Lightning, wallets establish channels, calculate routes on the network, manag
 
 ### Wallet Types
 
-Wallets are one of the most actively developed applications in the Bitcoin and Lightning ecosystem. There is intense competition, and wallet adoption serves as an essential element to user adoption. Choosing a wallet is highly subjective and depends on the use and user experience. 
+Wallets are one of the most actively developed applications in the Bitcoin and Lightning ecosystem. There is intense competition, and wallet adoption serves as an essential element to user adoption. Choosing a wallet is highly subjective and depends on the use and user experience.
 
 There are multiple types of wallet:
 
@@ -61,17 +55,17 @@ Hardware wallets operate self-hosted Bitcoin and Lightning nodes on special hard
 
 Web-based wallets are functioning Lightning or Bitcoin wallets built entirely on web services. Often containing minimal features, they allow for simple interaction with the Lightning Network or Bitcoin protocol.
 
-Another way to categorize bitcoin wallets is by their degree of autonomy and how they interact with the bitcoin network: 
+Another way to categorize bitcoin wallets is by their degree of autonomy and how they interact with the bitcoin network:
 
 **Full-node client**
 
-A full client, or “full node,” is a client that stores the entire history of bitcoin transactions \(every transaction by every user, ever\), manages users’ wallets, and can initiate transactions directly on the bitcoin and Lightning network. A full node handles all aspects of the protocol and can independently validate the entire blockchain and any transaction. A full-node client consumes substantial computer resources \(e.g., more than 125 GB of disk, 2 GB of RAM\) but offers complete autonomy and independent transaction verification. 
+A full client, or “full node,” is a client that stores the entire history of bitcoin transactions \(every transaction by every user, ever\), manages users’ wallets, and can initiate transactions directly on the bitcoin and Lightning network. A full node handles all aspects of the protocol and can independently validate the entire blockchain and any transaction. A full-node client consumes substantial computer resources \(e.g., more than 125 GB of disk, 2 GB of RAM\) but offers complete autonomy and independent transaction verification.
 
 **Lightweight client**
 
-A lightweight client, also known as a simple-payment-verification \(SPV\) client, connects to bitcoin full nodes or uses protocols like `neutrino` for access to the bitcoin transaction information, but stores the user wallet locally and independently creates, validates, and transmits transactions. Lightweight clients interact directly with the bitcoin network without an intermediary. 
+A lightweight client, also known as a simple-payment-verification \(SPV\) client, connects to bitcoin full nodes or uses protocols like `neutrino` for access to the bitcoin transaction information, but stores the user wallet locally and independently creates, validates, and transmits transactions. Lightweight clients interact directly with the bitcoin network without an intermediary.
 
-**Third-party API client** 
+**Third-party API client**
 
 A third-party API client is one that interacts with bitcoin or Lightning through a third-party system of application programming interfaces \(APIs\), rather than by connecting to the bitcoin network directly. The wallet may be stored by the user or by third-party servers, but all transactions go through a third party.
 
@@ -84,4 +78,3 @@ A third-party API client is one that interacts with bitcoin or Lightning through
 \[1\] [https://en.bitcoin.it/wiki/Wallet](https://en.bitcoin.it/wiki/Wallet)
 
 \[2\] [https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch05.asciidoc](https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch05.asciidoc) \(content adapted\)
-

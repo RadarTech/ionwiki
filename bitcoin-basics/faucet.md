@@ -1,27 +1,21 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Faucet
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: bitcoin-basics
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Faucet"
+type: article
 ---
 
 # Coin Faucets
 
 ## Overview
 
-A **faucet** is a website or app that provides a small amount of tokens at the request of a user. Users provide the faucet with an address where they wish to receive tokens. This is typically to facilitate participation in testnet applications. 
+A **faucet** is a website or app that provides a small amount of tokens at the request of a user. Users provide the faucet with an address where they wish to receive tokens. This is typically to facilitate participation in testnet applications.
 
 ## Details
 
@@ -52,6 +46,3 @@ Currently, there is only one Bitcoin `testnet3` faucet, the Radar Ion Faucet. Pr
 \[4\] [https://testnet.manu.backend.hamburg/faucet](https://testnet.manu.backend.hamburg/faucet)
 
 \[5\] [Free Bitcoins Archive](https://web.archive.org/web/20100703032414/http://freebitcoins.appspot.com/)
-
-
-

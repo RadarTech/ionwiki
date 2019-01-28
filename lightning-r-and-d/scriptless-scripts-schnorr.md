@@ -1,27 +1,21 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Scriptless Scripts (Schnorr)
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-rnd
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Scriptless Scripts (Schnorr)"
+type: article
 ---
 
 # Scriptless Scripts \(Schnorr\)
 
 ## Overview
 
-Scriptless Scripts are a way to execute smart contracts off-chain using Schnorr Signatures. Scriptless scripts are a way to encode smart contracts into digital signatures -- effectively accomplishing smart contract features without any scripts. 
+Scriptless Scripts are a way to execute smart contracts off-chain using Schnorr Signatures. Scriptless scripts are a way to encode smart contracts into digital signatures -- effectively accomplishing smart contract features without any scripts.
 
 By removing hash preimages, removing Script tricks that people use to get atomicity between chains and transactions, and moving those onto signatures, contracts are accomplished in something smaller, more efficient, more scalable, more private, an inherently interoperable.
 
@@ -72,4 +66,3 @@ Ultimately, it’s helpful to think of these innovations in terms of puts and ta
 \[3\] [https://bitcoinmagazine.com/articles/scriptless-scripts-how-bitcoin-can-support-smart-contracts-without-smart-contracts/](https://bitcoinmagazine.com/articles/scriptless-scripts-how-bitcoin-can-support-smart-contracts-without-smart-contracts/)
 
 \[4\] [https://joinmarket.me/blog/blog/flipping-the-scriptless-script-on-schnorr/](https://joinmarket.me/blog/blog/flipping-the-scriptless-script-on-schnorr/)
-

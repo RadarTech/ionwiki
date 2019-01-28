@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Hash
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: bitcoin-basics
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Hash"
+type: article
 ---
 
 # Hash
@@ -27,13 +21,13 @@ A hash algorithm turns an arbitrary amount of data into a fixed-length **hash**.
 
 ### Bitcoin Hashes
 
-Cryptographic hash functions are used extensively in Bitcoin: in bitcoin addresses, in script addresses, and in the mining Proof-of-Work algorithm. Bitcoin uses the SHA-256 algorithm to generate hashes. 
+Cryptographic hash functions are used extensively in Bitcoin: in bitcoin addresses, in script addresses, and in the mining Proof-of-Work algorithm. Bitcoin uses the SHA-256 algorithm to generate hashes.
 
 ### Private and Public Keys
 
 ![Image from Mastering Bitcoin](../.gitbook/assets/screen-shot-2019-01-24-at-8.46.37-am.png)
 
-In private and public key cryptography, a one-way cryptographic hash function is used to generate a bitcoin address. 
+In private and public key cryptography, a one-way cryptographic hash function is used to generate a bitcoin address.
 
 ## Resources
 
@@ -44,4 +38,3 @@ In private and public key cryptography, a one-way cryptographic hash function is
 \[1\] [https://en.bitcoin.it/wiki/Hash](https://en.bitcoin.it/wiki/Hash)
 
 \[2\] [https://en.wikipedia.org/wiki/Cryptographic\_hash\_function](https://en.wikipedia.org/wiki/Cryptographic_hash_function)
-

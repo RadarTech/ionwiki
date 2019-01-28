@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Transaction Malleability
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: bitcoin-basics
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Transaction Malleability"
+type: article
 ---
 
 # Transaction Malleability
@@ -27,9 +21,9 @@ category: null
 
 ### Transaction Malleability on Lightning
 
-Lightning Network channels work by creating a double-signed Bitcoin address and funding it. To initiate a channel, this double-signed address must be funded. 
+Lightning Network channels work by creating a double-signed Bitcoin address and funding it. To initiate a channel, this double-signed address must be funded.
 
-To ensure the double-signed address isn’t held captive by an uncooperative counterparty, the first funding transaction is signed by both parties before the funding transaction is sent on-chain. 
+To ensure the double-signed address isn’t held captive by an uncooperative counterparty, the first funding transaction is signed by both parties before the funding transaction is sent on-chain.
 
 For the Lightning Network to work, the funding transaction needs to not be broadcast until the double-signed address is created.
 
@@ -37,7 +31,7 @@ The double-signed address refers to the funding transaction’s identifier, so i
 
 ### SegWit
 
-Signatures are the only way in which transaction identifiers can be changed by an attacker. With SegWit, a new patch to the Bitcoin protocol, the transaction identifier no longer takes into account the signature. 
+Signatures are the only way in which transaction identifiers can be changed by an attacker. With SegWit, a new patch to the Bitcoin protocol, the transaction identifier no longer takes into account the signature.
 
 The signature data in the unlocking script is moved and omitted when calculating the transaction ID of the transaction data. The result of this is if a bad actor modifies the signature data, the transaction ID will remain exactly the same.
 
@@ -54,4 +48,3 @@ SegWit was successfully activated on the Bitcoin network on 21st July 2017.
 \[1\] [https://en.bitcoin.it/wiki/Transaction\_malleability](https://en.bitcoin.it/wiki/Transaction_malleability)
 
 \[2\] [https://bitcoin.org/en/glossary/malleability](https://bitcoin.org/en/glossary/malleability)
-

@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Channel factory
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-rnd
+contributors: "Ryan Shea (ryan-shea)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Channel Factories"
+type: article
 ---
 
 # Channel Factories
@@ -35,7 +29,7 @@ However, it's possible to format the ready-to-commit transaction as a transactio
 
 The key feature of a regular payment channel is the ability to securely update the state \(balance\) of the channel many times without creating extra on-chain transactions, so the key feature of a Channel Factory is the ability to securely create and destroy new payment channels without creating extra on-chain transactions.
 
-The resulting network provides the third layer, where regular transfers of currency are executed. Similar to regular micropayment channels, multi-party channels can be implemented with either timelocks or punishments for dishonest parties. 
+The resulting network provides the third layer, where regular transfers of currency are executed. Similar to regular micropayment channels, multi-party channels can be implemented with either timelocks or punishments for dishonest parties.
 
 The regular micropayment channels of the third layer can be punishment based or timelock based independent from the implementation of the multi-party channels of the second layer
 
@@ -54,6 +48,3 @@ A channel factory can be used to rebalance channels which have become one sided.
 ## References
 
 \[1\] [https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable\_Funding\_Of\_Blockchain\_Micropayment\_Networks%20\(1\).pdf](https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20%281%29.pdf)
-
-
-

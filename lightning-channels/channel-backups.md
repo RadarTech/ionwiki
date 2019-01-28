@@ -1,27 +1,21 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Channel backups
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-channels
+contributors: "Ryan Shea (ryan-shea)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Channel Backups"
+type: article
 ---
 
 # Channel Backup
 
 ## Overview
 
-Channel backup features aim to provide a simple safe to allow users to recover settled funds in channels in the case of partial or complete data loss. 
+Channel backup features aim to provide a simple safe to allow users to recover settled funds in channels in the case of partial or complete data loss.
 
 ## Details
 
@@ -35,15 +29,15 @@ Workarounds for this are being built in various implementations of the Lightning
 
 Lightning Labs has implemented a new safe scheme for static channel backups \(SCB's\) for `lnd`. The backups are encrypted using the a key derived from the user's seed, protecting the privacy of the users channels in the back up state, ensuring that a random node can't attempt to import another user's channels.
 
-Given their **seed and the latest back up file**, the users are able to recover both their on-chain funds and funds that are fully settled within their channels. 
+Given their **seed and the latest back up file**, the users are able to recover both their on-chain funds and funds that are fully settled within their channels.
 
 {% hint style="info" %}
-"Fully settled" refers to funds that are in the base commitment outputs, not HTLCs. 
+"Fully settled" refers to funds that are in the base commitment outputs, not HTLCs.
 {% endhint %}
 
-`lnd` can only restore funds as right after the channel is created. Resolving HTLCs is currently not possible. 
+`lnd` can only restore funds as right after the channel is created. Resolving HTLCs is currently not possible.
 
-Users can also recover from certain kinds of database corruption. Core code for handling recoveries is now in place, and combined with future planned developments, recovery of all funds in cases of data or device loss will be possible. 
+Users can also recover from certain kinds of database corruption. Core code for handling recoveries is now in place, and combined with future planned developments, recovery of all funds in cases of data or device loss will be possible.
 
 ## Resources
 
@@ -60,4 +54,3 @@ Users can also recover from certain kinds of database corruption. Core code for 
 \[1\] [https://github.com/lightningnetwork/lnd/pull/2313](https://github.com/lightningnetwork/lnd/pull/2313)
 
 \[2\] [https://medium.com/@ACINQ/enabling-automated-backup-on-eclair-wallet-9f58dc3d8407](https://medium.com/@ACINQ/enabling-automated-backup-on-eclair-wallet-9f58dc3d8407)
-

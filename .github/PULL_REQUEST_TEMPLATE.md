@@ -2,14 +2,13 @@
   Thank you for your pull request. Please provide a description above and review
   the requirements below.
 
-  (to be added)
 -->
 
 ---
 title: 'Title guidelines'
 description: 'Description guidelines'
-type: < Copy | New Page | Edit | Proposal | Structural > 
-category: 
+type: < Copy | New Page | Edit | Proposal | Structural >
+category:
 ---
 
 ##### Description
@@ -26,15 +25,15 @@ category:
 
 ##### Affected core subsystem(s)
 
-<!-- Provide affected core subsystem(s) (i.e. production, staging, content, moderation). -->
+<!-- Provide affected core subsystem(s) (i.e. production, staging, content, admin). -->
 
 ##### Testing
 
-<!-- Why should the PR reviewer trust that this change doesn't break anything? How have you tested this change? -->
+<!-- Why should the PR reviewer trust that this contribution is valuable? -->
 
 ##### Proof Read
 
-<!-- For content, have you proofed your changes? Do they adhere to our content guidelines? -->
+<!-- For content, have you proofed your changes? Do they adhere to our content guidelines? Have you cited all your resources? -->
 
 ##### Refers/Fixes
 

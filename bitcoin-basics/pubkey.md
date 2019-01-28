@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Pubkey
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: bitcoin-basics
+contributors: "Ryan Shea (ryan-shea)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Pubkey"
+type: article
 ---
 
 # Pubkey
@@ -42,4 +36,3 @@ However, most commonly one leaves key pair generation to the Bitcoin program. If
 \[2\] [https://bitcoin.stackexchange.com/questions/4675/what-is-a-private-key-and-a-public-key](https://bitcoin.stackexchange.com/questions/4675/what-is-a-private-key-and-a-public-key)
 
 \[3\] [https://bitcoin.org/en/glossary/private-key](https://bitcoin.org/en/glossary/private-key)
-

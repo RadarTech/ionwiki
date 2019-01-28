@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Dust limit
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: bitcoin-basics
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Dust Limits"
+type: article
 ---
 
 # Dust
@@ -23,7 +17,7 @@ category: null
 
 **Dust limits** are thresholds encoded in the Bitcoin blockchain that denote the minimum amount of currency used for a transaction to be processed on the chain. Amounts less than the minimum are considered “dust” and are unusable until more tokens are added to the wallet.
 
-**Dust** refers to tiny UTXOs \(unspent transaction outputs\) on the Bitcoin blockchain. The Bitcoin Core implementation defines dust as a UTXO that would require a fee greater than 1/3rd of its value to send. 
+**Dust** refers to tiny UTXOs \(unspent transaction outputs\) on the Bitcoin blockchain. The Bitcoin Core implementation defines dust as a UTXO that would require a fee greater than 1/3rd of its value to send.
 
 ## Details
 
@@ -51,5 +45,4 @@ Once a channel is opened, an unlimited number of transactions can occur of minus
 
 \[2\] [https://www.coindesk.com/bitcoin-dust-tell-get-rid](https://www.coindesk.com/bitcoin-dust-tell-get-rid)
 
-\[3\] [https://github.com/lightningnetwork/lnd/issues/48](https://github.com/lightningnetwork/lnd/issues/48) 
-
+\[3\] [https://github.com/lightningnetwork/lnd/issues/48](https://github.com/lightningnetwork/lnd/issues/48)
