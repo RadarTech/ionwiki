@@ -1,14 +1,14 @@
 ---
-category: bitcoin-basics
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Transaction Malleability"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Transaction Malleability
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: bitcoin-basics
 ---
 
 # Transaction Malleability
@@ -48,3 +48,4 @@ SegWit was successfully activated on the Bitcoin network on 21st July 2017.
 \[1\] [https://en.bitcoin.it/wiki/Transaction\_malleability](https://en.bitcoin.it/wiki/Transaction_malleability)
 
 \[2\] [https://bitcoin.org/en/glossary/malleability](https://bitcoin.org/en/glossary/malleability)
+

@@ -1,14 +1,14 @@
 ---
-category: bitcoin-basics
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Dust Limits"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Dust Limits
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: bitcoin-basics
 ---
 
 # Dust
@@ -21,11 +21,9 @@ type: article
 
 ## Details
 
-In the early years of the blockchain, users could spam the chain with enormous numbers of microtransactions for little to no cost, effectively clogging transaction processing and denying valid transaction processing. An example of this was the 2015 Flood Attack which used a DDoS style attack to interrupt transaction confirmation and processing. Dust limits fixed this by imposing minimum amounts for transactions.  
+In the early years of the blockchain, users could spam the chain with enormous numbers of microtransactions for little to no cost, effectively clogging transaction processing and denying valid transaction processing. An example of this was the 2015 Flood Attack which used a DDoS style attack to interrupt transaction confirmation and processing. Dust limits fixed this by imposing minimum amounts for transactions.
 
-
-The dust limit created circulation problems for token users. As token usage increases, dust also increases which takes tokens out of circulation. More dust means less tokens available for trading. Efforts to decrease the dust limit in order to eliminate excess dust have occurred, notably BTC lowering its dust limit from 5460 satoshis to 546. Other proposed solutions involve ways to combine tiny wallet sums into a larger transaction, but this solution advocates reusing token addresses which creates financial privacy concerns.  
-
+The dust limit created circulation problems for token users. As token usage increases, dust also increases which takes tokens out of circulation. More dust means less tokens available for trading. Efforts to decrease the dust limit in order to eliminate excess dust have occurred, notably BTC lowering its dust limit from 5460 satoshis to 546. Other proposed solutions involve ways to combine tiny wallet sums into a larger transaction, but this solution advocates reusing token addresses which creates financial privacy concerns.
 
 Many critics of the dust limit point to the untapped capital in the form of dust. However, there is a general consensus that removing the dust limit is not viable. Without a dust limit, transactions as small as one satoshi would be possible, but the potential for transaction clogging has prevented the removal of dust limits. Different strategies are being explored to fix the micro-transaction problem while maintaining efficiency.
 
@@ -46,3 +44,4 @@ Once a channel is opened, an unlimited number of transactions can occur of minus
 \[2\] [https://www.coindesk.com/bitcoin-dust-tell-get-rid](https://www.coindesk.com/bitcoin-dust-tell-get-rid)
 
 \[3\] [https://github.com/lightningnetwork/lnd/issues/48](https://github.com/lightningnetwork/lnd/issues/48)
+

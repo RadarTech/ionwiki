@@ -1,14 +1,14 @@
 ---
-category: lightning-troubleshooting
-contributors: "Ryan Shea (ryan-shea); Brandon Curtis (brandoncurtis)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Brandon Curtis (brandoncurtis))"
-status: "Accepted"
-title: "Theft (on Lightning Network)"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Brandon Curtis (brandoncurtis))
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Theft (on Lightning Network)
+contributors: Ryan Shea (ryan-shea); Brandon Curtis (brandoncurtis)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-troubleshooting
 ---
 
 # Theft \(on Lightning Network\)
@@ -42,3 +42,4 @@ A Funding Transaction may have multiple outputs with multiple Commitment Transac
 \[1\] [https://dev.lightning.community/overview/\#channel-updates](https://dev.lightning.community/overview/#channel-updates)
 
 \[2\] [https://lightning.network/lightning-network-paper.pdf](https://lightning.network/lightning-network-paper.pdf)
+

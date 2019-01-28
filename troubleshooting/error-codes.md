@@ -1,14 +1,14 @@
 ---
-category: lightning-troubleshooting
-contributors: "Ryan Shea (ryan-shea); Brandon Curtis (brandoncurtis)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Brandon Curtis (brandoncurtis)"
-status: "Accepted"
-title: "Error Codes"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Brandon Curtis (brandoncurtis)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Error Codes
+contributors: Ryan Shea (ryan-shea); Brandon Curtis (brandoncurtis)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-troubleshooting
 ---
 
 # Error codes
@@ -31,7 +31,7 @@ ErrNoRouteFound is returned when the router is unable to find a valid route to t
 
 #### `ErrInsufficientCapacity`
 
-ErrInsufficientCapacity is returned when a path if found, yet the capacity of one of the channels in the path is insufficient to carry the payment.  ErrMaxHopsExceeded is returned when a candidate path is found, but the length of that path exceeds HopLimit. ErrMaxHopsExceeded ErrTargetNotInNetwork is returned when the target of a path-finding or payment attempt isn't known to be within the current version of the channel graph. ErrTargetNotInNetwork ErrOutdated is returned when the routing update already have been applied, or a newer update is already known. ErrOutdated ErrIgnored is returned when the update have been ignored because this update can't bring us something new, or because a node announcement was given for node not found in any channel. ErrIgnored ErrRejected is returned if the update is for a channel ID that was previously added to the reject cache because of an invalid update was attempted to be processed. ErrRejected ErrPaymentAttemptTimeout is an error that indicates that a payment attempt timed out before we were able to successfully route an HTLC. ErrPaymentAttemptTimeout ErrFeeLimitExceeded is returned when the total fees of a route exceed the user-specified fee limit. ErrFeeLimitExceeded
+ErrInsufficientCapacity is returned when a path if found, yet the capacity of one of the channels in the path is insufficient to carry the payment. ErrMaxHopsExceeded is returned when a candidate path is found, but the length of that path exceeds HopLimit. ErrMaxHopsExceeded ErrTargetNotInNetwork is returned when the target of a path-finding or payment attempt isn't known to be within the current version of the channel graph. ErrTargetNotInNetwork ErrOutdated is returned when the routing update already have been applied, or a newer update is already known. ErrOutdated ErrIgnored is returned when the update have been ignored because this update can't bring us something new, or because a node announcement was given for node not found in any channel. ErrIgnored ErrRejected is returned if the update is for a channel ID that was previously added to the reject cache because of an invalid update was attempted to be processed. ErrRejected ErrPaymentAttemptTimeout is an error that indicates that a payment attempt timed out before we were able to successfully route an HTLC. ErrPaymentAttemptTimeout ErrFeeLimitExceeded is returned when the total fees of a route exceed the user-specified fee limit. ErrFeeLimitExceeded
 
 ### lnwire Errors
 
@@ -56,3 +56,4 @@ ErrChanTooLarge is returned by a remote peer that receives a FundingOpen request
 \[1\] [https://api.lightning.community/](https://api.lightning.community/)
 
 \[2\] [https://github.com/lightningnetwork/lnd/blob/2103ebba959633c9c113df71f92610b3dfebe8ce/lnwire/error.go\#L9](https://github.com/lightningnetwork/lnd/blob/2103ebba959633c9c113df71f92610b3dfebe8ce/lnwire/error.go#L9)
+

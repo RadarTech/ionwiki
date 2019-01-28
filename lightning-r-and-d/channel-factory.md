@@ -1,14 +1,14 @@
 ---
-category: lightning-rnd
-contributors: "Ryan Shea (ryan-shea)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Channel Factories"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Channel Factories
+contributors: Ryan Shea (ryan-shea)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-rnd
 ---
 
 # Channel Factories
@@ -48,3 +48,4 @@ A channel factory can be used to rebalance channels which have become one sided.
 ## References
 
 \[1\] [https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable\_Funding\_Of\_Blockchain\_Micropayment\_Networks%20\(1\).pdf](https://www.tik.ee.ethz.ch/file/a20a865ce40d40c8f942cf206a7cba96/Scalable_Funding_Of_Blockchain_Micropayment_Networks%20%281%29.pdf)
+

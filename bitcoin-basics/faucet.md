@@ -1,14 +1,14 @@
 ---
-category: bitcoin-basics
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Faucet"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Faucet
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: bitcoin-basics
 ---
 
 # Coin Faucets
@@ -46,3 +46,4 @@ Currently, there is only one Bitcoin `testnet3` faucet, the Radar Ion Faucet. Pr
 \[4\] [https://testnet.manu.backend.hamburg/faucet](https://testnet.manu.backend.hamburg/faucet)
 
 \[5\] [Free Bitcoins Archive](https://web.archive.org/web/20100703032414/http://freebitcoins.appspot.com/)
+

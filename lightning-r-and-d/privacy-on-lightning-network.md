@@ -1,21 +1,21 @@
 ---
-category: lightning-rnd
-contributors: "Ryan Shea (ryan-shea)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Privacy (on Lightning Network)"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Privacy (on Lightning Network)
+contributors: Ryan Shea (ryan-shea)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-rnd
 ---
 
 # Privacy \(on Lightning Network\)
 
 ## Overview
 
-While there is no public, trackable ledger of Lightning transactions, **privacy** __on Lightning is still a work in progress. Through techniques like [onion routing](../lightning-basics/onion-routing.md) and [eltoo](eltoo.md), privacy is improving.  
+While there is no public, trackable ledger of Lightning transactions, **privacy** \_\_on Lightning is still a work in progress. Through techniques like [onion routing](../lightning-basics/onion-routing.md) and [eltoo](eltoo.md), privacy is improving.
 
 ## Details
 
@@ -36,3 +36,4 @@ Importantly, all intermediaries only learn from which channel they receive token
 \[1\] [https://medium.com/@rusty\_lightning/the-bitcoin-lightning-spec-part-5-8-onion-routing-protocol-86c91e455909](https://medium.com/@rusty_lightning/the-bitcoin-lightning-spec-part-5-8-onion-routing-protocol-86c91e455909)
 
 \[2\] [https://bitcoinmagazine.com/articles/how-the-lightning-network-layers-privacy-on-top-of-bitcoin-1482183775/](https://bitcoinmagazine.com/articles/how-the-lightning-network-layers-privacy-on-top-of-bitcoin-1482183775/)
+

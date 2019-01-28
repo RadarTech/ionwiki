@@ -1,14 +1,14 @@
 ---
-category: lightning-rnd
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Lightning Appliance"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Lightning Appliance
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-rnd
 ---
 
 # Lightning Appliance
@@ -25,7 +25,7 @@ There are two models for appliances: paid products and self-hosted nodes.
 
 #### Bitcoin Node
 
-Connecting to the Lightning Network requires both the ability to run a Lightning Network daemon and interact with the Bitcoin blockchain. On-chain transactions are required for opening and closing channels in the Lightning Network, which necessitates communication between a Lightning Network node and a source of blockchain data. A common advantage of a dedicated lightning appliance is the ability to run a Bitcoin full node on the same hardware as a Lightning Network daemon. Given the storage requirements of running a full node, which entails hosting all historical block data and the current UTXO set, many mobile devices and home computers are unable to do so.  Running a local full node removes any dependency on a third party's blockchain data or the risk of using an SPV \(Simplified Payment Verification\) client.
+Connecting to the Lightning Network requires both the ability to run a Lightning Network daemon and interact with the Bitcoin blockchain. On-chain transactions are required for opening and closing channels in the Lightning Network, which necessitates communication between a Lightning Network node and a source of blockchain data. A common advantage of a dedicated lightning appliance is the ability to run a Bitcoin full node on the same hardware as a Lightning Network daemon. Given the storage requirements of running a full node, which entails hosting all historical block data and the current UTXO set, many mobile devices and home computers are unable to do so. Running a local full node removes any dependency on a third party's blockchain data or the risk of using an SPV \(Simplified Payment Verification\) client.
 
 ## Resources
 
@@ -42,3 +42,4 @@ Connecting to the Lightning Network requires both the ability to run a Lightning
 \[1\] [https://keys.casa/](https://keys.casa/)
 
 \[2\] [https://medium.com/coinmonks/the-lightning-network-how-to-install-and-hopefully-make-money-6e3058e3fa7c](https://medium.com/coinmonks/the-lightning-network-how-to-install-and-hopefully-make-money-6e3058e3fa7c)
+

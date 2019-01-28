@@ -1,14 +1,14 @@
 ---
-category: lightning-software
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Gareth James (gjradar)"
-status: "Accepted"
-title: "Network Implementations"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Gareth James (gjradar)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Network Implementations
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-software
 ---
 
 # Network Implementations
@@ -42,3 +42,4 @@ Participation in the [Lightning Network](../lightning-basics/lightning-network.m
 \[4\] [https://github.com/nayutaco/ptarmigan](https://github.com/nayutaco/ptarmigan)
 
 \[5\] [https://github.com/mit-dci/lit](https://github.com/mit-dci/lit)
+

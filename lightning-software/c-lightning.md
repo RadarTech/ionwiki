@@ -1,14 +1,14 @@
 ---
-category: lightning-software
-contributors: "Ryan Shea (ryan-shea)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "c-lightning"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: c-lightning
+contributors: Ryan Shea (ryan-shea)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-software
 ---
 
 # c-lightning
@@ -25,7 +25,7 @@ On top of complying with all BOLT standards, c-lightning is developing an archit
 
 ## Resources
 
- [c-lightning GitHub](https://github.com/ElementsProject/lightning)
+[c-lightning GitHub](https://github.com/ElementsProject/lightning)
 
 ### Key People
 
@@ -41,3 +41,4 @@ On top of complying with all BOLT standards, c-lightning is developing an archit
 \[1\] [Blockstream](https://blockstream.com/)
 
 \[2\] [c-lightning](https://github.com/ElementsProject/lightning)
+

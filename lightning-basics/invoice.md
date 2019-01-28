@@ -1,14 +1,14 @@
 ---
-category: lightning-basics
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Invoice"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Invoice
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-basics
 ---
 
 # Invoice
@@ -46,9 +46,9 @@ Below is a sample invoice decoded using an invoice decoding tool. The standard f
 | Min Final CLTV Expiry | 144 |  |
 | Expiration | 600 seconds |  |
 | Signature |  |  |
-|   _R value_ | ac2080f2caf03309b7267c27dd663185a4074b94836a46e02fdcc585c19c02a3 |  |
-|   _S value_ | 09416f765bf3167a03d92d6dbeef19ebcba168b940228c8d5896ea137769798c |  |
-|   _Recovery Flag_ | 0 |  |
+| _R value_ | ac2080f2caf03309b7267c27dd663185a4074b94836a46e02fdcc585c19c02a3 |  |
+| _S value_ | 09416f765bf3167a03d92d6dbeef19ebcba168b940228c8d5896ea137769798c |  |
+| _Recovery Flag_ | 0 |  |
 | Signing Data | 6c6e746231306d0b87a356010d3c33929d87c131efbd0bf0c8f3292143cc5f1890879a5953fa9358179c30ce6c81a006002240c014b0 |  |
 | Checksum | nvhulk |  |
 
@@ -116,3 +116,4 @@ Lightning Payment Request Decoder
 \[1\] [Lightning Decoder](https://lightningdecoder.com/)
 
 \[2\] [BOLT \#11](https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md)
+

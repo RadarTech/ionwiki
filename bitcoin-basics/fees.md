@@ -1,14 +1,14 @@
 ---
-category: bitcoin-basics
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Fees"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Fees
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: bitcoin-basics
 ---
 
 # Fees
@@ -54,3 +54,4 @@ After the fee amount is subtracted from the to-funder output, that output may be
 ## References
 
 \[1\] [https://github.com/lightningnetwork/lightning-rfc/blob/064d6feed036de192f71cf6854e00f33361b6090/03-transactions.md](https://github.com/lightningnetwork/lightning-rfc/blob/064d6feed036de192f71cf6854e00f33361b6090/03-transactions.md)
+

@@ -1,14 +1,14 @@
 ---
-category: lightning-basics
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Onion routing"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Onion routing
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-basics
 ---
 
 # Onion Routing
@@ -41,4 +41,5 @@ A route produced via source and onion routing is limited to 20 steps.
 
 \[1\][ BOLT \#4](https://github.com/lightningnetwork/lightning-rfc/blob/master/04-onion-routing.md)
 
-\[2\] [Bitcoin Book](https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch12.asciidoc)  
+\[2\] [Bitcoin Book](https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch12.asciidoc)
+

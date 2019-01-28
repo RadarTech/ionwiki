@@ -1,6 +1,6 @@
 # Welcome
 
-![](.gitbook/assets/radar_ionwiki_logo.svg)
+![](.gitbook/assets/ion_wiki_v2.png)
 
 ## Welcome to the Ion Wiki!
 

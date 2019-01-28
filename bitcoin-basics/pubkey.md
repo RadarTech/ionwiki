@@ -1,14 +1,14 @@
 ---
-category: bitcoin-basics
-contributors: "Ryan Shea (ryan-shea)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Pubkey"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Pubkey
+contributors: Ryan Shea (ryan-shea)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: bitcoin-basics
 ---
 
 # Pubkey
@@ -36,3 +36,4 @@ However, most commonly one leaves key pair generation to the Bitcoin program. If
 \[2\] [https://bitcoin.stackexchange.com/questions/4675/what-is-a-private-key-and-a-public-key](https://bitcoin.stackexchange.com/questions/4675/what-is-a-private-key-and-a-public-key)
 
 \[3\] [https://bitcoin.org/en/glossary/private-key](https://bitcoin.org/en/glossary/private-key)
+

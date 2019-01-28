@@ -1,14 +1,14 @@
 ---
-category: lightning-basics
-contributors: "Ryan Shea (ryan-shea)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Sphinx packet"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Sphinx packet
+contributors: Ryan Shea (ryan-shea)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-basics
 ---
 
 # Sphinx Packet
@@ -30,3 +30,4 @@ Sphinx is used in `lnd` to relay anonymized messages within the Lightning Networ
 \[2\] [https://katzenpost.mixnetworks.org/docs/specs/sphinx.html](https://katzenpost.mixnetworks.org/docs/specs/sphinx.html)
 
 \[3\] [https://cypherpunks.ca/~iang/pubs/Sphinx\_Oakland09.pdf](https://cypherpunks.ca/~iang/pubs/Sphinx_Oakland09.pdf)
+

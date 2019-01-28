@@ -1,14 +1,14 @@
 ---
-category: lightning-software
-contributors: "Ryan Shea (ryan-shea)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Shango"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Shango
+contributors: Ryan Shea (ryan-shea)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-software
 ---
 
 # Shango
@@ -63,3 +63,4 @@ Alongside other wallets, Shango is entirely open source and auditable.
 \[1\] [http://www.shangoapp.com/](http://www.shangoapp.com/)
 
 \[2\] [https://github.com/neogeno/shango-lightning-wallet/](https://github.com/neogeno/shango-lightning-wallet/)
+

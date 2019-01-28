@@ -1,14 +1,14 @@
 ---
-category: lightning-rnd
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Eltoo"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Eltoo
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-rnd
 ---
 
 # Eltoo
@@ -44,3 +44,4 @@ Before eltoo can be implemented, a minor change to Bitcoin is needed: the introd
 \[2\] [https://blockstream.com/eltoo.pdf](https://blockstream.com/eltoo.pdf)
 
 \[3\] [https://www.coindesk.com/new-twist-lightning-tech-coming-soon-bitcoin](https://www.coindesk.com/new-twist-lightning-tech-coming-soon-bitcoin)
+

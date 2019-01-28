@@ -1,14 +1,14 @@
 ---
-category: lightning-basics
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Payment Channel"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Payment Channel
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-basics
 ---
 
 # Payment Channel
@@ -53,3 +53,4 @@ Other potential use cases:
 \[1\] [https://counterparty.io/docs/paymentchannels-lightning-faq/](https://counterparty.io/docs/paymentchannels-lightning-faq/)
 
 \[2\] [https://lightning.network/lightning-network-paper.pdf](https://lightning.network/lightning-network-paper.pdf)
+

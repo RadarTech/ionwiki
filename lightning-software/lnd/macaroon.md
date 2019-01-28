@@ -1,14 +1,14 @@
 ---
-category: lightning-software
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Macaroon"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Macaroon
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-software
 ---
 
 # Macaroon
@@ -39,8 +39,6 @@ If a caveat is added to a macaroon and shared, the person receiving it cannot re
 
 A macaroon should be sent over a secure channel. `lnd` enforces TLS for RPC requests, attempting to ensure security across the Lightning platform. Intercepting a macaroon allows the interceptor to use the macaroon to gain all privileges of the legitimate user.
 
-
-
 ## Resources
 
 [Macaroon Technical Overview](https://github.com/lightningnetwork/lnd/blob/master/macaroons/README.md)
@@ -50,3 +48,4 @@ A macaroon should be sent over a secure channel. `lnd` enforces TLS for RPC requ
 \[1\] [https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md](https://github.com/lightningnetwork/lnd/blob/master/docs/macaroons.md)
 
 \[2\] [http://theory.stanford.edu/~ataly/Papers/macaroons.pdf](http://theory.stanford.edu/~ataly/Papers/macaroons.pdf)
+

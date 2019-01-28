@@ -1,21 +1,25 @@
 ---
-category: ~
-contributors: "Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of contributors -- Name + Github; email optional >"
-created: 1999-01-01
-description: "Description guidelines"
-discussions-to: "(GitHub URL)"
-latest-revision: 1999-01-29
-original-author: "Isaac Newton (@appleman) < List of Original Authors' Real Name and Github; email address optional >"
-status: "< Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted | Superseded>"
-title: "Title guidelines"
-type: ~
+latest-revision: '1999-01-29T00:00:00.000Z'
+original-author: >-
+  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
+  email address optional >
+created: '1999-01-01T00:00:00.000Z'
+status: >-
+  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
+  | Superseded>
+title: Title guidelines
+contributors: >-
+  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
+  contributors -- Name + Github; email optional >
+type: null
+description: Description guidelines
+discussions-to: (GitHub URL)
+category: null
 ---
 
 # Network Capacity
 
 ## Overview
-
-
 
 ## Details
 
@@ -35,3 +39,4 @@ type: ~
 ### See also
 
 ## References
+

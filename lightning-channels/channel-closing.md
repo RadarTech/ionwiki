@@ -1,14 +1,14 @@
 ---
-category: lightning-channels
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Channel Closing"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Channel Closing
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-channels
 ---
 
 # Closing A Channel
@@ -44,3 +44,4 @@ A transaction that spends all outputs of a revoked commitment transaction, using
 ## References
 
 \[1\] [https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md](https://github.com/lightningnetwork/lightning-rfc/blob/master/00-introduction.md)
+

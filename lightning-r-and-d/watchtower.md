@@ -1,14 +1,14 @@
 ---
-category: lightning-rnd
-contributors: "Ryan Shea (ryan-shea)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Watchtower"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Watchtower
+contributors: Ryan Shea (ryan-shea)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-rnd
 ---
 
 # Watchtowers
@@ -42,3 +42,4 @@ If that transaction is flagged in its memory as part of an outdated contract, it
 \[1\] [https://lists.linuxfoundation.org/pipermail/lightning-dev/2018-April/001196.html](https://lists.linuxfoundation.org/pipermail/lightning-dev/2018-April/001196.html)
 
 \[2\] [https://github.com/mit-dci/lit/tree/master/watchtower](https://github.com/mit-dci/lit/tree/master/watchtower)
+

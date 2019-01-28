@@ -1,14 +1,14 @@
 ---
-category: lightning-channels
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Channel Opening"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Channel Opening
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-channels
 ---
 
 # Opening A Channel
@@ -44,3 +44,4 @@ Autopilot features require criteria to select which nodes to establish channels 
 \[2\] [https://counterparty.io/docs/paymentchannels-lightning-faq/](https://counterparty.io/docs/paymentchannels-lightning-faq/)
 
 \[3\] [https://medium.com/@rusty\_lightning/bitcoin-lightning-things-to-know-e5ea8d84369f](https://medium.com/@rusty_lightning/bitcoin-lightning-things-to-know-e5ea8d84369f)
+

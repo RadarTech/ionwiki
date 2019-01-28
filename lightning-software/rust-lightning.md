@@ -1,14 +1,14 @@
 ---
-category: lightning-software
-contributors: "Ryan Shea (ryan-shea)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Rust Lightning"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Rust Lightning
+contributors: Ryan Shea (ryan-shea)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-software
 ---
 
 # Rust Lightning
@@ -32,3 +32,4 @@ type: article
 ## References
 
 \[1\] [https://github.com/rust-bitcoin/rust-lightning](https://github.com/rust-bitcoin/rust-lightning)
+

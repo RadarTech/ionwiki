@@ -1,14 +1,14 @@
 ---
-category: bitcoin-basics
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Satoshi (unit of currency)"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Satoshi (unit of currency)
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: bitcoin-basics
 ---
 
 # Satoshi \(unit of currency\)
@@ -46,3 +46,4 @@ According to ribuck, Satoshi Nakamoto referred to the base unit simply as a "coi
 \[1\] [https://bitcointalk.org/index.php?topic=369.msg22160\#msg22160](https://bitcointalk.org/index.php?topic=369.msg22160#msg22160)
 
 \[2\] [https://bitcointalk.org/index.php?topic=3311.msg46648\#msg46648](https://bitcointalk.org/index.php?topic=3311.msg46648#msg46648)
+

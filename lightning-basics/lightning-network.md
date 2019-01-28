@@ -1,14 +1,14 @@
 ---
-category: lightning-basics
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "What is the Lightning Network?"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: What is the Lightning Network?
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-basics
 ---
 
 # What is the Lightning Network?
@@ -17,7 +17,7 @@ type: article
 
 The **Lightning Network** is an off-chain, routed [payment channel](payment-channel.md) network built on top of the Bitcoin blockchain. The network consists of [nodes](node.md) connected by peer-to-peer channels. This allows low cost, near-instant payments to be trustlessly routed across the network via connected nodes.
 
-As a "Layer 2" payment protocol, transactions on the Lightning Network are underpinned by the security of  the Bitcoin blockchain. Participants must complete on-chain transactions to open and close channels, but can make near-instant, free transactions within an open channel. As a result, the Lightning Network avoids the linear scalability problems faced by traditional proof-of-work blockchains.
+As a "Layer 2" payment protocol, transactions on the Lightning Network are underpinned by the security of the Bitcoin blockchain. Participants must complete on-chain transactions to open and close channels, but can make near-instant, free transactions within an open channel. As a result, the Lightning Network avoids the linear scalability problems faced by traditional proof-of-work blockchains.
 
 ## Details
 
@@ -82,3 +82,4 @@ Through this network of interconnected payment channels, Lightning provides a sc
 \[2\] [https://dev.lightning.community/overview/](https://dev.lightning.community/overview/)
 
 \[3\] \('Rapid Payments' through to 'Single-funded Channels' sourced from [https://en.bitcoin.it/wiki/Lightning\_Network](https://en.bitcoin.it/wiki/Lightning_Network) under CC BY 3.0\)
+

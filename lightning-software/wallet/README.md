@@ -1,14 +1,14 @@
 ---
-category: lightning-software
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Wallet"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Wallet
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-software
 ---
 
 # Wallet
@@ -45,7 +45,7 @@ A desktop wallet runs on Windows, macOS, or Linux. Often running a complete Bitc
 
 **Mobile wallet**
 
-Mobile wallets for Lightning run on iOS and Android. Many mobile wallets for Lightning are currently under development and have not reached maturity due to the requirement of hosting a full Bitcoin node to interact with the Lightning Network. Projects like `neutrino` are being explored to enable seamless mobile wallet adoption. Some current mobile wallets connect to hosted nodes and interact remotely. __
+Mobile wallets for Lightning run on iOS and Android. Many mobile wallets for Lightning are currently under development and have not reached maturity due to the requirement of hosting a full Bitcoin node to interact with the Lightning Network. Projects like `neutrino` are being explored to enable seamless mobile wallet adoption. Some current mobile wallets connect to hosted nodes and interact remotely. \_\_
 
 **Hardware wallet**
 
@@ -78,3 +78,4 @@ A third-party API client is one that interacts with bitcoin or Lightning through
 \[1\] [https://en.bitcoin.it/wiki/Wallet](https://en.bitcoin.it/wiki/Wallet)
 
 \[2\] [https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch05.asciidoc](https://github.com/bitcoinbook/bitcoinbook/blob/f8b883dcd4e3d1b9adf40fed59b7e898fbd9241f/ch05.asciidoc) \(content adapted\)
+

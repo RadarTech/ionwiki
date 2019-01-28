@@ -1,14 +1,14 @@
 ---
-category: lightning-channels
-contributors: "Ryan Shea (ryan-shea)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Channel Backups"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Channel Backups
+contributors: Ryan Shea (ryan-shea)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-channels
 ---
 
 # Channel Backup
@@ -54,3 +54,4 @@ Users can also recover from certain kinds of database corruption. Core code for 
 \[1\] [https://github.com/lightningnetwork/lnd/pull/2313](https://github.com/lightningnetwork/lnd/pull/2313)
 
 \[2\] [https://medium.com/@ACINQ/enabling-automated-backup-on-eclair-wallet-9f58dc3d8407](https://medium.com/@ACINQ/enabling-automated-backup-on-eclair-wallet-9f58dc3d8407)
+

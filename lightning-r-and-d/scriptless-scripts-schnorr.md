@@ -1,14 +1,14 @@
 ---
-category: lightning-rnd
-contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
-created: 2019-01-01
-description: ""
-discussions-to: "GitHub URL"
-latest-revision: 2019-01-27
-original-author: "Ryan Shea (ryan-shea)"
-status: "Accepted"
-title: "Scriptless Scripts (Schnorr)"
+latest-revision: '2019-01-27T00:00:00.000Z'
+original-author: Ryan Shea (ryan-shea)
+created: '2019-01-01T00:00:00.000Z'
+status: Accepted
+title: Scriptless Scripts (Schnorr)
+contributors: Ryan Shea (ryan-shea); Gareth James (gjradar)
 type: article
+description: ''
+discussions-to: GitHub URL
+category: lightning-rnd
 ---
 
 # Scriptless Scripts \(Schnorr\)
@@ -29,7 +29,7 @@ _Smart contracts:_ Currently, smart contracts are used to process Bitcoin transa
 
 _Script:_ These smart contracts are currently processed on-chain using [Bitcoin Script](https://en.bitcoin.it/wiki/Script).
 
-_On-chain vs. off-chain_: Bitcoin smart contracts are currently processed “on-chain” which has negative effects on user transaction costs, network participation resource requirements, and privacy \(all of which are discussed in more detail below\). __The potential power of Scriptless Scripts is that they address these issues by using Schnorr signatures to move smart contract processing off-chain.
+_On-chain vs. off-chain_: Bitcoin smart contracts are currently processed “on-chain” which has negative effects on user transaction costs, network participation resource requirements, and privacy \(all of which are discussed in more detail below\). \_\_The potential power of Scriptless Scripts is that they address these issues by using Schnorr signatures to move smart contract processing off-chain.
 
 ### Benefits
 
@@ -37,13 +37,13 @@ The primary benefits of Scriptless scripts are functionality, privacy, and effic
 
 In terms of **functionality**, Scriptless Scripts could increase the range and complexity of smart contracts that are possible with Bitcoin today. Currently, Bitcoin smart contracts are executed within Bitcoin Script which is limited in the types of contracts that can be executed. This limitation stems from the number of “opcodes” that have been enabled by the network \(remember, anything done at the network level requires network-wide consensus, which is hard to achieve\).
 
-Scriptless scripts move the specification and execution of these smart contracts from a _network-wide decision_ — as is currently the case for smart contracts that execute within Bitcoin Script — to a decision that _only involves the participants of the smart contract_. As a result, the range of smart contracts that a Bitcoin user could potentially deploy should increase drastically.
+Scriptless scripts move the specification and execution of these smart contracts from a _network-wide decision_ — as is currently the case for smart contracts that execute within Bitcoin Script — to a decision that _only involves the participants of the smart contract_. As a result, the range of smart contracts that a Bitcoin user could potentially deploy should increase drastically.
 
-Moving the specification and execution of smart contracts from on-chain to off-chain is also what drives the **privacy** benefits of Scriptless Scripts. When the smart contracts themselves are on-chain, many details are divulged to the entire network including the number and addresses of participants as well as the amount of capital involved — that’s not ideal as it’s very far afield from typical user expectations regarding contracts and money transfers.
+Moving the specification and execution of smart contracts from on-chain to off-chain is also what drives the **privacy** benefits of Scriptless Scripts. When the smart contracts themselves are on-chain, many details are divulged to the entire network including the number and addresses of participants as well as the amount of capital involved — that’s not ideal as it’s very far afield from typical user expectations regarding contracts and money transfers.
 
-Instead, Scriptless Scripts use Schnorr signatures to move these contracts off-chain. This means that instead of the entire network verifying the actual terms of a contract, the network and its participants simply verify that there is a valid outcome — That is, that the parties to the contract agree that the terms have been satisfied and the resulting transaction is valid.
+Instead, Scriptless Scripts use Schnorr signatures to move these contracts off-chain. This means that instead of the entire network verifying the actual terms of a contract, the network and its participants simply verify that there is a valid outcome — That is, that the parties to the contract agree that the terms have been satisfied and the resulting transaction is valid.
 
-Said differently, the network doesn’t actually need to know the terms of the contract between Alice and Bob, the network just needs to know that Alice and Bob agree that the terms of their contract have been satisfied and that the resulting transaction is valid — that’s what Scriptless Scripts accomplish.
+Said differently, the network doesn’t actually need to know the terms of the contract between Alice and Bob, the network just needs to know that Alice and Bob agree that the terms of their contract have been satisfied and that the resulting transaction is valid — that’s what Scriptless Scripts accomplish.
 
 Scriptless Scripts also offer a significant **efficiency** advantage: By moving smart contracts off-chain, Scriptless Scripts minimize the amount of data that needs to be verified and stored on the network level. That means less overhead for network participants \(e.g. full nodes\) and lower transaction fees for users \(a win-win\).
 
@@ -66,3 +66,4 @@ Ultimately, it’s helpful to think of these innovations in terms of puts and ta
 \[3\] [https://bitcoinmagazine.com/articles/scriptless-scripts-how-bitcoin-can-support-smart-contracts-without-smart-contracts/](https://bitcoinmagazine.com/articles/scriptless-scripts-how-bitcoin-can-support-smart-contracts-without-smart-contracts/)
 
 \[4\] [https://joinmarket.me/blog/blog/flipping-the-scriptless-script-on-schnorr/](https://joinmarket.me/blog/blog/flipping-the-scriptless-script-on-schnorr/)
+
