@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Zap Desktop
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-software
+contributors: "Ryan Shea (ryan-shea)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Zap Desktop"
+type: article
 ---
 
 # Zap Desktop
@@ -27,7 +21,7 @@ category: null
 
 ### Functionality
 
-Zap Desktop implements a fully functional `lnd` node in the desktop client. Zap supports Bitcoin `testnet3` in the default operating mode, but can also connect to `lnd` configured for any network \(tBTC, BTC, tLTC, LTC\). 
+Zap Desktop implements a fully functional `lnd` node in the desktop client. Zap supports Bitcoin `testnet3` in the default operating mode, but can also connect to `lnd` configured for any network \(tBTC, BTC, tLTC, LTC\).
 
 Zap supports autopilot configuration, remote node connection, BTCPay support, and Bitcoin unit conversions.
 
@@ -35,7 +29,7 @@ Zap supports autopilot configuration, remote node connection, BTCPay support, an
 
 ![Screenshot from Zap Desktop on macOS](../../.gitbook/assets/zap-screenshot2.png)
 
-Zap walks users through the creation of a wallet on install. Users progress through a traditional user flow, creating a wallet and backing up the seed phrase. Zap also has [autopilot](../../lightning-channels/channel-opening.md#autopilot) functionality. 
+Zap walks users through the creation of a wallet on install. Users progress through a traditional user flow, creating a wallet and backing up the seed phrase. Zap also has [autopilot](../../lightning-channels/channel-opening.md#autopilot) functionality.
 
 ### Tech Stack
 
@@ -64,6 +58,3 @@ Zap is built with Electron, React, and Redux on top of the [`lnd`](../lnd/) impl
 \[1\] [https://zap.jackmallers.com/](https://zap.jackmallers.com/)
 
 \[2\] [https://github.com/LN-Zap/zap-desktop](https://github.com/LN-Zap/zap-desktop)
-
-
-

@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: HLTC
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Hashed Time Locked Contract
-discussions-to: (GitHub PR)
-category: null
+category: bitcoin-basics
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "HTLC"
+type: article
 ---
 
 # HTLC
@@ -35,11 +29,11 @@ The completion of payments via a routed network using HTLCs is probabilistic, de
 
 ### Hashlock
 
-Hashlocks restrict the spending of an output until a specified piece of data is publicly revealed. This allows for payments to be routed through third parties without any risk that the third parties will take the payments themselves. 
+Hashlocks restrict the spending of an output until a specified piece of data is publicly revealed. This allows for payments to be routed through third parties without any risk that the third parties will take the payments themselves.
 
 ### Timelock
 
-Timelocks are restrictions on transactions or outputs that only allow spending after a point in time. Timelocks ensure that routed payments cannot be claimed by intermediate nodes. Timelocks require the production of a verifiable digital signature before a certain time. 
+Timelocks are restrictions on transactions or outputs that only allow spending after a point in time. Timelocks ensure that routed payments cannot be claimed by intermediate nodes. Timelocks require the production of a verifiable digital signature before a certain time.
 
 If the secret is not revealed, the payer of the HTLC can get a “refund” after some time. This is achieved with an absolute time lock using `CHECKLOCKTIMEVERIFY`.
 
@@ -69,4 +63,3 @@ For all payments between two parties, HTLCs require hashlocks to be resolved and
 ## References
 
 \[1\] [https://en.bitcoin.it/wiki/Hashed\_Timelock\_Contracts](https://en.bitcoin.it/wiki/Hashed_Timelock_Contracts)
-

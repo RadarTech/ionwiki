@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Channel opening
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-channels
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Channel Opening"
+type: article
 ---
 
 # Opening A Channel
@@ -31,9 +25,9 @@ The initial funding transaction creates the channel that is controlled by both p
 
 ### Autopilot
 
-Lightning Network implementations can be equipped with 'autopilot' functionality, which automates the process of finding, funding and establishing a payments channel with another node. This can be helpful for new users who want to expedite their node setup and may have no preference of which node to connect with, or who have no experience with opening a channel. 
+Lightning Network implementations can be equipped with 'autopilot' functionality, which automates the process of finding, funding and establishing a payments channel with another node. This can be helpful for new users who want to expedite their node setup and may have no preference of which node to connect with, or who have no experience with opening a channel.
 
-Autopilot features require criteria to select which nodes to establish channels with. These criteria vary across implementation and wallet software. Criteria could include uptime, measures of channel connectivity, fee levels, outbound channel volume, and relative position in the network. 
+Autopilot features require criteria to select which nodes to establish channels with. These criteria vary across implementation and wallet software. Criteria could include uptime, measures of channel connectivity, fee levels, outbound channel volume, and relative position in the network.
 
 ## Resources
 
@@ -50,4 +44,3 @@ Autopilot features require criteria to select which nodes to establish channels 
 \[2\] [https://counterparty.io/docs/paymentchannels-lightning-faq/](https://counterparty.io/docs/paymentchannels-lightning-faq/)
 
 \[3\] [https://medium.com/@rusty\_lightning/bitcoin-lightning-things-to-know-e5ea8d84369f](https://medium.com/@rusty_lightning/bitcoin-lightning-things-to-know-e5ea8d84369f)
-

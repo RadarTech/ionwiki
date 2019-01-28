@@ -1,14 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: Ryan Shea 'ryan-shea'
-created: '2019-01-09T00:00:00.000Z'
-status: Proofing
-title: Eclair
-contributors: null
-type: null
-description: Android Lightning Wallet
-discussions-to: (GitHub PR)
-category: null
+category: lightning-software
+contributors: "Ryan Shea (ryan-shea)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Eclair"
+type: article
 ---
 
 # Eclair
@@ -45,4 +45,3 @@ category: null
 [https://acinq.co](https://acinq.co)
 
 ## References
-

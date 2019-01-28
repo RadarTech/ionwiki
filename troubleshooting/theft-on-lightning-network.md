@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Theft (on Lightning Network)
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-troubleshooting
+contributors: "Ryan Shea (ryan-shea); Brandon Curtis (brandoncurtis)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Brandon Curtis (brandoncurtis))"
+status: "Accepted"
+title: "Theft (on Lightning Network)"
+type: article
 ---
 
 # Theft \(on Lightning Network\)
@@ -33,7 +27,7 @@ When Alice broadcasts a closing transaction to the blockchain, she is attesting 
 
 ### Theft via Cracking
 
-As parties must be online and using private keys to sign, there is a possibility that, if the computer where the private keys are stored is compromised, coins will be stolen by the attacker. While there may be methods to mitigate the threat for the sender and the receiver, the intermediary nodes must be online and will likely be processing the transaction automatically. For this reason, the intermediary nodes will be at risk and should not be holding a substantial amount of money in this “hot wallet.” Intermediary nodes which have better security will likely be able to out-compete others in the long run and be able to conduct greater transaction volume due to lower fees. Historically, one of the largest component of fees and interest in the financial system are from various forms of counterparty risk – in Bitcoin it is possible that the largest component in fees will be derived from security risk premiums. 
+As parties must be online and using private keys to sign, there is a possibility that, if the computer where the private keys are stored is compromised, coins will be stolen by the attacker. While there may be methods to mitigate the threat for the sender and the receiver, the intermediary nodes must be online and will likely be processing the transaction automatically. For this reason, the intermediary nodes will be at risk and should not be holding a substantial amount of money in this “hot wallet.” Intermediary nodes which have better security will likely be able to out-compete others in the long run and be able to conduct greater transaction volume due to lower fees. Historically, one of the largest component of fees and interest in the financial system are from various forms of counterparty risk – in Bitcoin it is possible that the largest component in fees will be derived from security risk premiums.
 
 A Funding Transaction may have multiple outputs with multiple Commitment Transactions, with the Funding Transaction key and some Commitment Transactions keys stored offline. It is possible to create an equivalent of a “Checking Account” and “Savings Account” by moving funds between outputs from a Funding Transaction, with the “Savings Account” stored offline and requiring additional signatures from security services.
 
@@ -48,4 +42,3 @@ A Funding Transaction may have multiple outputs with multiple Commitment Transac
 \[1\] [https://dev.lightning.community/overview/\#channel-updates](https://dev.lightning.community/overview/#channel-updates)
 
 \[2\] [https://lightning.network/lightning-network-paper.pdf](https://lightning.network/lightning-network-paper.pdf)
-

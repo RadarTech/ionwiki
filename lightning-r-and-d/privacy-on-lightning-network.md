@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Privacy (on lightning network)
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-rnd
+contributors: "Ryan Shea (ryan-shea)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Privacy (on Lightning Network)"
+type: article
 ---
 
 # Privacy \(on Lightning Network\)
@@ -42,4 +36,3 @@ Importantly, all intermediaries only learn from which channel they receive token
 \[1\] [https://medium.com/@rusty\_lightning/the-bitcoin-lightning-spec-part-5-8-onion-routing-protocol-86c91e455909](https://medium.com/@rusty_lightning/the-bitcoin-lightning-spec-part-5-8-onion-routing-protocol-86c91e455909)
 
 \[2\] [https://bitcoinmagazine.com/articles/how-the-lightning-network-layers-privacy-on-top-of-bitcoin-1482183775/](https://bitcoinmagazine.com/articles/how-the-lightning-network-layers-privacy-on-top-of-bitcoin-1482183775/)
-

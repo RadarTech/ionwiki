@@ -1,27 +1,21 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: LND
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-software
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "LND"
+type: article
 ---
 
 # LND
 
 ## Overview
 
-**`lnd`**, or the Lightning Network Daemon, is a complete implementation of a [BOLT](../../lightning-basics/basics-of-lightning-technology-bolt.md)-compliant Lightning Network [node ](../../lightning-basics/node.md)developed by Lightning Labs. It is currently deployed on the Bitcoin Test Network `testnet3` and on mainnet. `lnd` 0.1 alpha was released on January 11th, 2017, and since has been in active beta development. 
+**`lnd`**, or the Lightning Network Daemon, is a complete implementation of a [BOLT](../../lightning-basics/basics-of-lightning-technology-bolt.md)-compliant Lightning Network [node ](../../lightning-basics/node.md)developed by Lightning Labs. It is currently deployed on the Bitcoin Test Network `testnet3` and on mainnet. `lnd` 0.1 alpha was released on January 11th, 2017, and since has been in active beta development.
 
 ## Details
 
@@ -67,4 +61,3 @@ A set of developer resources including talks, articles, and example applications
 \[2\] [https://dev.lightning.community/](https://dev.lightning.community/)
 
 \[3\] [https://api.lightning.community/](https://api.lightning.community/)
-

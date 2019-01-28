@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Payment routing
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-basics
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Payment Routing"
+type: article
 ---
 
 # Payment Routing
@@ -31,11 +25,11 @@ category: null
 
 ### Gateway Nodes
 
-“Gateway” routing nodes are those that directly serve end users. These nodes will serve a relatively small number of users \(likely in the hundreds\) and will have modest hardware, bandwidth and capital requirements. Over time, gateway nodes will become more highly connected. 
+“Gateway” routing nodes are those that directly serve end users. These nodes will serve a relatively small number of users \(likely in the hundreds\) and will have modest hardware, bandwidth and capital requirements. Over time, gateway nodes will become more highly connected.
 
 ### Routing Capabilities
 
-Through a process that’s analogous to finding connections between people in “Six Degrees of Separation,” Lightning Nodes can determine routes to any node in the network. The transaction with the generated route is then sent across that series of nodes. 
+Through a process that’s analogous to finding connections between people in “Six Degrees of Separation,” Lightning Nodes can determine routes to any node in the network. The transaction with the generated route is then sent across that series of nodes.
 
 ### Routing Hints
 
@@ -43,7 +37,7 @@ Routing hints provide information to find non-advertised, or private, channels. 
 
 Routing hints require the sharing of a `node_id` and `channel_id`, where the `node_id` represents the public node and the `channel_id` represents the private channel. The `channel_id` is meaningless to the payer of the invoice but is recognizable to the public node, as it is privately connected to the node that generated the invoice. By specifying numerous routing hints in an invoice, users can increase the likelihood that a paying node can find a successful path to the receiver.
 
-Users can view route hints using `lncli decodepayreq <invoice>.` 
+Users can view route hints using `lncli decodepayreq <invoice>.`
 
 ```text
     "route_hints": [                                           
@@ -63,11 +57,8 @@ Users can view route hints using `lncli decodepayreq <invoice>.`
 
 ## Resources
 
-
+[Lightning Developers API](https://api.lightning.community/)
 
 ## References
 
 \[1\] [https://blog.lightning.engineering/posts/2018/05/30/routing.html](https://blog.lightning.engineering/posts/2018/05/30/routing.html)
-
-\[2\] 
-

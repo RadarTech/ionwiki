@@ -1,29 +1,23 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Satoshi (unit of currency)
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: bitcoin-basics
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Satoshi (unit of currency)"
+type: article
 ---
 
 # Satoshi \(unit of currency\)
 
 ## Overview
 
-A **satoshi** is the smallest unit of the Bitcoin currency. It represents one hundred millionth of a single bitcoin \(0.00000001 BTC\). 
+A **satoshi** is the smallest unit of the Bitcoin currency. It represents one hundred millionth of a single bitcoin \(0.00000001 BTC\).
 
-As with traditional currencies, cryptocurrencies require explicit denominations. This is important to provide for interoperability between users and software on the network. The unit has been named in collective homage to the original creator of Bitcoin, Satoshi Nakamoto. 
+As with traditional currencies, cryptocurrencies require explicit denominations. This is important to provide for interoperability between users and software on the network. The unit has been named in collective homage to the original creator of Bitcoin, Satoshi Nakamoto.
 
 With the ability to affordably transact in micropayments, the satoshi has even greater practical relevance in the Lightning Network than the underlying Bitcoin network.
 
@@ -52,4 +46,3 @@ According to ribuck, Satoshi Nakamoto referred to the base unit simply as a "coi
 \[1\] [https://bitcointalk.org/index.php?topic=369.msg22160\#msg22160](https://bitcointalk.org/index.php?topic=369.msg22160#msg22160)
 
 \[2\] [https://bitcointalk.org/index.php?topic=3311.msg46648\#msg46648](https://bitcointalk.org/index.php?topic=3311.msg46648#msg46648)
-

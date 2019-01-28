@@ -1,27 +1,21 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: c-lightning
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-software
+contributors: "Ryan Shea (ryan-shea)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "c-lightning"
+type: article
 ---
 
 # c-lightning
 
 ## Overview
 
-**c-lightning** is a a [BOLT](../lightning-basics/basics-of-lightning-technology-bolt.md)-compliant Lightning implementation by Blockstream \[2\] written in C. Version 1 of c-lightning was released on August 8th, 2015, and has since been under active beta development. c-lightning runs on Linux. 
+**c-lightning** is a a [BOLT](../lightning-basics/basics-of-lightning-technology-bolt.md)-compliant Lightning implementation by Blockstream \[2\] written in C. Version 1 of c-lightning was released on August 8th, 2015, and has since been under active beta development. c-lightning runs on Linux.
 
 ## Details
 
@@ -47,4 +41,3 @@ On top of complying with all BOLT standards, c-lightning is developing an archit
 \[1\] [Blockstream](https://blockstream.com/)
 
 \[2\] [c-lightning](https://github.com/ElementsProject/lightning)
-

@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Gossip
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-basics
+contributors: "Ryan Shea (ryan-shea)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Gossip"
+type: article
 ---
 
 # Gossip
@@ -40,4 +34,3 @@ To support node discovery, peers exchange `node_announcement` messages, which su
 ## References
 
 \[1\] [https://github.com/lightningnetwork/lightning-rfc/blob/master/07-routing-gossip.md](https://github.com/lightningnetwork/lightning-rfc/blob/master/07-routing-gossip.md#rebroadcasting)
-

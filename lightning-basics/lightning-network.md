@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Lightning network
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-basics
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "What is the Lightning Network?"
+type: article
 ---
 
 # What is the Lightning Network?
@@ -27,7 +21,7 @@ As a "Layer 2" payment protocol, transactions on the Lightning Network are under
 
 ## Details
 
-The Lightning Network is a protocol that enables high­-volume, low ­latency digital micropayments without the need for trusted intermediaries. Using novel Bitcoin multi signature transactions and scripts, Lightning participants do not give unilateral custody of funds to a third party, greatly reducing transaction costs and counterparty risk. While previous micropayment solutions involve holding funds with trusted custodians, the Lightning Network achieves instant micropayments via smart contracts. Through a network of multi signature transactions, any participant on the Lightning Network is able to pay anyone else within the ecosystem of participants. 
+The Lightning Network is a protocol that enables high­-volume, low ­latency digital micropayments without the need for trusted intermediaries. Using novel Bitcoin multi signature transactions and scripts, Lightning participants do not give unilateral custody of funds to a third party, greatly reducing transaction costs and counterparty risk. While previous micropayment solutions involve holding funds with trusted custodians, the Lightning Network achieves instant micropayments via smart contracts. Through a network of multi signature transactions, any participant on the Lightning Network is able to pay anyone else within the ecosystem of participants.
 
 Lightning's fundamental technology is a local two ­party consensus, known as a [payment channel](payment-channel.md). Two parties send an initial amount of Bitcoin into a multi signature transaction with a local consensus on the current balance allocated between the two participants. Updates to the allocation of the current balance can be made only with the cooperation of both parties, using a new transaction which spends from the funds allocated to the multi signature transaction to each party.
 
@@ -88,4 +82,3 @@ Through this network of interconnected payment channels, Lightning provides a sc
 \[2\] [https://dev.lightning.community/overview/](https://dev.lightning.community/overview/)
 
 \[3\] \('Rapid Payments' through to 'Single-funded Channels' sourced from [https://en.bitcoin.it/wiki/Lightning\_Network](https://en.bitcoin.it/wiki/Lightning_Network) under CC BY 3.0\)
-

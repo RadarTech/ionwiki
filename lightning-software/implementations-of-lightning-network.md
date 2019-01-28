@@ -1,20 +1,14 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Implementations (of lightning network)
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-software
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Gareth James (gjradar)"
+status: "Accepted"
+title: "Network Implementations"
+type: article
 ---
 
 # Network Implementations
@@ -48,4 +42,3 @@ Participation in the [Lightning Network](../lightning-basics/lightning-network.m
 \[4\] [https://github.com/nayutaco/ptarmigan](https://github.com/nayutaco/ptarmigan)
 
 \[5\] [https://github.com/mit-dci/lit](https://github.com/mit-dci/lit)
-

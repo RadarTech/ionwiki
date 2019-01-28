@@ -1,27 +1,21 @@
 ---
-latest-revision: '1999-01-29T00:00:00.000Z'
-original-author: >-
-  Isaac Newton (@appleman) < List of Original Authors' Real Name and Github;
-  email address optional >
-created: 1999-01-01 < ISO 8601 (yyyy-mm-dd) format >
-status: >-
-  < Draft | Under Review | Deferred | Proofing | Rejected | Withdrawn | Accepted
-  | Superseded>
-title: Invoice
-contributors: >-
-  Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of
-  contributors -- Real Name + Github; email optional >
-type: null
-description: Description guidelines
-discussions-to: (GitHub PR)
-category: null
+category: lightning-basics
+contributors: "Ryan Shea (ryan-shea); Gareth James (gjradar)"
+created: 2019-01-01
+description: ""
+discussions-to: "GitHub URL"
+latest-revision: 2019-01-27
+original-author: "Ryan Shea (ryan-shea)"
+status: "Accepted"
+title: "Invoice"
+type: article
 ---
 
 # Invoice
 
 ## Overview
 
-An **invoice** represents a request for funds on the Lightning Network. Invoices include numerous parameters, both required and optional, such as payment amount, chain, expiry date, payee [pubkey](../bitcoin-basics/pubkey.md), [routing hints](payment-routing.md#routing-hints), and other information. Invoices are used to make payments on the Lightning Network, rather than using [Bitcoin-style addresses](../bitcoin-basics/bitcoin-address-formats.md). 
+An **invoice** represents a request for funds on the Lightning Network. Invoices include numerous parameters, both required and optional, such as payment amount, chain, expiry date, payee [pubkey](../bitcoin-basics/pubkey.md), [routing hints](payment-routing.md#routing-hints), and other information. Invoices are used to make payments on the Lightning Network, rather than using [Bitcoin-style addresses](../bitcoin-basics/bitcoin-address-formats.md).
 
 Invoices are commonly presented as alphanumerical strings or QR codes. In order to parse specific information from the request string, users can pass the string into a decoding tool \[1\].
 
@@ -29,7 +23,7 @@ Invoices are commonly presented as alphanumerical strings or QR codes. In order 
 
 ### Components
 
-Every Lightning invoice requires the following information in order to be valid: 
+Every Lightning invoice requires the following information in order to be valid:
 
 * `destination`: The public key of the person receiving the LN payment.
 * `payment_hash`: The hash of the preimage that is used to lock the payment. You can only redeem a locked payment with the corresponding preimage to the payment hash. This enables routing on the Lightning Network without trusted third parties.
@@ -122,4 +116,3 @@ Lightning Payment Request Decoder
 \[1\] [Lightning Decoder](https://lightningdecoder.com/)
 
 \[2\] [BOLT \#11](https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md)
-

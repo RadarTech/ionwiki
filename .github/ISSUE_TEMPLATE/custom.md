@@ -12,8 +12,9 @@ Have something that doesn't fall under this dichotomy?
 
 Add an issue here.
 -->
+
 ### Who
 
-### What 
+### What
 
 ### Why
