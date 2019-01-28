@@ -1,4 +1,2 @@
 # Lightning Basics
 
-
-
