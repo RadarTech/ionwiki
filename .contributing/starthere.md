@@ -26,7 +26,7 @@ Have a look at the top contributors to the [wiki here](https://github.com/RadarT
 ## Writing Markdown
 GitHub and GitBook automatically renders Markdown files into nice-looking pages. You can edit the files online or locally by cloning this repository.
 
-Here is a couple of [guides to Markdown](https://help.github.com/categories/writing-on-github/) from the folks at GitHub.
+Here are a couple of [guides to Markdown](https://help.github.com/categories/writing-on-github/) from the folks at GitHub.
 
 ### Adding to the Table of Content
 If you've created a new page and need to add it in the GitBook TOC, edit the [SUMMARY.md file](https://github.com/RadarTech/ionwiki/blob/master/SUMMARY.md).
