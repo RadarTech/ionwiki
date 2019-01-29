@@ -11,7 +11,7 @@ discussions-to: GitHub URL
 category: lightning-basics
 ---
 
-# Contribution Guide
+# Contribution Overview
 
 Welcome to the Ion Wiki Contributor Guide!
 
@@ -22,7 +22,6 @@ If you have something to add, you think that something is missing, or you found 
 To contribute to the Ion Wiki, you need an account on GitHub. Then, you can either open an issue in the [issue tracker](https://github.com/radartech/ionwiki/issues). Alternatively, you can edit the documentation yourself.
 
 Have a look at the top contributors to the [wiki here](https://github.com/RadarTech/ionwiki/graphs/contributors?from=2019-01-06&to=2019-01-28&type=c).
-
 
 ## Writing Markdown
 GitHub and GitBook automatically renders Markdown files into nice-looking pages. You can edit the files online or locally by cloning this repository.
