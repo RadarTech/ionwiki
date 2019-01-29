@@ -19,7 +19,7 @@ A **Bitcoin address** is an identifier that represents a destination for a Bitco
 
 ## Details
 
-### Formats
+### Formats (WIF = Wallet Import Format)
 
 _Private Key WIF \(51 characters base58, starts with a '5'\):_ `5KLgsTKHMLmVxetAvN8Vqa9H7FWSj1DdXYeEKMy4nyHS5YKTpuq`
 
