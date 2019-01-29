@@ -86,9 +86,3 @@ The default for each contribution is that it is accepted once no committer has a
 In the case of an objection being raised in a pull request by another committer, all involved committers should seek to arrive at a consensus by way of addressing concerns being expressed by discussion, compromise on the proposed change, or withdrawal of the proposed change.
 
 If a contribution is controversial and committers cannot agree about how to get it to land or if it should land then it will be escalated to the Ion Core team. Ion members will regularly discuss pending contributions in order to find a resolution. It is expected that only a small minority of issues be brought to the Ion Core team for resolution and that discussion and compromise among committers be the default resolution mechanism.
-
-## Community
-
-We don't just discuss in GitHub!
-
-Chat with us on Rocket.Chat \(to be added\).
