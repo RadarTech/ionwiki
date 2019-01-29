@@ -8,7 +8,7 @@ contributors: Ryan Shea (ryan-shea)
 type: article
 description: ''
 discussions-to: GitHub URL
-category: lightning-basics
+category: org
 ---
 
 # Contribution Overview
@@ -55,7 +55,7 @@ You can read new topics before they are published by checking the currently open
 
 ## Create quality issues
 
-The wiki is a continuous work in progress. Good issues help us focus our efforts on the highest priorities for the community. The more detail you can provide, the more helpful the issue. Tell us what information you sought. Tell us the search terms you used. If you can't get started, tell us how you want to start exploring unfamiliar technology.
+The wiki is a continual work in progress. Good issues help us focus our efforts on the highest priorities for the community. The more detail you can provide, the more helpful the issue. Tell us what information you sought. Tell us the search terms you used. If you can't get started, tell us how you want to start exploring unfamiliar technology.
 
 Issues start the conversation about what's needed. The content team will respond to these issues with ideas for what we can add, and ask for your opinions. When we create a draft, we'll ask you to review the PR.
 
