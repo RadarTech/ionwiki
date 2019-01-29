@@ -17,7 +17,7 @@ We're looking for support in the following areas:
 * Improving stub articles
 * Content research and roadmapping
 
-#### [Click here to get started.]()
+# [Click here to get started.](https://github.com/RadarTech/ionwiki/tree/master/.contributing/starthere.md)
 
 ## Your First Contribution
 
