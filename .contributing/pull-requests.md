@@ -14,6 +14,27 @@ Pull request guidelines are a foundational step towards a better project and con
 development practices. Pull request guidelines will nurture a culture of
 broader peer review and lower friction across contributors and core team members.
 
+# How to contribute via a Pull Request
+
+> A pull request (PR) is a method of submitting contributions to an open source project. It is often the preferred way of submitting contributions to a project using a Distributed Version Control System (DVCS) such as Git.
+
+FreeCodeCamp is an Open Source project and all of the contents are freely editable.
+
+- [Fork](https://help.github.com/articles/fork-a-repo/) the project on GitHub.
+- [Clone](https://help.github.com/articles/cloning-a-repository/) it to a local machine. Do not edit online in github.com, as the editor may cause issues with JSON formatted data.
+- [Create a branch](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/) with the form `fix/some-bug` or `feature/add-cool-thing` and make your changes in that branch and commit them.
+- [Push](https://help.github.com/articles/pushing-to-a-remote/) the branch online (if editing locally).
+- [Create a pull request](https://help.github.com/articles/creating-a-pull-request/) against the **"staging"** branch.
+- The title (also called the subject) of your PR should be descriptive of your changes. i.e. `fixed typo in Hash`
+- If the PR is meant to fix a specific issue, append to the end of your PR's commit message `closes #1337`. This tells GitHub to close that issue if the PR is merged.
+
+## Further Reading
+
+- [GitHub & Git Foundations Training](https://www.youtube.com/playlist?list=PLg7s6cbtAD15G8lNyoaYDuKZSKyJrgwB-) - How to use Git and GitHub
+- [FreeCodeCamp Contribution Guidelines](https://github.com/FreeCodeCamp/FreeCodeCamp#contributing)
+- [How to write Git commit messages](http://chris.beams.io/posts/git-commit/)
+- [How to Clone FCC to a Windows PC](FreeCodeCamp-Fork-W
+
 ## Guidelines
 
 This section outlines the guidelines that should be imposed upon pull requests for the Ion Wiki.
@@ -39,7 +60,6 @@ Each PR will:
 Finally, PRs should be atomic. That is, they should address one item (task, bug,
 story, etc). Exceptions to this requirement may exist (such as content dumps) but they
 should be the exception.
-
 
 ## On Merging
 
