@@ -17,6 +17,8 @@ We're looking for support in the following areas:
 * Improving stub articles
 * Content research and roadmapping
 
+# [Click here to get started.](https://github.com/RadarTech/ionwiki/tree/master/.contributing/starthere.md)
+
 ## Your First Contribution
 
 Unsure where to start? You can start by looking through these beginner and help-wanted issues:
@@ -38,10 +40,10 @@ At this point, you're ready to make your changes! Feel free to ask for help; eve
 
 #### How to submit a contribution on GitHub
 
-Start by forking the Ion Wiki repo. From there, either: 
+Start by forking the Ion Wiki repo. From there, either:
 
 1. Create an article using the [template](https://github.com/RadarRelay/ionwiki/blob/master/template.md) in the root directory
-2. Edit or revise existing articles 
+2. Edit or revise existing articles
 3. Move and restructure content
 
 As a rule of thumb, changes are obvious fixes if they do not introduce any new pages or structural organization. Some likely examples include the following:
@@ -83,11 +85,8 @@ The default for each contribution is that it is accepted once no committer has a
 
 In the case of an objection being raised in a pull request by another committer, all involved committers should seek to arrive at a consensus by way of addressing concerns being expressed by discussion, compromise on the proposed change, or withdrawal of the proposed change.
 
-If a contribution is controversial and committers cannot agree about how to get it to land or if it should land then it will be escalated to the Ion Core team. Ion members will regularly discuss pending contributions in order to find a resolution. It is expected that only a small minority of issues be brought to the Ion Core team for resolution and that discussion and compromise among committers be the default resolution mechanism. 
+If a contribution is controversial and committers cannot agree about how to get it to land or if it should land then it will be escalated to the Ion Core team. Ion members will regularly discuss pending contributions in order to find a resolution. It is expected that only a small minority of issues be brought to the Ion Core team for resolution and that discussion and compromise among committers be the default resolution mechanism.
 
-## Community
+## Outreach
 
-We don't just discuss in GitHub!
-
-Chat with us on Rocket.Chat \(to be added\).
-
+Have content or other suggestions, but aren't a fan of GitHub? You can reach us directly at outreach@ion.radar.tech.
