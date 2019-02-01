@@ -34,6 +34,7 @@
   * [Network Implementations](lightning-software/implementations-of-lightning-network.md)
   * [LND](lightning-software/lnd/README.md)
     * [Macaroon](lightning-software/lnd/macaroon.md)
+    * [Tor + LND](lightning-software/lnd/tor.md)
   * [c-lightning](lightning-software/c-lightning.md)
   * [Eclair](lightning-software/eclair.md)
   * [Rust Lightning](lightning-software/rust-lightning.md)
