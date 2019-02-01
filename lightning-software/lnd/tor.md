@@ -89,7 +89,7 @@
 
 ## How to Connect 
 
-Connecting to an Tor node is the same as connecting to any other node: `publicKey@address:port`
+Connecting to a Tor node is the same as connecting to any other node: `publicKey@address:port`
 
 Example:
 ```
