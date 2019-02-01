@@ -85,7 +85,7 @@
   }
   ```
 
-  Verify that your `addr` is an `onion` address
+  Verify that your `addr` is an `onion` address (ending in '.onion' as above)
 
 ## How to Connect 
 
