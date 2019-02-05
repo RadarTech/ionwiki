@@ -60,3 +60,7 @@
   * [Scriptless Scripts \(Schnorr\)](lightning-r-and-d/scriptless-scripts-schnorr.md)
   * [Privacy \(on Lightning Network\)](lightning-r-and-d/privacy-on-lightning-network.md)
 
+## Lightning Apps
+
+* [Spacebit Satellite Client](lightning-apps/spacebit-satellite-client.md)
+

@@ -1,12 +1,14 @@
 # How To Contribute
 
-## Introduction
+## How To Contribute
+
+### Introduction
 
 Thank you for considering contributing to the Ion Wiki. It's people like you that will pave the way for the next wave of Lightning developers and enthusiasts.
 
 Following these guidelines helps to establish a standard for high quality, useful content that will last for years to come. Establishing a nexus of information for the Lightning Network is needed; we're all here to make that happen in an organized, high quality way.
 
-### What type of contributions we're looking for
+#### What type of contributions we're looking for
 
 Ion is an open source project and we love to receive contributions from our community!
 
@@ -17,16 +19,16 @@ We're looking for support in the following areas:
 * Improving stub articles
 * Content research and roadmapping
 
-# [Click here to get started.](https://github.com/RadarTech/ionwiki/tree/master/.contributing/starthere.md)
+## [Click here to get started.](https://github.com/RadarTech/ionwiki/tree/master/.contributing/starthere.md)
 
-## Your First Contribution
+### Your First Contribution
 
 Unsure where to start? You can start by looking through these beginner and help-wanted issues:
 
-* [Beginner issues - issues which are great to start with](https://github.com/RadarRelay/ionwiki/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22)
-* [Help wanted issues - issues which should be a bit more involved than beginner issues.](https://github.com/RadarRelay/ionwiki/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22)
+* [Beginner issues - issues which are great to start with](https://github.com/RadarRelay/ionwiki/issues?q=is%3Aopen+is%3Aissue+label%3A"good+first+issue")
+* [Help wanted issues - issues which should be a bit more involved than beginner issues.](https://github.com/RadarRelay/ionwiki/issues?q=is%3Aopen+is%3Aissue+label%3A"help+wanted")
 
-### Never contributed to open source before?
+#### Never contributed to open source before?
 
 Check out the following resources to get you started. It's way easier than it looks.
 
@@ -36,9 +38,9 @@ Check out the following resources to get you started. It's way easier than it lo
 
 At this point, you're ready to make your changes! Feel free to ask for help; everyone is a beginner at first.
 
-## Getting started
+### Getting started
 
-#### How to submit a contribution on GitHub
+**How to submit a contribution on GitHub**
 
 Start by forking the Ion Wiki repo. From there, either:
 
@@ -57,7 +59,7 @@ As a rule of thumb, changes are obvious fixes if they do not introduce any new p
 
 After committing your changes, make a PR to the main repo and briefly describe your changes.
 
-#### How to contribute via GitBook
+**How to contribute via GitBook**
 
 Since we're using GitBook to manage our wiki, you can also submit content through the Gitbook GUI.
 
@@ -69,11 +71,11 @@ Start by:
 
 We will be reviewing GitBook contributions with the same pipeline as GitHub contributions. Discussions will be posted in issue threads and PR discussions.
 
-#### Suggestion process
+**Suggestion process**
 
 If you find yourself searching for content that doesn't exist in the Ion Wiki, you're probably not alone. There are bound to be others out there with similar needs. Open an issue on GitHub describing the content you'd like to see, and we'll get on it in our next sprint.
 
-## Review process
+### Review process
 
 The core contributing team looks at Pull Requests on a regular basis and discusses content decisions in a weekly triage meeting that we hold in a public Google Hangout. The hangout is announced in the weekly status updates sent in the Ion Wiki developer chat.
 
@@ -87,6 +89,7 @@ In the case of an objection being raised in a pull request by another committer,
 
 If a contribution is controversial and committers cannot agree about how to get it to land or if it should land then it will be escalated to the Ion Core team. Ion members will regularly discuss pending contributions in order to find a resolution. It is expected that only a small minority of issues be brought to the Ion Core team for resolution and that discussion and compromise among committers be the default resolution mechanism.
 
-## Outreach
+### Outreach
 
 Have content or other suggestions, but aren't a fan of GitHub? You can reach us directly at outreach@ion.radar.tech.
+
