@@ -41,6 +41,14 @@
   * [Opening A Channel](tech/lightning-channels/channel-opening.md)
   * [Closing A Channel](tech/lightning-channels/channel-closing.md)
   * [Channel Backup](tech/lightning-channels/channel-backups.md)
+* [Research & Development](tech/research-and-development/README.md)
+  * [Watchtowers](tech/research-and-development/watchtowers.md)
+  * [Submarine Swap](tech/research-and-development/submarine-swap.md)
+  * [Lightning Appliance](tech/research-and-development/lightning-appliance.md)
+  * [Channel Factories](tech/research-and-development/channel-factory.md)
+  * [Scriptless Scripts](tech/research-and-development/scriptless-scripts-schnorr.md)
+  * [Privacy](tech/research-and-development/privacy-on-lightning-network.md)
+  * [Eltoo](tech/research-and-development/eltoo.md)
 
 ## Tutorials
 
@@ -62,14 +70,4 @@
   * [Payment failures](tutorials/troubleshooting/payment-failures.md)
   * [Error codes](tutorials/troubleshooting/error-codes.md)
   * [Theft \(on Lightning Network\)](tutorials/troubleshooting/theft-on-lightning-network.md)
-
-## Research & Development
-
-* [Watchtowers](research/watchtowers.md)
-* [Submarine Swap](research/submarine-swap.md)
-* [Lightning Appliance](research/lightning-appliance.md)
-* [Channel Factories](research/channel-factory.md)
-* [Scriptless Scripts](research/scriptless-scripts-schnorr.md)
-* [Privacy](research/privacy-on-lightning-network.md)
-* [Eltoo](research/eltoo.md)
 
