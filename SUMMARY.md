@@ -56,14 +56,12 @@
   * [Eclair](tutorials/wallet/eclair.md)
   * [Shango](tutorials/wallet/shango.md)
   * [Zap Desktop](tutorials/wallet/zap-desktop.md)
+* [Lightning Apps](tutorials/lightning-apps/README.md)
+  * [Spacebit Satellite Client](tutorials/lightning-apps/spacebit-satellite-client.md)
 * [Troubleshooting](tutorials/troubleshooting/README.md)
   * [Payment failures](tutorials/troubleshooting/payment-failures.md)
   * [Error codes](tutorials/troubleshooting/error-codes.md)
   * [Theft \(on Lightning Network\)](tutorials/troubleshooting/theft-on-lightning-network.md)
-
-## Lightning Apps
-
-* [Spacebit Satellite Client](lightning-apps/spacebit-satellite-client.md)
 
 ## Research & Development
 
