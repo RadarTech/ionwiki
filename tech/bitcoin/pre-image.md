@@ -15,7 +15,7 @@ category: bitcoin-basics
 
 ## Overview
 
-In the Lightning Network, a **preimage** is a data string that is passed into a [hash ](hash.md)function. Preimages are also referred to as 'secrets'. Possession of the relevant preimage allows users to claim [HTLC](hltc.md)s, which is a core process in the [routing](../lightning-basics/payment-routing.md) of payments between [nodes](../lightning-basics/node.md).
+In the Lightning Network, a **preimage** is a data string that is passed into a [hash ](hash.md)function. Preimages are also referred to as 'secrets'. Possession of the relevant preimage allows users to claim [HTLC](hltc.md)s, which is a core process in the [routing](../lightning/payment-routing.md) of payments between [nodes](../lightning/node.md).
 
 ## References
 

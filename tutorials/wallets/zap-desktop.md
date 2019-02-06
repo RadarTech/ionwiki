@@ -29,11 +29,11 @@ Zap supports autopilot configuration, remote node connection, BTCPay support, an
 
 ![Screenshot from Zap Desktop on macOS](../../.gitbook/assets/zap-screenshot2.png)
 
-Zap walks users through the creation of a wallet on install. Users progress through a traditional user flow, creating a wallet and backing up the seed phrase. Zap also has [autopilot](../../lightning-basics-1/lightning-channels/channel-opening.md#autopilot) functionality.
+Zap walks users through the creation of a wallet on install. Users progress through a traditional user flow, creating a wallet and backing up the seed phrase. Zap also has [autopilot](../../tech/lightning-channels/channel-opening.md#autopilot) functionality.
 
 ### Tech Stack
 
-Zap is built with Electron, React, and Redux on top of the [`lnd`](../lightning-software/lnd/) implementation of the Lightning Network.
+Zap is built with Electron, React, and Redux on top of the [`lnd`](../nodes/lnd/) implementation of the Lightning Network.
 
 ## Resources
 

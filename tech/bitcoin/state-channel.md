@@ -23,7 +23,7 @@ State channels are a technique for allowing fast and cheap off-chain payments th
 
 State channels enhance blockchain performance by taking state-modifying operations off of a blockchain and instead executing them directly between defined sets of participants.
 
-[Payment channels ](../lightning-basics/payment-channel.md)were the first type of state channel to be described, using off-chain interactions to modify ownership of locked Bitcoin, thereby allowing users to make “off-chain payments” to each other. The term “state channels” generalizes this approach beyond payments, encompassing all types of blockchain state modification which operate within a security paradigm comparable to that of the payment channel.
+[Payment channels ](../lightning/payment-channel.md)were the first type of state channel to be described, using off-chain interactions to modify ownership of locked Bitcoin, thereby allowing users to make “off-chain payments” to each other. The term “state channels” generalizes this approach beyond payments, encompassing all types of blockchain state modification which operate within a security paradigm comparable to that of the payment channel.
 
 State channels let parties securely modify locked portions of blockchain state called state deposits. These deposits are typically held in multisignature wallets, where the participants to the state channel are the signers to the multisig.
 

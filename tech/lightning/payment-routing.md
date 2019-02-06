@@ -15,7 +15,7 @@ category: lightning-basics
 
 ## Overview
 
-**Payment routing** is a fundamental concept in Lightning transactions, enabling nodes that do not have explicit channels to transmit payments to one another. Using [Hashed TimeLock Contracts](../bitcoin-basics/hltc.md), payments can be securely routed between intermediate nodes.
+**Payment routing** is a fundamental concept in Lightning transactions, enabling nodes that do not have explicit channels to transmit payments to one another. Using [Hashed TimeLock Contracts](../bitcoin/hltc.md), payments can be securely routed between intermediate nodes.
 
 ## Details
 

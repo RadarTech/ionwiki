@@ -1,6 +1,6 @@
 # How To Contribute
 
-## How To Contribute
+##  How To Contribute
 
 ### Introduction
 

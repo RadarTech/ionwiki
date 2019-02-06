@@ -15,7 +15,7 @@ category: lightning-troubleshooting
 
 ## Overview
 
-**Error codes** can be encountered when sending a payment or interacting with the Lightning Network via an [implementation](../lightning-software/implementations-of-lightning-network.md).
+**Error codes** can be encountered when sending a payment or interacting with the Lightning Network via an [implementation](../nodes/implementations-of-lightning-network.md).
 
 ## Details
 

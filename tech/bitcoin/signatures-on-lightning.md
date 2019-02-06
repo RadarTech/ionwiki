@@ -27,7 +27,7 @@ The digital signature algorithm used in Bitcoin is the secp256k1 Elliptic Curve 
 
 ### Signatures on Lightning
 
-Digital signatures are an integral element of the multi signature holder address created in the establishment of a [channel](../lightning-basics/payment-channel.md). Two verified digital signatures are required to create the channel, as well as initiate the [closing transaction](../lightning-channels/channel-closing.md). Signatures are also essential to the [Hashed Timelock Transfer Contract](hltc.md), or HTLC, a smart contract that enables payments to be routed across the Lightning Network.
+Digital signatures are an integral element of the multi signature holder address created in the establishment of a [channel](../lightning/payment-channel.md). Two verified digital signatures are required to create the channel, as well as initiate the [closing transaction](../lightning-channels/channel-closing.md). Signatures are also essential to the [Hashed Timelock Transfer Contract](hltc.md), or HTLC, a smart contract that enables payments to be routed across the Lightning Network.
 
 ## Resources
 

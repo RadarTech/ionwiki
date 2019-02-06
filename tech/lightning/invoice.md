@@ -15,7 +15,7 @@ category: lightning-basics
 
 ## Overview
 
-An **invoice** represents a request for funds on the Lightning Network. Invoices include numerous parameters, both required and optional, such as payment amount, chain, expiry date, payee [pubkey](../bitcoin-basics/pubkey.md), [routing hints](payment-routing.md#routing-hints), and other information. Invoices are used to make payments on the Lightning Network, rather than using [Bitcoin-style addresses](../bitcoin-basics/bitcoin-address-formats.md).
+An **invoice** represents a request for funds on the Lightning Network. Invoices include numerous parameters, both required and optional, such as payment amount, chain, expiry date, payee [pubkey](../bitcoin/pubkey.md), [routing hints](payment-routing.md#routing-hints), and other information. Invoices are used to make payments on the Lightning Network, rather than using [Bitcoin-style addresses](../bitcoin/bitcoin-address-formats.md).
 
 Invoices are commonly presented as alphanumerical strings or QR codes. In order to parse specific information from the request string, users can pass the string into a decoding tool \[1\].
 
