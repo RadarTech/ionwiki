@@ -15,7 +15,7 @@ category: lightning-software
 
 ## Overview
 
-Participation in the [Lightning Network](../lightning-basics/lightning-network.md) requires running an implementation of a Lightning Network daemon software. This software launches and runs a unique [node](../lightning-basics/node.md) that allows communication with other peers on the network. Multiple versions, or implementations, have been created by different entities, just as multiple implementations of core Bitcoin software exist. Different implementations maintain interoperability by conforming to [BOLT](../lightning-basics/basics-of-lightning-technology-bolt.md) \(Basis of Lightning Technology\) standards.
+Participation in the [Lightning Network](../../lightning-basics-1/lightning-basics/lightning-network.md) requires running an implementation of a Lightning Network daemon software. This software launches and runs a unique [node](../../lightning-basics-1/lightning-basics/node.md) that allows communication with other peers on the network. Multiple versions, or implementations, have been created by different entities, just as multiple implementations of core Bitcoin software exist. Different implementations maintain interoperability by conforming to [BOLT](../../lightning-basics-1/lightning-basics/basics-of-lightning-technology-bolt.md) \(Basis of Lightning Technology\) standards.
 
 ## Details
 

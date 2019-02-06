@@ -25,7 +25,7 @@ Cryptographic hash functions are used extensively in Bitcoin: in bitcoin address
 
 ### Private and Public Keys
 
-![Image from Mastering Bitcoin](../.gitbook/assets/screen-shot-2019-01-24-at-8.46.37-am.png)
+![Image from Mastering Bitcoin](../../.gitbook/assets/screen-shot-2019-01-24-at-8.46.37-am.png)
 
 In private and public key cryptography, a one-way cryptographic hash function is used to generate a bitcoin address.
 

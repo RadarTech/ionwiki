@@ -15,7 +15,7 @@ category: lightning-software
 
 ## Overview
 
-**c-lightning** is a a [BOLT](../lightning-basics/basics-of-lightning-technology-bolt.md)-compliant Lightning implementation by Blockstream \[2\] written in C. Version 1 of c-lightning was released on August 8th, 2015, and has since been under active beta development. c-lightning runs on Linux.
+**c-lightning** is a a [BOLT](../../lightning-basics-1/lightning-basics/basics-of-lightning-technology-bolt.md)-compliant Lightning implementation by Blockstream \[2\] written in C. Version 1 of c-lightning was released on August 8th, 2015, and has since been under active beta development. c-lightning runs on Linux.
 
 ## Details
 

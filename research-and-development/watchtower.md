@@ -33,9 +33,13 @@ If that transaction is flagged in its memory as part of an outdated contract, it
 
 [Watchtower Support is coming to Bitcoin Lightning Wallet](https://medium.com/@akumaigorodski/watchtower-support-is-coming-to-bitcoin-lightning-wallet-8f969ac206b2)
 
+[Olympus Watchtower Service](https://github.com/btcontract/olympus) \(used in Lightning-Wallet for Android\)
+
 ### See also
 
 [Pisa: Arbitration Outsourcing for State Channels](https://eprint.iacr.org/2018/582.pdf)
+
+
 
 ## References
 

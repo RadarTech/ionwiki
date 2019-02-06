@@ -11,7 +11,7 @@ discussions-to: GitHub URL
 category: lightning-software
 ---
 
-# Wallet
+# Lightning Wallets
 
 ## Overview
 

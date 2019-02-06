@@ -11,17 +11,17 @@ discussions-to: GitHub URL
 category: lightning-rnd
 ---
 
-# Privacy \(on Lightning Network\)
+# Privacy
 
 ## Overview
 
-While there is no public, trackable ledger of Lightning transactions, **privacy** \_\_on Lightning is still a work in progress. Through techniques like [onion routing](../lightning-basics/onion-routing.md) and [eltoo](eltoo.md), privacy is improving.
+While there is no public, trackable ledger of Lightning transactions, **privacy** \_\_on Lightning is still a work in progress. Through techniques like [onion routing](../lightning-basics-1/lightning-basics/onion-routing.md) and [eltoo](eltoo.md), privacy is improving.
 
 ## Details
 
 ### Implementation of Sphinx
 
-The current Lightning Network specification includes a solution to mask routing data from all intermediaries, based on [Sphinx](../lightning-basics/sphinx-packet.md).
+The current Lightning Network specification includes a solution to mask routing data from all intermediaries, based on [Sphinx](../lightning-basics-1/lightning-basics/sphinx-packet.md).
 
 On Lightning, the payer determines a path over the peer-to-peer network and wraps a payment package in layers of encryption. Apart from just relay information, each intermediary also unpacks some additional data. This includes amounts, fees and more, along with allowing all intermediaries to set up a step in the payment chain.
 

@@ -11,7 +11,7 @@ discussions-to: GitHub URL
 category: lightning-rnd
 ---
 
-# Scriptless Scripts \(Schnorr\)
+# Scriptless Scripts
 
 ## Overview
 

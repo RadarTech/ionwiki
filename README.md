@@ -14,5 +14,5 @@ We welcome all contributions. Submit any ideas, bug reports, or organizational c
 
 ### Content License
 
-We use the **Creative Commons Attribution 4.0 International** license for the Ion wiki. [Take a look at our rationale and view the license here](content-license.md).
+We use the **Creative Commons Attribution 4.0 International** license for the Ion wiki. [Take a look at our rationale and view the license here](wiki-basics/content-license.md).
 

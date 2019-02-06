@@ -21,7 +21,7 @@ category: lightning-basics
 
 ### Multi-hop Payment Path
 
-![An example multi-hop payment path. Image from lightning.engineering](../.gitbook/assets/multihop.png)
+![An example multi-hop payment path. Image from lightning.engineering](../../.gitbook/assets/multihop.png)
 
 ### Gateway Nodes
 
