@@ -43,6 +43,7 @@
   * [Channel Backup](tech/lightning-channels/channel-backups.md)
 * [Research & Development](tech/research/README.md)
   * [Watchtowers](tech/research/watchtowers.md)
+  * [Macaroons](tech/research/macaroons.md)
   * [Submarine Swap](tech/research/submarine-swap.md)
   * [Lightning Appliance](tech/research/lightning-appliance.md)
   * [Channel Factories](tech/research/channel-factory.md)
@@ -52,14 +53,13 @@
 
 ## Tutorials
 
-* [Lightning Nodes](tutorials/nodes/README.md)
-  * [Network Implementations](tutorials/nodes/implementations-of-lightning-network.md)
-  * [LND](tutorials/nodes/lnd/README.md)
-    * [Tor + LND](tutorials/nodes/lnd/tor.md)
-    * [Macaroon](tutorials/nodes/lnd/macaroon.md)
+* [Lightning Node Setup](tutorials/nodes/README.md)
+  * [LND](tutorials/nodes/lnd.md)
   * [c-lightning](tutorials/nodes/c-lightning.md)
   * [Eclair](tutorials/nodes/eclair.md)
   * [Rust Lightning](tutorials/nodes/rust-lightning.md)
+  * [Lightning with Tor](tutorials/nodes/tor.md)
+  * [Bootstrapping Channels](tutorials/nodes/bootstrapping-channels.md)
 * [Lightning Wallets](tutorials/wallets/README.md)
   * [Eclair](tutorials/wallets/eclair.md)
   * [Shango](tutorials/wallets/shango.md)

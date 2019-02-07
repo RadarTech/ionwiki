@@ -1,4 +1,4 @@
-# Tor + LND
+# Lightning with Tor
 
 ## Overview
 

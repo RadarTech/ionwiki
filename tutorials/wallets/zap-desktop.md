@@ -33,7 +33,7 @@ Zap walks users through the creation of a wallet on install. Users progress thro
 
 ### Tech Stack
 
-Zap is built with Electron, React, and Redux on top of the [`lnd`](../nodes/lnd/) implementation of the Lightning Network.
+Zap is built with Electron, React, and Redux on top of the [`lnd`](../nodes/lnd.md) implementation of the Lightning Network.
 
 ## Resources
 
