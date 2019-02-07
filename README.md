@@ -8,7 +8,7 @@ The Lightning Network needed a wiki yesterday. By creating digestible, reliable,
 
 ### Contributing [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Want to help us build this nexus of information? Start by reading our [contributing guide](https://github.com/RadarRelay/ionwiki/blob/master/contributing.md), and taking a look at our [GitHub repo](https://github.com/RadarRelay/ionwiki/commits/master).
+Want to help us build this nexus of information? Start by reading our [contributing guide](https://github.com/RadarRelay/ionwiki/blob/master/contributing.md) and taking a look at our [GitHub repo](https://github.com/RadarRelay/ionwiki/commits/master).
 
 We welcome all contributions. Submit any ideas, bug reports, or organizational changes as [GitHub issues](https://github.com/RadarRelay/ionwiki/issues) and submit content changes as [pull requests](https://github.com/RadarRelay/ionwiki/pulls).
 
