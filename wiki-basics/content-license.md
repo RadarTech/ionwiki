@@ -1,7 +1,3 @@
----
-description: 'Where content lives, how it''s licensed, and why we chose Gitbook'
----
-
 # Platform & Content License
 
 ## Content Storage

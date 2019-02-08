@@ -1,7 +1,3 @@
----
-description: Broadcast messages over the Blockstream satellites using Lightning payments
----
-
 # Spacebit Satellite Client
 
 Ever want to pay magic internet money to send `HELLO WORLD` to the entire world by bouncing it off a satellite? It's 2019 and this is a thing you can do. Bid testnet bitcoin using Lightning payments in order to send messages through a fleet of five [Blockstream satellites](https://blockstream.com/satellite/) that broadcast over pretty much the entire planet; anyone listening in with a satellite dish will get your message.

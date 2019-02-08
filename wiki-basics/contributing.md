@@ -1,7 +1,3 @@
----
-description: Learn.  Share.  Accelerate Lightning.
----
-
 # How To Contribute
 
 ## Thank You!
