@@ -40,7 +40,7 @@ Disadvantages:
 
 In total, we believe that the advantages outweigh the disadvantages for this particular project.  We will continue to evaluate other projects, like the upcoming [wiki.js v2](https://github.com/Requarks/wiki) beta, to see if they are a better fit.
 
-If you have questions, comments, or concerns about this choice, join the discussion in the [ION Telegram chat](https://t.me/ionwiki).
+If you have questions, comments, or concerns about this choice, join the discussion in [Telegram chat](https://t.me/ionwiki).
 
 ## Content License
 
@@ -50,10 +50,10 @@ If you have questions, comments, or concerns about this choice, join the discuss
 
 The content on Ion Wiki is licensed with **CC-BY-4.0, the Creative Commons 4.0 Attribution license**.  In addition to the full text, read this [human-readable summary](https://creativecommons.org/licenses/by/4.0/) by Creative Commons.  In summary: you can share and remix this content, even for commercial purposes, as long as you give appropriate credit and indicate if changes were made.
 
-We considered several other licenses, and several other Creative Commons variants, before settling on this license.  Licenses we did not select include:
+We considered several other licenses, and several other Creative Commons variants, before settling on this license.  Licenses we did **not** select include:
 
-* [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/), which adds a "share-alike" clause.  We don't want to restrict how derivative works are licensed.
-* [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/), which adds a "noncommercial" clause.  We don't want to restrict how derivative works are used.
+* [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/), adds a "share-alike" clause.  We don't restrict how derivative works are licensed.
+* [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/), adds a "noncommercial" clause.  We don't restrict how derivative works are used.
 
-If you have questions, comments, or concerns about this choice, join the discussion in the [ION Telegram chat](https://t.me/ionwiki).
+If you have questions, comments, or concerns about this choice, join the discussion in [Telegram chat](https://t.me/ionwiki).
 
