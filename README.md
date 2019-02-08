@@ -2,7 +2,7 @@
 description: Learn.  Share.  Accelerate Lightning.
 ---
 
-# 🗲Welcome🗲
+# Welcome
 
 ## Welcome to the ION Wiki!
 
