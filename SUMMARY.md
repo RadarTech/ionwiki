@@ -1,11 +1,11 @@
 # Table of contents
 
-* [Welcome](README.md)
+* [🗲Welcome🗲](README.md)
 
 ## Wiki Basics
 
 * [How To Contribute](wiki/contributing.md)
-* [How This Content is Licensed](wiki/content-license.md)
+* [Platform & Content License](wiki/content-license.md)
 
 ## Lightning Technology
 

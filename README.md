@@ -1,18 +1,26 @@
-# Welcome
+---
+description: Learn.  Share.  Accelerate Lightning.
+---
+
+# 🗲Welcome🗲
+
+## Welcome to the ION Wiki!
+
+The Lightning Network is here, and it's delivering **fast, free, and final Bitcoin payments**.
 
 ![](.gitbook/assets/ion_wiki_v2.png)
 
-## Welcome to the Ion Wiki!
+The number of nodes—and the amount of bitcoin—are increasing daily, and developers are creating new applications to experiment with the network and explore its possibilities.
 
-The Lightning Network needed a wiki yesterday. By creating digestible, reliable, and objective knowledge covering concepts and developments in LN, we can help drive the next wave of innovation and adoption.
+But as the resources for building with Lightning proliferate, they are spread across numerous GitHub repositories, Subreddits, Slack and Telegram chats, and Medium articles.
 
-### Contributing [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
+ION wiki is a tool for **collecting the best Lightning tutorials, references, tools, and apps** in one place.
 
-Want to help us build this nexus of information? Start by reading our [contributing guide](https://github.com/RadarRelay/ionwiki/blob/master/contributing.md) and taking a look at our [GitHub repo](https://github.com/RadarRelay/ionwiki/commits/master).
+## [Contributing](wiki/contributing.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-We welcome all contributions. Submit any ideas, bug reports, or organizational changes as [GitHub issues](https://github.com/RadarRelay/ionwiki/issues) and submit content changes as [pull requests](https://github.com/RadarRelay/ionwiki/pulls).
+Know something about Lightning?  **Share your know-how** and accelerate the rate of LN development.
 
-### Content License
+\*\*\*\*[**This wiki lives in GitHub**](wiki/content-license.md) and is Creative Commons licensed!  It's your Lightning lab notebook—it's not locked in someone else's database.
 
-We use the **Creative Commons Attribution 4.0 International** license for the Ion wiki. [Take a look at our rationale and view the license here](wiki/content-license.md).
+Check out the [**top contributors on GitHub**](https://github.com/RadarTech/ionwiki/graphs/contributors) and join the discussion [**on Telegram**](https://t.me/ionwiki).
 
