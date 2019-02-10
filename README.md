@@ -4,6 +4,36 @@ description: Learn.  Share.  Accelerate Lightning.
 
 # ⚡Welcome⚡
 
+## Featured Articles
+
+{% tabs %}
+{% tab title="Onboarding" %}
+{% page-ref page="tutorials/troubleshooting/bootstrapping-channels.md" %}
+
+{% page-ref page="tutorials/nodes/tor.md" %}
+
+{% page-ref page="lightning-technology/lightning/invoice.md" %}
+
+{% page-ref page="tutorials/nodes/lnd.md" %}
+{% endtab %}
+
+{% tab title="Apps" %}
+{% page-ref page="tutorials/apps/spacebit-satellite-client.md" %}
+{% endtab %}
+
+{% tab title="R&D" %}
+{% page-ref page="lightning-technology/research/lightning-appliance.md" %}
+
+{% page-ref page="lightning-technology/research/watchtowers.md" %}
+
+{% page-ref page="lightning-technology/research/submarine-swap.md" %}
+
+{% page-ref page="lightning-technology/research/macaroons.md" %}
+
+{% page-ref page="lightning-technology/lightning-channels/channel-backups.md" %}
+{% endtab %}
+{% endtabs %}
+
 ## Welcome to the ION Wiki!
 
 The Lightning Network is here, and it's delivering **fast, free, and final Bitcoin payments**.
