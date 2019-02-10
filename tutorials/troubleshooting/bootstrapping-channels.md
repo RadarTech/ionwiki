@@ -6,7 +6,7 @@ description: quickly improve your Lightning Network connection
 
 Your Lightning node starts with zero channels, and you must fund channels with other nodes on the network in order to send Lightning payments.  Connecting to nodes that are already well-connected helps ensure that you will be able to find routes and send payments anywhere on the network.
 
-Because payment channels are currently funded only by the initiating party \(though [dual-funded channels]() are eventually planned\), opening channels only gives you capacity to send, not to receive.  To get receiving capacity, you must either open a channel and then spend money through it, or you must convince other nodes to open channels to you.
+Because payment channels are currently funded only by the initiating party \(though [dual-funded channels](../../lightning-technology/lightning-channels/channel-opening.md) are eventually planned\), opening channels only gives you capacity to send, not to receive.  To get receiving capacity, you must either open a channel and then spend money through it, or you must convince other nodes to open channels to you.
 
 ## Prerequisites
 
@@ -24,6 +24,19 @@ Some node operators are offering the service of connecting back to other nodes i
 
 [https://singles.shock.network/](https://singles.shock.network/) is an inbound liquidity request board.  We have not tried it, but you can list your node there along with any conditions of opening a return channel and maybe someone will open inbound channels to you.
 
+### Y'alls
+
+Pay a Lightning payment for 18,900 satoshis \($0.68\) and Y'alls will open a 2,000,000 channel back to your node.  If your node doesn't appear on the list of node public keys, then Y'alls is not connected to your node \(see [prerequisites](bootstrapping-channels.md#prerequisites)\).
+
+This exchange is **not trustless**, but there are several mitigating factors:
+
+* Y'alls will only allow you to pay to attempt to open a channel to nodes that the Y'alls node is already connected to; therefore it's unlikely that Y'alls will not succeed in opening a channel once you have paid for it.
+* Y'alls is run by [Alex Bosworth](https://twitter.com/alexbosworth/), an engineer at Lightning Labs.  He is a public figure that has made numerous contributions to the Lightning Network and is currently working on [LND](../nodes/lnd.md).  It is unlikely that he is going to steal $0.50 from you.
+
+{% embed url="https://yalls.org/about/" %}
+
+{% embed url="https://yalls.org/" %}
+
 ### LightningTo.Me
 
 By filling out the form on this website, this node will immediately open a 2,000,000 satoshi channel to you without conditions—you don't even need to open a channel to them!
@@ -34,16 +47,6 @@ Successfully tested on 2019-02-06.
 
 {% embed url="https://1ml.com/node/03bb88ccc444534da7b5b64b4f7b15e1eccb18e102db0e400d4b9cfe93763aa26d" %}
 
-### LightningPowerUsers
-
-If you open a channel larger than 500,000 satoshis and fill out the form on the website, this node will open a channel of the same size back to you.
-
-Requested a channel on 2019-02-06 and had _not_ received a channel by 2019-02-09.
-
-{% embed url="https://lightningpowerusers.com/home/" %}
-
-{% embed url="https://1ml.com/node/0331f80652fb840239df8dc99205792bba2e559a05469915804c08420230e23c7c" %}
-
 ### Lightning Conductor
 
 If you open a channel larger than 250,000 satoshis and fill out the form on the website, this node will open a 250,000 satoshi channel back to you.
@@ -53,6 +56,16 @@ Successful tested on 2019-02-06.
 {% embed url="https://lightningconductor.net/channels" %}
 
 {% embed url="https://1ml.com/node/03c436af41160a355fc1ed230a64f6a64bcbd2ae50f12171d1318f9782602be601" %}
+
+### LightningPowerUsers
+
+If you open a channel larger than 500,000 satoshis and fill out the form on the website, this node will open a channel of the same size back to you.
+
+Requested a channel on 2019-02-06 and had _not_ received a channel by 2019-02-10.
+
+{% embed url="https://lightningpowerusers.com/home/" %}
+
+{% embed url="https://1ml.com/node/0331f80652fb840239df8dc99205792bba2e559a05469915804c08420230e23c7c" %}
 
 ### WILL\_CONNECT\_BACK
 
@@ -68,11 +81,9 @@ These nodes have lots of channels funded with lots of bitcoin.  Nodes that also 
 
 Note that without additional information, it is not possible to know whether a node is actually run by the individual or company that it is named after—anyone can name a node anything.  A representative _can_ prove that they control a particular Lightning node by signing a message with the private key that corresponds to the node's public key, e.g. in LND with `lncli signmessage <message>`.
 
-### Yalls
+### Y'alls
 
 Y'alls is a Lightning-powered forum run by Alex Bosworth, an engineer at Lightning Labs.
-
-{% embed url="https://yalls.org/" %}
 
 {% embed url="https://1ml.com/node/03e50492eab4107a773141bb419e107bda3de3d55652e6e1a41225f06a0bbf2d56" %}
 
