@@ -6,9 +6,15 @@ description: quickly improve your Lightning Network connection
 
 Your Lightning node starts with zero channels, and you must fund channels with other nodes on the network in order to send Lightning payments.  Connecting to nodes that are already well-connected helps ensure that you will be able to find routes and send payments anywhere on the network.
 
-Because payment channels are currently funded only by the initiating party \(though [dual-funded channels](../../lightning-technology/lightning-channels/channel-opening.md) are eventually planned\), opening channels only gives you capacity to send, not to receive.  To get receiving capacity, you must either open a channel and then spend money through it, or you must convince other nodes to open channels to you.
+Because payment channels are currently funded only by the initiating party \(though [dual-funded channels](../../lightning-technology/lightning-channels/channel-opening.md) are eventually planned\), opening channels only gives you capacity to send, not to receive.  To get receiving capacity, you must either open a channel and then spend money through it, or you must convince other nodes to open channels to you.  For recommendations on places to spend money on the Lightning Network, see also [Lightning Apps](../apps/) and [Lightning Stores](../stores.md).
 
-## Prerequisites
+## Nodes That Open Back
+
+Some node operators are offering the service of connecting back to other nodes if they meet certain criteria, often requiring them to open a channel first.  This page details some of these services that we have tested.
+
+[https://singles.shock.network/](https://singles.shock.network/) is an inbound liquidity request board.  We have not tried it, but you can list your node there along with any conditions of opening a return channel and maybe someone will open inbound channels to you.
+
+### Prerequisites
 
 In order for another node to open a channel to your node, the other node must have a way of contacting your node on the network.  There are several ways of accomplishing this:
 
@@ -17,25 +23,6 @@ In order for another node to open a channel to your node, the other node must ha
 3. connecting to another node that does 1 or 2, whether or not you open a channel with that node
 
 If you are using `lnd` on the command line, you can connect to a node with `lncli connect <pubkey>@<address>`.  If your wallet app uses LND under the hood, it may or may not expose this functionality.  Try starting to open a channel with the node and then cancelling it before actually sending the transaction.
-
-## Nodes That Open Back
-
-Some node operators are offering the service of connecting back to other nodes if they meet certain criteria, often requiring them to open a channel first.  This page details some of these services that we have tested.
-
-[https://singles.shock.network/](https://singles.shock.network/) is an inbound liquidity request board.  We have not tried it, but you can list your node there along with any conditions of opening a return channel and maybe someone will open inbound channels to you.
-
-### Y'alls
-
-Pay a Lightning payment for 18,900 satoshis \($0.68\) and Y'alls will open a 2,000,000 channel back to your node.  If your node doesn't appear on the list of node public keys, then Y'alls is not connected to your node \(see [prerequisites](bootstrapping-channels.md#prerequisites)\).
-
-This exchange is **not trustless**, but there are several mitigating factors:
-
-* Y'alls will only allow you to pay to attempt to open a channel to nodes that the Y'alls node is already connected to; therefore it's unlikely that Y'alls will not succeed in opening a channel once you have paid for it.
-* Y'alls is run by [Alex Bosworth](https://twitter.com/alexbosworth/), an engineer at Lightning Labs.  He is a public figure that has made numerous contributions to the Lightning Network and is currently working on [LND](../nodes/lnd.md).  It is unlikely that he is going to steal $0.50 from you.
-
-{% embed url="https://yalls.org/about/" %}
-
-{% embed url="https://yalls.org/" %}
 
 ### LightningTo.Me
 
@@ -75,7 +62,72 @@ Tested on 2019-02-09; awaiting results 24 hours later.  Does not appear to be au
 
 {% embed url="https://1ml.com/node/03ee180e8ee07f1f9c9987d98b5d5decf6bad7d058bdd8be3ad97c8e0dd2cdc7ba" %}
 
-## Huge Service Nodes
+## Trust-Required Services
+
+These services are NOT TRUSTLESS, so there is nothing technically stopping them from stealing your money.  You should only use these if you trust the operator and/or small amounts of money are involved.
+
+### Y'alls
+
+Pay a Lightning payment for 18,900 satoshis \($0.68\) and Y'alls will open a 2,000,000 channel back to your node.  If your node doesn't appear on the list of node public keys, then Y'alls is not connected to your node \(see [prerequisites](bootstrapping-channels.md#prerequisites)\).
+
+This exchange is **not trustless**, but there are several mitigating factors:
+
+* Y'alls will only allow you to pay to attempt to open a channel to nodes that the Y'alls node is already connected to; therefore it's unlikely that Y'alls will not succeed in opening a channel once you have paid for it.
+* Y'alls is run by [Alex Bosworth](https://twitter.com/alexbosworth/), an engineer at Lightning Labs.  He is a public figure that has made numerous contributions to the Lightning Network and is currently working on [LND](../nodes/lnd.md).  It is unlikely that he is going to steal $0.50 from you.
+
+Successfully tested on 2019-02-10.
+
+{% embed url="https://yalls.org/about/" %}
+
+### Lightning Conductor LN → BTC
+
+Pay an LN invoice to receive a BTC payment on-chain, minus transaction fees and a 4,000 satoshi charge.  This is useful to instantly convert some of your existing sending capacity into receiving capacity.
+
+Successfully tested on 2019-02-10.
+
+{% embed url="https://lightningconductor.net/invoice" %}
+
+### LN Zone
+
+Another service that offers to send you on-chain BTC in exchange for paying a Lightning invoice, thereby converting some of your existing sending capacity into receiving capacity.
+
+We are not sure who is operating this service and we have not tested it.
+
+{% embed url="https://ln.zone/" %}
+
+### Coinplaza
+
+Coinplaza will accept a lightning BTC payment in exchange for BTC, LTC, ETH, or a dozen other assets.
+
+You must create an account.  Does not support US customers.
+
+Successfully tested on 2019-02-10.
+
+{% embed url="https://www.coinplaza.it/" %}
+
+### ZigZag
+
+ZigZag will accept a lightning BTC payment in exchange for BTC, LTC, or ETH.
+
+The application was not functioning when we tried to test it on 2019-02-10.
+
+{% embed url="https://zigzag.io/" %}
+
+### Bitrefill
+
+Bitrefill Thor is a service that charges high fees to open a channel to your node.  The channel is only guaranteed to remain open for 30 days.
+
+Due to high fees, we have not tested this service.
+
+{% embed url="https://www.bitrefill.com/thor-lightning-network-channels/" %}
+
+An alternative is to convert your existing channel sending capacity into receiving capacity by buying things that are _cash-like_ on Bitrefill.  Options include topping up your Amazon, Chipotle, Uber, or iTunes balance, paying against your Comcast bill, or awarding Reddit Gold.
+
+{% embed url="https://www.bitrefill.com/bills/" %}
+
+{% embed url="https://www.bitrefill.com/gift-cards/" %}
+
+## Large Service Nodes
 
 These nodes have lots of channels funded with lots of bitcoin.  Nodes that also host Lightning Network apps and services have a strong incentive to have good uptime and will tend to have larger volumes of inbound payments, so their channels with other nodes will tend to have both sending and receiving capacity. Connect to them and you can route payments through them to large swathes of the Lightning Network graph.  See the [1ML list by capacity](https://1ml.com/node?order=capacity) for other large nodes.
 

@@ -2,6 +2,11 @@
 
 * [⚡Welcome⚡](README.md)
 
+## Wiki Basics
+
+* [How To Contribute](wiki-basics/contributing.md)
+* [Platform & Content License](wiki-basics/content-license.md)
+
 ## Tutorials
 
 * [Lightning Node Setup](tutorials/nodes/README.md)
@@ -11,21 +16,17 @@
   * [Rust Lightning](tutorials/nodes/rust-lightning.md)
   * [Lightning with Tor](tutorials/nodes/tor.md)
 * [Lightning Wallets](tutorials/wallets/README.md)
+  * [Zap Desktop](tutorials/wallets/zap-desktop.md)
   * [Eclair Mobile](tutorials/wallets/eclair-mobile.md)
   * [Shango](tutorials/wallets/shango.md)
-  * [Zap Desktop](tutorials/wallets/zap-desktop.md)
 * [Lightning Apps](tutorials/apps/README.md)
   * [Spacebit Satellite Client](tutorials/apps/spacebit-satellite-client.md)
+* [Lightning Stores](tutorials/stores.md)
 * [Troubleshooting](tutorials/troubleshooting/README.md)
   * [Bootstrapping Channels](tutorials/troubleshooting/bootstrapping-channels.md)
   * [Payment failures](tutorials/troubleshooting/payment-failures.md)
   * [Error codes](tutorials/troubleshooting/error-codes.md)
   * [Theft \(on Lightning Network\)](tutorials/troubleshooting/theft-on-lightning-network.md)
-
-## Wiki Basics
-
-* [How To Contribute](wiki-basics/contributing.md)
-* [Platform & Content License](wiki-basics/content-license.md)
 
 ## Lightning Technology
 
