@@ -2,6 +2,26 @@
 
 * [⚡Welcome⚡](README.md)
 
+## Tutorials
+
+* [Lightning Node Setup](tutorials/nodes/README.md)
+  * [LND](tutorials/nodes/lnd.md)
+  * [c-lightning](tutorials/nodes/c-lightning.md)
+  * [Eclair](tutorials/nodes/eclair.md)
+  * [Rust Lightning](tutorials/nodes/rust-lightning.md)
+  * [Lightning with Tor](tutorials/nodes/tor.md)
+* [Lightning Wallets](tutorials/wallets/README.md)
+  * [Eclair Mobile](tutorials/wallets/eclair-mobile.md)
+  * [Shango](tutorials/wallets/shango.md)
+  * [Zap Desktop](tutorials/wallets/zap-desktop.md)
+* [Lightning Apps](tutorials/apps/README.md)
+  * [Spacebit Satellite Client](tutorials/apps/spacebit-satellite-client.md)
+* [Troubleshooting](tutorials/troubleshooting/README.md)
+  * [Bootstrapping Channels](tutorials/troubleshooting/bootstrapping-channels.md)
+  * [Payment failures](tutorials/troubleshooting/payment-failures.md)
+  * [Error codes](tutorials/troubleshooting/error-codes.md)
+  * [Theft \(on Lightning Network\)](tutorials/troubleshooting/theft-on-lightning-network.md)
+
 ## Wiki Basics
 
 * [How To Contribute](wiki-basics/contributing.md)
@@ -50,24 +70,4 @@
   * [Scriptless Scripts](lightning-technology/research/scriptless-scripts-schnorr.md)
   * [Privacy](lightning-technology/research/privacy-on-lightning-network.md)
   * [Eltoo](lightning-technology/research/eltoo.md)
-
-## Tutorials
-
-* [Lightning Node Setup](tutorials/nodes/README.md)
-  * [LND](tutorials/nodes/lnd.md)
-  * [c-lightning](tutorials/nodes/c-lightning.md)
-  * [Eclair](tutorials/nodes/eclair.md)
-  * [Rust Lightning](tutorials/nodes/rust-lightning.md)
-  * [Lightning with Tor](tutorials/nodes/tor.md)
-  * [Bootstrapping Channels](tutorials/nodes/bootstrapping-channels.md)
-* [Lightning Wallets](tutorials/wallets/README.md)
-  * [Eclair](tutorials/wallets/eclair.md)
-  * [Shango](tutorials/wallets/shango.md)
-  * [Zap Desktop](tutorials/wallets/zap-desktop.md)
-* [Lightning Apps](tutorials/apps/README.md)
-  * [Spacebit Satellite Client](tutorials/apps/spacebit-satellite-client.md)
-* [Troubleshooting](tutorials/troubleshooting/README.md)
-  * [Payment failures](tutorials/troubleshooting/payment-failures.md)
-  * [Error codes](tutorials/troubleshooting/error-codes.md)
-  * [Theft \(on Lightning Network\)](tutorials/troubleshooting/theft-on-lightning-network.md)
 
