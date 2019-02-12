@@ -62,7 +62,7 @@
   * [Opening A Channel](lightning-technology/lightning-channels/channel-opening.md)
   * [Closing A Channel](lightning-technology/lightning-channels/channel-closing.md)
   * [Channel Backup](lightning-technology/lightning-channels/channel-backups.md)
-* [Atomic Multi-path Payments](lightning-technology/research/README.md)
+* [Research and Development](lightning-technology/research/README.md)
   * [Watchtowers](lightning-technology/research/watchtowers.md)
   * [Macaroons](lightning-technology/research/macaroons.md)
   * [Submarine Swap](lightning-technology/research/submarine-swap.md)
@@ -71,4 +71,5 @@
   * [Scriptless Scripts](lightning-technology/research/scriptless-scripts-schnorr.md)
   * [Privacy](lightning-technology/research/privacy-on-lightning-network.md)
   * [Eltoo](lightning-technology/research/eltoo.md)
+  * [Atomic Multi-Path Payments](lightning-technology/research/atomic-multi-path-payments.md)
 
