@@ -20,6 +20,8 @@
   * [Eclair Mobile](tutorials/wallets/eclair-mobile.md)
   * [Shango](tutorials/wallets/shango.md)
 * [Lightning Apps](tutorials/apps/README.md)
+  * [Bitcoin Testnet LN](tutorials/apps/bitcoin-testnet-ln.md)
+  * [Litecoin LN](tutorials/apps/litecoin-ln.md)
   * [Spacebit Satellite Client](tutorials/apps/spacebit-satellite-client.md)
   * [Lightning Torch](tutorials/apps/lightning-torch.md)
   * [Tipping Sites](tutorials/apps/tipping-sites.md)

@@ -18,6 +18,10 @@ description: Learn.  Share.  Accelerate Lightning.
 {% endtab %}
 
 {% tab title="Apps" %}
+{% page-ref page="tutorials/apps/bitcoin-testnet-ln.md" %}
+
+{% page-ref page="tutorials/apps/litecoin-ln.md" %}
+
 {% page-ref page="tutorials/apps/spacebit-satellite-client.md" %}
 
 {% page-ref page="tutorials/apps/lightning-torch.md" %}
