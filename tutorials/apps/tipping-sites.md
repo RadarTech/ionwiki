@@ -32,5 +32,25 @@ While it works great, the example on Michael1011's website does not change to "t
 
 {% embed url="https://tip.p2sh.info/" %}
 
+### Bitcotools.com
 
+{% embed url="https://bitcotools.com/donate/" %}
+
+### Jochen Hoenicke
+
+Jochen has done some really cool [hacking on the Trezor](https://jochen-hoenicke.de/crypto/trezor-power-analysis/), written guides to [self-custody OMNI assets](https://jochen-hoenicke.de/crypto/omni/) \(such as Tether\), and created this awesome [mempool monitoring tool](https://jochen-hoenicke.de/queue/#0,24h).
+
+{% embed url="https://jochen-hoenicke.de/lightning/" %}
+
+### Sergio, Tippin.me
+
+[Sergio](https://twitter.com/eiprol) created an easy-to-use Bitcoin Mainnet custodial tipping wallet with Twitter login.
+
+{% embed url="https://tippin.me/help-tippin" %}
+
+### LNroute.com
+
+Tip the maintainers of the LNroute Lightning resources site.
+
+{% embed url="https://tippin.me/@lnroute" %}
 
