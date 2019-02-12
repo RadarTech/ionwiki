@@ -1,4 +1,2 @@
 # Research and Development
 
-## 
-
