@@ -1,9 +1,3 @@
----
-description: >-
-  "I have five $2 channels, is it possible for me to *atomically* send $6 to
-  fulfill a payment?"
----
-
 # Atomic Multi-Path Payments
 
 ## Details
