@@ -6,6 +6,8 @@ Sending a message with this service couldn't be easier, but verifying your messa
 
 {% embed url="https://spacebit.live/" caption="Use this tool to pay for and broadcast messages" %}
 
+{% embed url="https://1ml.com/testnet/node/039d2201586141a3fff708067aa270aa4f6a724227d5740254d4e34da262a79c2a" caption="This is the node that accepts testnet BTC payments for Spacebit " %}
+
 ## Receive Messages
 
 {% embed url="https://blockstream.com/satellite/" caption="Use this tool to verify that your message has been broadcast" %}
