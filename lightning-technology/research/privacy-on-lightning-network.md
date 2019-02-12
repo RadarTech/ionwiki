@@ -15,7 +15,7 @@ category: lightning-rnd
 
 ## Overview
 
-While there is no public, trackable ledger of Lightning transactions, **privacy** \_\_on Lightning is still a work in progress. Through techniques like [onion routing](../lightning/onion-routing.md) and [eltoo](eltoo.md), privacy is improving.
+While there is no public, trackable ledger of Lightning transactions, **privacy** on Lightning is still a work in progress. Through techniques like [onion routing](../lightning/onion-routing.md) and [eltoo](eltoo.md), privacy is improving.
 
 ## Details
 

@@ -21,22 +21,13 @@ category: null
 
 ## Overview
 
-## Details
-
-### Section 1
-
-### Section 2
-
-### Section 3
+The **network capacity** on the Lightning Network is the sum total of all publicly indexed funds in channels. As of February 11th, 2019, $2.4 million US dollars are on the network.
 
 ## Resources
 
-### Key People
-
-* [Person 1](network-capacity.md)
-* [Person 2](network-capacity.md)
-
-### See also
+[1ML, Lightning Network Visualizer](https://1ml.com/)
 
 ## References
+
+\[1\] [1ML Stats](https://1ml.com/)
 

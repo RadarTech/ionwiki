@@ -15,7 +15,7 @@ category: bitcoin-basics
 
 ## Overview
 
-State channels are a technique for allowing fast and cheap off-chain payments that retain the security of the underyling blockchain. They allow transacting users instant finality and minimal blockchain transaction fees.
+**State channels** are a technique for allowing fast and cheap off-chain payments that retain the security of the underyling blockchain. They allow transacting users instant finality and minimal blockchain transaction fees.
 
 ## Details
 

@@ -13,7 +13,7 @@ category: lightning-rnd
 
 # Watchtowers
 
-##  Overview
+## Overview
 
 **Watchtowers** are a service that provide protection in case something goes wrong with payment channels while disconnected from the internet for an extended period of time. Watchtowers, conceptually, will automatically handle the recovery process for users in the case of a channel breach.
 

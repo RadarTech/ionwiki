@@ -17,7 +17,7 @@ category: lightning-rnd
 
 Submarine Swaps are atomic on-chain to off-chain conditional swaps \(and vice versa\) of cryptocurrencies.
 
-This was made possible \(and put into production\) by Alex Bosworth, who named it a "Submarine Swap" \(one half is above water \[on-chain\], one half is below water \[off-chain\]\).
+This was made possible \(and put into production\) by Alex Bosworth. Olaoluwa Osuntokun origininally coined the term Submarine Swap - one half is above water \(on-chain\), one half is below water \(off-chain\).
 
 ## Details
 
