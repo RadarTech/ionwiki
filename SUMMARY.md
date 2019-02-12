@@ -21,6 +21,8 @@
   * [Shango](tutorials/wallets/shango.md)
 * [Lightning Apps](tutorials/apps/README.md)
   * [Spacebit Satellite Client](tutorials/apps/spacebit-satellite-client.md)
+  * [Lightning Torch](tutorials/apps/lightning-torch.md)
+  * [Tipping Sites](tutorials/apps/tipping-sites.md)
 * [Lightning Stores](tutorials/stores.md)
 * [Troubleshooting](tutorials/troubleshooting/README.md)
   * [Bootstrapping Channels](tutorials/troubleshooting/bootstrapping-channels.md)
@@ -70,6 +72,7 @@
   * [Channel Factories](lightning-technology/research/channel-factory.md)
   * [Scriptless Scripts](lightning-technology/research/scriptless-scripts-schnorr.md)
   * [Privacy](lightning-technology/research/privacy-on-lightning-network.md)
-  * [Eltoo](lightning-technology/research/eltoo.md)
+  * [Hardware Wallets](lightning-technology/research/hardware-wallets.md)
   * [Atomic Multi-Path Payments](lightning-technology/research/atomic-multi-path-payments.md)
+  * [Eltoo](lightning-technology/research/eltoo.md)
 

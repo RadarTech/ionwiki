@@ -6,7 +6,7 @@ Sending a message with this service couldn't be easier, but verifying your messa
 
 {% embed url="https://spacebit.live/" caption="Use this tool to pay for and broadcast messages" %}
 
-### Receive Messages
+## Receive Messages
 
 {% embed url="https://blockstream.com/satellite/" caption="Use this tool to verify that your message has been broadcast" %}
 
@@ -36,13 +36,27 @@ Open the saved plaintext files to read the messages!
 If messages are encrypted, the saved text will be unintelligible. Only unencrypted plaintext messages, like those sent via spacebit.live, will be readable!
 {% endhint %}
 
-### Set up a satellite dish
+## Set up a Satellite Dish
 
 Yes, this is a thing that you can do!  Requires ~$200 worth of equipment and quite a bit of technical expertise.
 
 {% embed url="https://www.drgoss.org/\#h.p\_\_lWCP0Nx-gXF" %}
 
 {% embed url="https://twitter.com/notgrubles/status/1091011511961731073" %}
+
+## Things People Have Sent
+
+Somebody has been using the satellite to blog:
+
+{% embed url="https://twitter.com/adam3us/status/1088907796794490881" %}
+
+Pavol Rusnak, CTO of SatoshiLabs \(creatos of the Trezor [hardware wallet](../../lightning-technology/research/hardware-wallets.md)\), even used the Blockstream satellites to relay the [Lightning Torch](lightning-torch.md):
+
+{% embed url="https://twitter.com/pavolrusnak/status/1093568672923348997" %}
+
+## News
+
+{% embed url="https://bitcoinmagazine.com/articles/blockstream-satellites-now-cover-asia-pacific-send-messages-lightning/" %}
 
 
 
