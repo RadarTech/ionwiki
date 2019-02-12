@@ -1,8 +1,6 @@
 # Lightning with Tor
 
-## Overview
-
-This tutorial explains how to install [tor](https://wiki.ion.radar.tech/lightning-basics/onion-routing) with lnd. This allows anonymous networking connections.
+This tutorial explains how to install and run [Tor](https://www.torproject.org/) with [LND](lnd.md).  This allows you to connect to the Lightning Network without revealing your IP address and therefore your location.  As an added bonus, Lightning nodes on Tor can accept incoming connections from other nodes on Tor even if they are behind one or more routers and do not have a publicly-accessible IP address.
 
 ## Install Tor
 
@@ -105,6 +103,13 @@ Verify that your `addr` is an `onion` address \(ending in '.onion' as above\)
 Connecting to a Tor node is the same as connecting to any other node: `publicKey@address:port`
 
 Example:
+
+```text
+lncli connect 0346095e50ed1f8cf4dbda1fca442cd2ebccf082912e33c1c2e19868f1f56a190a@b53ztxul4vdcktgcgmvcvgjigi2vq2hy4ah6wg7frqpiiesdoxozx3ad.onion:9735
+lncli openchannel --node_key 0346095e50ed1f8cf4dbda1fca442cd2ebccf082912e33c1c2e19868f1f56a190a --local_amt 20000
+```
+
+Alternatively:
 
 ```text
 lncli openchannel --node_key 0346095e50ed1f8cf4dbda1fca442cd2ebccf082912e33c1c2e19868f1f56a190a --connect b53ztxul4vdcktgcgmvcvgjigi2vq2hy4ah6wg7frqpiiesdoxozx3ad.onion:9735 --local_amt 20000

@@ -15,13 +15,14 @@ category: lightning-basics
 
 ## Overview
 
-An **invoice** represents a request for funds on the Lightning Network. Invoices include numerous parameters, both required and optional, such as payment amount, chain, expiry date, payee [pubkey](../bitcoin/pubkey.md), [routing hints](payment-routing.md#routing-hints), and other information. Invoices are used to make payments on the Lightning Network, rather than using [Bitcoin-style addresses](../bitcoin/bitcoin-address-formats.md).
+An **invoice** is a request for payment on the Lightning Network. Invoices include the information necessary to complete a payment on the network, such as payment amount, which blockchain the invoice applies to, expiry date, payee [pubkey](../bitcoin/pubkey.md), [routing hints](payment-routing.md#routing-hints), and other information. Invoices are used to make payments on the Lightning Network, rather than using [Bitcoin-style addresses](../bitcoin/bitcoin-address-formats.md).
 
-Invoices are commonly presented as alphanumerical strings or QR codes. In order to parse specific information from the request string, users can pass the string into a decoding tool \[1\].
+Invoices are commonly presented as alphanumerical strings or QR codes. In order to parse specific information from the request string, users can pass the string into a decoding tool:
 
-## Details
+* [https://lightningdecoder.com/](https://lightningdecoder.com/)
+* [https://lndecode.com/](https://lndecode.com/)
 
-### Components
+## Invoice Components
 
 Every Lightning invoice requires the following information in order to be valid:
 
@@ -32,9 +33,11 @@ Every Lightning invoice requires the following information in order to be valid:
 * `timestamp`: Time when the invoice was created.  This is measured in [seconds since 1970](https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md#data-part).
 * `cltv_expiry`: Delta to use for time-lock of CLTV extended to the final hop.
 
-### Example Invoice
+Convert timestamps to regular human time: [https://www.epochconverter.com/](https://www.epochconverter.com/)
 
-Below is a sample invoice decoded using an invoice decoding tool. The standard fields included are:
+## Example Invoice
+
+Below is a sample invoice decoded using an invoice decoding tool.  The standard fields included are:
 
 | Key | Value |  |
 | :--- | :--- | :--- |
@@ -97,23 +100,9 @@ Below is a sample invoice decoded using an invoice decoding tool. The standard f
 }
 ```
 
-## Resources
-
-Lightning Decoder
-
-[https://lightningdecoder.com/](https://lightningdecoder.com/)
-
-Lightning Payment Request Decoder
-
-[https://lndecode.com/](https://lndecode.com/)
-
-### See also
-
-[Lightning Network Invoices](https://blockfuse.io/blog/lightning-network-invoices/)
-
 ## References
 
-\[1\] [Lightning Decoder](https://lightningdecoder.com/)
-
-\[2\] [BOLT \#11](https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md)
+1. [BOLT \#11](https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md) standards document
+2. [Lightning Decoder](https://lightningdecoder.com/) app
+3. ["Lightning Network Invoices"](https://blockfuse.io/blog/lightning-network-invoices/) , Blockfuse \(2018-12-08\)
 
