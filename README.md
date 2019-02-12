@@ -19,6 +19,10 @@ description: Learn.  Share.  Accelerate Lightning.
 
 {% tab title="Apps" %}
 {% page-ref page="tutorials/apps/spacebit-satellite-client.md" %}
+
+{% page-ref page="tutorials/apps/lightning-torch.md" %}
+
+{% page-ref page="tutorials/apps/tipping-sites.md" %}
 {% endtab %}
 
 {% tab title="R&D" %}
