@@ -17,7 +17,7 @@ Contribute within seconds using the Gitbook UI:
 5. Click "Describe this draft" and add a description.
 6. Click "Merge" to make your changes live, click "Archive" to stash your changes for later, or just leave your draft for someone else to review and merge.
 
-Discuss content, edits, and organization in the [Telegram chat](https://t.me/ionwiki), open [an issue on GitHub](https://github.com/RadarTech/ionwiki/issues), or email us at outreach@ion.radar.tech.
+Discuss content, edits, and organization in the [Telegram chat](https://t.me/radarion), open [an issue on GitHub](https://github.com/RadarTech/ionwiki/issues), or email us at outreach@ion.radar.tech.
 
 ## Contribute With GitHub
 
@@ -41,5 +41,5 @@ New to contributing to open source projects?  Learn more:
 * More Lightning applications
 * &etc
 
-Discuss other content you'd like to see or contribute in the [Telegram chat](https://t.me/ionwiki), open [an issue on GitHub](https://github.com/RadarTech/ionwiki/issues), or email us at outreach@ion.radar.tech.
+Discuss other content you'd like to see or contribute in the [Telegram chat](https://t.me/radarion), open [an issue on GitHub](https://github.com/RadarTech/ionwiki/issues), or email us at outreach@ion.radar.tech.
 

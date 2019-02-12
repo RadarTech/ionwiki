@@ -36,7 +36,7 @@ Disadvantages:
 
 In total, we believe that the advantages outweigh the disadvantages for this particular project.  We will continue to evaluate other projects, like the upcoming [wiki.js v2](https://github.com/Requarks/wiki) beta, to see if they are a better fit.
 
-If you have questions, comments, or concerns about this choice, join the discussion in [Telegram chat](https://t.me/ionwiki).
+If you have questions, comments, or concerns about this choice, join the discussion in [Telegram chat](https://t.me/radarion).
 
 ## Content License
 
@@ -51,5 +51,5 @@ We considered several other licenses, and several other Creative Commons variant
 * [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/), adds a "share-alike" clause.  We don't restrict how derivative works are licensed.
 * [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/), adds a "noncommercial" clause.  We don't restrict how derivative works are used.
 
-If you have questions, comments, or concerns about this choice, join the discussion in [Telegram chat](https://t.me/ionwiki).
+If you have questions, comments, or concerns about this choice, join the discussion in [Telegram chat](https://t.me/radarion).
 

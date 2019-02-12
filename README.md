@@ -52,5 +52,5 @@ Know something about Lightning? **Share your know-how** and accelerate the rate 
 
 #### [**This wiki lives in GitHub**](wiki-basics/content-license.md) and is Creative Commons licensed! It's your Lightning lab notebook—it's not locked in someone else's database.
 
-Check out the [**top contributors on GitHub**](https://github.com/RadarTech/ionwiki/graphs/contributors) and join the discussion [**on Telegram**](https://t.me/ionwiki).
+Check out the [**top contributors on GitHub**](https://github.com/RadarTech/ionwiki/graphs/contributors) and join the discussion [**on Telegram**](https://t.me/radarion).
 
