@@ -62,7 +62,7 @@
   * [Opening A Channel](lightning-technology/lightning-channels/channel-opening.md)
   * [Closing A Channel](lightning-technology/lightning-channels/channel-closing.md)
   * [Channel Backup](lightning-technology/lightning-channels/channel-backups.md)
-* [Research & Development](lightning-technology/research/README.md)
+* [Atomic Multi-path Payments](lightning-technology/research/README.md)
   * [Watchtowers](lightning-technology/research/watchtowers.md)
   * [Macaroons](lightning-technology/research/macaroons.md)
   * [Submarine Swap](lightning-technology/research/submarine-swap.md)
