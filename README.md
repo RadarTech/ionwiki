@@ -22,6 +22,8 @@ description: Learn.  Share.  Accelerate Lightning.
 {% endtab %}
 
 {% tab title="R&D" %}
+{% page-ref page="lightning-technology/research/atomic-multi-path-payments.md" %}
+
 {% page-ref page="lightning-technology/research/lightning-appliance.md" %}
 
 {% page-ref page="lightning-technology/research/watchtowers.md" %}
