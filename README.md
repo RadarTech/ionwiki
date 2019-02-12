@@ -8,39 +8,27 @@ description: Learn.  Share.  Accelerate Lightning.
 
 {% tabs %}
 {% tab title="Onboarding" %}
-{% page-ref page="tutorials/troubleshooting/bootstrapping-channels.md" %}
-
-{% page-ref page="tutorials/nodes/tor.md" %}
-
-{% page-ref page="lightning-technology/lightning/invoice.md" %}
-
-{% page-ref page="tutorials/nodes/lnd.md" %}
+* [Bootstrapping Lightning Channels](tutorials/troubleshooting/bootstrapping-channels.md)
+* [Lightning with Tor](tutorials/nodes/tor.md)
+* [Understanding Lightning Invoices](lightning-technology/lightning/invoice.md)
+* [LND \(Lightning Network Daemon\)](tutorials/nodes/lnd.md)
 {% endtab %}
 
 {% tab title="Apps" %}
-{% page-ref page="tutorials/apps/bitcoin-testnet-ln.md" %}
-
-{% page-ref page="tutorials/apps/litecoin-ln.md" %}
-
-{% page-ref page="tutorials/apps/spacebit-satellite-client.md" %}
-
-{% page-ref page="tutorials/apps/lightning-torch.md" %}
-
-{% page-ref page="tutorials/apps/tipping-sites.md" %}
+* [Bitcoin Testnet Lightning Network](tutorials/apps/bitcoin-testnet-ln.md)
+* [Litecoin Lightning Network](tutorials/apps/litecoin-ln.md)
+* [Spacebit Satellite Client](tutorials/apps/spacebit-satellite-client.md)
+* [Lightning Torch](tutorials/apps/lightning-torch.md)
+* [Lightning Tipping Sites](tutorials/apps/tipping-sites.md)
 {% endtab %}
 
 {% tab title="R&D" %}
-{% page-ref page="lightning-technology/research/atomic-multi-path-payments.md" %}
-
-{% page-ref page="lightning-technology/research/lightning-appliance.md" %}
-
-{% page-ref page="lightning-technology/research/watchtowers.md" %}
-
-{% page-ref page="lightning-technology/research/submarine-swap.md" %}
-
-{% page-ref page="lightning-technology/research/macaroons.md" %}
-
-{% page-ref page="lightning-technology/lightning-channels/channel-backups.md" %}
+* [Atomic Multi-Path Payments \(AMP\)](lightning-technology/research/atomic-multi-path-payments.md)
+* [Lightning Hardware Appliances](lightning-technology/research/lightning-appliance.md)
+* [Watchtower Services](lightning-technology/research/watchtowers.md)
+* [Trustless Layer1-Layer2 \(Submarine\) Swaps](lightning-technology/research/submarine-swap.md)
+* [Macaroons for LND Authentication](lightning-technology/research/macaroons.md)
+* [Channel Backup](lightning-technology/lightning-channels/channel-backups.md)
 {% endtab %}
 {% endtabs %}
 
