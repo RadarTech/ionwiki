@@ -10,12 +10,13 @@ This wiki is made possible by the content contributed by Lightning enthusiasts.
 
 Contribute within seconds using the Gitbook UI:
 
-1. [Sign into Gitbook.](https://www.gitbook.com/login/radarrelay/wiki?no_sso=guest) Use your GitHub account, Google account, or email and password.
-2. Click "Create A Draft".
-3. Create new pages and edit existing ones.
-4. Click "Save".
-5. Click "Describe this draft" and add a description.
-6. Click "Merge" to make your changes live, click "Archive" to stash your changes for later, or just leave your draft for someone else to review and merge.
+1. Contact us via [Telegram](https://t.me/radarion), [Twitter](https://twitter.com/radar_ion), or [email](mailto:outreach@ion.radar.tech). Tell us what excites you about Lightning, and we'll give you an invite link!
+2. [Sign into Gitbook.](https://www.gitbook.com/login/radarrelay/wiki?no_sso=guest) Use your GitHub account, Google account, or email and password.
+3. Click "Create A Draft".
+4. Create new pages and edit existing ones.
+5. Click "Save".
+6. Click "Describe this draft" and add a description.
+7. Click "Merge" to make your changes live, click "Archive" to stash your changes for later, or just leave your draft for someone else to review and merge.
 
 Discuss content, edits, and organization in the [Telegram chat](https://t.me/radarion), open [an issue on GitHub](https://github.com/RadarTech/ionwiki/issues), or email us at outreach@ion.radar.tech.
 
