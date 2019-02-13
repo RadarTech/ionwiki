@@ -28,6 +28,7 @@
 * [Lightning Stores](tutorials/stores.md)
 * [Troubleshooting](tutorials/troubleshooting/README.md)
   * [Bootstrapping Channels](tutorials/troubleshooting/bootstrapping-channels.md)
+  * [Public Nodes](tutorials/troubleshooting/public-nodes.md)
   * [Payment failures](tutorials/troubleshooting/payment-failures.md)
   * [Error codes](tutorials/troubleshooting/error-codes.md)
   * [Theft \(on Lightning Network\)](tutorials/troubleshooting/theft-on-lightning-network.md)
