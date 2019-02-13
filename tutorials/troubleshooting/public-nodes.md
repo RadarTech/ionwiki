@@ -12,6 +12,16 @@ And consider adding your node to this inbound liquidity request board:
 
 {% embed url="https://singles.shock.network/" %}
 
+## Checking Connectivity
+
+If you are on mainnet, the easiest way to check if your node is publicly accessible is to fill out the form on LightningTo.Me:
+
+{% embed url="https://lightningto.me/" %}
+
+If your node is accessible, you will immediately receive an inbound channel for 2,000,000 satoshis.
+
+## Public IP Nodes
+
 When adding a node below, please include:
 
 * pubkey and address
@@ -19,8 +29,6 @@ When adding a node below, please include:
 * node software type and version
 * planned uptime
 * any services hosted on this node \(Lightning apps, stores, tip sites, &etc\)
-
-## Public IP Nodes
 
 #### lnd.ion.radar.tech
 
