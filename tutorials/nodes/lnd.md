@@ -19,7 +19,7 @@ LND is open source software under [very active development on GitHub](https://gi
 
 ## Implementation Details
 
-Lightning Labs is an active contributor to the BOLT standards and LND strives for full compliance with these specifications.
+Lightning Labs is an active contributor to the BOLT standards and LND strives for compliance with these specifications.
 
 ### Chainwatcher Backends
 
@@ -46,22 +46,39 @@ As of February 2019, LND is capable of:
 * Creating channels.
 * Closing channels.
 * Completely managing all channel states \(including the exceptional ones!\).
-* Maintaining a fully authenticated+validated channel graph.
+* Maintaining a fully authenticated and validated channel graph.
 * Performing path finding within the network, passively forwarding incoming payments.
 * Sending outgoing [onion-encrypted payments](https://github.com/lightningnetwork/lightning-onion) through the network.
 * Updating advertised fee schedules.
-* Automatic channel management \([`autopilot`](https://github.com/lightningnetwork/lnd/tree/master/autopilot)\).
+* Automatic channel management \(aka [`autopilot`](https://github.com/lightningnetwork/lnd/tree/master/autopilot)\)
 
 ## Developer Resources
 
-Lightning Labs has created multiple developer resources to facilitate application development. Alongside their two RPC interfaces \(a HTTP REST API and a gRPC service\), Lightning Labs has supporting documentation and a healthy ecosystem of developer tools.
+Linux users can build LND from source with Go 1.11+:
+
+```text
+go get -d github.com/lightningnetwork/lnd
+cd $GOPATH/src/github.com/lightningnetwork/lnd
+git checkout v0.5.2-beta
+make && make install
+```
+
+For more information, including setting up a Go environment, see the official LND guide:
+
+{% embed url="https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md" %}
+
+Pierre Rochard has created an LND Node Launcher application for quickly and easily installing a Lightning Network node on Windows and MacOS.  Check out this tool and the accompanying installation guide:
+
+{% embed url="https://github.com/lightning-power-users/node-launcher/" %}
+
+{% embed url="https://medium.com/lightning-power-users/windows-macos-lightning-network-284bd5034340" %}
 
 ## References
 
 1. [https://lightning.engineering/](https://lightning.engineering/) Lightning Labs homepage
 2. [https://github.com/lightningnetwork/lnd](https://github.com/lightningnetwork/lnd) LND on Github
 3. [https://dev.lightning.community/](https://dev.lightning.community/) developer resources for LND including talks, articles, and example applications
-4. [https://api.lightning.community/](https://api.lightning.community/) API documentation
+4. [https://api.lightning.community/](https://api.lightning.community/) [https://api.lightning.community/rest/](https://api.lightning.community/rest/) API documentation
 5. [LND developers Slack chat](https://lightningcommunity.slack.com/join/shared_invite/enQtMzQ0OTQyNjE5NjU1LWRiMGNmOTZiNzU0MTVmYzc1ZGFkZTUyNzUwOGJjMjYwNWRkNWQzZWE3MTkwZjdjZGE5ZGNiNGVkMzI2MDU4ZTE)
 6. CEO Elizabeth Stark - [Twitter](https://twitter.com/starkness), [GitHub](https://github.com/starkness)
 7. CTO Olaoluwa Osuntokun - [Twitter](https://twitter.com/roasbeef), [GitHub](https://github.com/roasbeef)
