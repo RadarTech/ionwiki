@@ -68,6 +68,7 @@
   * [Closing A Channel](tech/channels/channel-closing.md)
   * [Channel Backup](tech/channels/channel-backups.md)
 * [Research and Development](tech/research/README.md)
+  * [Hold Invoices](tech/lightning/hodl-invoice.md)
   * [Watchtowers](tech/research/watchtowers.md)
   * [Macaroons](tech/research/macaroons.md)
   * [Submarine Swap](tech/research/submarine-swap.md)
