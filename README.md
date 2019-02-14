@@ -28,7 +28,7 @@ description: Learn.  Share.  Accelerate Lightning.
 * [Watchtower Services](tech/research/watchtowers.md)
 * [Trustless Layer1-Layer2 \(Submarine\) Swaps](tech/research/submarine-swap.md)
 * [Macaroons for LND Authentication](tech/research/macaroons.md)
-* [Channel Backup](tech/lightning-channels/channel-backups.md)
+* [Channel Backup](tech/channels/channel-backups.md)
 {% endtab %}
 {% endtabs %}
 
