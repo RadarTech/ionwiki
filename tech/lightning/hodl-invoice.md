@@ -30,7 +30,7 @@ Consider an `item` Shop, an independent Courier, and a shop Customer:
 - Customer generates a `preimage` and sends `hash` of `preimage` to the Shop
 - Shop creates **hodl invoice** `invoice0` and Customer pays it
 - Shop sends `hash` to the Courier who creates another **hodl invoice** `invoice1` (for delivery costs) with the same `payment_hash` and Shop pays it
-- Upon delivery the Customer gives the `preimage` to the Courier who settles `invoice2` revealing the preimage to Shop who then pays `invoice1`.
+- Upon delivery the Customer gives the `preimage` to the Courier who settles `invoice1` revealing the preimage to Shop who then settles `invoice0`.
 
 ### [Submarine Swap](../research/submarine-swap.md) Variation
 
