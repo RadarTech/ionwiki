@@ -37,7 +37,7 @@ A force close is performed by broadcasting a "commitment transaction", a transac
 
 The practical result of a force close is that both parties will receive their portion of the money in the channel, but the party that initiates the force close must wait anywhere from hours to weeks—the exact delay is negotiated by the nodes beforehand—to receive their funds.  This delay, referred to as `to_self_delay` in the LND documentation, provides the offline node a window of opportunity to come back online and verify  that the force-close was legitimate.  If the force-close was fraudulent, the peer can challenge it with a penalty transaction.
 
-Fraudulent force close transactions can also be detected and responded to by [Watchtower services](../research/watchtowers.md).
+Fraudulent force close transactions can also be detected and responded to by [Watchtower services](/tech/research/watchtowers.md).
 
 ### Fraudulent Force Close
 
