@@ -6,7 +6,7 @@ description: quickly improve your Lightning Network connection
 
 Your Lightning node starts with zero channels, and you must fund channels with other nodes on the network in order to send Lightning payments.  Connecting to nodes that are already well-connected helps ensure that you will be able to find routes and send payments anywhere on the network.
 
-Because payment channels are currently funded only by the initiating party \(though [dual-funded channels](../../lightning-technology/lightning-channels/channel-opening.md) are eventually planned\), opening channels only gives you capacity to send, not to receive.  To get receiving capacity, you must either open a channel and then spend money through it, or you must convince other nodes to open channels to you.  For recommendations on places to spend money on the Lightning Network, see also [Lightning Apps](../apps/) and [Lightning Stores](../stores.md).
+Because payment channels are currently funded only by the initiating party \(though [dual-funded channels](../../tech/lightning-channels/channel-opening.md) are eventually planned\), opening channels only gives you capacity to send, not to receive.  To get receiving capacity, you must either open a channel and then spend money through it, or you must convince other nodes to open channels to you.  For recommendations on places to spend money on the Lightning Network, see also [Lightning Apps](../apps/) and [Lightning Stores](../stores.md).
 
 ## Nodes That Open Back
 

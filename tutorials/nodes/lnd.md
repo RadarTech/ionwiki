@@ -13,7 +13,7 @@ category: lightning-software
 
 # LND
 
-The Lightning Network Daemon \(LND\) is a complete Golang implementation of a [BOLT](../../lightning-technology/lightning/basics-of-lightning-technology-bolt.md)-compliant Lightning Network node developed by Lightning Labs.  It can connect to the Lightning Networks deployed on Bitcoin \(mainnet, testnet3\) and Litecoin \(mainnet, testnet4\).
+The Lightning Network Daemon \(LND\) is a complete Golang implementation of a [BOLT](../../tech/lightning/basics-of-lightning-technology-bolt.md)-compliant Lightning Network node developed by Lightning Labs.  It can connect to the Lightning Networks deployed on Bitcoin \(mainnet, testnet3\) and Litecoin \(mainnet, testnet4\).
 
 LND is open source software under [very active development on GitHub](https://github.com/lightningnetwork/lnd/projects/1): v0.1-alpha was released on January 11th 2017; v0.5-beta was released on September 18th 2018; v0.6-beta is expected in Spring 2019.
 

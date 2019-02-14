@@ -10,7 +10,7 @@ description: Learn.  Share.  Accelerate Lightning.
 {% tab title="Onboarding" %}
 * [Bootstrapping Lightning Channels](tutorials/troubleshooting/bootstrapping-channels.md)
 * [Lightning with Tor](tutorials/nodes/tor.md)
-* [Understanding Lightning Invoices](lightning-technology/lightning/invoice.md)
+* [Understanding Lightning Invoices](tech/lightning/invoice.md)
 * [LND \(Lightning Network Daemon\)](tutorials/nodes/lnd.md)
 {% endtab %}
 
@@ -23,12 +23,12 @@ description: Learn.  Share.  Accelerate Lightning.
 {% endtab %}
 
 {% tab title="R&D" %}
-* [Atomic Multi-Path Payments \(AMP\)](lightning-technology/research/atomic-multi-path-payments.md)
-* [Lightning Hardware Appliances](lightning-technology/research/lightning-appliance.md)
-* [Watchtower Services](lightning-technology/research/watchtowers.md)
-* [Trustless Layer1-Layer2 \(Submarine\) Swaps](lightning-technology/research/submarine-swap.md)
-* [Macaroons for LND Authentication](lightning-technology/research/macaroons.md)
-* [Channel Backup](lightning-technology/lightning-channels/channel-backups.md)
+* [Atomic Multi-Path Payments \(AMP\)](tech/research/atomic-multi-path-payments.md)
+* [Lightning Hardware Appliances](tech/research/lightning-appliance.md)
+* [Watchtower Services](tech/research/watchtowers.md)
+* [Trustless Layer1-Layer2 \(Submarine\) Swaps](tech/research/submarine-swap.md)
+* [Macaroons for LND Authentication](tech/research/macaroons.md)
+* [Channel Backup](tech/lightning-channels/channel-backups.md)
 {% endtab %}
 {% endtabs %}
 
