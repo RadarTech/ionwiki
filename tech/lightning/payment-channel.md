@@ -17,9 +17,9 @@ category: lightning-basics
 
 On the [Lightning Network](lightning-network.md), a **payment channel** is a direct, bi-directional payment connection between two [nodes](node.md).
 
-Payment channels are the primary building block for the Lightning Network as they allow for fast, low-cost transactions. Through on-chain [opening](../channels/channel-opening.md) and [closing ](../channels/channel-closing.md)transactions, payment channels leverage the security of the underlying blockchain to provide trustless payments between two parties. Based on the balance and [capacity](../channels/channel-capacity.md) of the channel, users exchange 'off-chain' commitments to each other outside of the Bitcoin blockchain. Payments within a channel are off-chain and do not require validation by or communication to the broader network. This means there is no explicit cost to each payment and no limit to the number of payments able to be shared within a channel.
+Payment channels are the primary building block for the Lightning Network as they allow for fast, low-cost transactions. Through on-chain [opening](../channels/channel-opening.md) and [closing ]()transactions, payment channels leverage the security of the underlying blockchain to provide trustless payments between two parties. Based on the balance and [capacity](../channels/channel-capacity.md) of the channel, users exchange 'off-chain' commitments to each other outside of the Bitcoin blockchain. Payments within a channel are off-chain and do not require validation by or communication to the broader network. This means there is no explicit cost to each payment and no limit to the number of payments able to be shared within a channel.
 
-A payment channel can be [closed](../channels/channel-closing.md) by broadcasting an on-chain transaction agreed upon by both parties that finalizes the net balance transferred over the life of the channel.
+A payment channel can be [closed]() by broadcasting an on-chain transaction agreed upon by both parties that finalizes the net balance transferred over the life of the channel.
 
 ## Details
 
