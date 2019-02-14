@@ -15,15 +15,19 @@ category: lightning-channels
 
 Payment channels on the Lightning Network have an unlimited lifespan, and will remain open forever until a participant in the channel initiates a **closing transaction**.
 
-Closing transactions come in different forms and may involve one or both parties to the channel.  Closing transactions are broadcast to the blockchain, so the user must pay transaction fees and must wait for the transaction to be mined into the chain.  The channel can no longer be used to route payments from the moment that the close is initiated.
+Closing transactions come in different forms and may involve one or both parties to the channel.  Closing transactions are broadcast to the blockchain, so the user must pay transaction fees and must wait for the transaction to be mined into the chain.  A channel can no longer be used to route payments from the moment that the close is initiated.
 
 ## Types of Closing Transactions
+
+Both parties are able to send as many Lightning payments to their counterparty as their funds in the Lightning channel allow, knowing that in the event of a disagreement they can settle their agreed-upon channel balance to the blockchain.  In the vast majority of cases, there will be no disagreement and the entire lifecycle of a channel will consist of a single channel-funding transaction and a single cooperative close.
+
+Just in case there is a disagreement, every time a payment traverses the channel, participants create transactions committing to the current channel state and exchange secrets that revoke their previous commitments.  The latest commitment and the secret keys that revoke previous commitments are kept by both parties just in case the other part is non-cooperative.
+
+During the normal operation of a Lightning channel with two non-malicious parties who cooperatively close a channel, no old commitment transactions or revocation keys are ever used, much like how a contract is rarely enforced in the courts.  Because both parties understand exactly how the contracts that bind them in a channel will be enforced, both parties know that they cannot get away with fraud and they are incentivized to act honestly.
 
 ### Cooperative Close
 
 In a cooperative close \(aka mutual close\), both channel participants agree to close the channel and settle the final state of the channel onto the blockchain.  Both participants provide a digital signature that authorizes this cooperative settlement transaction.
-
-Both parties are able to send as many payments to their counterparty as they wish, as long as they have funds available in the channel, knowing that in the event of disagreements they can broadcast to the blockchain the current state at any time. In the vast majority of cases, all the outputs from the Funding Transaction will never be broadcast on the blockchain. They are just there in case the other party is non-cooperative, much like how a contract is rarely enforced in the courts. A proven ability for the contract to be enforced in a deterministic manner is sufficient incentive for both parties to act honestly. When either party wishes to close out a channel cooperatively, they will be able to do so by contacting the other party and spending from the Funding Transaction with an output of the most current Commitment Transaction directly with no script encumbering conditions. No further payments may occur in the channel.
 
 ### Force Close
 
