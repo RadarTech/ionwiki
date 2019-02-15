@@ -44,6 +44,16 @@ Successful tested on 2019-02-06.
 
 {% embed url="https://1ml.com/node/03c436af41160a355fc1ed230a64f6a64bcbd2ae50f12171d1318f9782602be601" %}
 
+### Popmin.net
+
+You must open a channel to their node OR pay a 10,000 satoshi one-time fee to "register".
+
+Will open a channel to your node for a fee of 1% of the channel balance, up to 2,000,000 satoshis.
+
+Successfully tested on 2019-02-15.
+
+{% embed url="https://popmin.net/inbound" %}
+
 ### LightningPowerUsers
 
 If you open a channel larger than 500,000 satoshis and fill out the form on the website, this node will open a channel of the same size back to you.
@@ -58,7 +68,7 @@ Requested a channel on 2019-02-06 and had _not_ received a channel by 2019-02-10
 
 This node's name and large number of channels suggests that it will connect back, but it's unclear what the terms of a reciprocal channel are.
 
-Tested on 2019-02-09; awaiting results 24 hours later.  Does not appear to be automated.
+Tested on 2019-02-09.  Had not received a channel by 2019-02-15.
 
 {% embed url="https://1ml.com/node/03ee180e8ee07f1f9c9987d98b5d5decf6bad7d058bdd8be3ad97c8e0dd2cdc7ba" %}
 
