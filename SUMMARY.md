@@ -68,6 +68,7 @@
   * [Closing A Channel](tech/channels/channel-closing.md)
   * [Channel Backup](tech/channels/channel-backups.md)
 * [Research and Development](tech/research/README.md)
+  * [Sphinx Send](tech/research/sphinx-send.md)
   * [Hold Invoices](tech/research/hodl-invoice.md)
   * [Watchtowers](tech/research/watchtowers.md)
   * [Macaroons](tech/research/macaroons.md)
