@@ -54,6 +54,8 @@ Successfully tested on 2019-02-15.
 
 {% embed url="https://popmin.net/inbound" %}
 
+{% embed url="https://1ml.com/node/03d24a4d2c8841890779f3c788cd269d467ad8ff8fcfdc21c8ceead42c7dd7f04b" %}
+
 ### LightningPowerUsers
 
 If you open a channel larger than 500,000 satoshis and fill out the form on the website, this node will open a channel of the same size back to you.
