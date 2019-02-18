@@ -13,7 +13,7 @@ category: lightning-software
 
 # LND
 
-The Lightning Network Daemon \(LND\) is a complete Golang implementation of a [BOLT](../../tech/lightning/basics-of-lightning-technology-bolt.md)-compliant Lightning Network node developed by Lightning Labs.  It can connect to the Lightning Networks deployed on Bitcoin \(mainnet, testnet3\) and Litecoin \(mainnet, testnet4\).
+The Lightning Network Daemon \(LND\) is a complete Golang implementation of a [BOLT](../../lightning-technology/lightning/basics-of-lightning-technology-bolt.md)-compliant Lightning Network node developed by Lightning Labs. It can connect to the Lightning Networks deployed on Bitcoin \(mainnet, testnet3\) and Litecoin \(mainnet, testnet4\).
 
 LND is open source software under [very active development on GitHub](https://github.com/lightningnetwork/lnd/projects/1): v0.1-alpha was released on January 11th 2017; v0.5-beta was released on September 18th 2018; v0.6-beta is expected in Spring 2019.
 
@@ -23,7 +23,7 @@ Lightning Labs is an active contributor to the BOLT standards and LND strives fo
 
 ### Chainwatcher Backends
 
-Like all Lightning nodes, LND requires access to information stored in the blockchain in order to manage channels.  LND accesses this information by connecting to a backend node that provides access to the chain.
+Like all Lightning nodes, LND requires access to information stored in the blockchain in order to manage channels. LND accesses this information by connecting to a backend node that provides access to the chain.
 
 On supported blockchains, LND can use the following full nodes:
 
@@ -37,7 +37,7 @@ These full nodes must be fully synced with a transaction index database \(e.g. `
 * litecoin mainnet:  24 GB
 * litecoin testnet: 2 GB
 
-As a lightweight alternative for mobile and other resource-constrained devices, Lightning Labs is developing a lightweight trust-minimizing privacy-preserving Bitcoin light client called [Neutrino](https://github.com/lightninglabs/neutrino).  In contrast, Neutrino requires only a few hundred MB of storage.  LND ships with Neutrino and can be configured to automatically launch and manage it when LND is started.  Neutrino can theoretically run on the Mainnet today if it is able to find `btcd` full node peers that will serve it compact filters, but due to [known money-losing bugs](https://github.com/lightninglabs/neutrino/issues) this is strongly discouraged.  A mainnet-ready Neutrino is expected later in 2019.
+As a lightweight alternative for mobile and other resource-constrained devices, Lightning Labs is developing a lightweight trust-minimizing privacy-preserving Bitcoin light client called [Neutrino](https://github.com/lightninglabs/neutrino). In contrast, Neutrino requires only a few hundred MB of storage. LND ships with Neutrino and can be configured to automatically launch and manage it when LND is started. Neutrino can theoretically run on the Mainnet today if it is able to find `btcd` full node peers that will serve it compact filters, but due to [known money-losing bugs](https://github.com/lightninglabs/neutrino/issues) this is strongly discouraged. A mainnet-ready Neutrino is expected later in 2019.
 
 ### Client Capabilities
 
@@ -65,13 +65,13 @@ make && make install
 
 For more information, including setting up a Go environment, see the official LND guide:
 
-{% embed url="https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md" %}
+{% embed url="https://github.com/lightningnetwork/lnd/blob/master/docs/INSTALL.md" caption="" %}
 
-Pierre Rochard has created an LND Node Launcher application for quickly and easily installing a Lightning Network node on Windows and MacOS.  Check out this tool and the accompanying installation guide:
+Pierre Rochard has created an LND Node Launcher application for quickly and easily installing a Lightning Network node on Windows and MacOS. Check out this tool and the accompanying installation guide:
 
-{% embed url="https://github.com/lightning-power-users/node-launcher/" %}
+{% embed url="https://github.com/lightning-power-users/node-launcher/" caption="" %}
 
-{% embed url="https://medium.com/lightning-power-users/windows-macos-lightning-network-284bd5034340" %}
+{% embed url="https://medium.com/lightning-power-users/windows-macos-lightning-network-284bd5034340" caption="" %}
 
 ## References
 
