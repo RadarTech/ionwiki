@@ -28,7 +28,7 @@ Like all Lightning nodes, LND requires access to information stored in the block
 On supported blockchains, LND can use the following full nodes:
 
 * derived from Bitcoin Core: [bitcoind](https://github.com/bitcoin/bitcoin), [litecoind](https://github.com/litecoin-project/litecoin)
-* derived from BCsuite: [btcd](https://github.com/btcsuite/btcd), [ltcd](https://github.com/ltcsuite/ltcd)
+* derived from BTCsuite: [btcd](https://github.com/btcsuite/btcd), [ltcd](https://github.com/ltcsuite/ltcd)
 
 These full nodes must be fully synced with a transaction index database \(e.g. `bitcoind -txindex=1`\) , which requires a substantial amount of disk space:
 
