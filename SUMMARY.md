@@ -32,6 +32,7 @@
   * [Payment failures](tutorials/troubleshooting/payment-failures.md)
   * [Error codes](tutorials/troubleshooting/error-codes.md)
   * [Theft \(on Lightning Network\)](tutorials/troubleshooting/theft-on-lightning-network.md)
+* [Lightning News Sources](tutorials/lightning-news-sources.md)
 
 ## Lightning Technology
 
