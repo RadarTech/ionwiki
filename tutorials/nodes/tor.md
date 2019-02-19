@@ -4,6 +4,8 @@ description: Improve your Lightning Network privacy and connectivity with Tor
 
 # Lightning with Tor
 
+## Overview
+
 This tutorial explains how to install and run [Tor](https://www.torproject.org/) with [LND](lnd.md).  This allows you to connect to the Lightning Network without revealing your IP address and therefore your location.  As an added bonus, Lightning nodes on Tor can accept incoming connections from other nodes on Tor even if they are behind one or more routers and do not have a publicly-accessible IP address.
 
 Note that your privacy can be compromised if you do not also connect your backend node—`bitcoind` or `btcd`—to Tor.  `bitcoind` will automatically seek out a Tor connection with a default configuration, but `btcd` requires some configuration.
