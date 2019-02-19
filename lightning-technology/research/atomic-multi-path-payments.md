@@ -1,6 +1,6 @@
 # Atomic Multi-Path Payments
 
-## Details
+## Overview
 
 ### Problem
 
