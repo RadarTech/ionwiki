@@ -42,6 +42,14 @@ Development discussion of the Lightning Network Bitcoin Caching Layer
 
 {% embed url="https://dev.lightning.community/" %}
 
+### Cointelegraph
+
+{% embed url="https://cointelegraph.com/tags/lightning-network" %}
+
+### Bitcoin Lightning
+
+{% embed url="https://www.bitcoinlightning.com/" %}
+
 
 
 

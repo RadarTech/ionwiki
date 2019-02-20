@@ -26,13 +26,13 @@
   * [Lightning Torch](tutorials/apps/lightning-torch.md)
   * [Tipping Sites](tutorials/apps/tipping-sites.md)
 * [Lightning Stores](tutorials/stores.md)
+* [Lightning News Sources](tutorials/lightning-news-sources.md)
 * [Troubleshooting](tutorials/troubleshooting/README.md)
   * [Bootstrapping Channels](tutorials/troubleshooting/bootstrapping-channels.md)
   * [Public Nodes](tutorials/troubleshooting/public-nodes.md)
   * [Payment failures](tutorials/troubleshooting/payment-failures.md)
   * [Error codes](tutorials/troubleshooting/error-codes.md)
   * [Theft \(on Lightning Network\)](tutorials/troubleshooting/theft-on-lightning-network.md)
-* [Lightning News Sources](tutorials/lightning-news-sources.md)
 
 ## Lightning Technology
 
