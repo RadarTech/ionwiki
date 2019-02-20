@@ -13,13 +13,40 @@ category: lightning-rnd
 
 # Privacy
 
-## Overview
+While there is no public, trackable ledger of Lightning transactions, **privacy** on Lightning is still a work in progress. Through techniques like [onion routing](../lightning/onion-routing.md) and [eltoo](eltoo.md), privacy is improving.  
 
-While there is no public, trackable ledger of Lightning transactions, **privacy** on Lightning is still a work in progress. Through techniques like [onion routing](../lightning/onion-routing.md) and [eltoo](eltoo.md), privacy is improving.
+## Invoice and Channel Privacy
 
-## Details
+When you **create** an invoice, it reveals your node's public key, which stays the same for the lifetime of your node.  This has privacy implications:
 
-### Implementation of Sphinx
+* if you post invoices in public places, the pubkey may link together your identities across platforms
+* the recipient of an invoice can link multiple invoices from the same node to eachother
+* anyone can view the value of bitcoins that a node pubkey has in non-private channels
+* anyone can view the channel opening and closing history of a node pubkey
+* anyone can match public channel opening and closing events to the on-chain inputs used to find them, and can trace those inputs using blockchain analysis
+* if your node is configured to broadcast a public IP address,
+  * your invoice reveals the node's IP address and approximate geolocation
+  * network participants can link together multiple nodes hosted at a single IP address
+* if you use multiple nodes with a single identity, invoice recipients can link together those two nodes
+
+When you **pay** invoices, much less information is revealed:
+
+* A payment does not indicate to the recipient what node pubkey it originated from
+* A node that routes a payment does not know conclusively which node the payment came from or which node the payment is going to
+  * the routing node only knows which node forwarded it the payment and which node it was instructed to forward the payment to
+* If the recipient service uses accounts of embeds user-provided information in the invoice, then obviously the service can link together invoices.
+
+What things stay private?
+
+* The existence and balance of **private channels** remains secret to every node except for the node you have opened the private channel to, unless that node chooses to disclose that information
+* Your on-chain wallet balance that is not contained in a channel is not linked to your node pubkey, unless though it may be possible to link on-chain wallet balance to previously closed public channels through blockchain analysis
+* If you use separate nodes with separate identities, there is not a straightforward way to link them
+
+How does using [Tor with Lightning](../../tutorials/nodes/tor.md) improve your privacy?
+
+* By connecting your node to Tor, other Lightning nodes connected to Tor can open channels to your node _without requiring you to broadcast a public IP address_
+
+## Sphinx Routing
 
 The current Lightning Network specification includes a solution to mask routing data from all intermediaries, based on [Sphinx](../lightning/sphinx-packet.md).
 
