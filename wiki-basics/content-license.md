@@ -8,29 +8,29 @@ Anyone can make a local copy!  This is a significant advantage:
 
 * your contributions won't be lost if a Mediawiki database goes offline
 * straightforward porting between platforms that support Git-backed content storage
-* contribute through the Gitbook UI or your interface of choice using GitHub pull requests
+* contribute through the GitBook UI or your interface of choice using GitHub pull requests
 
-## Choosing Gitbook
+## Choosing GitBook
 
-After evaluating a dozen potential platforms for this wiki, we selected Gitbook.
+After evaluating a dozen potential platforms for this wiki, we selected GitBook.
 
 Advantages:
 
-* Gitbook supports editing in Markdown.
-* Gitbook supports Git-backed content storage.
-* Gitbook has a modern design and mobile friendliness.
-* Gitbook supports simple sign-in with GitHub or Google accounts.
-* Gitbook has rapid and responsive support.
-* Because the Lightning Network is an open source software project, Gitbook has allowed us to invite contributors to this wiki without paying the usual [per-user fees](https://www.gitbook.com/pricing).
+* GitBook supports editing in Markdown.
+* GitBook supports Git-backed content storage.
+* GitBook has a modern design and mobile friendliness.
+* GitBook supports simple sign-in with GitHub or Google accounts.
+* GitBook has rapid and responsive support.
+* Because the Lightning Network is an open source software project, GitBook has allowed us to invite contributors to this wiki without paying the usual [per-user fees](https://www.gitbook.com/pricing).
 
 Disadvantages:
 
-* Gitbook is a hosted solution.
-* Gitbook is not free and open source software.
-* Gitbook does not have a plugin system—the features it ships with are the features you get.
-* Gitbook is not as well-known, so contributors are less likely to be familiar with it.
-* Gitbook has limited user and content management tools.
-  * e.g. users can't edit in the Gitbook UI without signing up.
+* GitBook is a hosted solution.
+* GitBook is not free and open source software.
+* GitBook does not have a plugin system—the features it ships with are the features you get.
+* GitBook is not as well-known, so contributors are less likely to be familiar with it.
+* GitBook has limited user and content management tools.
+  * e.g. users can't edit in the GitBook UI without signing up.
   * e.g. edits by certain users can't require approval before going live.
   * e.g. pages can't be protected from editing.
 

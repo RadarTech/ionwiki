@@ -8,7 +8,7 @@ The Litecoin Testnet Lightning Network has a moderate number of nodes:
 
 ## Litecoin Lightning Services
 
-places to spend Lightning LTC:
+Places to spend Lightning LTC:
 
 {% embed url="https://litoshisplace.com/" %}
 

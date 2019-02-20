@@ -1,56 +1,88 @@
+---
+description: Use Lightning to buy stuff
+---
+
 # Lightning Stores
 
-### Want to buy physical goods with Lightning? Check out these stores below:
+## Want to buy physical goods with Lightning? Check out these stores.
+
+Want your store to be added to this article? Check out our [Guide to Contributing](../wiki-basics/contributing.md) and get on it!
+
+### Moonstuff
+
+Buy Bitcoin novelty items
 
 {% embed url="https://www.moonstuff.co/" %}
 
-Buy bitcoin novelty items
+### Blockstream
+
+Lightning stickers and t shirts
 
 {% embed url="https://store.blockstream.com/" %}
 
-Lightning stickers and t shirts from Blockstream
-
-{% embed url="https://www.bitrefill.com/?hl=en" %}
+### BitRefill
 
 Buy gift cards and vouchers with Lightning
 
-{% embed url="https://coincards.ca/" %}
+{% embed url="https://www.bitrefill.com/?hl=en" %}
+
+### Coincards
 
 Buy gift cards with Lightning
 
-{% embed url="https://bitcoinshirt.co/" %}
+{% embed url="https://coincards.ca/" %}
+
+### Bitcoinshirt.co
 
 Bitcoin shirts
 
+{% embed url="https://bitcoinshirt.co/" %}
+
+### Ludvig Manukyan
+
+Bitcoin Art
+
 {% embed url="https://ludvigart.com/" %}
 
-Bitcoin art
-
-{% embed url="https://torguard.net" %}
+### TorGuard
 
 Buy a VPN subscription with Lightning
 
+{% embed url="https://torguard.net" %}
+
+### LightningAuction
+
+Bid on Lightning... with lightning!
+
 {% embed url="https://lightningauction.net/" %}
 
-Bid on Lightning... with Lightning?
+### NeverFiat
+
+Buy t-shirts and other goods
 
 {% embed url="https://neverfiat.com/" %}
 
-Buy t-shirts and other goods from NeverFiat
+### YYBazaar
+
+Buy clothing and other accessories
 
 {% embed url="https://yybazaar.com/lightning-network/" %}
 
-YYBazaar and their clothing store supports LN payments
+### Cryptoids
+
+Bitcoin-specific merch
 
 {% embed url="https://www.cryptoidshop.com/" %}
 
-Bitcoin Merch
+### Hipptee
+
+Crypto t shirts using Lightning
 
 {% embed url="https://hipptee.com/" %}
 
-Crypto t-shirts using Lightning
-
-{% embed url="https://joltfun.com/" %}
+### JoltFun
 
 Buy video games with Lightning
+
+{% embed url="https://joltfun.com/" %}
 

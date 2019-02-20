@@ -1,3 +1,7 @@
+---
+description: Hungry for news? Want to keep up to date with the LN ecosystem?
+---
+
 # Lightning News Sources
 
 ### Lightning-dev
@@ -8,7 +12,7 @@ Development discussion of the Lightning Network Bitcoin Caching Layer
 
 ### Twitter
 
-[https://twitter.com/clockwrrk/lists/ln-influencers](https://twitter.com/clockwrrk/lists/ln-influencers)
+{% embed url="https://twitter.com/clockwrrk/lists/ln-influencers" %}
 
 ### Medium
 
