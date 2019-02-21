@@ -1,6 +1,7 @@
 # Table of contents
 
 * [⚡Welcome⚡](README.md)
+* [Lightning Pizza Walkthrough](lightning-pizza-walkthrough.md)
 
 ## Wiki Basics
 
