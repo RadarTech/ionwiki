@@ -73,7 +73,7 @@
   * [Sphinx Send](tech/research/sphinx-send.md)
   * [Hold Invoices](tech/research/hodl-invoice.md)
   * [Watchtowers](tech/research/watchtowers.md)
-  * [Privacy](tech/research/privacy-on-lightning-network.md)
+  * [Privacy](tech/research/privacy.md)
   * [Macaroons](tech/research/macaroons.md)
   * [Submarine Swap](tech/research/submarine-swap.md)
   * [Lightning Appliances](tech/research/lightning-appliance.md)
