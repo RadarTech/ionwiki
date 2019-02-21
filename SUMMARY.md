@@ -82,4 +82,5 @@
   * [Hardware Wallets](tech/research/hardware-wallets.md)
   * [Atomic Multi-Path Payments](tech/research/atomic-multi-path-payments.md)
   * [Eltoo](tech/research/eltoo.md)
+  * [Static Channel Backup](tech/research/static-channel-backups.md)
 
