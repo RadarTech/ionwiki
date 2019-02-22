@@ -16,6 +16,7 @@
   * [Eclair](tutorials/nodes/eclair.md)
   * [Rust Lightning](tutorials/nodes/rust-lightning.md)
   * [Lightning with Tor](tutorials/nodes/tor.md)
+  * [Lightning at Home](tutorials/nodes/lighting-at-home.md)
 * [Lightning Wallets](tutorials/wallets/README.md)
   * [Zap Desktop](tutorials/wallets/zap-desktop.md)
   * [Eclair Mobile](tutorials/wallets/eclair-mobile.md)
