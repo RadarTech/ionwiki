@@ -1,16 +1,16 @@
 # Lightning at Home
 
-### Overview
+## Overview
 
 This guide will explain how to set up a working Lightning Network node at home, consisting of Bitcoin Core \(mainnet\) and [Lightning Network Daemon](lnd.md) \(LND\). Running a Lightning Network node \(such as LND\) requires a [backend blockchain watcher](lnd.md#chainwatcher-backends) \(such as Bitcoin Core\) in order to see what on-chain transactions are occurring. The second half of this guide shows how to connect the two, as well as add the [Zap Desktop](../wallets/zap-desktop.md) graphical user interface to your node.
 
-We've included specific details for each step, with the assumption that users are not completely comfortable with using the CLI \(Command Line Interface\). Given the stage of the network, creating a local, secure Lightning Network node will require a small amount of CLI interaction. 
+We've included specific details for each step, with the assumption that users are not completely comfortable with using the CLI \(Command Line Interface\). Given the stage of the network, creating a local, secure Lightning Network node will require a small amount of CLI interaction.
 
 The Bitcoin blockchain is large and continues to grow, so we recommend at least 250 GB of free disk space. If you want to sync either Bitcoin Testnet or Litecoin you'll need [significantly less space](lnd.md#chainwatcher-backends). Downloading the blockchain is the longest part of the entire process \(anywhere from a few hours to a number of days\), while installing and connecting LND and Zap Desktop should take 10-20 minutes.
 
-### Set up Bitcoin Core
+## Set up Bitcoin Core
 
-{% embed url="https://bitcoin.org/en/download" %}
+{% embed url="https://bitcoin.org/en/download" caption="" %}
 
 When you download Bitcoin Core, you'll be prompted to review space requirements and specify a data directory \(where the blockchain is saved\). In this example we'll use the default directory.
 
@@ -28,7 +28,7 @@ Wait... Depending on your computer, internet connection, or external hard drive,
 
 ![](../../.gitbook/assets/lnd-home-02.png)
 
-### Configure Bitcoin to work with LND
+## Configure Bitcoin to work with LND
 
 Running Bitcoin Core does not open certain connections for LND by default. Bitcoin Core uses a file called `bitcoin.conf` that contains settings that allow the software to talk with LND. For those familiar with editing `bitcoin.conf`here is what's needed:
 
@@ -53,7 +53,7 @@ Another way is to download the bitcoin.conf provided below. You can open it in a
 
 {% file src="../../.gitbook/assets/bitcoin.conf" caption="bitcoin.conf" %}
 
-We have to ensure this configuration file is in the correct directory for Bitcoin Core to find it. Start by going to your bitcoin directory. 
+We have to ensure this configuration file is in the correct directory for Bitcoin Core to find it. Start by going to your bitcoin directory.
 
 ![](../../.gitbook/assets/lnd-home-02b.png)
 
@@ -65,7 +65,7 @@ Add `bitcoin.conf` to that directory.
 
 Restart Bitcoin Core. It should now be able to connect to LND once we have both running.
 
-### Download LND
+## Download LND
 
 [LND](lnd.md), or the Lightning Network Daemon, is the software that interacts with other users on the Lightning Network. There are a few ways to install LND:
 
@@ -83,7 +83,7 @@ The download directory should include both `lnd` and `lncli`
 
 ![](../../.gitbook/assets/lnd-home-04.png)
 
-### Start LND
+## Start LND
 
 For those familiar with editing `lnd.conf`here is what's needed:
 
@@ -120,7 +120,7 @@ Here is a summary of what each of those flags mean:
 
 There should be a prompt that says:`Waiting for wallet encryption password. Use lncli create to create a wallet, lncli unlock to unlock an existing wallet, or lncli changepassword to change the password of an existing wallet and unlock it.`
 
-### Create a Lightning Network wallet
+## Create a Lightning Network wallet
 
 Now you have LND up and running, it's time to set up a wallet.
 
@@ -133,7 +133,7 @@ Now you have LND up and running, it's time to set up a wallet.
 
 ![](../../.gitbook/assets/lnd-home-07.gif)
 
-### Verify LND's connection
+## Verify LND's connection
 
 Once you've created your wallet we need to check that everything is working. We'll use a command called `getinfo` to see our node's information.
 
@@ -146,9 +146,9 @@ Run your first command!
 
 And you're off!
 
-### Connect to Zap Desktop \(optional\)
+## Connect to Zap Desktop \(optional\)
 
-If interacting through the command line interface is not your thing, then let's connect to [Zap Desktop ](https://wiki.ion.radar.tech/tutorials/wallets/zap-desktop). This will give you a functional GUI to check your on and off-chain balance, as well as your channels. 
+If interacting through the command line interface is not your thing, then let's connect to [Zap Desktop ](https://wiki.ion.radar.tech/tutorials/wallets/zap-desktop). This will give you a functional GUI to check your on and off-chain balance, as well as your channels.
 
 Make sure `lnd` is running before connecting.
 
@@ -162,7 +162,7 @@ Connect your own node.
 
 ![](../../.gitbook/assets/lnd-home-10.png)
 
-#### Connection details \(default\):
+### Connection details \(default\):
 
 * Linux
   * Host: `localhost:10009`
@@ -183,7 +183,7 @@ You're connected!
 
 ![](../../.gitbook/assets/lnd-home-12.png)
 
-### Post Setup
+## Post Setup
 
 Now you're wondering, "I ran through the installation process and got everything connected. What happens if I restart my computer?"
 
