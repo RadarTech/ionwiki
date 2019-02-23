@@ -2,7 +2,7 @@
 
 ### Overview
 
-This guide will explain how to set up a working Lightning Network node at home, consisting of Bitcoin Core \(mainnet\) and [Lightning Network Daemon](lnd.md) \(LND\). Running a node \(such as LND\) requires a [backend blockchain watcher](lnd.md#chainwatcher-backends) \(such as Bitcoin Core\) in order to see what on-chain transactions are occurring. The second half of this guide shows how to connect the two, as well as add the [Zap Desktop](../wallets/zap-desktop.md) graphical user interface to your node.
+This guide will explain how to set up a working Lightning Network node at home, consisting of Bitcoin Core \(mainnet\) and [Lightning Network Daemon](lnd.md) \(LND\). Running a Lightning Network node \(such as LND\) requires a [backend blockchain watcher](lnd.md#chainwatcher-backends) \(such as Bitcoin Core\) in order to see what on-chain transactions are occurring. The second half of this guide shows how to connect the two, as well as add the [Zap Desktop](../wallets/zap-desktop.md) graphical user interface to your node.
 
 We've included specific details for each step, with the assumption that users are not completely comfortable with using the CLI \(Command Line Interface\). Given the stage of the network, creating a local, secure Lightning Network node will require a small amount of CLI interaction. 
 
