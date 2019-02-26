@@ -1,6 +1,6 @@
 # How To Contribute
 
-## Thank You!
+## Thank You
 
 This wiki is made possible by the content contributed by Lightning enthusiasts.
 
@@ -43,4 +43,3 @@ New to contributing to open source projects?  Learn more:
 * &etc
 
 Discuss other content you'd like to see or contribute in the [Telegram chat](https://t.me/radarion), open [an issue on GitHub](https://github.com/RadarTech/ionwiki/issues), or email us at [outreach@ion.radar.tech](mailto:outreach@ion.radar.tech).
-

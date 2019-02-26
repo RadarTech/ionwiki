@@ -21,7 +21,7 @@ category: lightning-basics
 
 ### Multi-hop Payment Path
 
-![](../../.gitbook/assets/payment-path.png)
+![payment-path](../../.gitbook/assets/payment-path.png)
 
 ### Gateway Nodes
 
@@ -40,7 +40,7 @@ Routing hints require the sharing of a `node_id` and `channel_id`, where the `no
 Users can view route hints using `lncli decodepayreq <invoice>.`
 
 ```text
-    "route_hints": [                                           
+    "route_hints": [
         {
             "hop_hints": [
                 {
@@ -62,4 +62,3 @@ Users can view route hints using `lncli decodepayreq <invoice>.`
 ## References
 
 \[1\] [https://blog.lightning.engineering/posts/2018/05/30/routing.html](https://blog.lightning.engineering/posts/2018/05/30/routing.html)
-
