@@ -80,14 +80,16 @@ These services are NOT TRUSTLESS, so there is nothing technically stopping them 
 
 ### Y'alls
 
-Pay a Lightning payment for 18,900 satoshis \($0.68\) and Y'alls will open a 2,000,000 channel back to your node.  If your node doesn't appear on the list of node public keys, then Y'alls is not connected to your node \(see [prerequisites](bootstrapping-channels.md#prerequisites)\).
+Pay a Lightning payment and Y'alls will open a channel back to your node.  If your node doesn't appear on the list of node public keys, then Y'alls is not connected to your node \(see [prerequisites](bootstrapping-channels.md#prerequisites)\).
 
 This exchange is **not trustless**, but there are several mitigating factors:
 
 * Y'alls will only allow you to pay to attempt to open a channel to nodes that the Y'alls node is already connected to; therefore it's unlikely that Y'alls will not succeed in opening a channel once you have paid for it.
 * Y'alls is run by [Alex Bosworth](https://twitter.com/alexbosworth/), an engineer at Lightning Labs.  He is a public figure that has made numerous contributions to the Lightning Network and is currently working on [LND](../nodes/lnd.md).  It is unlikely that he is going to steal $0.50 from you.
 
-Successfully tested on 2019-02-10.
+Successfully tested on 2019-02-10.  Offer was 18,900 satoshis for a 2,000,000 satoshi channel \(0.945%\)
+
+Successfully tested on 2019-02-27. Offer was 63,000 satoshis for a 2,000,000 satoshi channel \(3.15%\)
 
 {% embed url="https://yalls.org/about/" %}
 

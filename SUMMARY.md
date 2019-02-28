@@ -1,7 +1,6 @@
 # Table of contents
 
 * [⚡Welcome⚡](README.md)
-* [Lightning Pizza Walkthrough](lightning-pizza-walkthrough.md)
 
 ## Wiki Basics
 
@@ -25,6 +24,7 @@
   * [Bitcoin Testnet LN](tutorials/apps/bitcoin-testnet-ln.md)
   * [Litecoin LN](tutorials/apps/litecoin-ln.md)
   * [Spacebit Satellite Client](tutorials/apps/spacebit-satellite-client.md)
+  * [Lightning Pizza Walkthrough](tutorials/apps/lightning-pizza-walkthrough.md)
   * [Lightning Torch](tutorials/apps/lightning-torch.md)
   * [Tipping Sites](tutorials/apps/tipping-sites.md)
 * [Lightning Stores](tutorials/stores.md)
