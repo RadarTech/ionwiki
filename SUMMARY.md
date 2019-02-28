@@ -11,6 +11,7 @@
 
 * [Lightning Node Setup](tutorials/nodes/README.md)
   * [Lightning at Home](tutorials/nodes/lighting-at-home.md)
+  * [ION Drive](tutorials/nodes/ion-drive.md)
   * [LND](tutorials/nodes/lnd.md)
   * [c-lightning](tutorials/nodes/c-lightning.md)
   * [Eclair](tutorials/nodes/eclair.md)
