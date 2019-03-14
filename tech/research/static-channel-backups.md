@@ -85,11 +85,11 @@ lnd successfully initialized!
 
 Restore channels
 
-_Note: This feature is not complete_
-
 ```
 $ lncli restorechanbackup --multi_backup ed6de05fa60db305030c242b8bfd0c57f749814168791e3160d96a8b0be4d7ab25e72014b1a86f93519abd8f678cadae017d3532faa35f87ee7caa3e88906416c979a761ec4aa1fd429314e9d51cfbfb428b9247ef3eef85fe3f2c3512d4213830c483aec2900626a52d239eaabdc0e8c7a01ee0d6fbe11e38987ba2742efd284d527bb26d6b9db2aebcae9df67dc3639b213525420b6a534d0a3ac2bee6b371ff891d1f0d19085ec97184e25b3122afe338b3fda88a592607cc796ec5e7ee5ea9edd5c8fe0064793b7b551241681bc65a088ed5ab6638
 ```
+
+This will safely force close the channel.
 
 ### Resources
 
