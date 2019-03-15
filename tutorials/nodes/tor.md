@@ -73,14 +73,27 @@ Enable LND to connect to Tor:
   $ lnd --tor.active --tor.v3 --listen=localhost --tor.streamisolation
   ```
 
-  or update your `lnd.conf`
+  or update your `lnd.conf`:
 
-  ```text
-  tor.active=true
-  tor.v3=true
-  tor.streamisolation=true
-  listen=localhost
-  ```
+```text
+[Tor]
+tor.active=true
+tor.v3=true
+tor.streamisolation=true
+listen=localhost
+```
+
+You can connect to Tor and also broadcast a public IP address so that your node can serve as a gateway between the Tor and public networks.  **THIS DOES NOT PROVIDE YOU WITH ANY OF TOR'S PRIVACY ADVANTAGES.**  To this, add this to `lnd.conf`:
+
+```text
+externalip=<your public IP or domain name>:<your port, default 9735>
+```
+
+If you want to run multiple instances of LND simulaneously on the same machine and have them use different Tor Hidden Service addresses, add this to `lnd.conf` \(a new private key will automatically be created if the file specified here does not exist\):
+
+```text
+tor.privatekeypath=<yourpath>/v3_onion_private_key
+```
 
 **Linux Permissions Issues**
 
@@ -104,7 +117,7 @@ Debian and Ubuntu's Tor control cookie is in `/var/run/tor/control.authcookie` a
 
 `sudo usermod -a -G debian-tor yourusername`
 
-Log out and log back in again or run `sudo - yourusername` to update your groups, then try running LND again and see if it can connect to Tor.
+Log out and log back in again or run `sudo su - yourusername` to update your groups, then try running LND again and see if it can connect to Tor.
 
 **Arch Linux**
 
