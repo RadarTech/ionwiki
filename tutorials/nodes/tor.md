@@ -83,18 +83,6 @@ tor.streamisolation=true
 listen=localhost
 ```
 
-You can connect to Tor and also broadcast a public IP address so that your node can serve as a gateway between the Tor and public networks.  **THIS DOES NOT PROVIDE YOU WITH ANY OF TOR'S PRIVACY ADVANTAGES.**  To this, add this to `lnd.conf`:
-
-```text
-externalip=<your public IP or domain name>:<your port, default 9735>
-```
-
-If you want to run multiple instances of LND simulaneously on the same machine and have them use different Tor Hidden Service addresses, add this to `lnd.conf` \(a new private key will automatically be created if the file specified here does not exist\):
-
-```text
-tor.privatekeypath=<yourpath>/v3_onion_private_key
-```
-
 **Linux Permissions Issues**
 
 If you are on Ubuntu or Arch Linux, you may encounter a "cookie authentication error" when LND attempts to connect to Tor:
@@ -127,6 +115,32 @@ Arch Linux's Tor control cookie is in `/var/lib/tor/control_auth_cookie` and is 
 sudo usermod -a -G tor yourusername
 sudo chmod 750 /var/lib/tor
 sudo chmod 740 /var/lib/tor/control_auth_cookie
+```
+
+**Tor for multi-LND systems**
+
+If you want to run multiple instances of LND simulaneously on the same machine and have them use different Tor Hidden Service addresses, add this to `lnd.conf` \(a new private key will automatically be created if the file specified here does not exist\):
+
+```text
+tor.privatekeypath=<yourpath>/v3_onion_private_key
+```
+
+**Broadcasting Tor Address and Public IP**
+
+You can connect to Tor and also broadcast a public IP address so that your node can serve as a gateway between the Tor and public networks.  **THIS DOES NOT PROVIDE YOU WITH ANY OF TOR'S PRIVACY ADVANTAGES.**  To this, modify your `lnd.conf`:
+
+```text
+listen=localhost:<your port, default 9735>
+externalip=<your public IP or domain name>:<your port, default 9735>
+```
+
+You will then need to configure a reverse proxy from that `externalip` address and port to localhost at that port specified in `listen`.
+
+If you are running a version of LND newer than [this addition](https://github.com/lightningnetwork/lnd/pull/2490), skip the reverse proxy and use this in your `lnd.conf`:
+
+```text
+listen=localhost:<your port, default 9735>
+externalip=<your public IP or domain name>:<your port, default 9735>
 ```
 
 **Verifying LND success**
