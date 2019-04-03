@@ -49,3 +49,4 @@ A macaroon should be sent over a secure channel. `lnd` enforces TLS for RPC requ
 
 \[2\] [http://theory.stanford.edu/~ataly/Papers/macaroons.pdf](http://theory.stanford.edu/~ataly/Papers/macaroons.pdf)
 
+\[3\] [https://store.clobig.com/what-are-macaroon-files-in-lnd/](https://store.clobig.com/what-are-macaroon-files-in-lnd/)
