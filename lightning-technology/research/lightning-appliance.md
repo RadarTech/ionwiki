@@ -23,7 +23,7 @@ There are two primary options when selecting an appliance: pre-configured and do
 
 ## Do-it-yourself appliances
 
-Do-it-yourself **lightning appliances** allow for maximum customization but require assembly and configuration. Once the device is assembled 
+Do-it-yourself **lightning appliances** allow for maximum customization but require assembly and configuration. Once the device is assembled
 
 ## Pre-configured appliances
 
@@ -42,7 +42,7 @@ Connecting to the Lightning Network requires both the ability to run a Lightning
 ### Existing LN Appliances
 
 * [Casa Node](https://keys.casa/lightning-bitcoin-node/) (pre-configured)
-* [Raspiblitz](https://github.com/rootzoll/raspiblitz) (do-it-yourself)
+* [RaspiBlitz](https://github.com/rootzoll/raspiblitz) (do-it-yourself)
 
 ### See also
 
