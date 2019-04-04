@@ -23,6 +23,18 @@ category: lightning-software
 
 On top of complying with all BOLT standards, c-lightning is developing an architecture for plugins. Plugins can be built to extend the c-lightning command line API.
 
+### Developer Tools
+
+There are a number of developer tools, libraries and plugins that exist for the c-lightning implementation.
+
+{% embed url="https://github.com/ElementsProject/lightning-charge" %}
+
+{% embed url="https://github.com/ElementsProject/paypercall" %}
+
+{% embed url="https://github.com/ElementsProject/lightning-charge-client-php" %}
+
+{% embed url="https://github.com/ElementsProject/lightning-charge-client-js" %}
+
 ## Resources
 
 [c-lightning GitHub](https://github.com/ElementsProject/lightning)
