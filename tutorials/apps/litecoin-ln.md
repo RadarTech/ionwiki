@@ -45,6 +45,16 @@ Get testnet LTC here:
 
 There are no known Litecoin Testnet lightning apps. 
 
+## Tutorials
+
+For Mac:
+
+{% embed url="https://github.com/ecurrencyhodler/Litecoin-Resources/blob/master/LTC%20Guides/LTC%20Lightning%20Network%20lnd%20Guide%20(Mac).md" %}
+
+For Windows:
+
+{% embed url="https://github.com/ecurrencyhodler/Litecoin-Resources/blob/master/LTC%20Guides/LTC%20Lightning%20Network%20lnd%20Guide%20(Win).md" %}
+
 ## Resources
 
 {% embed url="https://github.com/ecurrencyhodler/Litecoin-Resources/blob/master/Lightning%20Network%20Apps.md" %}
