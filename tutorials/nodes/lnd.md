@@ -111,6 +111,16 @@ Pierre Rochard has created an LND Node Launcher application for quickly and easi
 
 {% embed url="https://medium.com/lightning-power-users/windows-macos-lightning-network-284bd5034340" caption="" %}
 
+### RPC client implementations
+
+LND supports a Remote Procedure Call (RPC) interface for interacting with underlying functionality programmatically, methods documented [here](https://api.lightning.community). To interact with LND over RPC users can use their LND credentials ([macaroons](tech/research/macaroons.md) and TLS) to authenticate calls into their LND node. Several language-specific (ie. Typescript, Python, Ruby) client implementations have emerged to lower the barrier of developing on LND:
+
+{% embed url="https://github.com/RadarTech/lnrpc" caption="" %}
+
+{% embed url="https://github.com/willcl-ark/lnd_grpc" caption="" %}
+
+{% embed url="https://github.com/ivanacostarubio/lightning_network" caption="" %}
+
 ## References
 
 1. [https://lightning.engineering/](https://lightning.engineering/) Lightning Labs homepage
@@ -120,4 +130,3 @@ Pierre Rochard has created an LND Node Launcher application for quickly and easi
 5. [LND developers Slack chat](https://lightningcommunity.slack.com/join/shared_invite/enQtMzQ0OTQyNjE5NjU1LWRiMGNmOTZiNzU0MTVmYzc1ZGFkZTUyNzUwOGJjMjYwNWRkNWQzZWE3MTkwZjdjZGE5ZGNiNGVkMzI2MDU4ZTE)
 6. CEO Elizabeth Stark - [Twitter](https://twitter.com/starkness), [GitHub](https://github.com/starkness)
 7. CTO Olaoluwa Osuntokun - [Twitter](https://twitter.com/roasbeef), [GitHub](https://github.com/roasbeef)
-
