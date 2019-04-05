@@ -37,7 +37,7 @@ Convert timestamps to regular human time: [https://www.epochconverter.com/](http
 
 ## Example Invoice
 
-Below is a sample invoice decoded using an invoice decoding tool.  The standard fields included are:
+Below is a sample invoice decoded using an invoice decoding tool. The standard fields included are:
 
 | Key | Value |  |
 | :--- | :--- | :--- |

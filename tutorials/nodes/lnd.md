@@ -13,7 +13,7 @@ category: lightning-software
 
 # LND
 
-The Lightning Network Daemon \(LND\) is a complete Golang implementation of a [BOLT](../../tech/lightning/basics-of-lightning-technology-bolt.md)-compliant Lightning Network node developed by Lightning Labs. It can connect to the Lightning Networks deployed on Bitcoin \(mainnet, testnet3\) and Litecoin \(mainnet, testnet4\).
+The Lightning Network Daemon \(LND\) is a complete Golang implementation of a [BOLT](../../lightning-technology/lightning/basics-of-lightning-technology-bolt.md)-compliant Lightning Network node developed by Lightning Labs. It can connect to the Lightning Networks deployed on Bitcoin \(mainnet, testnet3\) and Litecoin \(mainnet, testnet4\).
 
 LND is open source software under [very active development on GitHub](https://github.com/lightningnetwork/lnd/projects/1): v0.1-alpha was released on January 11th 2017; v0.5-beta was released on September 18th 2018; v0.6-beta is expected in Spring 2019.
 
@@ -54,9 +54,9 @@ As of February 2019, LND is capable of:
 
 ## Bash One-Liners
 
-LND ships with `lncli`, a tool for controlling LND in the command line.  The outputs of `lncli` commands are often pages and pages of JSON that is hard to read.  By using standard Bash tools, you can reprocess this output into something that is more readable.
+LND ships with `lncli`, a tool for controlling LND in the command line. The outputs of `lncli` commands are often pages and pages of JSON that is hard to read. By using standard Bash tools, you can reprocess this output into something that is more readable.
 
-For these examples, you will need to install a small tool called [`jq`](https://stedolan.github.io/jq/) to process the JSON.  In Debian/Ubuntu Linux, you can do this with `sudo apt install jq`.
+For these examples, you will need to install a small tool called [`jq`](https://stedolan.github.io/jq/) to process the JSON. In Debian/Ubuntu Linux, you can do this with `sudo apt install jq`.
 
 For instance, to view a **table of the payments your node routed** in 2019 \(use [epochconverter](https://www.epochconverter.com/) to go between Unix epoch time \(looks like `1552118735`\) and normal human time:
 
@@ -90,7 +90,7 @@ We've written to \(relatively\) [**quickly and easily get set up on the Lightnin
 
 Check out **Radar ION**, our all-in-one guide to joining and exploring the Lightning Network:
 
-{% embed url="https://ion.radar.tech/" %}
+{% embed url="https://ion.radar.tech/" caption="" %}
 
 Linux users can build LND from source with Go 1.11+:
 
@@ -113,13 +113,13 @@ Pierre Rochard has created an LND Node Launcher application for quickly and easi
 
 ### RPC client implementations
 
-LND supports a Remote Procedure Call (RPC) interface for interacting with underlying functionality programmatically, methods documented [here](https://api.lightning.community). To interact with LND over RPC users can use their LND credentials ([macaroons](tech/research/macaroons.md) and TLS) to authenticate calls into their LND node. Several language-specific (ie. Typescript, Python, Ruby) client implementations have emerged to lower the barrier of developing on LND:
+LND supports a Remote Procedure Call \(RPC\) interface for interacting with underlying functionality programmatically, methods documented [here](https://api.lightning.community). To interact with LND over RPC users can use their LND credentials \([macaroons](https://github.com/RadarTech/ionwiki/tree/88897b37c10cc3f027e7254bb86cb82cdf64e8ab/tutorials/nodes/tech/research/macaroons.md) and TLS\) to authenticate calls into their LND node. Several language-specific \(ie. Typescript, Python, Ruby\) client implementations have emerged to lower the barrier of developing on LND:
 
 {% embed url="https://github.com/RadarTech/lnrpc" caption="" %}
 
-{% embed url="https://github.com/willcl-ark/lnd_grpc" caption="" %}
+{% embed url="https://github.com/willcl-ark/lnd\_grpc" caption="" %}
 
-{% embed url="https://github.com/ivanacostarubio/lightning_network" caption="" %}
+{% embed url="https://github.com/ivanacostarubio/lightning\_network" caption="" %}
 
 ## References
 
@@ -130,3 +130,4 @@ LND supports a Remote Procedure Call (RPC) interface for interacting with underl
 5. [LND developers Slack chat](https://lightningcommunity.slack.com/join/shared_invite/enQtMzQ0OTQyNjE5NjU1LWRiMGNmOTZiNzU0MTVmYzc1ZGFkZTUyNzUwOGJjMjYwNWRkNWQzZWE3MTkwZjdjZGE5ZGNiNGVkMzI2MDU4ZTE)
 6. CEO Elizabeth Stark - [Twitter](https://twitter.com/starkness), [GitHub](https://github.com/starkness)
 7. CTO Olaoluwa Osuntokun - [Twitter](https://twitter.com/roasbeef), [GitHub](https://github.com/roasbeef)
+
