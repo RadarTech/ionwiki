@@ -1,10 +1,10 @@
 ---
 category: lightning-software
-contributors: "Leonardo Da Vinci (@leodavinci); Galileo Galilei (@ggal) < List of contributors -- Name + Github; email optional >"
-created: 1999-01-01
-description: "Description guidelines"
-discussions-to: "(GitHub URL)"
-latest-revision: 1999-01-29
+contributors: Gareth James (sirgarethjames)
+created: 2019-04-05
+description: 
+discussions-to: 
+latest-revision: 
 original-author: ""
 status: 
 title: Node Dashboards 
