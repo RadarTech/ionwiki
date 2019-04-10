@@ -193,7 +193,7 @@ tippin.me is a custodial Lightning web wallet with Twitter login.
 
 ### ACINQ
 
-This node is a large-volume and high-uptime Eclair node run by ACINQ, the creators of the [Eclair node software](../nodes/eclair.md).  This node is the default connection recommended to [Eclair Mobile](../wallets/eclair-mobile.md) users.  Eclair Mobile users can't yet receive payments, but if you are able to establish receiving capacity from this node, you will have a short path to reliably receive payments from Eclair Mobile users.  Unfortunately we don't yet have a recommended way to accomplish this.
+This node is a large-volume and high-uptime Eclair node run by ACINQ, the creators of the [Eclair node software](../nodes/eclair.md).  This node is the default connection recommended to [Eclair Mobile](../wallets/eclair-mobile.md) users.  If you are able to establish receiving capacity from this node, you will have a short path to reliably receive payments from many Eclair Mobile users.
 
 {% embed url="https://1ml.com/node/03864ef025fde8fb587d989186ce6a4a186895ee44a926bfc370e2c366597a3f8f" %}
 
