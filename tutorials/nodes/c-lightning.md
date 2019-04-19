@@ -27,13 +27,13 @@ On top of complying with all BOLT standards, c-lightning is developing an archit
 
 There are a number of developer tools, libraries and plugins that exist for the c-lightning implementation.
 
-{% embed url="https://github.com/ElementsProject/lightning-charge" %}
+{% embed url="https://github.com/ElementsProject/lightning-charge" caption="" %}
 
-{% embed url="https://github.com/ElementsProject/paypercall" %}
+{% embed url="https://github.com/ElementsProject/paypercall" caption="" %}
 
-{% embed url="https://github.com/ElementsProject/lightning-charge-client-php" %}
+{% embed url="https://github.com/ElementsProject/lightning-charge-client-php" caption="" %}
 
-{% embed url="https://github.com/ElementsProject/lightning-charge-client-js" %}
+{% embed url="https://github.com/ElementsProject/lightning-charge-client-js" caption="" %}
 
 ## Resources
 

@@ -38,6 +38,7 @@
   * [Payment failures](tutorials/troubleshooting/payment-failures.md)
   * [Error codes](tutorials/troubleshooting/error-codes.md)
   * [Theft \(on Lightning Network\)](tutorials/troubleshooting/theft-on-lightning-network.md)
+  * [Static Channel Backup](tutorials/troubleshooting/static-channel-backups.md)
 
 ## Lightning Technology
 
@@ -86,5 +87,4 @@
   * [Hardware Wallets](lightning-technology/research/hardware-wallets.md)
   * [Atomic Multi-Path Payments](lightning-technology/research/atomic-multi-path-payments.md)
   * [Eltoo](lightning-technology/research/eltoo.md)
-  * [Static Channel Backup](lightning-technology/research/static-channel-backups.md)
 

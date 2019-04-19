@@ -25,7 +25,7 @@ category: lightning-software
 
 * Platforms: Android
 * Networks: BTC, tBTC
-* Capabilities: Send / Receive (Needs to be enabled in settings)
+* Capabilities: Send / Receive \(Needs to be enabled in settings\)
 * LN Connection: Eclair
 * Bitcoin Connection: Electrum
 * Channel Backup: Google Drive
