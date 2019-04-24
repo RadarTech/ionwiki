@@ -1,6 +1,13 @@
 # Table of contents
 
 * [⚡Welcome⚡](README.md)
+* [Boltathon - Virtual Hackathon](boltathon-virtual-hackathon/README.md)
+  * [Bolt Action](boltathon-virtual-hackathon/bolt-action.md)
+  * [Lightning Mapper](boltathon-virtual-hackathon/lightning-mapper.md)
+  * [Lightning Poll](boltathon-virtual-hackathon/lightning-poll.md)
+  * [Local Lightning](boltathon-virtual-hackathon/local-lightning.md)
+  * [Somebody Make This!](boltathon-virtual-hackathon/somebody-make-this.md)
+  * [TipHub](boltathon-virtual-hackathon/tiphub.md)
 
 ## Wiki Basics
 
