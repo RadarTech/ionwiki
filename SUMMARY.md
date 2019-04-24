@@ -1,7 +1,7 @@
 # Table of contents
 
 * [⚡Welcome⚡](README.md)
-* [Boltathon - Virtual Hackathon](boltathon-virtual-hackathon/README.md)
+* [Boltathon - Virtual Lightning Hackathon](boltathon-virtual-hackathon/README.md)
   * [Bolt Action](boltathon-virtual-hackathon/bolt-action.md)
   * [Lightning Mapper](boltathon-virtual-hackathon/lightning-mapper.md)
   * [Lightning Poll](boltathon-virtual-hackathon/lightning-poll.md)
