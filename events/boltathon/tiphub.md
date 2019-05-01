@@ -1,6 +1,6 @@
 # TipHub
 
-![Tiphub.io](../.gitbook/assets/tiphub.png)
+![Tiphub.io](../../.gitbook/assets/tiphub.png)
 
 **What inspired you and Carl to build TipHub?**
 
@@ -29,7 +29,7 @@ We haven't launched quite yet, and one of the things holding us back is making a
 The plan is to go live sometime in the next few weeks! As noted above, we want to be ready for everything that can go wrong with Lightning, and clean up some of our hackathon sins that made it in in the final hours. We've also got a handful of features planned such as on-chain fallback addresses for non-lightning users or those who want to make larger tips, and an embeddable leaderboard to show your project's highest tippers. Here's what that'd look like:  
 
 
-![](../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image.png)
 
 ![](blob:https://mail.superhuman.com/d4c9a341-64b7-4f45-9d19-546fef870f97)
 

@@ -1,18 +1,21 @@
 # Table of contents
 
 * [⚡Welcome⚡](README.md)
-* [Boltathon LN Hackathon](boltathon/README.md)
-  * [TipHub](boltathon/tiphub.md)
-  * [Lightning Poll](boltathon/lightning-poll.md)
-  * [Local Lightning](boltathon/local-lightning.md)
-  * [Lightning Mapper](boltathon/lightning-mapper.md)
-  * [Somebody Make This!](boltathon/somebody-make-this.md)
-  * [Bolt Action](boltathon/bolt-action.md)
 
 ## Wiki Basics
 
 * [How To Contribute](wiki-basics/contributing.md)
 * [Platform & Content License](wiki-basics/content-license.md)
+
+## Events
+
+* [Boltathon LN Hackathon](events/boltathon/README.md)
+  * [TipHub](events/boltathon/tiphub.md)
+  * [Lightning Poll](events/boltathon/lightning-poll.md)
+  * [Local Lightning](events/boltathon/local-lightning.md)
+  * [Lightning Mapper](events/boltathon/lightning-mapper.md)
+  * [Somebody Make This!](events/boltathon/somebody-make-this.md)
+  * [Bolt Action](events/boltathon/bolt-action.md)
 
 ## Tutorials
 

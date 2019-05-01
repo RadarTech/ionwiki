@@ -1,6 +1,6 @@
 # Local Lightning
 
-![Locallightning.net](../.gitbook/assets/local-lightning.png)
+![Locallightning.net](../../.gitbook/assets/local-lightning.png)
 
 **What inspired your team to work on Local Lightning?**
 

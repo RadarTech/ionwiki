@@ -1,6 +1,6 @@
 # Lightning Poll
 
-![Lightning Poll screenshot from Carla&apos;s &quot;Hacking HODL Invoice&quot; Medium Post](../.gitbook/assets/lightningpoll.png)
+![Lightning Poll screenshot from Carla&apos;s &quot;Hacking HODL Invoice&quot; Medium Post](../../.gitbook/assets/lightningpoll.png)
 
 **What inspired you to build Lightning Poll?**  
   
