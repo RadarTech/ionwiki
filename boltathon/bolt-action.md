@@ -1,5 +1,7 @@
 # Bolt Action
 
+![Bolt Action is part of ShockWallet ](../.gitbook/assets/logo.png)
+
   
 **What inspired you to build Bolt Action?**  
   

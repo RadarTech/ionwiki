@@ -1,6 +1,6 @@
 # TipHub
 
-
+![Tiphub.io](../.gitbook/assets/tiphub.png)
 
 **What inspired you and Carl to build TipHub?**
 

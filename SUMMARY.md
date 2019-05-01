@@ -4,10 +4,10 @@
 * [Boltathon LN Hackathon](boltathon/README.md)
   * [TipHub](boltathon/tiphub.md)
   * [Lightning Poll](boltathon/lightning-poll.md)
-  * [Lightning Mapper](boltathon/lightning-mapper.md)
-  * [Bolt Action](boltathon/bolt-action.md)
   * [Local Lightning](boltathon/local-lightning.md)
+  * [Lightning Mapper](boltathon/lightning-mapper.md)
   * [Somebody Make This!](boltathon/somebody-make-this.md)
+  * [Bolt Action](boltathon/bolt-action.md)
 
 ## Wiki Basics
 

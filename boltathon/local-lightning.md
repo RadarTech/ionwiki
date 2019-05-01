@@ -1,5 +1,7 @@
 # Local Lightning
 
+![Locallightning.net](../.gitbook/assets/local-lightning.png)
+
 **What inspired your team to work on Local Lightning?**
 
 At the time of the hackathon, I wasn't sure what to build. I spent a couple hours after hearing the "Social Good" prompt just brainstorming ideas and speaking to a few friends about it. Patrick Stanley from Blockstack had actually sent me a Blockstack post about a list of applications that could be built on Blockstack and one of the first ones was a decentralized Local Bitcoins. As soon as I saw that, I knew it was what I had to do. I already have some experience building a P2P decentralized application on Blockstack, so I knew a simple MVP of Local Lightning would work out well and definitely has a real-world use case, which mattered a lot to me. I'm all about marketplace freedom, which unfortunately with Local Bitcoins and with many crypto projects implementing KYC, is needed more and more each day.

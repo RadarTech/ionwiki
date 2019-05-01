@@ -27,6 +27,11 @@ Channels on the Lightning Network are 'bi-directional', as both participants are
 
 Funds may flow in and out of the Lightning Network for various reasons.
 
+![](../../.gitbook/assets/channel-capacity.png)
+
+Option 1. Alice spends some of her channel balance with Lightning Chess and pushes funds over to them.  
+Option 2. Option 2 Lightning Chess opens a channel with Alice, with funds on Lightning Chess’s side.
+
 ## References
 
 \[1\] [https://blog.lightning.engineering/posts/2018/05/30/routing.html](https://blog.lightning.engineering/posts/2018/05/30/routing.html)

@@ -30,5 +30,5 @@ I'm most excited for the continuing work on the Lightning protocol itself as wel
 
 **Where can we find code or working application of your project?**
 
-Unfortunately it isn't ready to be released yet. When I do release it, I will be announcing it on my Twitter account @billy\_btc.
+Unfortunately it isn't ready to be released yet. When I do release it, I will be announcing it [on my Twitter account @billy\_btc](https://twitter.com/billy_btc).
 

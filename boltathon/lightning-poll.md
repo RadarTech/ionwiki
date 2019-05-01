@@ -1,5 +1,7 @@
 # Lightning Poll
 
+![Lightning Poll screenshot from Carla&apos;s &quot;Hacking HODL Invoice&quot; Medium Post](../.gitbook/assets/lightningpoll.png)
+
 **What inspired you to build Lightning Poll?**  
   
 I think that the Lightning Network is fascinating because it addresses some of the pain points associated with on chain transactions, without compromising the trustless nature of Bitcoin. The most apparent strength of the Lightning Network is micropayments, as many of the projects at Boltathon illustrated. I have been following the HODL invoices pull request for a while, because I think that the ease of refund they provide is another significant on chain pain point which lightning addresses. Pairing micropayments and easy refunds is exciting to me because it opens up possibilities which were previously unfeasible, and I wanted to explore ways in which this functionality could be used.   
@@ -27,4 +29,6 @@ I'm pretty excited for AMP, because I think it will really improve routing of bi
 **What projects are you most excited about this next year?**  
   
 I have been accepted into the Chaincode Bitcoin and Lightning Summer Residency, where we will have the opportunity to work on mentored projects contributing to Bitcoin Core or LND. I am going to look into extracting the signer interface from LND so that your private keys can sit separately from your LND node, which I am very excited about. 
+
+**Hacking HODL invoices at \#Bothathon 2019** [https://medium.com/@kirkcohenc/hacking-hodl-invoices-at-bothathon-2019-7c540ccfa1ee](https://medium.com/@kirkcohenc/hacking-hodl-invoices-at-bothathon-2019-7c540ccfa1ee)
 
