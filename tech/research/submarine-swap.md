@@ -19,7 +19,7 @@ This was made possible \(and put into production\) by Alex Bosworth. Olaoluwa Os
 
 ## Examples
 
-**Lightning Lab** has released **Loop**, a submarine swap service that plugs into LND.  The client is open source but the server is proprietary—to perform a swap, you have to perform it with Lightning Labs.
+**Lightning Labs** has released **Loop**, a submarine swap service that plugs into LND.  The client is open source but the server is proprietary—to perform a swap, you have to perform it with Lightning Labs.
 
 {% embed url="https://blog.lightning.engineering/posts/2019/03/20/loop.html" %}
 
