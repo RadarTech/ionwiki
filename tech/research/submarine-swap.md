@@ -13,13 +13,31 @@ category: lightning-rnd
 
 # Submarine Swap
 
-## Overview
+Submarine Swaps are atomic on-chain to off-chain swaps \(and vice versa\) of cryptocurrencies.
 
-Submarine Swaps are atomic on-chain to off-chain conditional swaps \(and vice versa\) of cryptocurrencies.
+This was made possible \(and put into production\) by Alex Bosworth. Olaoluwa Osuntokun originally coined the term Submarine Swap—one half is above water \(on-chain\), one half is below water \(off-chain\).
 
-This was made possible \(and put into production\) by Alex Bosworth. Olaoluwa Osuntokun origininally coined the term Submarine Swap - one half is above water \(on-chain\), one half is below water \(off-chain\).
+## Examples
 
-## Details
+**Lightning Lab** has released **Loop**, a submarine swap service that plugs into LND.  The client is open source but the server is proprietary—to perform a swap, you have to perform it with Lightning Labs.
+
+{% embed url="https://blog.lightning.engineering/posts/2019/03/20/loop.html" %}
+
+{% embed url="https://github.com/lightninglabs/loop" %}
+
+**Alex Bosworth** released an early demo of submarine swaps using fully open-source code:
+
+{% embed url="https://submarineswaps.org/" %}
+
+{% embed url="https://github.com/submarineswaps/swaps-service" %}
+
+Boltz Exchange has also open-sourced an implementation that is also compatible with Litecoin LN:
+
+{% embed url="https://boltz.exchange/" %}
+
+{% embed url="https://github.com/BoltzExchange" %}
+
+## Technical Details
 
 ### Problem
 
