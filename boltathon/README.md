@@ -5,5 +5,5 @@ description: >-
   projects, links to speaker slides, and more.
 ---
 
-# Boltathon - Virtual Lightning Hackathon
+# Boltathon LN Hackathon
 
