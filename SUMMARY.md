@@ -1,6 +1,6 @@
 # Table of contents
 
-* [⚡Welcome⚡](README.md)
+* [⚡Welcome to our Lightning Wiki⚡](README.md)
 
 ## Wiki Basics
 

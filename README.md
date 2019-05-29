@@ -2,7 +2,7 @@
 description: Learn.  Share.  Accelerate Lightning.
 ---
 
-# ⚡Welcome⚡
+# ⚡Welcome to our Lightning Wiki⚡
 
 ## Featured Articles
 
@@ -29,12 +29,12 @@ description: Learn.  Share.  Accelerate Lightning.
 * [Lightning Hardware Appliances](tech/research/lightning-appliance.md)
 * [Watchtower Services](tech/research/watchtowers.md)
 * [Trustless Layer1-Layer2 \(Submarine\) Swaps](tech/research/submarine-swap.md)
-* [Macaroons for LND Authentication]()
+* [Macaroons for LND Authentication](tech/research/macaroons.md)
 * [Channel Backup](tech/channels/channel-backups.md)
 {% endtab %}
 {% endtabs %}
 
-## Welcome to the ION Wiki!
+## Welcome to the ION Lightning Network Wiki!
 
 The Lightning Network is here, and it's delivering **fast, free, and final Bitcoin payments**.
 
@@ -44,7 +44,7 @@ The number of nodes—and the amount of bitcoin—are increasing daily, and deve
 
 But as the resources for building with Lightning proliferate, they are spread across numerous GitHub repositories, Subreddits, Slack and Telegram chats, and Medium articles.
 
-ION wiki is a tool for **collecting the best Lightning tutorials, references, tools, and apps** in one place.
+ION wiki is a tool for **collecting the best Lightning Network tutorials, references, tools, and apps** in one place.
 
 ## [Contributing](wiki-basics/contributing.md) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 

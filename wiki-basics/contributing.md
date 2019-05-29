@@ -2,7 +2,7 @@
 
 ## Thank You!
 
-This wiki is made possible by the content contributed by Lightning enthusiasts.
+This wiki is made possible by the content contributed by Lightning Network enthusiasts.
 
 [**Top contributors on GitHub**](https://github.com/RadarTech/ionwiki/graphs/contributors)\*\*\*\*
 
