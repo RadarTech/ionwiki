@@ -61,8 +61,6 @@ Through this network of interconnected payment channels, Lightning provides a sc
 
 **Single-funded channels:** when Alice needs to send a payment to Bob and doesn't currently have a way to pay him through the Lightning Network \(whether because she can't reach him or because she doesn't have enough money in an existing channel\), she can make a regular on-chain payment that establishes a channel without Bob needing to add any of his funds to the channel. Alice only uses 12 bytes more than she would for a non-Lightning direct payment and Bob would only need about 25 more segwit virtual bytes to close the channel than he would had he received a non-Lightning direct payment.
 
-\_\_
-
 ## Resources
 
 ### Key People

@@ -15,7 +15,7 @@ category: lightning-basics
 
 ## Overview
 
-A **node** is an entity on the Lightning Network that is able to connect to other nodes by establishing a [payment channel](payment-channel.md). Users can create a node by running an implementation of [Lightning Network software](), either directly or as part of pre-packaged [wallet](../../tutorials/wallets/) software.
+A **node** is an entity on the Lightning Network that is able to connect to other nodes by establishing a [payment channel](payment-channel.md). Users can create a node by running an implementation of [Lightning Network software](../../tutorials/nodes/), either directly or as part of pre-packaged [wallet](../../tutorials/wallets/) software.
 
 This should not be confused with a Bitcoin full node that validates Bitcoin blocks, although a full node's wallet may also be simultaneously used as a Lightning node to the advantage of the Lightning network user.
 

@@ -18,7 +18,7 @@ description: Learn.  Share.  Accelerate Lightning.
 
 {% tab title="Apps" %}
 * [Bitcoin Testnet Lightning Network](tutorials/apps/bitcoin-testnet-ln.md)
-* [Litecoin Lightning Network](tutorials/apps/litecoin-ln.md)
+* [Litecoin Lightning Network](tutorials/altcoin/litecoin.md)
 * [Spacebit Satellite Client](tutorials/apps/spacebit-satellite-client.md)
 * [Lightning Torch](tutorials/apps/lightning-torch.md)
 * [Lightning Tipping Sites](tutorials/apps/tipping-sites.md)

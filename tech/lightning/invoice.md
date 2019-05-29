@@ -19,6 +19,7 @@ An **invoice** is a request for payment on the Lightning Network. Invoices inclu
 
 Invoices are commonly presented as alphanumerical strings or QR codes. In order to parse specific information from the request string, users can pass the string into a decoding tool:
 
+* [https://ion.radar.tech/developers\#decode](https://ion.radar.tech/developers#decode)
 * [https://lightningdecoder.com/](https://lightningdecoder.com/)
 * [https://lndecode.com/](https://lndecode.com/)
 

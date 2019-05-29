@@ -1,6 +1,6 @@
 # Hold Invoices
 
-##  Overview
+## Overview
 
 A **hodl invoice** \(or **hold invoice**\) is an implementation extension to a [Lightning Invoice](../lightning/invoice.md) where the final step of an [HTLC](https://github.com/RadarTech/ionwiki/tree/8fe28ac442984e71f4749aa4cabde12c4396bddf/tech/bitcoin/htlc.md) resolution is withheld by the payment `receiver`, such that the payment `sender` is fully committed, and cancelled or executed _conditionally_ at a later time.
 

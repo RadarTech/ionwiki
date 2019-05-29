@@ -2,6 +2,8 @@
 
 ![Tiphub.io](../../.gitbook/assets/tiphub.png)
 
+![TipHub UI](../../.gitbook/assets/tiphubui.png)
+
 **What inspired you and Carl to build TipHub?**
 
 We've both been really interested in alternative funding models for open source work. Maintaining open source projects has never been a lucrative endeavor in its own right, but the value of incentivizing it can't be understated. The majority of code today is written on top of open source languages, frameworks, and operating systems, and we need to continue to encourage people to keep contributing and maintaining. While we don't expect TipHub \(or any tip-based funding\) to completely solve the problem, a little bit of money and a nice message can sometimes be enough to keep someone passionate about working on their project.   
