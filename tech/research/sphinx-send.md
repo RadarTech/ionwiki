@@ -2,9 +2,11 @@
 description: Send Lightning payments without using an invoice!
 ---
 
-# Sphinx Send
+# Key Send
 
-Today \(2019-02-15\), you must acquire a one-time-use [Lightning invoice](../lightning/invoice.md) from a user in order to initiate a Lightning payment to them.  **Sphinx Send** is a technology currently in development that will allow any node to send a payment to any other \(online\) node without requiring an invoice.
+Today \(2019-02-15\), you must acquire a one-time-use [Lightning invoice](../lightning/invoice.md) from a user in order to initiate a Lightning payment to them.  **Key Send** is a technology currently in development that will allow any node to send a payment to any other \(online\) node without requiring an invoice.
+
+In [lnd](../../tutorials/nodes/lnd.md) version 0.7.0, **Sphinx Send** was renamed to **Key Send**.
 
 ## Implications
 
@@ -18,11 +20,11 @@ Many tools have been built that LND users can host on a webserver in order to di
 
 {% embed url="https://github.com/michael1011/lightningtip" %}
 
-With Sphinx Send, these dynamic invoice generators can be replaced with a static string or QR code that anyone can pay to.
+With Key Send, these dynamic invoice generators can be replaced with a static string or QR code that anyone can pay to.
 
 ## Progress
 
-[LND](../../tutorials/nodes/lnd.md) has work-in-progress code that will enable Sphinx Send:
+[LND](../../tutorials/nodes/lnd.md) has work-in-progress code that will enable Key Send:
 
 {% embed url="https://github.com/lightningnetwork/lnd/pull/2455" %}
 
