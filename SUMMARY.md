@@ -43,6 +43,7 @@
   * [Lightning Torch](tutorials/apps/lightning-torch.md)
   * [Tipping Sites](tutorials/apps/tipping-sites.md)
 * [Lightning Stores](tutorials/stores.md)
+* [Lightning Exchanges](tutorials/lightning-exchanges.md)
 * [Lightning News Sources](tutorials/news.md)
 * [Troubleshooting](tutorials/troubleshooting/README.md)
   * [Bootstrapping Channels](tutorials/troubleshooting/bootstrapping-channels.md)
