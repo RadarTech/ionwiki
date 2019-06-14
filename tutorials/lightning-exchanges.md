@@ -18,7 +18,7 @@ SparkSwap is an exchange that offers seamless LNBTC to LTC exchanges through a C
 
 ![](../.gitbook/assets/screen-shot-2019-06-13-at-2.41.48-pm.png)
 
-ZigZag is another Lightning exchange that relies on custodial swaps. With less support for altcoins than FixedFloat, ZigZag has open orderbooks for Ethereum, Bitcoin, Dash, and Litecoin.
+ZigZag is a Lightning exchange that relies on custodial swaps. With less support for altcoins than FixedFloat, ZigZag has open orderbooks for Ethereum, Bitcoin, Dash, and Litecoin.
 
 ## Need to pay an invoice?
 
