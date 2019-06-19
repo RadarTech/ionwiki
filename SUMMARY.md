@@ -53,7 +53,7 @@
   * [Theft \(on Lightning Network\)](tutorials/troubleshooting/theft-on-lightning-network.md)
   * [Static Channel Backup](tutorials/troubleshooting/static-channel-backups.md)
 
-## Lightning Technology
+## Lightning Technology <a id="tech"></a>
 
 * [Bitcoin Basics](tech/bitcoin/README.md)
   * [Satoshi \(unit of currency\)](tech/bitcoin/satoshi-unit-of-currency.md)
