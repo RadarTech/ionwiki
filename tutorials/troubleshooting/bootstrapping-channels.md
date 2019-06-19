@@ -8,6 +8,8 @@ Your Lightning node starts with zero channels, and you must fund channels with o
 
 Because payment channels are currently funded only by the initiating party \(though [dual-funded channels](../../tech/channels/channel-opening.md) are eventually planned\), opening channels only gives you capacity to send, not to receive. To get receiving capacity, you must either open a channel and then spend money through it, or you must convince other nodes to open channels to you. For recommendations on places to spend money on the Lightning Network, see also [Lightning Apps](../apps/) and [Lightning Stores](../stores.md).
 
+You can also acquire inbound liquidity through exchanges. See our article on [Lightning-compatible exchanges](../lightning-exchanges.md).
+
 ## Nodes That Open Back
 
 Some node operators are offering the service of connecting back to other nodes if they meet certain criteria, often requiring them to open a channel first. This page details some of these services that we have tested.
