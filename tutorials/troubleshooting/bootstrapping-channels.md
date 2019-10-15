@@ -193,6 +193,14 @@ tippin.me is a custodial Lightning web wallet with Twitter login.
 
 {% embed url="https://1ml.com/node/03c2abfa93eacec04721c019644584424aab2ba4dff3ac9bdab4e9c97007491dda" caption="" %}
 
+### Bottle Pay
+
+Bottle Pay is a custodial Lightning web wallet which supports integration with multiple online accounts, such as Twitter, Instagram and Reddit.
+
+{% embed url="https://about.bottle.li" caption="" %}
+
+{% embed url="https://1ml.com/node/033025e6701f5266d5c7d83859d032213708e50430c82602b8d02d152c91853811" caption="" %}
+
 ### ACINQ
 
 This node is a large-volume and high-uptime Eclair node run by ACINQ, the creators of the [Eclair node software](../nodes/eclair.md). This node is the default connection recommended to [Eclair Mobile](../wallets/eclair-mobile.md) users. If you are able to establish receiving capacity from this node, you will have a short path to reliably receive payments from many Eclair Mobile users.
