@@ -19,7 +19,19 @@ This was made possible \(and put into production\) by Alex Bosworth. Olaoluwa Os
 
 ## Examples
 
-**Lightning Labs** has released **Loop**, a submarine swap service that plugs into LND.  The client is open source but the server is proprietary—to perform a swap, you have to perform it with Lightning Labs.
+**Lightning Labs** has released **Loop**, a submarine swap service that plugs into LND.  Loop allows users running LND nodes to exchange BTC in Lightning channels for BTC on-chain, and vice-versa.  Loop charges a fee \(0.1% as of 2019-10-24\) for this service.  The Loop client is open source but the server is proprietary—to perform a swap, you have to perform it with Lightning Labs.
+
+The Loop swap server is hosted on this node:
+
+`03fb2a0ca79c005f493f1faa83071d3a937cf220d4051dc48b8fe3a087879cf14a`
+
+It's not possible to connect to this node directly, but you can connect to [this node ](https://1ml.com/node/021c97a90a411ff2b10dc2a8e32de2f29d2fa49d41bfbb52bd416e460db0747d0d)that acts as a gateway to the Loop node:
+
+`021c97a90a411ff2b10dc2a8e32de2f29d2fa49d41bfbb52bd416e460db0747d0d@18.224.56.146:9735`
+
+A Loop server is also available on the Bitcoin testnet at [this node](https://1ml.com/testnet/node/0223acffd7f363b4591ce860eda870fea352e981212d8a25e96a0ebea37faae288):
+
+`0223acffd7f363b4591ce860eda870fea352e981212d8a25e96a0ebea37faae288@40.71.39.161:9735`
 
 {% embed url="https://blog.lightning.engineering/posts/2019/03/20/loop.html" %}
 
