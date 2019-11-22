@@ -71,11 +71,12 @@ This means that a user can make BTC payments even if he has all his funds commit
 
 ## Examples
 
-**REDSHIFT** 
+### REDSHIFT
+**Radar.tech** has released **RedShift**
 
 {% embed url="https://ion.radar.tech/redshift" %}
 
-
+### LOOP
 **Lightning Labs** has released **Loop**, a submarine swap service that plugs into LND.  Loop allows users running LND nodes to exchange BTC in Lightning channels for BTC on-chain, and vice-versa.  Loop charges a fee \(0.1% as of 2019-10-24\) for this service.  The Loop client is open source but the server is proprietary—to perform a swap, you have to perform it with Lightning Labs.
 
 The Loop swap server is hosted on this node:
@@ -93,6 +94,75 @@ A Loop server is also available on the Bitcoin testnet at [this node](https://1m
 {% embed url="https://blog.lightning.engineering/posts/2019/03/20/loop.html" %}
 
 {% embed url="https://github.com/lightninglabs/loop" %}
+
+Up to now, the min amount to loop in one itaration is 250000 and the max amount to loop: 2000000, it can be obtained installing the loop command line client and executing `loop terms` and a quote could be request with `loop quote <amount>`
+
+#### LOOP IN
+Loop in is a submarine swap, in this case joining Lightning BTC with BTC, so you can send a bitcoin payment on-chain and receive Lightning BTC off-chain into a LN channel, making use of it you could get outbound liquidity, refill a channel, or you could pay off-chain with your on-chain funds, or withdraw from an exchange into your Lightning channel using the --external option which allows the on-chain HTLC transacting to be published externally
+
+##### HOW IT WORKS
+Lets define two actors, the user AKA Alice (the one who want to refill a channel, using the loop client) and the provider of the submarine swap AKA Bob (in this case the loop server)
+
+Happy path:
+
+1. The user presents to the provider a Lightning Network payment invoice (of the mount of the swap), that in the case of being paid will reveal a secret/preimage
+2. The user and the provider work together to construct an HTLC that creates a conditional on-chain payment (of the mount of the swap) to the provider, the conditions are that the secret/preimage (the same of the LN invoice) needs to be presented for the funds to end at the provider side or if a time condition is reached the funds will be returned back to the user
+3. The user broadcast the previous HTLC (makes the conditional payment to the provider)
+4 .The provider can only satisfy the conditional payment condition if he pays the LN invoice, so he pays that forcing the Lightning payment recipient (the user here) to reveal the secret/preimage
+5. The provider now knows the secret so he use it to redeem the conditional on-chain payment from the user (satisfy the 1st condition of the HTLC)
+
+If the provider does not pay the Lightning invoice before it expires, he is not able to redeem the conditional payment from the user, so the user waits for the HTLC to reach the time condition and redeem the conditional payment's funds back. Here we have a penalty for the user as it will lock his funds for that time window
+
+##### TESTNET EXAMPLE
+```
+$ loop in 2000000
+Max swap fees for 2000000 Loop In: 2562
+CONTINUE SWAP? (y/n), expand fee detail (x): x
+
+Max on-chain fee:                 462
+Max swap fee:                     2100
+CONTINUE SWAP? (y/n): y
+Swap initiated
+ID:           880476479d5492c0a1dbbf83d55c91504cb000c1beeca65f72a7f43487cf3195
+HTLC address: 2MuuE7evoExqtVmFX2K1WsJA6jpzY2aosac
+Run `loop monitor` to monitor progress.
+```
+
+Monitor Output:
+```
+2019-11-18T12:40:22-03:00 LOOP_IN INITIATED 0.02 BTC - 2MuuE7evoExqtVmFX2K1WsJA6jpzY2aosac
+2019-11-18T12:40:22-03:00 LOOP_IN HTLC_PUBLISHED 0.02 BTC - 2MuuE7evoExqtVmFX2K1WsJA6jpzY2aosac
+2019-11-18T12:45:55-03:00 LOOP_IN INVOICE_SETTLED 0.02 BTC - 2MuuE7evoExqtVmFX2K1WsJA6jpzY2aosac (cost: server -1997900, onchain 0, offchain 0)
+2019-11-18T13:05:53-03:00 LOOP_IN SUCCESS 0.02 BTC - 2MuuE7evoExqtVmFX2K1WsJA6jpzY2aosac (cost: server 2100, onchain 0, offchain 0)
+```
+[The swap HTLC](https://blockstream.info/testnet/address/2MuuE7evoExqtVmFX2K1WsJA6jpzY2aosac)
+
+[User funds the HTLC](https://blockstream.info/testnet/tx/b7a46dceffca8b738344011fc74ad88cd5eb0c158ceee50b84d5ece3699672ae)
+
+[Loop sweeps the HTLC](https://blockstream.info/testnet/tx/4dc4c183d937747db543a2f08753e16aa06ba688670ae9a1d24937f7544d4619)
+
+INVOICE for swap (hint: use the [invoice decoder](https://ion.radar.tech/developers#decode)): **lntb19979u1pwa9wm9pp53qz8v3ua2jfvpgwmh7pa2hy32pxtqqxphmk2vhmj5l6rfp70xx2sdq8wdmkzuqcqzpgxq97zvuqum3je4pe5kwf539taw0dqvj0kg9yyynvk323ngkaaq75kcwzcwmpjyp3c7fax8eeqhp0qxuzmx2xsl57v4w6da39tqlttsalyafd2tcpkl6ngz**
+
+The HTLC bitcoin script:
+```
+OP_SIZE 
+OP_PUSHBYTES_1 20 
+OP_EQUAL 
+OP_IF 
+OP_HASH160 
+OP_PUSHBYTES_20 55c84ba23c5afcbdbe5a45b4fc5b0248a69c1b54  (preimage hash) 
+OP_EQUALVERIFY 
+OP_PUSHBYTES_33 0288f35c514096ffed23a81dd94f266402569f873d68a706df9302c0fca1c111b5 (loop server / provider address)
+OP_ELSE 
+OP_DROP 
+OP_PUSHBYTES_3 6b9018 (value for absolute timelock CLTV)
+OP_CLTV 
+OP_DROP 
+OP_PUSHBYTES_33 02d591d603a0766042dc19b33ff5082900be3d279da55bb888981157d4d2c0ad60 (user wallet address)
+OP_ENDIF 
+OP_CHECKSIG
+```
+In simple words it says: if the preimage/secret hashes is equal to **55c84ba23c5afcbdbe5a45b4fc5b0248a69c1b54**, then the LN invoice was paid, so send the on-chain funds to the provider, else if the time condition is reached (absolute time lock for **6b9018**) return the funds to the user
 
 **Alex Bosworth** released an early demo of submarine swaps using fully open-source code:
 
