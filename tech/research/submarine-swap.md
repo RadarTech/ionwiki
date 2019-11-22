@@ -164,6 +164,90 @@ OP_CHECKSIG
 ```
 In simple words it says: if the preimage/secret hashes is equal to **55c84ba23c5afcbdbe5a45b4fc5b0248a69c1b54**, then the LN invoice was paid, so send the on-chain funds to the provider, else if the time condition is reached (absolute time lock for **6b9018**) return the funds to the user
 
+#### LOOP OUT
+Loop out is a reverse submarine swap, in this case joining Lightning BTC with BTC, so you can send a Lightning payment off-chain and receive BTC on-chain to your wallet, making use of it you could get inbound liquidity, reverse a channel, or you could pay on-chain with your off-chain funds (suppose you have all your funds into channels) providing an external BTC address to were that funds should go.
+
+##### HOW IT WORKS
+Lets define two actors, the user AKA Alice (the one who want Inbound Liquidity, using the loop client) and the provider of the reverse submarine swap AKA Bob (in this case the loop server)
+
+###### Happy path:
+
+1.The user generates a secret preimage, think in the secret as a random number that only the user knows, we call it preimage because we are going to use it as an input of a hash function, and we are going to make public (at the beginning) only the hash, hashes are one way functions, so knowing the hash give other no clues about which is the secret, but reached the point where the secret is revealed anyone can check that the secret originated that exact hash
+
+2.The user sends off-chain (via Lightning) a conditional payment to the provider, implemented with a HODL invoice, the condition is that the payment need the secret as an input to be settled or it will return to the payer (the user) if an amount of time has elapsed. As soon as the provider discovers the secret (when the user reveals it) he could take that money off-chain, meanwhile it will be on hold (HODL). We will call this, the swap payment
+
+3.The user sends off-chain (via Lightning) another payment, called the prepayment, in this case, this is a normal payment of at most a few thousands satoshis, with no condition as its purpose is to cover the provider on-chain fees that he needs to afford while constructing the swap structure. In case the swap fails or its cancelled, the user won’t get this prepayment back, as the provider has already (if he is fair) spent that in the on-chain fees of the tx described below
+
+4.The provider broadcasts an on-chain hash locked output tx ,it is a transaction to an output that can only be spent using the secret preimage, (the one only the user knows) this is the payment to the user on-chain and the amount of this transaction is the amount of the intended swap. It also has a time condition in case the swap fails, so as we have described we are in front of a Hash Time Locked Contract (HTLC), this is constructed using the same hash mentioned in 1), so the secret needed to unlock it, is the same that the user generated and that at this point only the user knows. This contract is imposing the following condition to the user: “if you want the on-chain payment in your wallet, you have to let me settle the swap payment (off-chain conditional payment) by publishing your secret” in this way we have the same secret that unlocks the swap payment in favor of the provider and the on-chain payment in favor of the user, let’s see how it’s done next 
+
+5.The user publishes the secret by disclosing the secret preimage in the spending transaction, HTLC (the on-chain transaction that put the money in his wallet), so now anyone can see the secret, especially the provider
+
+6.The provider uses the same secret published by the user in 5) to settle the swap payment, the HODL invoice (his off-chain money in exchange for the money he locked on-chain)
+
+###### Unhappy possible paths:
+
+If the provider holds the swap payment and doesn’t publish the transaction that give the money back on-chain to the user, the swap payment time condition will time out and the funds will be returned to the user. In this way the service is non-custodial, but there is a penalty for the user as it will lock his funds for that time window. The user loses the prepayment!
+
+If the user never publishes the secret, the HTLC will time out, the on-chain funds will be returned to the provider, but the user has already paid with the prepayment the tx fees spent by the provider, it will lock some provider funds for that time window but it would have cost money to the user (the prepayment), here is where swap minimum and maximum values comes in as conditions from the provider in order to be protected
+
+If the user reveals the secret 5) disclosing the spending tx but it stays in the mempool and is not mined, his off-chain funds held could go to the provider (the swap payment could be settled as the secret now is public) so the user needs to make sure that the tx is mined before the refund period begins. He can leverage fee bumping tools such as RBF and CPFP, that means to replace the tx fee for a greater one in order to incentivise miners to include it in the next block. This must be done before the HTLC time condition reached, as if this happens, the user will lose his funds (they go back to the provider) and the swap payment could be settled, the result is that the provider ends with all the money by his side. “The risk of the sweep transaction not confirming is dealt with in Lightning Loop by publishing with RBF enabled and trying to replace the sweep transaction in every block with a new transaction that is based on the latest fee estimate” the user could check this condition (the tx being correctly constructed) as the transaction will be public in mempool before deciding to publish his secret.
+The user could choose a safe time lock before starting the swap as he needs to have a reasonable opportunity to get the sweep transaction confirmed “The actual expiry height of the HTLC is picked by the server when the swap is initiated and checked against an acceptable minimum by the Loop client implementation. If the server proposes an expiry height that is too soon, the off-chain swap payment will not be paid and the swap will be aborted.”
+
+##### TESTNET EXAMPLE
+```
+$ loop out 2000000 --channel 1768408322629828608
+Max swap fees for 2000000 Loop Out: 42593
+CONTINUE SWAP? (y/n), expand fee detail (x)
+Max on-chain fee:                 447
+Max off-chain swap routing fee:   40010
+Max off-chain prepay routing fee: 36
+Max swap fee:                     2100
+Max no show penalty:              1337
+CONTINUE SWAP? (y/n) y
+Swap initiated
+ID:           368dc49234d219937de2ade6ced83c88864791fc4b9b40dc4a98d6f47eda7399
+HTLC address: tb1qd9tfq2fjfyyylmwekfukde69jetexg0zn0c8u48mya6v8r2wz65s8c6pka
+
+Run `loop monitor` to monitor progress.
+```
+
+Monitor Output:
+```
+2019-11-14T01:10:34-03:00 LOOP_OUT INITIATED 0.02 BTC - tb1qd9tfq2fjfyyylmwekfukde69jetexg0zn0c8u48mya6v8r2wz65s8c6pka
+2019-11-14T01:27:08-03:00 LOOP_OUT PREIMAGE_REVEALED 0.02 BTC - tb1qd9tfq2fjfyyylmwekfukde69jetexg0zn0c8u48mya6v8r2wz65s8c6pka
+2019-11-14T01:43:59-03:00 LOOP_OUT SUCCESS 0.02 BTC - tb1qd9tfq2fjfyyylmwekfukde69jetexg0zn0c8u48mya6v8r2wz65s8c6pka (cost: server 2100, onchain 138, offchain 7)
+```
+Swap payment (hint: use the [invoice decoder](https://ion.radar.tech/developers#decode)): **lntb20007630n1pwue5aepp5x6xufy356gvexl0z4hnvakpu3zry0y0ufwd5phz2nrt0glk6wwvsdq8wdmkzuqcqzxgxq97zvuq7cn6xqanj28xw6hs47w64ag9zmzhqgxx6sl2s0437evmcma6wqk3hxwegm4ctrdf009gfvp955ezxn2mrv0s5x00zxvu9lureyq5ptqqx44865**
+
+Prepayment (hint: use the [invoice decoder](https://ion.radar.tech/developers#decode)): **lntb13370n1pwue5aepp5vnsn7a56htw8rhck09ehzcuhy65tg2rjy2rae2nuljftcqte3c6qdq2wpex2urp0ycqzxgxq97zvuqvme3wmyfjp56a6s0s6nw0t736ptxn2gdn0yv5vrj0qz2h4yu2hvpk6wau5cdk9k7xasfdjqw9nlgf5tpevp5rwcugzjdgdwnf2mm3fqqtj860s**
+
+[The swap HTLC](https://blockstream.info/testnet/address/tb1qd9tfq2fjfyyylmwekfukde69jetexg0zn0c8u48mya6v8r2wz65s8c6pka)
+
+[Loop Server funds the HTLC](https://blockstream.info/testnet/tx/eb97d56b81daba1e937f8706bd90705ef3f492c9ea4ca1c5cb3d54b77aa8b049)
+
+[User sweeps the HTLC](https://blockstream.info/testnet/tx/ebc884d3c565065b44244b46911c9601a044aca76d99f83d7be6b54edbdc48a7)
+
+The HTLC bitcoin script:
+```
+OP_SIZE 
+OP_PUSHBYTES_1 20 
+OP_EQUAL
+OP_IF 
+OP_HASH160 
+OP_PUSHBYTES_20 fe8d137ab98993ae0cf58f05c090aacd30833ea9  (preimage hash)
+OP_EQUALVERIFY 
+OP_PUSHBYTES_33 0389cb5046e0faf7e3293a31d4475474d66e2dd759fe6e7ab8cdd7dc4d80aaa029 (user wallet address)
+OP_ELSE 
+OP_DROP 
+OP_PUSHBYTES_3 168b18  (value for absolute timelock CLTV)
+OP_CLTV 
+OP_DROP 
+OP_PUSHBYTES_33 03da6b37bb38bccb24ffa2ac618a1fa338845d8f91934b8ca2063cbaa7b7668953 (loop server / provider address)
+OP_ENDIF
+OP_CHECKSIG
+```
+In simple words it says: if the preimage/secret hashes is equal to **fe8d137ab98993ae0cf58f05c090aacd30833ea9**, then the HODL invoice was settled, so send the on-chain funds to the user, else if the time condition is reached (absolute time lock for **168b18**) return the funds to the provider
+
 **Alex Bosworth** released an early demo of submarine swaps using fully open-source code:
 
 {% embed url="https://submarineswaps.org/" %}
