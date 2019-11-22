@@ -218,6 +218,12 @@ Monitor Output:
 2019-11-14T01:27:08-03:00 LOOP_OUT PREIMAGE_REVEALED 0.02 BTC - tb1qd9tfq2fjfyyylmwekfukde69jetexg0zn0c8u48mya6v8r2wz65s8c6pka
 2019-11-14T01:43:59-03:00 LOOP_OUT SUCCESS 0.02 BTC - tb1qd9tfq2fjfyyylmwekfukde69jetexg0zn0c8u48mya6v8r2wz65s8c6pka (cost: server 2100, onchain 138, offchain 7)
 ```
+Channel initial state:
+![image](https://user-images.githubusercontent.com/45073251/69437001-360b1800-0d21-11ea-87b7-b6a6983558e6.png)
+
+Channel final state:
+![image](https://user-images.githubusercontent.com/45073251/69437071-520eb980-0d21-11ea-89b2-f1a4348f65c7.png)
+
 Swap payment (hint: use the [invoice decoder](https://ion.radar.tech/developers#decode)): **lntb20007630n1pwue5aepp5x6xufy356gvexl0z4hnvakpu3zry0y0ufwd5phz2nrt0glk6wwvsdq8wdmkzuqcqzxgxq97zvuq7cn6xqanj28xw6hs47w64ag9zmzhqgxx6sl2s0437evmcma6wqk3hxwegm4ctrdf009gfvp955ezxn2mrv0s5x00zxvu9lureyq5ptqqx44865**
 ![image](https://user-images.githubusercontent.com/45073251/69437401-027cbd80-0d22-11ea-9393-a5165e90b233.png)
 
