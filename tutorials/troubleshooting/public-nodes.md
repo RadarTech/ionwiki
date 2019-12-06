@@ -6,7 +6,7 @@ description: publicly-accessible LN nodes requesting incoming connections
 
 Also see this page for tips on bootstrapping your Lightning payment receiving capacity:
 
-{% page-ref page="bootstrapping-channels.md" %}
+{% page-ref page="../bootstrapping-liquidity.md" %}
 
 And consider adding your node to this inbound liquidity request board:
 

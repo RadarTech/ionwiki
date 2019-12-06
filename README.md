@@ -10,14 +10,14 @@ description: Learn.  Share.  Accelerate Lightning.
 {% tab title="Onboarding" %}
 * [What is the Lightning Network?](tech/lightning/lightning-network.md)
 * [Lightning Wallets](tutorials/wallets/)
-* [Bootstrapping Lightning Channels](tutorials/troubleshooting/bootstrapping-channels.md)
+* [Bootstrapping Lightning Channels](tutorials/bootstrapping-liquidity.md)
 * [Lightning with Tor](tutorials/nodes/tor.md)
 * [Understanding Lightning Invoices](tech/lightning/invoice.md)
 * [LND \(Lightning Network Daemon\)](tutorials/nodes/lnd.md)
 {% endtab %}
 
 {% tab title="Apps" %}
-* [Bitcoin Testnet Lightning Network](tutorials/apps/bitcoin-testnet-ln.md)
+* [Bitcoin Testnet Lightning Network](tutorials/altcoin/bitcoin-testnet-ln.md)
 * [Litecoin Lightning Network](tutorials/altcoin/litecoin.md)
 * [Spacebit Satellite Client](tutorials/apps/spacebit-satellite-client.md)
 * [Lightning Torch](tutorials/apps/lightning-torch.md)

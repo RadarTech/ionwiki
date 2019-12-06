@@ -4,23 +4,33 @@ description: Use Lightning to buy stuff
 
 # Lightning Stores
 
-## Want to buy physical goods with Lightning? Check out these stores.
+Want to buy physical goods with Lightning? Check out these stores.
+
+Other great sources of Lightning stores:
+
+* [https://ion.radar.tech/apps](https://ion.radar.tech/apps)
+* [https://www.lapps.co/](https://www.lapps.co/)
+* [https://lightningnetworkstores.com/](https://lightningnetworkstores.com/)
 
 Want your store to be added to this article? Check out our [Guide to Contributing](../wiki-basics/contributing.md) and get on it!
 
-### Moonstuff
+## Buy Gift Cards
 
-Buy Bitcoin novelty items
+Gift cards are cash-like, so buying gift cards on the Lightning Network is essentially a form of exchange.
 
-{% embed url="https://www.moonstuff.co/" %}
+Opening a channel and then spending some of the money on gift cards is an excellent way to [bootstrap liquidity](bootstrapping-liquidity.md) for your Lightning wallet.
 
-### Blockstream
+### Fold
 
-Lightning stickers and t shirts
+Buy gift cards with Lightning or a credit card and receive cashback in Lightning BTC.  It's `satsback`!
 
-{% embed url="https://store.blockstream.com/" %}
+With the Fold app right on your phone, use the gift cards you buy to pay for stuff in person!
 
-### BitRefill
+If you don't sign up for an account and pay for all cards with Lightning BTC, Fold preserves your privacy.
+
+{% embed url="https://foldapp.com/" %}
+
+### Bitrefill
 
 Buy gift cards and vouchers with Lightning
 
@@ -31,6 +41,46 @@ Buy gift cards and vouchers with Lightning
 Buy gift cards with Lightning
 
 {% embed url="https://coincards.ca/" %}
+
+
+
+
+
+## Buy Services
+
+Some services, especially those that value and preserve your privacy, have begun accepting Lightning payments!
+
+### TorGuard
+
+Buy a VPN subscription with Lightning
+
+{% embed url="https://torguard.net" %}
+
+### Bitclouds VPS
+
+Rent a virtual private server with Lightning!
+
+{% embed url="https://bitclouds.sh/" %}
+
+
+
+
+
+## Buy Stuff
+
+By stuff with Lightning!  Especially bitcoin-related stuff.
+
+### Blockstream
+
+Lightning stickers and t shirts
+
+{% embed url="https://store.blockstream.com/" %}
+
+### Moonstuff
+
+Buy Bitcoin novelty items
+
+{% embed url="https://www.moonstuff.co/" %}
 
 ### Bitcoinshirt.co
 
@@ -43,12 +93,6 @@ Bitcoin shirts
 Bitcoin Art
 
 {% embed url="https://ludvigart.com/" %}
-
-### TorGuard
-
-Buy a VPN subscription with Lightning
-
-{% embed url="https://torguard.net" %}
 
 ### LightningAuction
 
