@@ -22,6 +22,8 @@ Opening a channel and then spending some of the money on gift cards is an excell
 
 ### Fold
 
+![earning satsback on the Fold app](../.gitbook/assets/screenshot_20191129-170112.png)
+
 Buy gift cards with Lightning or a credit card and receive cashback in Lightning BTC.  It's `satsback`!
 
 With the Fold app right on your phone, use the gift cards you buy to pay for stuff in person!
