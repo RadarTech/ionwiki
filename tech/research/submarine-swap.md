@@ -67,13 +67,17 @@ This means that a user can make BTC payments even if he has all his funds commit
 
 ## Examples
 
-### REDSHIFT
+See more examples on the [Lightning Exchanges](../../tutorials/lightning-exchanges.md#trustless-noncustodial-exchanges) page.
 
-**Radar.tech** has released **RedShift**
+### RADAR REDSHIFT
 
-{% embed url="https://ion.radar.tech/redshift" caption="" %}
+**Radar.tech** has released **REDSHIFT**, a multi-network submarine swap provider
 
-### LOOP
+{% embed url="https://ion.radar.tech/redshift" %}
+
+![](../../.gitbook/assets/peek-2019-10-30-23-38.gif)
+
+### Lightning Labs Loop
 
 **Lightning Labs** has released **Loop**, a submarine swap service that plugs into LND. Loop allows users running LND nodes to exchange BTC in Lightning channels for BTC on-chain, and vice-versa. Loop charges a fee \(0.1% as of 2019-10-24\) for this service. The Loop client is open source but the server is proprietary—to perform a swap, you have to perform it with Lightning Labs.
 
