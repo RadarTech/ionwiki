@@ -17,6 +17,8 @@ Submarine Swaps are atomic on-chain to off-chain swaps \(and vice versa, often c
 
 This was made possible \(and put into production\) by Alex Bosworth. Olaoluwa Osuntokun originally coined the term Submarine Swap — one half is above water \(on-chain\), one half is below water \(off-chain\).
 
+{% embed url="https://twitter.com/alexbosworth/status/964276161902624768?lang=en" %}
+
 ## Technical Details
 
 ### Problem
