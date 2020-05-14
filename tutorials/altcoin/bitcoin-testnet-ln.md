@@ -31,5 +31,4 @@ Several apps are live on the BTC Testnet:
 
 {% embed url="https://spacebit.live/" %}
 
-
-
+{% embed url="https://testnet.scarce.city/" %}
