@@ -18,7 +18,7 @@ A possible solution is to backup `channel.db` every time there's a routed paymen
 
 _Note: SCB is available in lnd ^v0.6._
 
-Instead of trying to maintain the latest channel state, the static channel backup package will attempt to notify remote peers for force close the channel. This will prevent users from accidentally broadcasting an old state and allow them to close out and receive their local balance.
+Instead of trying to maintain the latest channel state, the static channel backup package will attempt to notify remote peers to force close their channel. This will prevent users from accidentally broadcasting an old state and allow them to close out and receive their local balance.
 
 ### How SCB It Works
 
