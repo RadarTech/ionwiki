@@ -76,11 +76,14 @@ Enable LND to connect to Tor:
   or update your `lnd.conf`:
 
 ```text
+[Application Options]
+nat=false
+listen=localhost
+
 [Tor]
 tor.active=true
 tor.v3=true
 tor.streamisolation=true
-listen=localhost
 ```
 
 **Linux Permissions Issues**
