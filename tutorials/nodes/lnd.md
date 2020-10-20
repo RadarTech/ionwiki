@@ -88,10 +88,6 @@ lncli listchannels | jq '.channels[] | ["\(.remote_pubkey) \(.capacity) \(.local
 
 We've written to \(relatively\) [**quickly and easily get set up on the Lightning Network with a Bitcoin full node**](lighting-at-home.md).
 
-Check out **Radar ION**, our all-in-one guide to joining and exploring the Lightning Network:
-
-{% embed url="https://ion.radar.tech/" caption="" %}
-
 Linux users can build LND from source with Go 1.11+:
 
 ```text

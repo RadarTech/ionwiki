@@ -51,5 +51,3 @@ We considered several other licenses, and several other Creative Commons variant
 * [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/), adds a "share-alike" clause.  We don't restrict how derivative works are licensed.
 * [CC-BY-NC-4.0](https://creativecommons.org/licenses/by-nc/4.0/), adds a "noncommercial" clause.  We don't restrict how derivative works are used.
 
-If you have questions, comments, or concerns about this choice, join the discussion in [Telegram chat](https://t.me/radarion).
-

@@ -34,7 +34,7 @@ When adding a node below, please include:
 
 03d5e17a3c213fe490e1b0c389f8cfcfcea08a29717d50a9f453735e0ab2a7c003@lnd.ion.radar.tech:9735  
 Bitcoin testnet, LND v0.5.1  
-100% uptime; hosts [https://ion.radar.tech](https://ion.radar.tech) onboarding site
+100% uptime; 
 
 ## Tor Nodes
 

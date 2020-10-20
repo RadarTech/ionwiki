@@ -29,7 +29,7 @@ Crypto faucets exist to introduce people to the concept of Bitcoin or cryptocurr
 
 ### Bitcoin Testnet Faucets
 
-Currently, there is only one Bitcoin `testnet3` faucet, the [Radar Ion Faucet](https://ion.radar.tech/#faucet). Previous faucets that were functional include: [coinfaucet.eu](https://coinfaucet.eu/en/btc-testnet/); [uo1.net](https://bitcoinfaucet.uo1.net/); [tpfaucet](http://tpfaucet.appspot.com/); and [backend.hamburg](https://testnet.manu.backend.hamburg/faucet).
+There is no public faucet at the time of this update. Previous faucets that were functional include: [coinfaucet.eu](https://coinfaucet.eu/en/btc-testnet/); [uo1.net](https://bitcoinfaucet.uo1.net/); [tpfaucet](http://tpfaucet.appspot.com/); and [backend.hamburg](https://testnet.manu.backend.hamburg/faucet).
 
 ## Resources
 

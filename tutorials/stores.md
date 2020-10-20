@@ -8,11 +8,8 @@ Want to buy physical goods with Lightning? Check out these stores.
 
 Other great sources of Lightning stores:
 
-* [https://ion.radar.tech/apps](https://ion.radar.tech/apps)
 * [https://www.lapps.co/](https://www.lapps.co/)
 * [https://lightningnetworkstores.com/](https://lightningnetworkstores.com/)
-
-Want your store to be added to this article? Check out our [Guide to Contributing](../wiki-basics/contributing.md) and get on it!
 
 ## Buy Gift Cards
 

@@ -10,11 +10,6 @@ As of 2019-02, the Bitcoin Testnet Lightning Network has about 300 active nodes:
 
 ## Bitcoin Testnet Lightning Apps
 
-RADAR ION features a how-to guide for joining the Lightning Network, including a testnet bitcoin faucet, wallet and app recommendations, and a well-connected Lightning node to connect to:  
-
-
-{% embed url="https://ion.radar.tech/" %}
-
 Several apps are live on the BTC Testnet:
 
 {% embed url="https://starblocks.acinq.co/" %}

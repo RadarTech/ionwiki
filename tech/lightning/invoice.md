@@ -19,7 +19,6 @@ An **invoice** is a request for payment on the Lightning Network. Invoices inclu
 
 Invoices are commonly presented as alphanumerical strings or QR codes. In order to parse specific information from the request string, users can pass the string into a decoding tool:
 
-* [https://ion.radar.tech/developers\#decode](https://ion.radar.tech/developers#decode)
 * [https://lightningdecoder.com/](https://lightningdecoder.com/)
 * [https://lndecode.com/](https://lndecode.com/)
 
@@ -105,7 +104,6 @@ Below is a sample invoice decoded using an invoice decoding tool. The standard f
 
 1. [BOLT \#11](https://github.com/lightningnetwork/lightning-rfc/blob/master/11-payment-encoding.md) standards document
 2. [Lightning Payment Request Decoder](https://lndecode.com/) app
-3. [Radar ION Invoice Decoder](https://ion.radar.tech/developers/#decode)
-4. [Lightning Decoder](https://lightningdecoder.com/) app
-5. ["Lightning Network Invoices"](https://blockfuse.io/blog/lightning-network-invoices/) , Blockfuse \(2018-12-08\)
+3. [Lightning Decoder](https://lightningdecoder.com/) app
+4. ["Lightning Network Invoices"](https://blockfuse.io/blog/lightning-network-invoices/) , Blockfuse \(2018-12-08\)
 

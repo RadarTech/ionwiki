@@ -18,10 +18,6 @@ description: Hungry for news? Want to keep up to date with the LN ecosystem?
 
 {% embed url="https://groups.google.com/a/lightning.engineering/forum/\#!forum/lnd" %}
 
-**RADAR ION mailing list:** Lightning news, project announcements, reviews, and tutorials to your inbox
-
-{% embed url="https://us20.campaign-archive.com/home/?u=51b99b5d546c08240db211eda&id=ab22bff805" %}
-
 **Lapps.co mailing list:** your weekly dose of Lightning apps
 
 {% embed url="https://www.lapps.co/" %}

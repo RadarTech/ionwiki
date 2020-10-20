@@ -10,7 +10,7 @@ Have some spare ETH or LTC and want BTC on the Lightning Network? Need to offloa
 
 These exchanges support noncustodial peer-to-peer trading without accounts, custodial deposits, or a trusted third-party.  They employ mechanisms that ensure trades are atomic: either both sides happen, or neither side happens.  This can be implemented with techniques like the "[submarine swap](../tech/research/submarine-swap.md)" \(atomic swap between a blockchain and the Lightning Network\) that use blockchain-based HTLC escrow to guarantee that the user can refund their payment for the trade if something goes wrong.
 
-### [RADAR REDSHIFT](https://ion.radar.tech/redshift)
+### [RADAR REDSHIFT](https://redshift.radar.tech/)
 
 ![Funding Bottle Pay with ETH via REDSHIFT](../.gitbook/assets/peek-2019-10-30-23-38.gif)
 

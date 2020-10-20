@@ -52,7 +52,7 @@ Somebody has been using the satellite to blog:
 
 {% embed url="https://twitter.com/adam3us/status/1088907796794490881" %}
 
-Pavol Rusnak, CTO of SatoshiLabs \(creatos of the Trezor [hardware wallet](../../tech/research/hardware-wallets.md)\), even used the Blockstream satellites to relay the [Lightning Torch](lightning-torch.md):
+Pavol Rusnak, CTO of SatoshiLabs \(creatos of the Trezor [hardware wallet]()\), even used the Blockstream satellites to relay the [Lightning Torch](lightning-torch.md):
 
 {% embed url="https://twitter.com/pavolrusnak/status/1093568672923348997" %}
 
