@@ -146,6 +146,15 @@ Tested on 2019-02-09. Had not received a channel by 2019-02-15.
 
 
 
+### LightningCentral.com
+
+Provides instructions on how to use the Lighting Network, links to BLW wallet.  Sells channels.
+
+{% embed url="https://lightingcentral.com" caption="" %}
+
+{% embed url="https://1ml.com/node/02f727419f6756954fbf17d4ada36e6180e05c17c50d7442ef160ed50b90e6af52" caption="" %}
+
+
 
 
 
