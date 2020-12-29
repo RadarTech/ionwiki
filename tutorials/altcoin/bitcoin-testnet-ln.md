@@ -20,6 +20,8 @@ Several apps are live on the BTC Testnet:
 
 {% embed url="https://testnet.satoshis.place/" %}
 
+{% embed url="https://satoshiweb.btcme.com/" %}
+
 {% embed url="https://example.coingate.com/" %}
 
 {% embed url="https://testnet.wildln.com/" %}
