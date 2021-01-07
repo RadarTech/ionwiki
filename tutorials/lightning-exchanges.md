@@ -89,4 +89,8 @@ Another service that offers to send you on-chain BTC in exchange for paying a Li
 We are not sure who is operating this service and we have not tested it.
 
 
+## Trusted Derivatives Exchange
 
+### [LN Markets](https://lnmarkets.com/)
+
+LN Markets is the first bitcoin derivatives exchange built on top of the Lightning Network. LN Markets creates a whole new experience for traders, connecting them instantly to financial markets. LN Markets enables traders to instantly stream their funds and execute trades directly from or to their digital wallets. LN Markets has an open [API](https://lnmarkets.github.io/docs)
