@@ -55,7 +55,7 @@ Through this network of interconnected payment channels, Lightning provides a sc
 
 **Multisignature capable:** each party can require that their payments into the channel be signed by multiple keys, giving them access to additional security techniques.
 
-**Securely cross blockchains:** payments can be routed across more than one blockchain \(including altcoins and sidechains\) as long as all the chains support the same hash function to use for the hash lock, as well as the ability the ability to create time locks.
+**Securely cross blockchains:** payments can be routed across more than one blockchain \(including altcoins and sidechains\) as long as all the chains support the same hash function to use for the hash lock, as well as the ability to create time locks.
 
 **Sub-satoshi payments:** payments can be made conditional upon the outcome of a random event, allowing probabilistic payments. For example, Alice can pay Bob 0.1 satoshi by creating a 1-satoshi payment with 10-to-1 odds so that 90% of the time she does this she pays him 0 satoshis and 10% of the time she pays him 1 satoshi for an average payment of 0.1 satoshis.
 
