@@ -99,6 +99,10 @@ Now see what the permissions are on the control cookie listed in the error:
 
 `ls -lA /path/to/tor/cookie`
 
+**Docker**
+
+If you're running using the LND docker container, the Tor control cookie is in `/run/tor/control.authcookie`. You can make this accessible in the container by adding a `-v /var/run/tor:/run/tor` parameter to the docker run command (or use the correct host path based on your host distribution).
+
 **Debian and Ubuntu**
 
 Debian and Ubuntu's Tor control cookie is in `/var/run/tor/control.authcookie` and is readable by the `debian-tor` user and group. If you run LND with your regular user, try adding your regular user to the `debian-tor` group:
