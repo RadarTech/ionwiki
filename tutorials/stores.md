@@ -81,6 +81,12 @@ Buy Bitcoin novelty items
 
 {% embed url="https://www.moonstuff.co/" %}
 
+### i love sats
+
+Buy Bitcoin Goodies with Lightning or on-chain
+
+{% embed url="https://www.ilovesats.com/" %}
+
 ### Bitcoinshirt.co
 
 Bitcoin shirts
