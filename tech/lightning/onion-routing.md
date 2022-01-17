@@ -17,7 +17,7 @@ category: lightning-basics
 
 **Onion routing** is a technique for anonymous [routing](payment-routing.md) of payments over the Lightning Network. Routing messages are encapsulated in layers of encryption, analogous to layers of an onion. The encrypted data is transmitted through [nodes ](node.md)on the network, each of which "peels" away a single layer, uncovering the data's next destination. When the final layer of routing information is decrypted, the message arrives at its destination. The sender remains anonymous because each intermediary knows only the location of the immediately preceding and following nodes.
 
-Onion routing means that each note only sees the immediate hope before it and the immediate hop after that. It is called onion routing because the routing information is wrapped in layers. So a node receives an encrypted package from the node one hop before it, and doesn't know where the final destination is. You unwrap one layer which tells you to go for the next
+Onion routing means that each node only sees the immediate hop before it and the immediate hop after that. It is called onion routing because the routing information is wrapped in layers. So a node receives an encrypted package from the node one hop before it, and doesn't know where the final destination is. You unwrap one layer which tells you to go for the next
 
 ## Details
 
@@ -25,7 +25,7 @@ Onion routing means that each note only sees the immediate hope before it and th
 
 When calculating a route for a payment from the sender to a receiver, the route is constructed by the payment sender \(source routing\) rather than being determined by the routers along the path. The sender builds a set of instructions wrapped in various layers of encryption, analogous to an onion. Each layer of encryption is meant for a single node constructed in the initial routing procedure.
 
-This means that intermediate nodes in the payment path know only the identity of their immediate predecessor and successor in the route. The combination of source routing and onion routing protects the identities of payment senders and receivers so as to enhance user privacy and censorship-resistance.
+This means that intermediate nodes in the payment path know only the identity of their immediate predecessor and successor in the route. The combination of source routing and onion routing protects the identities of payment senders and receivers so as to enhance user privacy and censorship resistance.
 
 ### Limitations
 
