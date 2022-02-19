@@ -45,6 +45,16 @@ In order for another node to open a channel to your node, the other node must ha
 
 If you are using `lnd` on the command line, you can connect to a node with `lncli connect <pubkey>@<address>`. If your wallet app uses LND under the hood, it may or may not expose this functionality. Try starting to open a channel with the node and then cancelling it before actually sending the transaction.
 
+### Coincept
+
+Coincept sells inbound channels from their routing node The Captain. They have a web interface where you can select your channel capacity (minimum 100k sats up to 25M), input your node pubkey, and quickly pay your invoice via on-chain or lightning.  Channels are opened instantly upon successful payment. Email support is available for order support or any questions. 
+
+Successfully tested on 2022-02-19.
+
+{% embed url="https://coincept.com/" %}
+
+{% embed url="https://1ml.com/node/0202e7727ee46d943a44c7bf0dce14220a839630dee67d03446bf935178b55a0df" %}
+
 
 
 ### LNBIG
@@ -66,18 +76,6 @@ Successfully tested on 2019-02-06.
 {% embed url="https://lightningto.me/" caption="" %}
 
 {% embed url="https://1ml.com/node/03bb88ccc444534da7b5b64b4f7b15e1eccb18e102db0e400d4b9cfe93763aa26d" caption="" %}
-
-
-
-### LightningPowerUsers
-
-If you open a channel to this node and fill out the form on the website, this node will open a channel of the same size back to you.
-
-Successfully tested on 2019-11-05.
-
-{% embed url="https://lightningpowerusers.com/home/" caption="" %}
-
-{% embed url="https://1ml.com/node/0331f80652fb840239df8dc99205792bba2e559a05469915804c08420230e23c7c" caption="" %}
 
 
 
@@ -119,31 +117,6 @@ Bitrefill Thor is a service that charges high fees to open a channel to your nod
 Due to high fees, we have not tested this service.
 
 {% embed url="https://www.bitrefill.com/thor-lightning-network-channels/" caption="" %}
-
-
-
-### Popmin.net
-
-You must open a channel to their node OR pay a 10,000 satoshi one-time fee to "register".
-
-Will open a channel to your node for a fee of 1% of the channel balance, up to 2,000,000 satoshis.
-
-Successfully tested on 2019-02-15.
-
-{% embed url="https://popmin.net/inbound" caption="" %}
-
-{% embed url="https://1ml.com/node/03d24a4d2c8841890779f3c788cd269d467ad8ff8fcfdc21c8ceead42c7dd7f04b" caption="" %}
-
-
-
-### WILL\_CONNECT\_BACK
-
-This node's name and large number of channels suggests that it will connect back, but it's unclear what the terms of a reciprocal channel are.
-
-Tested on 2019-02-09. Had not received a channel by 2019-02-15.
-
-{% embed url="https://1ml.com/node/03ee180e8ee07f1f9c9987d98b5d5decf6bad7d058bdd8be3ad97c8e0dd2cdc7ba" caption="" %}
-
 
 
 
