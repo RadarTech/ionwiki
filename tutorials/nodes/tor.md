@@ -117,6 +117,14 @@ sudo chmod 750 /var/lib/tor
 sudo chmod 740 /var/lib/tor/control_auth_cookie
 ```
 
+These changes won't persist on reboot. Add the following to your torrc:
+```text
+  CookieAuthFileGroupReadable 1
+  DataDirectoryGroupReadable 1
+```
+
+See the [Arch tor wiki](https://wiki.archlinux.org/title/Tor) for further debugging and configuration.
+
 **Tor for multi-LND systems**
 
 If you want to run multiple instances of LND simulaneously on the same machine and have them use different Tor Hidden Service addresses, add this to `lnd.conf` \(a new private key will automatically be created if the file specified here does not exist\):
