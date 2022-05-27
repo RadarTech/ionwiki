@@ -39,6 +39,10 @@ Wallets are one of the most actively developed applications in the Bitcoin and L
 
 There are multiple types of wallet:
 
+#### Browser Wallet
+
+A browser wallet runs on a Internet Browser (e.g. Chrome, Firefox, Edge, etc.). They can run a Lightning node directly in the browser, allow to connect mobile, desktop or web wallets or can be custodial. [Alby](https://getalby.com/) is one example.
+
 #### Desktop Wallet
 
 A desktop wallet runs on Windows, macOS, or Linux. Often running a complete Bitcoin and Lightning node, desktop wallets are the most common in the Lightning Ecosystem as LN requires constant uptime to maintain channels.
